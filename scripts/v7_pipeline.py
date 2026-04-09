@@ -60,9 +60,14 @@ def load_keys():
     ark_key = os.environ.get("ARK_API_KEY")
     if not ark_key:
         try:
-            ark_key = config["models"]["providers"]["ark"]["apiKey"]
+            ark_key = config["skills"]["entries"]["seedance-video"]["env"]["ARK_API_KEY"]
         except (KeyError, TypeError):
             pass
+        if not ark_key:
+            try:
+                ark_key = config["models"]["providers"]["ark"]["apiKey"]
+            except (KeyError, TypeError):
+                pass
 
     seedance_script = Path.home() / ".openclaw" / "workspace" / "skills" / "seedance-video" / "scripts" / "seedance.py"
 
@@ -183,11 +188,11 @@ def generate_all_assets(gemini_key: str, characters: dict, location_desc: str, o
     for name, desc in characters.items():
         path = os.path.join(output_dir, f"char-{name}.webp")
         prompt = (
-            f"Professional portrait photo of a character for film production. "
+            f"Anime-style character portrait for animation production. "
             f"9:16 vertical format. The character is: {desc}. "
-            f"Realistic style, studio lighting, neutral background. "
+            f"Semi-realistic anime illustration style, soft studio lighting, clean background. "
             f"Character is looking slightly to the left (not at camera). "
-            f"Upper body visible. High detail, cinematic quality."
+            f"Upper body visible. High detail, vibrant colors, cinematic anime quality."
         )
         print(f"Generating character asset: {name}")
         if generate_asset(gemini_key, prompt, path, base_url=base_url):
@@ -196,9 +201,9 @@ def generate_all_assets(gemini_key: str, characters: dict, location_desc: str, o
     # Scene
     scene_path = os.path.join(output_dir, "scene-office.webp")
     prompt = (
-        f"Wide establishing shot of a modern office interior for film production. "
+        f"Anime-style wide establishing shot of a modern office interior for animation. "
         f"9:16 vertical format. {location_desc}. "
-        f"No people in the scene. Realistic style, warm lighting, cinematic quality. "
+        f"No people in the scene. Semi-realistic anime illustration style, warm lighting, cinematic quality. "
         f"The office has a glass door on the left, a desk with laptop and coffee cup in the center, "
         f"and large floor-to-ceiling windows with city skyline view on the right."
     )
@@ -274,11 +279,11 @@ def call_seedance(seedance_script: str, ark_key: str, prompt: str,
                   input_video: str = None, duration: int = 15):
     """Call seedance.py to generate video."""
     cmd = [
-        "uv", "run", seedance_script,
+        "python3", seedance_script, "run",
         "--prompt", prompt,
-        "--aspect-ratio", "9:16",
+        "--ratio", "9:16",
         "--duration", str(duration),
-        "--output", output_path,
+        "--out", output_path,
     ]
 
     if input_video:
@@ -293,7 +298,7 @@ def call_seedance(seedance_script: str, ark_key: str, prompt: str,
     print(f"  Calling Seedance... (this may take 3-5 minutes)")
     print(f"  Prompt: {prompt[:200]}...")
     
-    result = subprocess.run(cmd, capture_output=True, text=True, env=env, timeout=600)
+    result = subprocess.run(cmd, capture_output=True, text=True, env=env, timeout=1200)
     
     if result.returncode == 0:
         print(f"  ✓ Video generated: {output_path}")
