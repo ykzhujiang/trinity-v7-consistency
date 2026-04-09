@@ -1,0 +1,12 @@
+{
+  "experiment": "EXP-V7-006",
+  "version": "B",
+  "style": "3d-animated",
+  "prompt": "@image1 as the first frame of this scene. Extend @video1 by 15 seconds. Continue the scene seamlessly from this exact frame.\n\n[Part 1] 小刘手忙脚乱从外卖箱里翻东西，一个蓝色折叠瑜伽垫弹出来掉在大理石地上发出啪的一声。他慌张弯腰捡起塞回去，又掏出一包红色泡面。小刘 says \"这也不是...等等啊我找找！\"林姐歪头看着他，嘴角上扬忍笑。\n\n[Part 2] 小刘终于从箱子最底部翻出一个印着\"鱼香肉丝套餐\"字样的外卖袋，双手举过头顶，脸上露出狂喜表情。小刘 says \"找到了！！鱼香肉丝套餐！\"林姐拍手鼓掌三下，把猫粮递还给他。\n\n[Part 3] 林姐双手接过正确的外卖袋，打开检查里面的餐盒，满意地点头。小刘蹲在地上把瑜伽垫和泡面往箱子里塞，手忙脚乱。林姐 says \"对了对了这才是。你那个箱子是百宝箱吧？\"\n\n[Part 4] 小刘站起来背好外卖箱，不好意思地右手挠后脑勺露出憨笑。林姐左手拎着外卖袋，右手拍了拍他左肩膀，笑着竖起大拇指。两人并排站着，背景是阳光照进来的大堂。林姐 says \"加油啊外卖侠！下次别再送猫粮了！\"小刘咧嘴笑着转身朝玻璃门跑去，右手高举挥手告别。\n\nMaintain exact same character appearances, clothing, and office setting. No subtitles, no slow motion, no characters looking at camera. Natural speed movement. 9:16 vertical format. Identical background, same marble floor, same plants, same revolving door. Consistent warm indoor lighting.",
+  "images": [
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-006/version-b-ffa/3d-animated/seg1-last-frame.jpg"
+  ],
+  "input_video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-004-realistic/output/segment-01.mp4",
+  "crossfade": false,
+  "timestamp": "2026-04-10T04:35:07+0800"
+}

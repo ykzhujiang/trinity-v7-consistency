@@ -1,0 +1,2 @@
+file '/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-006/version-b-ffa/3d-animated/segment-01.mp4'
+file '/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-006/version-b-ffa/3d-animated/segment-02.mp4'
