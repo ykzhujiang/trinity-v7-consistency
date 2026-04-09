@@ -260,7 +260,9 @@ def build_seedance_prompt_seg1(characters, location_desc, segment, asset_paths):
         f"Camera: {segment['camera']}\n\n"
         + "\n".join(timeline)
         + "\n\nNo subtitles, no slow motion, no characters looking at camera. "
-        "Natural speed movement and dialogue. 9:16 vertical format."
+        "Natural speed movement and dialogue. 9:16 vertical format. "
+        "Maintain identical generic modern Asian city skyline across all frames, no landmark buildings. "
+        "Consistent warm indoor lighting, no change in outdoor sky color."
     )
     return prompt, ref_map
 
@@ -280,7 +282,10 @@ def build_seedance_prompt_seg2_extend(segment):
         + "\n".join(timeline)
         + "\n\nMaintain exact same character appearances, clothing, and office setting. "
         "No subtitles, no slow motion, no characters looking at camera. "
-        "Natural speed movement. 9:16 vertical format."
+        "Natural speed movement. 9:16 vertical format. "
+        "Identical background to previous segment, same furniture placement, same wall decorations, same window view. "
+        "Maintain identical generic modern Asian city skyline, no landmark buildings. "
+        "Consistent warm indoor lighting, no change in outdoor sky color."
     )
     return prompt
 

@@ -1,0 +1,15 @@
+{
+  "experiment": "EXP-V7-001",
+  "mode": "video-extension",
+  "storyboard": "experiments/exp-v7-001/storyboard.md",
+  "assets": {
+    "李明": "experiments/exp-v7-001-realistic/output/assets/char-李明.webp",
+    "张姐": "experiments/exp-v7-001-realistic/output/assets/char-张姐.webp",
+    "scene-office": "experiments/exp-v7-001-realistic/output/assets/scene-office.webp"
+  },
+  "segment1_prompt": "@image1 as character 李明, @image2 as character 张姐, @image3 as the office scene background. \nPhysical state: 李明站在办公室门口，右手推门；张姐坐在办公桌后，双手放在键盘上。\nCamera: 中景固定机位，门在画面左侧，办公桌在右侧。\n\n[Part 1] 李明推开办公室玻璃门走进来，右手提着公文包，步伐略显疲惫。他抬起左手擦了擦额头的汗。办公室内暖色灯光照亮他的脸。says \"张姐，我来了。\"\n[Part 2] 张姐从电脑屏幕前抬起头，微微一笑，右手示意李明坐下。says \"小李，坐吧。咖啡给你倒好了。\"\n[Part 3] 李明走到桌前的椅子旁，放下公文包在桌角，双手拉开椅子坐下。他拿起桌上的白色咖啡杯喝了一口。says \"谢谢张姐。这个项目方案我改了三版了。\"\n[Part 4] 张姐身体微微前倾，双手交叉放在桌上，认真看着李明。says \"辛苦了。我看了你昨晚发的邮件，有几个点我们聊聊。\"\n\n---\n\nNo subtitles, no slow motion, no characters looking at camera. Natural speed movement and dialogue. 9:16 vertical format. Maintain identical generic modern Asian city skyline across all frames, no landmark buildings. Consistent warm indoor lighting, no change in outdoor sky color.",
+  "segment2_prompt": "Extend @video1 by 15 seconds. Continue the scene seamlessly. Physical state at start: 李明坐在办公桌对面的椅子上，双手捧着咖啡杯；张姐坐在办公桌后，身体前倾。\nCamera: 先中景→跟随李明到窗边→侧面中景。\n\n[Part 1] 李明放下咖啡杯，右手从公文包里抽出一份文件递给张姐。says \"这是最新版，核心改了预算分配。\"张姐接过文件翻看。\n[Part 2] 张姐翻到第三页，眉头微扬，抬头看着李明点了点头。says \"这个思路对了。客户上次就是卡在预算上。\"\n[Part 3] 李明站起身，双手插在西裤口袋里，转身走向落地窗。窗外阳光洒在他的侧脸上。他望着窗外的城市天际线。says \"如果这版通过，下个月就能签约了。\"\n[Part 4] 张姐也站起来，走到李明身旁，双手抱着文件夹。两人并排站在窗前。says \"会通过的。你这三版改下来，我有信心。\"李明转头看向张姐，露出一个释然的微笑。\n\nMaintain exact same character appearances, clothing, and office setting. No subtitles, no slow motion, no characters looking at camera. Natural speed movement. 9:16 vertical format. Identical background to previous segment, same furniture placement, same wall decorations, same window view. Maintain identical generic modern Asian city skyline, no landmark buildings. Consistent warm indoor lighting, no change in outdoor sky color.",
+  "segment1_video": "experiments/exp-v7-001-realistic/output/segment-01.mp4",
+  "segment2_video": "experiments/exp-v7-001-realistic/output/segment-02.mp4",
+  "timestamp": "2026-04-10T03:40:31+0800"
+}
