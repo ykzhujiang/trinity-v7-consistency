@@ -1,0 +1,12 @@
+{
+  "experiment": "EXP-V7-001",
+  "mode": "video-extension",
+  "storyboard": "experiments/exp-v7-001/storyboard.md",
+  "assets": {
+    "李明": "experiments/exp-v7-001/output/assets/char-李明.webp",
+    "张姐": "experiments/exp-v7-001/output/assets/char-张姐.webp",
+    "scene-office": "experiments/exp-v7-001/output/assets/scene-office.webp"
+  },
+  "video_skipped": true,
+  "timestamp": "2026-04-10T01:15:29+0800"
+}
