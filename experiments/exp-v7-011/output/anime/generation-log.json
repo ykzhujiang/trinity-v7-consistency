@@ -1,0 +1,23 @@
+{
+  "experiment": "EXP-V7-011",
+  "hypothesis": "H-126",
+  "strategy": "Version D (FFA + PSE + Crossfade)",
+  "style": "anime",
+  "story": "面试翻车王 — 职场喜剧",
+  "genre": "comedy",
+  "seg1_prompt": "@image1 as character 小赵, @image2 as character HR姐姐, @image3 as the interview room background. Physical state: 小赵坐在白色长桌左侧灰色椅子上，双手放在膝盖上，背稍微佝偻，黑色双肩包放在椅子旁地上，视线低垂看桌面。HR姐姐坐在桌子对面右侧，身体端正，左手翻着桌上的打印简历，右手握黑色签字笔，视线朝下看简历。\nCamera: Medium shot, interview room interior, camera slightly to the right side of the table angled toward 小赵 (no axis crossing). Both characters visible in frame.\n\n[Part 1] 小赵坐在椅子上，右手手指不停地摩擦裤腿侧缝，左手攥紧膝盖，肩膀微微耸起。HR姐姐低头翻简历，右手签字笔轻轻敲桌面两下。\n\n[Part 2] HR姐姐抬头直视小赵方向，表情严肃职业化。HR姐姐 says \"说说你最大的优点？\" 小赵身体突然一僵，嘴巴比脑子快地脱口而出。小赵 says \"我特别会摸鱼。\" 小赵说完立刻双手捂住自己嘴巴，眼睛瞪得溜圆。\n\n[Part 3] HR姐姐嘴角开始不受控制地抽搐，赶紧抬起左手拿起桌上的简历挡在脸前，假装在认真看内容。小赵双手从嘴上放下来疯狂摆手。小赵 says \"我是说我效率特别高，空闲时间比较多……\" HR姐姐简历后面的肩膀在微微抖动。\n\n[Part 4] HR姐姐缓缓把简历放回桌上，脸已经憋得微微发红，努力恢复严肃表情，右手签字笔在简历上划了一下。HR姐姐 says \"下一个问题——你为什么从上家离职？\" 小赵听到问题后吞了一口口水，喉结明显上下滚动。\n\nNo subtitles, no slow motion, no characters looking at camera. Natural speed movement, natural pacing. 9:16 vertical format. Consistent cool white office lighting throughout. All characters are Chinese (East Asian). Comedy tone — expressive faces, natural comedic timing. Minimalist white interview room, white table, grey chairs, resume and water glass on table, floor-to-ceiling window with blurred city skyline outside.",
+  "seg2_prompt": "@image1 as the first frame of this scene (continue from here), @image2 as character 小赵, @image3 as character HR姐姐, @image4 as the interview room background. Extend @video1 by 15 seconds. Continue seamlessly from this exact frame. Same interview room, same characters, same positions. Continuing exactly from the previous scene in the same interview room. [小赵] Chinese male 25 years old, thin, soft slightly curly black short hair, round baby face, single eyelid small eyes, fair skin, wearing plaid shirt tucked into khaki pants brown sneakers, sitting in grey chair left side of white table, leaning back slightly, hands on armrests, thinking. [HR姐姐] Chinese female 30 years old, medium build, black shoulder-length bob cut, long face high cheekbones thin lips, fair skin, grey professional blazer over black turtleneck, black stilettos, sitting across the table, leaning forward, left elbow on table, right hand holding black pen hovering over resume, suppressing a smile. Background: minimalist tech company interview room, white table, grey chairs, one glass of water and printed resume on table, floor-to-ceiling window with blurred city skyline. Anime style illustration.\n\nCamera: Same medium shot, same angle as previous segment (no axis crossing).\n\n[Part 1] 小赵歪头思考了两秒，然后突然坐直身体，用一种非常认真诚恳的表情直视HR姐姐方向。小赵 says \"因为我发现老板的代码写得比我还烂。\" HR姐姐右手的签字笔从手指间滑落，啪地掉到桌面上弹了一下。\n\n[Part 2] 小赵意识到自己又说了大实话，整个人身体往椅子里缩，双手抓住椅子扶手，肩膀耸到耳朵旁边。HR姐姐弯腰到桌面下捡笔，借着桌子的遮挡偷偷笑出声，肩膀明显抖动。\n\n[Part 3] HR姐姐坐直身体，深深吸了一口气，用力抿住嘴唇恢复专业表情，右手重新握紧签字笔。HR姐姐 says \"最后一个问题，你的期望薪资？\" 小赵认真地想了想，双手交叉放回膝盖上，非常诚恳地点了点头。小赵 says \"够还花呗就行。\"\n\n[Part 4] HR姐姐终于忍不住笑出来，左手拍了一下桌面，身体前倾笑得肩膀直抖。HR姐姐 says \"你被录用了。\" 小赵整个人呆住，嘴巴微张，眨了两下眼睛。小赵 says \"啊？真的？\" HR姐姐边笑边摆手，用签字笔指了指小赵。HR姐姐 says \"我们就缺一个敢说真话的。\" 小赵脸上从懵逼慢慢绽放出一个傻笑。\n\nNo subtitles, no slow motion, no characters looking at camera. Natural speed movement, natural pacing. 9:16 vertical format. Consistent cool white office lighting throughout. All characters are Chinese (East Asian). Comedy tone — expressive faces, natural comedic timing. Same minimalist white interview room, continuous scene.",
+  "seg1_images": [
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-011/output/anime/assets/char-小赵.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-011/output/anime/assets/char-HR姐姐.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-011/output/anime/assets/scene-interview.webp"
+  ],
+  "seg2_images": [
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-011/output/anime/seg1-last-frame.jpg",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-011/output/anime/assets/char-小赵.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-011/output/anime/assets/char-HR姐姐.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-011/output/anime/assets/scene-interview.webp"
+  ],
+  "crossfade_duration": 0.4,
+  "timestamp": "2026-04-10T07:56:06+0800"
+}
