@@ -179,20 +179,27 @@ def generate_asset(gemini_key: str, prompt: str, output_path: str, aspect="9:16"
     return False
 
 
-def generate_all_assets(gemini_key: str, characters: dict, location_desc: str, output_dir: str, base_url=None):
+def generate_all_assets(gemini_key: str, characters: dict, location_desc: str, output_dir: str, base_url=None, style: str = "anime"):
     """Generate character portraits and scene images."""
     os.makedirs(output_dir, exist_ok=True)
     assets = {}
+
+    if style == "realistic":
+        style_desc = "3D animated character portrait, Pixar/Disney quality"
+        style_detail = "High-quality 3D animated character, like a Pixar or modern CG film. Stylized but detailed, with realistic proportions and expressive features. Warm cinematic lighting. NOT a photograph, clearly a 3D animated character."
+    else:
+        style_desc = "Anime-style"
+        style_detail = "Semi-realistic anime illustration style, soft studio lighting, clean background. High detail, vibrant colors, cinematic anime quality."
 
     # Character portraits
     for name, desc in characters.items():
         path = os.path.join(output_dir, f"char-{name}.webp")
         prompt = (
-            f"Anime-style character portrait for animation production. "
+            f"{style_desc} character portrait for production. "
             f"9:16 vertical format. The character is: {desc}. "
-            f"Semi-realistic anime illustration style, soft studio lighting, clean background. "
+            f"{style_detail} "
             f"Character is looking slightly to the left (not at camera). "
-            f"Upper body visible. High detail, vibrant colors, cinematic anime quality."
+            f"Upper body visible."
         )
         print(f"Generating character asset: {name}")
         if generate_asset(gemini_key, prompt, path, base_url=base_url):
@@ -200,10 +207,14 @@ def generate_all_assets(gemini_key: str, characters: dict, location_desc: str, o
 
     # Scene
     scene_path = os.path.join(output_dir, "scene-office.webp")
+    if style == "realistic":
+        scene_style = "3D animated environment, Pixar/Disney quality CG scene. Warm cinematic lighting, detailed textures, clearly animated (not a photograph)."
+    else:
+        scene_style = "Anime-style wide establishing shot for animation. Semi-realistic anime illustration style, warm lighting, cinematic quality."
     prompt = (
-        f"Anime-style wide establishing shot of a modern office interior for animation. "
+        f"{scene_style} Modern office interior. "
         f"9:16 vertical format. {location_desc}. "
-        f"No people in the scene. Semi-realistic anime illustration style, warm lighting, cinematic quality. "
+        f"No people in the scene. "
         f"The office has a glass door on the left, a desk with laptop and coffee cup in the center, "
         f"and large floor-to-ceiling windows with city skyline view on the right."
     )
@@ -365,6 +376,8 @@ def main():
     parser.add_argument("--mode", choices=["video-extension", "first-frame-anchor", "hybrid"],
                         default="video-extension")
     parser.add_argument("--output-dir", default="output/")
+    parser.add_argument("--style", choices=["anime", "realistic"], default="anime",
+                        help="Visual style: anime or realistic")
     parser.add_argument("--skip-assets", action="store_true", help="Skip asset generation")
     parser.add_argument("--skip-video", action="store_true", help="Skip video generation")
     args = parser.parse_args()
@@ -391,7 +404,7 @@ def main():
     asset_paths = {}
     if not args.skip_assets:
         print("\n--- Step 1: Generate Assets ---")
-        asset_paths = generate_all_assets(keys["gemini_key"], characters, location_desc, assets_dir, base_url=keys.get("gemini_base_url"))
+        asset_paths = generate_all_assets(keys["gemini_key"], characters, location_desc, assets_dir, base_url=keys.get("gemini_base_url"), style=args.style)
         print(f"Generated {len(asset_paths)} assets")
     else:
         # Load existing assets
