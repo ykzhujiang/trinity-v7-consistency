@@ -1,0 +1,26 @@
+{
+  "experiment": "EXP-V7-001",
+  "mode": "video-extension",
+  "segment1": "experiments/exp-v7-004/output/segment-01.mp4",
+  "segment2": "experiments/exp-v7-004/output/segment-02.mp4",
+  "evaluation": {
+    "character_consistency": {
+      "score": null,
+      "notes": "Pending manual review"
+    },
+    "scene_consistency": {
+      "score": null,
+      "notes": "Pending manual review"
+    },
+    "camera_continuity": {
+      "score": null,
+      "notes": "Pending manual review"
+    },
+    "plot_continuity": {
+      "score": null,
+      "notes": "Pending manual review"
+    }
+  },
+  "overall_score": null,
+  "timestamp": "2026-04-10T01:59:07+0800"
+}

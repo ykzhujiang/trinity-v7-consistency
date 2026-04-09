@@ -274,6 +274,21 @@ def build_seedance_prompt_seg2_extend(segment):
     return prompt
 
 
+def upload_to_tmpfiles(local_path: str) -> str:
+    """Upload a local file to tmpfiles.org and return the direct download URL."""
+    import requests
+    print(f"  Uploading {local_path} to tmpfiles.org...")
+    with open(local_path, "rb") as f:
+        resp = requests.post("https://tmpfiles.org/api/v1/upload", files={"file": f}, timeout=120)
+    resp.raise_for_status()
+    data = resp.json()
+    # Convert page URL to direct download URL
+    page_url = data["data"]["url"]  # e.g. http://tmpfiles.org/12345/file.mp4
+    direct_url = page_url.replace("tmpfiles.org/", "tmpfiles.org/dl/")
+    print(f"  → Uploaded: {direct_url}")
+    return direct_url
+
+
 def call_seedance(seedance_script: str, ark_key: str, prompt: str, 
                   asset_paths: list, output_path: str, 
                   input_video: str = None, duration: int = 15):
@@ -287,6 +302,9 @@ def call_seedance(seedance_script: str, ark_key: str, prompt: str,
     ]
 
     if input_video:
+        # Upload local video to get a public URL
+        if os.path.isfile(input_video) and not input_video.startswith("http"):
+            input_video = upload_to_tmpfiles(input_video)
         cmd.extend(["--video", input_video])
 
     for i, path in enumerate(asset_paths):
