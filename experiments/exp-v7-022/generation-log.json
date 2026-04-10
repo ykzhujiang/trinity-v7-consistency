@@ -1,0 +1,33 @@
+{
+  "experiment": "EXP-V7-022",
+  "hypothesis": "H-352: 跨场景一致性(同建筑换房间)不破坏角色一致性",
+  "story": "《创业翻车》创业喜剧",
+  "dual_track": false,
+  "tracks": {
+    "realistic": {
+      "style": "realistic",
+      "mode": "video-extension-text-only",
+      "segments": {
+        "seg1": {
+          "prompt": "Live-action cinematic scene. Bright modern startup meeting room, daytime natural light from floor-to-ceiling windows on the left.\nOne character: 主杰, a Chinese man age 28, thin build, messy short black hair, wearing a grey hoodie and blue jeans and white sneakers, black digital watch on right wrist. Expressive face.\nPhysical state: 主杰站在白板前面朝投影屏幕侧面对着镜头方向，右手指向投影屏幕，身体微前倾。笔记本电脑翻开放在桌上屏幕面向主杰。桌上有打印文件和咖啡杯。\nCamera: Medium shot, 45-degree side angle, 主杰 center-left facing projection screen.\n\n[Part 1] 明亮会议室内主杰站在白板前右手指向投影屏幕满脸自信地向前方讲解。主杰 says \"大家看这个用户增长曲线，上线一周日活就破万了。\" 屏幕上显示一张折线图。\n\n[Part 2] 投影屏幕突然变成蓝色死机画面。主杰的右手悬在半空嘴微张表情凝固愣了一秒。主杰迅速低头看笔记本电脑伸手按了几下键盘。主杰 says \"呃……稍等，小问题小问题。\"\n\n[Part 3] 主杰双手合上笔记本电脑站直身体堆出尴尬笑容双手向两侧摊开做出\"没事\"的手势。主杰 says \"数据大家都看到了对吧，核心亮点已经展示完了。\" 主杰的笑容僵硬额头微微冒汗。\n\n[Part 4] 主杰转身背对镜头弯腰把笔记本电脑和文件收进背包。动作略急促但努力保持镇定。无对白只有收拾物品的轻微声响。\n\nFilm-quality realistic cinematography. Natural daylight. No subtitles, no slow motion, no characters looking at camera. Normal speed movement and natural dialogue pacing. 9:16 vertical. Character is Chinese East Asian male.",
+          "images": []
+        },
+        "seg2": {
+          "prompt": "Extend @video1 by 15 seconds. Scene transitions from the meeting room to the hallway of the same office building. Same Chinese man 主杰 (28, messy short black hair, grey hoodie, blue jeans, white sneakers, black digital watch) walks out of the meeting room door into a bright modern hallway with floor-to-ceiling windows. He nearly bumps into 林总, a Chinese woman age 35, short neat black hair, wearing a tailored black suit and white blouse, carrying a brown briefcase in her left hand. Physical state: 主杰右手推开会议室门左手拿着笔记本电脑，身体微弓刚从门内走出。林总站在走廊靠窗位置面朝走廊方向左手拿公文包右手自然下垂。\nCamera: Medium shot, frontal, hallway depth.\n\n[Part 1] 走廊落地窗自然光照入。主杰右手推开会议室门走出来表情放松松了口气。一转弯差点撞上走廊里的林总主杰身体后仰一步表情从放松变成惊讶。主杰 says \"啊林总您好您好！\"\n\n[Part 2] 两人面对面站在走廊中间。林总微笑点头。主杰立刻挺胸抬头切换到自信模式右手整理了一下卫衣领口。林总 says \"刚开完会？看你们产品最近数据不错啊。\" 主杰连连点头。\n\n[Part 3] 主杰和林总并肩往走廊前方走。主杰侧脸看林总视线略偏上眼神飘忽但嘴角保持上扬。主杰 says \"效果特别好，刚才给团队复盘，客户反馈都超预期。\" 主杰左手不自觉地攥紧了笔记本电脑。\n\n[Part 4] 两人并肩走向走廊尽头背影。主杰左手偷偷擦了一下额头的汗。林总侧头看了主杰一眼嘴角微扬似乎看穿了什么。无对白只有脚步声在走廊回响。\n\nMaintain exact same appearance for 主杰 from the previous segment. Same natural daylight. Film-quality realistic cinematography. No subtitles, no slow motion, no characters looking at camera. Normal speed movement. 9:16 vertical. All characters are Chinese East Asian.",
+          "images": [],
+          "mode": "video-extension"
+        }
+      },
+      "issues": [],
+      "result": "SUCCESS",
+      "final_video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-022/output/realistic/final-30s.mp4",
+      "final_audio": {
+        "audio_s": 30.161973,
+        "video_s": 30.083333
+      }
+    }
+  },
+  "timestamp_start": "2026-04-10T23:35:21+0800",
+  "result": "SUCCESS",
+  "timestamp_end": "2026-04-10T23:49:31+0800"
+}
