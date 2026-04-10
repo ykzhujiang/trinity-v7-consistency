@@ -1,0 +1,20 @@
+[
+  {
+    "name": "陈磊-realistic",
+    "type": "character",
+    "desc": "中国男性，28岁，175cm，短发微乱，戴黑框眼镜，穿皱巴巴的灰色连帽卫衣，深色运动裤。面容偏瘦，有黑眼圈，表情略显疲惫但有韧劲。",
+    "style": "realistic"
+  },
+  {
+    "name": "office-night-realistic",
+    "type": "scene",
+    "desc": "现代创业公司开放式办公室，深夜2点。只有一个工位台灯亮着，暖黄色灯光。桌上有双屏显示器（屏幕有代码），3个空纸杯，零食袋，充电线缠绕。周围工位漆黑。远处落地窗外是城市暖色夜景灯光。整体暖黄色调。Warm lighting, warm color temperature, no cold blue tones.",
+    "style": "realistic"
+  },
+  {
+    "name": "office-dawn-realistic",
+    "type": "scene",
+    "desc": "同一间现代创业公司开放式办公室，清晨。窗外天亮，清晨橙色阳光从落地窗涌入，整个办公室被暖橙色光笼罩。桌上物品与深夜一致（空纸杯、零食袋、双屏显示器）。Warm orange morning sunlight, warm color temperature, no cold blue tones.",
+    "style": "realistic"
+  }
+]

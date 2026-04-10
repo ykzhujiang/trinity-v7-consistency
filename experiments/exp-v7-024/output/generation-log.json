@@ -1,0 +1,18 @@
+{
+  "experiment": "EXP-V7-024",
+  "timestamp": "2026-04-11T01:17:14+0800",
+  "styles": [
+    "anime",
+    "realistic"
+  ],
+  "steps": [
+    {
+      "step": "assets-anime",
+      "ok": true
+    },
+    {
+      "step": "assets-realistic",
+      "ok": true
+    }
+  ]
+}
