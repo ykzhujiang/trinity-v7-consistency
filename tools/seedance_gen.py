@@ -132,7 +132,7 @@ def main():
                     t["prompt"], t.get("images", []), t.get("video"),
                     out_path, t.get("duration", 15), t.get("ratio", "9:16")
                 )
-                futures[fut] = t["id"]
+                futures[fut] = t.get("id", t.get("name", t["out"]))
             for fut in as_completed(futures):
                 tid = futures[fut]
                 r = fut.result()

@@ -1,0 +1,12 @@
+[
+  {"name": "boss-anime", "type": "character", "style": "anime", "desc": "中国男性，40多岁，短发微灰鬓角，方脸国字脸，深色藏青西装白衬衫，坐在办公椅上，严肃表情，半身肖像，白色背景"},
+  {"name": "exec-anime", "type": "character", "style": "anime", "desc": "中国女性，30多岁，齐肩黑色直发，鹅蛋脸，深蓝色职业套装，自信微笑，半身肖像，白色背景"},
+  {"name": "guy-anime", "type": "character", "style": "anime", "desc": "中国男性，25岁，寸头短发，圆脸，浅蓝色衬衫卷袖，年轻阳光，半身肖像，白色背景"},
+  {"name": "girl-anime", "type": "character", "style": "anime", "desc": "中国女性，25岁，黑色马尾辫，瓜子脸，白色休闲上衣，清爽干净，半身肖像，白色背景"},
+  {"name": "meeting-room-anime", "type": "scene", "style": "anime", "desc": "现代办公会议室，白色长方形会议桌，4把椅子围坐，背景白板上有饼图和箭头，右侧落地窗透入暖色日光，干净明亮，无人"},
+  {"name": "boss-realistic", "type": "character", "style": "realistic", "desc": "中国男性，40多岁，短发微灰鬓角，方脸国字脸，深色藏青西装白衬衫，坐在办公椅上，严肃表情，半身肖像，白色背景，真人照片风格"},
+  {"name": "exec-realistic", "type": "character", "style": "realistic", "desc": "中国女性，30多岁，齐肩黑色直发，鹅蛋脸，深蓝色职业套装，自信微笑，半身肖像，白色背景，真人照片风格"},
+  {"name": "guy-realistic", "type": "character", "style": "realistic", "desc": "中国男性，25岁，寸头短发，圆脸，浅蓝色衬衫卷袖，年轻阳光，半身肖像，白色背景，真人照片风格"},
+  {"name": "girl-realistic", "type": "character", "style": "realistic", "desc": "中国女性，25岁，黑色马尾辫，瓜子脸，白色休闲上衣，清爽干净，半身肖像，白色背景，真人照片风格"},
+  {"name": "meeting-room-realistic", "type": "scene", "style": "realistic", "desc": "现代办公会议室，白色长方形会议桌，4把椅子围坐，背景白板上有饼图和箭头，右侧落地窗透入暖色日光，干净明亮，无人，真人照片风格"}
+]

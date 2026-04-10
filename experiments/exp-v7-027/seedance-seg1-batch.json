@@ -1,0 +1,18 @@
+[
+  {
+    "name": "seg1-anime",
+    "prompt": "Anime style, modern office meeting room, four Chinese colleagues seated around a white rectangular conference table, whiteboard with charts in background, floor-to-ceiling window with warm daylight. Medium shot from front-left 15 degrees, all four visible. BOSS (40s male, short graying hair, dark suit) sits at head, leans forward with furrowed brows, opens mouth to speak toward GUY. EXEC (30s female, shoulder-length straight black hair, navy professional suit) sits to BOSS right, looks down flipping through a folder. GUY (25 male, buzz cut, round face, light blue shirt rolled sleeves) sits to BOSS left, chin resting on hand, looks at BOSS nervously. GIRL (25 female, black ponytail, white casual top) sits across from EXEC, head down writing in notebook. BOSS speaks sternly. Then GUY straightens up anxiously, all eyes turn to him. Then EXEC calmly taps table, turns to BOSS confidently. Finally BOSS leans back, arms crossed, nods with slight smile, tension releases, everyone relaxes. Normal speed movement, natural pacing. Dialogue ends by second 13, last 1-2 seconds silent. No slow motion, no facing camera, no subtitles, no text overlay.",
+    "images": ["assets/char-boss-anime.webp", "assets/char-exec-anime.webp", "assets/char-guy-anime.webp", "assets/char-girl-anime.webp", "assets/scene-meeting-room-anime.webp"],
+    "duration": 15,
+    "ratio": "9:16",
+    "out": "output/seg1-anime.mp4"
+  },
+  {
+    "name": "seg1-realistic",
+    "prompt": "Realistic cinematic style, modern office meeting room, four Chinese colleagues seated around a white rectangular conference table, whiteboard with charts in background, floor-to-ceiling window with warm daylight. Medium shot from front-left 15 degrees, all four visible. BOSS (Chinese male, 40s, short graying hair, square jaw, dark navy suit white shirt) sits at head, leans forward with furrowed brows, opens mouth to speak toward GUY. EXEC (Chinese female, 30s, shoulder-length straight black hair, oval face, navy professional suit) sits to BOSS right, looks down flipping through a folder. GUY (Chinese male, 25, buzz cut, round face, light blue shirt rolled sleeves) sits to BOSS left, chin resting on hand, looks at BOSS. GIRL (Chinese female, 25, black ponytail, white casual top) sits across from EXEC, head down writing in notebook. BOSS speaks sternly. Then GUY straightens up anxiously, all eyes turn to him. Then EXEC calmly taps table, turns to BOSS confidently. Finally BOSS leans back, arms crossed, nods with slight smile, tension releases. Normal speed movement, natural pacing. Dialogue ends by second 13, last 1-2 seconds silent. No slow motion, no facing camera, no subtitles, no text overlay.",
+    "images": ["assets/char-boss-realistic.webp", "assets/char-exec-realistic.webp", "assets/char-guy-realistic.webp", "assets/char-girl-realistic.webp", "assets/scene-meeting-room-realistic.webp"],
+    "duration": 15,
+    "ratio": "9:16",
+    "out": "output/seg1-realistic.mp4"
+  }
+]

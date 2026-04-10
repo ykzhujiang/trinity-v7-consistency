@@ -1,0 +1,18 @@
+[
+  {
+    "name": "seg2-anime",
+    "prompt": "Anime style continuation. Same modern office meeting room, same four Chinese colleagues. EXEC (30s female, shoulder-length straight black hair, navy suit) stands up and walks to the whiteboard, picks up a marker, turns to face the other three. BOSS (40s male, graying hair, dark suit), GUY (25 male, buzz cut, blue shirt), and GIRL (25 female, ponytail, white top) watch her. EXEC draws circles and arrows on whiteboard, explaining a workflow. GUY pulls out his phone to take a photo of the whiteboard. Then EXEC turns back to face everyone, puts down the marker, crosses arms, smiles proudly. BOSS starts clapping, GUY and GIRL follow clapping and smiling. Finally all four stand up and shake hands warmly. Normal speed movement, natural pacing. Dialogue ends by second 13, last 1-2 seconds silent. No slow motion, no facing camera, no subtitles, no text overlay.",
+    "video": "output/seg1-anime.mp4",
+    "duration": 15,
+    "ratio": "9:16",
+    "out": "seg2-anime.mp4"
+  },
+  {
+    "name": "seg2-realistic",
+    "prompt": "Realistic cinematic style continuation. Same modern office meeting room, same four Chinese colleagues. EXEC (Chinese female, 30s, shoulder-length straight black hair, oval face, navy suit) stands up and walks to the whiteboard, picks up a marker, turns to face the other three. BOSS (Chinese male, 40s, graying hair, dark suit), GUY (Chinese male, 25, buzz cut, blue shirt), and GIRL (Chinese female, 25, ponytail, white top) watch her. EXEC draws circles and arrows on whiteboard. GUY pulls out his phone to photograph the whiteboard. Then EXEC turns back, puts down marker, crosses arms, smiles. BOSS starts clapping, GUY and GIRL follow. Finally all four stand up and shake hands warmly. Normal speed movement, natural pacing. Dialogue ends by second 13, last 1-2 seconds silent. No slow motion, no facing camera, no subtitles, no text overlay.",
+    "video": "output/seg1-realistic.mp4",
+    "duration": 15,
+    "ratio": "9:16",
+    "out": "seg2-realistic.mp4"
+  }
+]
