@@ -1,0 +1,14 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "Anime style, warm yellow interior lighting. A small late-night Chinese noodle shop with wooden bar counter and steam rising from pots. CHEN LEI, 30-year-old Chinese man with short black hair and square jaw, wearing white chef shirt and dark blue apron, stands behind the counter. LIU GE, 45-year-old chubby-faced Chinese man in rumpled grey suit with crooked tie, drunk with flushed red cheeks, stumbles in through the door, slaps both hands on the counter and shouts his order with a silly grin. Chen Lei sighs and turns to light the stove, muttering. Then Chen Lei pulls noodles skillfully into boiling water, steam billowing, while Liu Ge slumps onto the counter falling asleep. Warm cozy atmosphere, red lantern by the door, handwritten menu on wall. Vertical 9:16 composition. Normal speed movement, natural pacing. No slow motion. No facing camera directly. No subtitles.",
+    "images": ["experiments/exp-v7-029/assets/char-chenlei-front.webp", "experiments/exp-v7-029/assets/char-liuge-front.webp", "experiments/exp-v7-029/assets/scene-noodle-shop.webp"],
+    "out": "experiments/exp-v7-029/output/anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "Cinematic realistic style, warm yellow interior lighting. A small late-night Chinese noodle shop with wooden bar counter and steam rising from pots. CHEN LEI, 30-year-old Chinese man with short black hair and square jaw, wearing white chef shirt and dark blue apron, stands behind the counter wiping it. LIU GE, 45-year-old chubby-faced Chinese man in rumpled grey suit with crooked tie, drunk with flushed red cheeks, stumbles in through the door, slaps both hands on the counter and shouts his order with a silly grin. Chen Lei sighs and turns to light the stove, muttering. Then Chen Lei pulls noodles skillfully into boiling water, steam billowing, while Liu Ge slumps onto the counter falling asleep. Warm cozy atmosphere, red lantern by the door, handwritten menu on wall. Vertical 9:16 composition. Normal speed movement, natural pacing. No slow motion. No facing camera directly. No subtitles.",
+    "images": ["experiments/exp-v7-029/assets/char-chenlei-front.webp", "experiments/exp-v7-029/assets/char-liuge-front.webp", "experiments/exp-v7-029/assets/scene-noodle-shop.webp"],
+    "out": "experiments/exp-v7-029/output/real-seg1.mp4"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Anime style, warm yellow interior lighting, same late-night Chinese noodle shop. Continuing directly from previous scene. CHEN LEI, 30-year-old Chinese man with short black hair, square jaw, white chef shirt and dark blue apron, places a steaming bowl of noodles in front of LIU GE and knocks on the counter to wake him. LIU GE, 45-year-old chubby Chinese man in rumpled grey suit with crooked tie, slowly lifts his head, picks up chopsticks and takes a big bite of noodles. His eyes go wide with shock mid-chew, then his eyes redden with tears as he speaks with a trembling voice. Chen Lei freezes for a moment, then slowly smiles and pats Liu Ge's shoulder gently. Liu Ge continues eating, sniffling but smiling. The shop is quiet and warm. Vertical 9:16 composition. Normal speed movement, natural pacing. No slow motion. No facing camera directly. No subtitles.",
+    "video": "experiments/exp-v7-029/output/anime-seg1.mp4",
+    "out": "experiments/exp-v7-029/output/anime-seg2.mp4"
+  },
+  {
+    "id": "real-seg2",
+    "prompt": "Cinematic realistic style, warm yellow interior lighting, same late-night Chinese noodle shop. Continuing directly from previous scene. CHEN LEI, 30-year-old Chinese man with short black hair, square jaw, white chef shirt and dark blue apron, places a steaming bowl of noodles in front of LIU GE and knocks on the counter to wake him. LIU GE, 45-year-old chubby Chinese man in rumpled grey suit with crooked tie, slowly lifts his head, picks up chopsticks and takes a big bite of noodles. His eyes go wide with shock mid-chew, then his eyes redden with tears as he speaks with a trembling voice. Chen Lei freezes for a moment, then slowly smiles and pats Liu Ge's shoulder gently. Liu Ge continues eating, sniffling but smiling. The shop is quiet and warm. Vertical 9:16 composition. Normal speed movement, natural pacing. No slow motion. No facing camera directly. No subtitles.",
+    "video": "experiments/exp-v7-029/output/real-seg1.mp4",
+    "out": "experiments/exp-v7-029/output/real-seg2.mp4"
+  }
+]

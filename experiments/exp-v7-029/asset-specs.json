@@ -1,0 +1,27 @@
+[
+  {
+    "name": "chenlei-front",
+    "type": "character",
+    "desc": "Digital painting portrait, front view, of a 30-year-old Chinese man named Chen Lei. Short black hair, square jawline, slightly tired but kind eyes. Wearing a white chef shirt with rolled-up sleeves and a dark blue apron. A faded burn scar visible on his right forearm. Warm yellow lighting. Semi-realistic anime-inspired illustration style, clean background."
+  },
+  {
+    "name": "chenlei-side",
+    "type": "character",
+    "desc": "Digital painting portrait, three-quarter side view, of a 30-year-old Chinese man named Chen Lei. Short black hair, square jawline. Wearing a white chef shirt with rolled-up sleeves and a dark blue apron. Warm yellow lighting from the left. Semi-realistic anime-inspired illustration style, clean background."
+  },
+  {
+    "name": "liuge-front",
+    "type": "character",
+    "desc": "Digital painting portrait, front view, of a 45-year-old Chinese man nicknamed Liu Ge. Round chubby face, flushed red cheeks (drunk), messy short hair. Wearing a rumpled dark grey business suit, necktie loosened and crooked. Droopy eyelids, silly grin. Semi-realistic anime-inspired illustration style, clean background."
+  },
+  {
+    "name": "liuge-side",
+    "type": "character",
+    "desc": "Digital painting portrait, three-quarter side view, of a 45-year-old Chinese man nicknamed Liu Ge. Round chubby face, flushed red cheeks (drunk). Wearing a rumpled dark grey business suit, necktie loosened and crooked. Warm lighting. Semi-realistic anime-inspired illustration style, clean background."
+  },
+  {
+    "name": "noodle-shop",
+    "type": "scene",
+    "desc": "Digital painting of a small late-night Chinese noodle shop interior. Warm yellow incandescent lighting. Wooden bar counter with 4 stools. Steam rising from a large pot on the stove behind the counter. Handwritten menu on the wall (Chinese characters). A red lantern hanging by the entrance door. Cozy, slightly worn, atmospheric. Illustrated environment concept art style."
+  }
+]
