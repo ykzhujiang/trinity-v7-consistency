@@ -1,0 +1,27 @@
+{
+  "experiment": "EXP-V7-013",
+  "hypothesis": "H-132",
+  "strategy": "Version D (FFA + PSE + Crossfade)",
+  "style": "anime",
+  "story": "合伙人 — 3角色创业喜剧",
+  "genre": "comedy/startup",
+  "character_count": 3,
+  "seg1_prompt": "@image1 as character 林远, @image2 as character 苏晴, @image3 as character 胖虎, @image4 as the meeting room background. Physical state: 林远坐桌子右侧靠窗，身体端正双手交叉放桌上，黑框眼镜反射白板光。苏晴坐林远对面靠门位置，身体前倾左手撑桌看笔记本屏幕右手划触控板。胖虎坐桌子短边远端，半躺椅子上右手拿鸡腿啃左手拿手机。\nCamera: Medium-wide shot from table's long side, all three characters visible. 林远 (glasses, blue suit) right side by window, 苏晴 (hoodie) left side by door, 胖虎 (hawaiian shirt, stocky) at far end of table. Camera at seated eye level.\n\n[Part 1] 林远坐直身体双手交叉放桌上表情严肃看白板。白板写着\"收购要约 ¥5000万\"被红笔圈起。林远深吸一口气目光从白板移到苏晴方向。林远 says \"我觉得应该拒绝。\"\n\n[Part 2] 苏晴猛地从笔记本屏幕抬头左手食指还停在触控板上眉头紧皱。苏晴 says \"拒绝？账上的钱只够撑三个月。\" 苏晴右手指向笔记本屏幕转向林远方向。苏晴 says \"你看看这个现金流。\"\n\n[Part 3] 胖虎嘴里嚼着鸡腿含糊不清地插话。胖虎抬起拿鸡腿的右手挥了挥。胖虎 says \"钱的事我来搞定。\" 林远和苏晴同时转头看胖虎表情半信半疑。\n\n[Part 4] 胖虎慢悠悠掏出手机油乎乎的手指在屏幕上划了两下露出神秘的笑。胖虎 says \"我约了个人。\" 门外传来门铃声。三人目光同时看向玻璃门方向。\n\nNo subtitles, no slow motion, no characters looking at camera. Natural speed movement, natural pacing. 9:16 vertical format. Consistent warm indoor lighting throughout. All characters are Chinese (East Asian). Comedy tone — expressive faces, natural comedic timing. THREE characters always visible: glasses-man (right/window), hoodie-girl (left/door), hawaiian-shirt-guy (far end).",
+  "seg2_prompt": "@image1 as the first frame of this scene (continue from here), @image2 as character 林远, @image3 as character 苏晴, @image4 as character 胖虎, @image5 as the meeting room background. Extend @video1 by 15 seconds. Continue seamlessly from this exact frame. Same meeting room, same three characters, same positions. Continuing exactly from previous scene in same startup meeting room. [林远] Chinese male 28yo, tall thin, neat short black hair, rectangular face, BLACK SQUARE GLASSES, fair skin, sharp chin, thick eyebrows, dark blue fitted suit white shirt no tie, white pocket square. Sitting right side of table by window, body turned slightly toward door, left hand on armrest, right hand adjusting glasses. [苏晴] Chinese female 26yo, thin, shoulder-length black hair with slight outward curl, oval face, light makeup, bright alert eyes, wearing grey oversized hoodie dark blue jeans white sneakers. Standing up halfway, left hand on table, looking toward glass door. [胖虎] Chinese male 30yo, stocky chubby, buzz cut black hair, round chubby face small eyes, dark skin, stubble, wearing RED-BLUE HAWAIIAN SHIRT khaki shorts brown flip-flops. Reclining in chair at far end of table, chicken bone on napkin on table, hands behind head, smirking. Background: same startup meeting room, whiteboard with colorful data, light wood table 4 grey chairs, laptops coffee cups papers on table, glass door left side, floor-to-ceiling window right side city skyline. Anime style illustration.\n\nCamera: Same medium-wide shot, same angle as previous segment (no axis crossing).\n\n[Part 1] 玻璃门打开一个穿蓝色制服的外卖小哥探头进来手里提两大袋外卖。苏晴表情从期待变困惑嘴巴微张。林远扶眼镜的手停在半空眨了两下眼。胖虎拍一下大腿站起来。胖虎 says \"全家桶到了！\"\n\n[Part 2] 三人坐回原位桌上摆满炸鸡桶和薯条。胖虎两手各抓一个鸡腿大口啃。林远无奈摇头但还是拿起一块鸡翅小口咬。苏晴一边吃薯条一边看笔记本。苏晴突然手指停住眼睛越睁越大。苏晴 says \"等等。\"\n\n[Part 3] 苏晴把薯条放下两手抓住笔记本转向林远方向语速加快眼睛发亮。苏晴 says \"我发现一个漏洞，能省百分之四十的成本！\" 林远放下鸡翅身体前倾凑过去看屏幕眼镜反光。胖虎嘴里塞满鸡肉含糊地说。胖虎 says \"我就说吃饱了才能想出好主意。\"\n\n[Part 4] 林远慢慢坐直看了一眼胖虎又看苏晴嘴角终于露出笑容。林远 says \"拒绝收购。\" 苏晴点头转回屏幕继续敲键盘。胖虎举起鸡腿当话筒。胖虎 says \"合伙人干杯！\" 三人各举手里食物碰在一起笑成一团。\n\nNo subtitles, no slow motion, no characters looking at camera. Natural speed movement, natural pacing. 9:16 vertical format. Consistent warm indoor lighting throughout. All characters are Chinese (East Asian). Comedy tone — expressive faces, natural comedic timing. THREE characters always visible: glasses-man (right/window), hoodie-girl (left/door), hawaiian-shirt-guy (far end). Same startup meeting room, continuous scene.",
+  "seg1_images": [
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-013/output/anime/assets/char-林远.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-013/output/anime/assets/char-苏晴.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-013/output/anime/assets/char-胖虎.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-013/output/anime/assets/scene-meeting.webp"
+  ],
+  "seg2_images": [
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-013/output/anime/seg1-last-frame.jpg",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-013/output/anime/assets/char-林远.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-013/output/anime/assets/char-苏晴.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-013/output/anime/assets/char-胖虎.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-013/output/anime/assets/scene-meeting.webp"
+  ],
+  "crossfade_duration": 0.4,
+  "audio_check_passed": true,
+  "timestamp": "2026-04-10T16:43:23+0800"
+}

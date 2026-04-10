@@ -156,28 +156,33 @@ def generate_asset(gemini_key, prompt, output_path, base_url=None):
     from google import genai
     from google.genai import types
     from PIL import Image
+    import signal
 
     kwargs = {"api_key": gemini_key}
     if base_url:
-        kwargs["http_options"] = types.HttpOptions(base_url=base_url)
+        kwargs["http_options"] = types.HttpOptions(base_url=base_url, timeout=120000)
     client = genai.Client(**kwargs)
 
-    response = client.models.generate_content(
-        model="gemini-3-pro-image-preview",
-        contents=prompt,
-        config=types.GenerateContentConfig(response_modalities=["IMAGE", "TEXT"]),
-    )
-    for part in response.candidates[0].content.parts:
-        if part.inline_data and part.inline_data.mime_type.startswith("image/"):
-            img = Image.open(BytesIO(part.inline_data.data))
-            if img.width > 600:
-                ratio = 600 / img.width
-                img = img.resize((600, int(img.height * ratio)), Image.LANCZOS)
-            img.save(output_path, "WEBP", quality=75)
-            print(f"  → {output_path} ({os.path.getsize(output_path)//1024}KB)")
-            return True
-    print(f"  ✗ No image for {output_path}")
-    return False
+    try:
+        response = client.models.generate_content(
+            model="gemini-3-pro-image-preview",
+            contents=prompt,
+            config=types.GenerateContentConfig(response_modalities=["IMAGE", "TEXT"]),
+        )
+        for part in response.candidates[0].content.parts:
+            if part.inline_data and part.inline_data.mime_type.startswith("image/"):
+                img = Image.open(BytesIO(part.inline_data.data))
+                if img.width > 600:
+                    ratio = 600 / img.width
+                    img = img.resize((600, int(img.height * ratio)), Image.LANCZOS)
+                img.save(output_path, "WEBP", quality=75)
+                print(f"  → {output_path} ({os.path.getsize(output_path)//1024}KB)")
+                return True
+        print(f"  ✗ No image for {output_path}")
+        return False
+    except Exception as e:
+        print(f"  ✗ Gemini error: {e}")
+        return False
 
 
 def generate_all_assets(keys, style, out_dir):
@@ -200,13 +205,14 @@ def generate_all_assets(keys, style, out_dir):
             f"Clean background, studio lighting. East Asian features."
         )
         print(f"  Generating: {name} ({style})")
-        for attempt in range(3):
+        for attempt in range(5):
             ok = generate_asset(keys["gemini_key"], prompt, path, keys.get("gemini_base_url"))
             if ok:
                 assets[name] = path
                 break
-            print(f"  Retry {attempt+1} for {name}...")
-            time.sleep(5)
+            wait = 15 * (attempt + 1)
+            print(f"  Retry {attempt+1} for {name}... (waiting {wait}s)")
+            time.sleep(wait)
 
     # Scene: meeting room
     p = os.path.join(out_dir, "scene-meeting.webp")
@@ -215,12 +221,13 @@ def generate_all_assets(keys, style, out_dir):
         "Warm office lighting, whiteboard with colorful data visible."
     )
     print("  Generating: meeting room scene")
-    for attempt in range(3):
+    for attempt in range(5):
         if generate_asset(keys["gemini_key"], prompt, p, keys.get("gemini_base_url")):
             assets["scene-meeting"] = p
             break
-        print(f"  Retry {attempt+1} for scene...")
-        time.sleep(5)
+        wait = 15 * (attempt + 1)
+        print(f"  Retry {attempt+1} for scene... (waiting {wait}s)")
+        time.sleep(wait)
 
     return assets
 

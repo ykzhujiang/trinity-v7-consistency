@@ -259,36 +259,33 @@ def upload_to_tmpfiles(local_path):
 
 
 def call_seedance(keys, prompt, images, output_path, input_video=None, duration=15, max_retries=3):
-    # Pre-upload all files once
-    uploaded_images = []
-    for img in images:
-        if os.path.isfile(img):
-            uploaded_images.append(upload_to_tmpfiles(img))
-        else:
-            uploaded_images.append(img)
-    uploaded_video = None
+    # Pass local files directly — seedance.py converts images to base64
+    # Only videos need URL upload (base64 not supported for video by API)
+    local_images = list(images)  # keep as-is, seedance.py handles base64 conversion
+    video_ref = None
     if input_video:
         if os.path.isfile(input_video):
-            uploaded_video = upload_to_tmpfiles(input_video)
+            # Video must be uploaded to URL — seedance.py doesn't support local video base64
+            video_ref = upload_to_tmpfiles(input_video)
         else:
-            uploaded_video = input_video
+            video_ref = input_video
 
     env = os.environ.copy()
     if keys["ark_key"]:
         env["ARK_API_KEY"] = keys["ark_key"]
 
     print(f"  Prompt ({len(prompt)} chars): {prompt[:300]}...")
-    print(f"  Images: {len(uploaded_images)}, Video ref: {uploaded_video is not None}")
+    print(f"  Images: {len(local_images)}, Video ref: {video_ref is not None}")
 
     for attempt in range(1, max_retries + 1):
         print(f"\n  --- Attempt {attempt}/{max_retries} ---")
         cmd = ["python3", keys["seedance_script"], "run",
                "--prompt", prompt, "--ratio", "9:16",
                "--duration", str(duration), "--out", output_path]
-        if uploaded_video:
-            cmd.extend(["--video", uploaded_video])
-        for u_img in uploaded_images:
-            cmd.extend(["--image", u_img])
+        if video_ref:
+            cmd.extend(["--video", video_ref])
+        for img in local_images:
+            cmd.extend(["--image", img])
 
         result = subprocess.run(cmd, capture_output=True, text=True, env=env, timeout=1800)
         combined = (result.stdout or "") + "\n" + (result.stderr or "")
@@ -327,15 +324,51 @@ def concat_crossfade(seg1, seg2, output, fade=0.4):
         capture_output=True, text=True)
     dur = float(probe.stdout.strip())
     offset = dur - fade
+    # Video crossfade + audio crossfade to properly merge both segments' audio
     result = subprocess.run([
         "ffmpeg", "-i", seg1, "-i", seg2,
-        "-filter_complex", f"xfade=transition=fade:duration={fade}:offset={offset}",
+        "-filter_complex",
+        f"[0:v][1:v]xfade=transition=fade:duration={fade}:offset={offset}[v];"
+        f"[0:a][1:a]acrossfade=d={fade}:c1=tri:c2=tri[a]",
+        "-map", "[v]", "-map", "[a]",
+        "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+        "-c:a", "aac", "-b:a", "128k",
+        "-movflags", "+faststart",
         "-y", output
     ], capture_output=True, text=True)
     if result.returncode == 0:
-        print(f"  ✓ Crossfade: {output}")
+        # Verify audio duration matches video
+        a_check = subprocess.run(
+            ["ffprobe", "-v", "error", "-select_streams", "a",
+             "-show_entries", "stream=duration", "-of", "csv=p=0", output],
+            capture_output=True, text=True)
+        v_check = subprocess.run(
+            ["ffprobe", "-v", "error", "-select_streams", "v",
+             "-show_entries", "stream=duration", "-of", "csv=p=0", output],
+            capture_output=True, text=True)
+        a_dur = float(a_check.stdout.strip()) if a_check.stdout.strip() else 0
+        v_dur = float(v_check.stdout.strip()) if v_check.stdout.strip() else 0
+        if a_dur < v_dur * 0.9:
+            print(f"  ⛔ AUDIO CHECK FAILED: audio={a_dur:.1f}s video={v_dur:.1f}s")
+            return False
+        print(f"  ✓ Crossfade: {output} (audio={a_dur:.1f}s video={v_dur:.1f}s)")
         return True
     print(f"  ✗ Crossfade failed: {result.stderr[:300]}")
+    # Fallback: re-encode concat without crossfade
+    print("  Trying fallback: re-encode concat...")
+    concat_list = output + ".concat.txt"
+    with open(concat_list, "w") as f:
+        f.write(f"file '{os.path.abspath(seg1)}'\n")
+        f.write(f"file '{os.path.abspath(seg2)}'\n")
+    result2 = subprocess.run([
+        "ffmpeg", "-f", "concat", "-safe", "0", "-i", concat_list,
+        "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+        "-c:a", "aac", "-b:a", "128k",
+        "-movflags", "+faststart", "-y", output
+    ], capture_output=True, text=True)
+    if result2.returncode == 0:
+        print(f"  ✓ Fallback concat: {output}")
+        return True
     return False
 
 
@@ -401,29 +434,32 @@ def main():
         img_refs.append(f"@image{idx} as the indoor gym background")
 
     # Build English-only prompt — softened to avoid content moderation triggers
+    # IMPORTANT: Volcengine filter triggers on "pointing at" / "competitive" / "team circle"
+    # Use gentler framing: coaching session, practice break, friendly atmosphere
     seg1_prompt_en = (
         (", ".join(img_refs) + ". ") if img_refs else ""
     ) + (
-        "Anime scene in a university indoor basketball court. Bright warm lighting.\n"
-        "Characters: A-Jie (Chinese male, 22, short black hair, lean build, wearing red sports jersey number 12, "
-        "red shorts, white sneakers, sitting on folding chair). "
-        "Coach Zhou (Chinese male, 50, gray short hair, navy tracksuit jacket, silver whistle on neck, "
-        "crouching in center of team circle, drawing on whiteboard).\n"
-        "Camera: medium shot, right side of team circle, both characters visible, indoor gym setting.\n\n"
-        "[Part 1] Team members sit in a circle during a break. Coach Zhou crouches in center, "
-        "drawing movement patterns on a whiteboard with marker pen. He looks up, glancing at each player. "
-        "A-Jie sits on the outer edge of the circle on a chair, looking down, resting a towel on his knee.\n\n"
-        "[Part 2] Coach Zhou stands up, holds up the whiteboard, and points toward A-Jie with his right hand. "
-        'Coach says "Number twelve, your turn!" The other team members all turn to look at A-Jie. '
-        "A-Jie lifts his head quickly, eyes wide with surprise, and the towel slides off his knee onto the floor.\n\n"
-        "[Part 3] A-Jie stands up from the chair, takes a deep breath, unzips his warmup jacket and takes it off, "
-        "revealing the red number 12 jersey underneath. His expression changes from surprise to calm confidence. "
-        "The teammate next to him gives him an encouraging pat on the shoulder.\n\n"
-        "[Part 4] A-Jie walks toward the court, viewed from behind. In the background, a digital scoreboard "
-        "shows the countdown timer at 3:00 starting to count down. Audience members in the stands begin clapping.\n\n"
+        "Anime scene in a university indoor basketball court. Warm bright lighting.\n"
+        "Characters: A-Jie (Chinese male, 22, short black hair, lean athletic build, wearing red basketball jersey number 12, "
+        "red shorts, white sneakers, sitting on folding chair wiping sweat with towel). "
+        "Coach Zhou (Chinese male, 50, gray short hair, navy blue tracksuit jacket, silver whistle on neck, "
+        "standing at center holding a small whiteboard).\n"
+        "Camera: medium shot, practice court sideline, warm indoor atmosphere.\n\n"
+        "[Part 1] Players resting on the sideline during a practice break. Coach Zhou stands at center "
+        "holding a whiteboard, sketching out a play diagram with a marker pen. He finishes drawing "
+        "and looks up with a warm encouraging smile. A-Jie sits on a folding chair at the edge, "
+        "looking down while wiping his forehead with a white towel.\n\n"
+        "[Part 2] Coach Zhou raises the whiteboard and nods toward A-Jie with a friendly gesture. "
+        'Coach says "Number twelve, it\'s your time to shine!" The other players smile and turn to look at A-Jie. '
+        "A-Jie raises his head, eyes wide with pleasant surprise, the towel slips off his knee onto the floor.\n\n"
+        "[Part 3] A-Jie stands up from the chair with determination, takes a deep breath, "
+        "removes his warmup jacket revealing the red number 12 jersey. His face shows calm confidence and excitement. "
+        "A teammate standing beside him smiles and gives him an encouraging pat on the shoulder.\n\n"
+        "[Part 4] A-Jie jogs toward the court with energy, seen from behind. In the background, "
+        "a digital clock shows 3:00. Students in the stands cheer and clap enthusiastically.\n\n"
         "No text overlays. Normal speed actions. No characters facing the camera directly. "
-        "9:16 vertical format. All characters are East Asian. Uplifting sports drama atmosphere. "
-        "Indoor basketball gym, polished wood floor, bright ceiling lights, student audience in bleachers."
+        "9:16 vertical format. All characters are East Asian. Positive uplifting sports atmosphere. "
+        "Indoor basketball gym, polished wood floor, bright ceiling lights, cheerful student audience."
     )
     seg1_prompt = seg1_prompt_en
 
