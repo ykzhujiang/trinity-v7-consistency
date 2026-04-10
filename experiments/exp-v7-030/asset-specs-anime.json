@@ -1,0 +1,20 @@
+[
+  {
+    "name": "anime-man",
+    "type": "character",
+    "style": "anime",
+    "desc": "Digital painting portrait of a 28-year-old Chinese man with short messy black hair, rectangular glasses, slightly tired but bright eyes, wearing a dark grey hoodie over a plain white t-shirt. Slim build, focused expression. 3D rendered illustration style, soft studio lighting, clean background. NOT a photograph. Anime-inspired semi-realistic digital art."
+  },
+  {
+    "name": "anime-woman",
+    "type": "character",
+    "style": "anime",
+    "desc": "Digital painting portrait of a 45-year-old Chinese woman with sharp short black bob haircut, confident expression, wearing a tailored navy blue blazer over white silk blouse. Lean face, high cheekbones, small silver stud earrings. 3D rendered illustration style, soft studio lighting, clean background. NOT a photograph. Anime-inspired semi-realistic digital art."
+  },
+  {
+    "name": "anime-cafe",
+    "type": "scene",
+    "style": "anime",
+    "desc": "Digital painting of a modern minimalist coffee shop interior. Large window with afternoon sunlight. A corner table with a laptop, coffee cups. Industrial-chic decor: exposed brick, pendant lights. Warm golden light. Illustrated environment concept art style."
+  }
+]

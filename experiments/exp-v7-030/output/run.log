@@ -1,0 +1,68 @@
+
+=== Step 1: Generate reference images (anime + realistic) ===
+=== Generating anime reference images ===
+=== Generating real reference images ===
+Generating 3 image(s) with concurrency=3...
+  ✓ /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-real-woman.webp (21KB)
+  ✓ /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/scene-real-cafe.webp (52KB)
+  ✓ /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-real-man.webp (27KB)
+
+Done: 3/3 succeeded
+Manifest: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/manifest.json
+
+  ✓ char-real-man.webp (27KB)
+  ✓ char-real-woman.webp (21KB)
+  ✓ scene-real-cafe.webp (52KB)
+Generating 3 image(s) with concurrency=3...
+  ✓ /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/scene-anime-cafe.webp (50KB)
+  ✓ /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-anime-man.webp (26KB)
+  ✓ /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-anime-woman.webp (23KB)
+
+Done: 3/3 succeeded
+Manifest: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/manifest.json
+
+  ✓ char-anime-man.webp (26KB)
+  ✓ char-anime-woman.webp (23KB)
+  ✓ scene-anime-cafe.webp (50KB)
+
+=== Step 2: Generating Seg1 (anime + realistic concurrent) ===
+  Seedance → anime-seg1.mp4  Seedance → real-seg1.mp4
+
+  Seedance: anime-seg1.mp4 (prompt: A modern minimalist coffee shop, afternoon sunlight through large window, corner table with laptop. A 28-year-old Chines...)
+  ✓ anime-seg1.mp4 (6.6MB, 349s)
+
+  Seedance: real-seg1.mp4 (prompt: A modern minimalist coffee shop, afternoon sunlight through large window, corner table with laptop. A 28-year-old Chines...)
+  ✓ real-seg1.mp4 (5.3MB, 438s)
+
+
+=== Step 3: Generating Seg2 via video extension ===
+  Seedance → anime-seg2.mp4
+  Seedance → real-seg2.mp4
+  Uploading anime-seg1.mp4 to tmpfiles.org...
+  → http://tmpfiles.org/dl/32984607/anime-seg1.mp4
+  Seedance: anime-seg2.mp4 (prompt: Continuing in the same modern coffee shop. A 28-year-old Chinese East Asian man with short messy black hair, rectangular...)
+  ✓ anime-seg2.mp4 (6.2MB, 422s)
+
+  Uploading real-seg1.mp4 to tmpfiles.org...
+  → http://tmpfiles.org/dl/32984606/real-seg1.mp4
+  Seedance: real-seg2.mp4 (prompt: Continuing in the same modern coffee shop. A 28-year-old Chinese East Asian man with short messy black hair, rectangular...)
+  ✓ real-seg2.mp4 (5.5MB, 462s)
+
+
+=== Step 4: Concatenation ===
+
+  anime concat: ✗
+
+  realistic concat: ✗
+
+=== Step 5: Audio Check ===
+  Audio check anime-seg1.mp4: ✓
+  Audio check anime-seg2.mp4: ✓
+  Audio check real-seg1.mp4: ✓
+  Audio check real-seg2.mp4: ✓
+
+✓ Generation log saved: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/output/generation-log.json
+
+=== Summary ===
+  anime: Seg1=✓ Seg2=✓ Final=✗
+  realistic: Seg1=✓ Seg2=✓ Final=✗

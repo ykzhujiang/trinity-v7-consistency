@@ -1,0 +1,20 @@
+[
+  {
+    "name": "real-man",
+    "type": "character",
+    "style": "realistic",
+    "desc": "Professional DSLR photograph of a 28-year-old Chinese East Asian man with short messy black hair, rectangular glasses, wearing a dark grey hoodie over a plain white t-shirt. Natural indoor lighting, shallow depth of field, shot on Canon EOS R5, 85mm lens. Real person, NOT illustration, NOT 3D render, NOT anime. Photojournalistic portrait style."
+  },
+  {
+    "name": "real-woman",
+    "type": "character",
+    "style": "realistic",
+    "desc": "Professional DSLR photograph of a 45-year-old Chinese East Asian woman with sharp short black bob haircut, wearing a tailored navy blue blazer over white silk blouse. Confident expression, small silver stud earrings. Natural indoor lighting, shallow depth of field, shot on Canon EOS R5, 85mm lens. Real person, NOT illustration, NOT 3D render, NOT anime. Photojournalistic portrait style."
+  },
+  {
+    "name": "real-cafe",
+    "type": "scene",
+    "style": "realistic",
+    "desc": "Professional photograph of a modern minimalist coffee shop interior. Large window with afternoon sunlight. Corner table with laptop and coffee cups. Industrial-chic decor: exposed brick, pendant lights. Shot on wide-angle lens, natural warm lighting. Real photograph, NOT illustration, NOT 3D."
+  }
+]

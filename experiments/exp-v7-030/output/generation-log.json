@@ -1,0 +1,82 @@
+{
+  "experiment": "EXP-V7-030",
+  "hypothesis": [
+    "H-368: negative prompts + photo-level refs → no 3D drift",
+    "H-369: audio-visual sync → higher immersion"
+  ],
+  "timestamp": "2026-04-11T07:14:27+0800",
+  "tracks": {
+    "anime": {
+      "seg1": {
+        "prompt": "A modern minimalist coffee shop, afternoon sunlight through large window, corner table with laptop. A 28-year-old Chinese East Asian man with short messy black hair, rectangular glasses, wearing a dark grey hoodie over a white t-shirt. A 45-year-old Chinese East Asian woman with sharp short black bo...",
+        "images": [
+          "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-anime-man.webp",
+          "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-anime-woman.webp",
+          "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/scene-anime-cafe.webp"
+        ],
+        "result": {
+          "ok": true,
+          "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/output/anime-seg1.mp4",
+          "elapsed": 349.4408929347992,
+          "error": ""
+        }
+      },
+      "seg2": {
+        "prompt": "Continuing in the same modern coffee shop. A 28-year-old Chinese East Asian man with short messy black hair, rectangular glasses, wearing a dark grey hoodie over a white t-shirt. A 45-year-old Chinese East Asian woman with sharp short black bob haircut, wearing a tailored navy blue blazer over white...",
+        "result": {
+          "ok": true,
+          "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/output/anime-seg2.mp4",
+          "elapsed": 425.96778082847595,
+          "error": ""
+        }
+      }
+    },
+    "realistic": {
+      "seg1": {
+        "prompt": "A modern minimalist coffee shop, afternoon sunlight through large window, corner table with laptop. A 28-year-old Chinese East Asian man with short messy black hair, rectangular glasses, wearing a dark grey hoodie over a white t-shirt. A 45-year-old Chinese East Asian woman with sharp short black bo...",
+        "images": [
+          "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-real-man.webp",
+          "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-real-woman.webp",
+          "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/scene-real-cafe.webp"
+        ],
+        "result": {
+          "ok": true,
+          "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/output/real-seg1.mp4",
+          "elapsed": 438.2385859489441,
+          "error": ""
+        }
+      },
+      "seg2": {
+        "prompt": "Continuing in the same modern coffee shop. A 28-year-old Chinese East Asian man with short messy black hair, rectangular glasses, wearing a dark grey hoodie over a white t-shirt. A 45-year-old Chinese East Asian woman with sharp short black bob haircut, wearing a tailored navy blue blazer over white...",
+        "result": {
+          "ok": true,
+          "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/output/real-seg2.mp4",
+          "elapsed": 466.0340452194214,
+          "error": ""
+        }
+      }
+    }
+  },
+  "assets": {
+    "anime": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-anime-man.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-anime-woman.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/scene-anime-cafe.webp"
+    ],
+    "realistic": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-real-man.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/char-real-woman.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-030/assets/scene-real-cafe.webp"
+    ]
+  },
+  "audio_check": {
+    "anime-seg1.mp4": true,
+    "anime-seg2.mp4": true,
+    "real-seg1.mp4": true,
+    "real-seg2.mp4": true
+  },
+  "finals": {
+    "anime": null,
+    "realistic": null
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "ok": false,
+    "path": "output/experiments/exp-v7-029/output/anime-seg2.mp4",
+    "error": "ERROR: File not found: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-029/output/anime-seg1.mp4\n",
+    "elapsed": 0.03723502159118652,
+    "id": "anime-seg2"
+  },
+  {
+    "ok": false,
+    "path": "output/experiments/exp-v7-029/output/real-seg2.mp4",
+    "error": "ERROR: File not found: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-029/output/real-seg1.mp4\n",
+    "elapsed": 0.03869175910949707,
+    "id": "real-seg2"
+  }
+]
