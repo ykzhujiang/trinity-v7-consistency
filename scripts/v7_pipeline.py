@@ -529,10 +529,30 @@ def main():
         with open(concat_list, "w") as f:
             f.write(f"file '{os.path.abspath(seg1_video)}'\n")
             f.write(f"file '{os.path.abspath(seg2_video)}'\n")
+        # Re-encode to fix audio concat (c copy drops seg2 audio)
         subprocess.run([
             "ffmpeg", "-f", "concat", "-safe", "0",
-            "-i", concat_list, "-c", "copy", "-y", concat_path
+            "-i", concat_list,
+            "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+            "-c:a", "aac", "-b:a", "128k",
+            "-movflags", "+faststart",
+            "-y", concat_path
         ], capture_output=True)
+        # Verify both segments have audio in final
+        result = subprocess.run([
+            "ffprobe", "-v", "error", "-select_streams", "a",
+            "-show_entries", "stream=duration", "-of", "csv=p=0", concat_path
+        ], capture_output=True, text=True)
+        audio_dur = float(result.stdout.strip()) if result.stdout.strip() else 0
+        video_result = subprocess.run([
+            "ffprobe", "-v", "error", "-select_streams", "v",
+            "-show_entries", "stream=duration", "-of", "csv=p=0", concat_path
+        ], capture_output=True, text=True)
+        video_dur = float(video_result.stdout.strip()) if video_result.stdout.strip() else 0
+        if audio_dur < video_dur * 0.9:
+            print(f"  ⛔ AUDIO CHECK FAILED: audio={audio_dur:.1f}s video={video_dur:.1f}s — Seg2 audio likely missing!")
+        else:
+            print(f"  ✓ Audio check passed: audio={audio_dur:.1f}s video={video_dur:.1f}s")
         print(f"  ✓ Final video: {concat_path}")
 
     # Evaluate

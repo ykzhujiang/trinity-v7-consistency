@@ -208,10 +208,31 @@ def concat_hard_cut(seg1, seg2, output):
         f.write(f"file '{os.path.abspath(seg2)}'\n")
     result = subprocess.run(
         ["ffmpeg", "-f", "concat", "-safe", "0", "-i", concat_list,
-         "-c", "copy", "-y", output],
+         "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+         "-c:a", "aac", "-b:a", "128k",
+         "-movflags", "+faststart",
+         "-y", output],
         capture_output=True, text=True
     )
-    return result.returncode == 0
+    if result.returncode != 0:
+        return False
+    # Verify audio covers full duration
+    check = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "a",
+         "-show_entries", "stream=duration", "-of", "csv=p=0", output],
+        capture_output=True, text=True
+    )
+    audio_dur = float(check.stdout.strip()) if check.stdout.strip() else 0
+    vcheck = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "v",
+         "-show_entries", "stream=duration", "-of", "csv=p=0", output],
+        capture_output=True, text=True
+    )
+    video_dur = float(vcheck.stdout.strip()) if vcheck.stdout.strip() else 0
+    if audio_dur < video_dur * 0.9:
+        print(f"  ⛔ AUDIO CHECK FAILED: audio={audio_dur:.1f}s video={video_dur:.1f}s")
+        return False
+    return True
 
 
 def main():
