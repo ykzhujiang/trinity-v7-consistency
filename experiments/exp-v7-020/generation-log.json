@@ -1,0 +1,33 @@
+{
+  "experiment": "EXP-V7-020",
+  "hypothesis": "H-120: Segment末尾留~1s静默缓冲→跨Segment过渡更自然→评分≥8.5",
+  "story": "《最后一个Bug》创业搞笑日常",
+  "strategy": "Audio buffer A/B test, concurrent dual-track Seedance 2.0",
+  "concurrent": true,
+  "groups": {
+    "a-buffer": "Seg1 Part4 纯动作无对白(~1s buffer), 台词≤13s",
+    "b-nobuffer": "Seg1 Part4 有完整台词, 台词~14.5s"
+  },
+  "seedance_tasks": {
+    "a-buffer/anime/seg1": "pre-existing from cycle-874",
+    "a-buffer/realistic/seg1": "pre-existing from cycle-874",
+    "a-buffer/realistic/seg2": "pre-existing from cycle-874",
+    "b-nobuffer/anime/seg1": "pre-existing from cycle-874",
+    "b-nobuffer/realistic/seg1": "pre-existing from cycle-874",
+    "a-buffer/anime/seg2": "cgt-20260410210133-tqc8x (no image ref, video-only extension)",
+    "b-nobuffer/anime/seg2": "cgt-20260410210229-2bkzf (no image ref, video-only extension)",
+    "b-nobuffer/realistic/seg2": "cgt-20260410210034-spnkl (video-only extension)"
+  },
+  "issues": [
+    "Anime Seg2 initial attempts blocked by PrivacyInformation filter on last-frame image. Fixed by removing image ref, using video-only extension.",
+    "Previous cycle run stuck due to Gemini API 429/503 (asset generation). Skipped assets this cycle."
+  ],
+  "results": {
+    "a-buffer/anime": {"status": "success", "audio": "30.2s/30.1s", "size_kb": 13200},
+    "a-buffer/realistic": {"status": "success", "audio": "30.2s/30.1s", "size_kb": 11264},
+    "b-nobuffer/anime": {"status": "success", "audio": "30.2s/30.1s", "size_kb": 11893},
+    "b-nobuffer/realistic": {"status": "success", "audio": "30.2s/30.1s", "size_kb": 14618}
+  },
+  "timestamp": "2026-04-10T21:20:00+08:00",
+  "cycle": "CYCLE-operator-875"
+}
