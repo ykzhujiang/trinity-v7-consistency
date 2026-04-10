@@ -1,0 +1,14 @@
+{
+  "experiment": "EXP-V7-014",
+  "hypothesis": "H-133",
+  "status": "ABANDONED",
+  "reason": "Seedance OutputVideoSensitiveContentDetected — dark nighttime office chase scene likely flagged by content filter. Per standing order: immediate abandonment, no retry.",
+  "attempts": [
+    {"style": "anime", "seg": 1, "result": "OutputVideoSensitiveContentDetected"},
+    {"style": "realistic", "seg": 1, "result": "OutputVideoSensitiveContentDetected"},
+    {"style": "test", "prompt": "A Chinese man walking in an office hallway at night", "result": "OutputVideoSensitiveContentDetected"}
+  ],
+  "root_cause_guess": "Dark/nighttime + running/chasing in enclosed space triggers safety filter",
+  "recommendation": "Avoid nighttime chase scenes. Test high-action in well-lit daytime settings instead.",
+  "timestamp": "2026-04-10T19:50:00+08:00"
+}
