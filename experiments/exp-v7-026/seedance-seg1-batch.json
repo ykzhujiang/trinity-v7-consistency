@@ -1,0 +1,14 @@
+[
+  {
+    "id": "anime-seg1", "out": "anime-seg1.mp4",
+    "prompt": "Anime style. A 28-year-old Chinese man with short curly black hair and black-framed glasses sits at a modern office desk typing on a mechanical keyboard. He wears a dark blue hoodie. Dual monitors show scrolling code. Golden afternoon sunlight streams through a large floor-to-ceiling window on the left, casting warm light on his face and keyboard. A colleague with buzz-cut hair in a grey polo shirt walks up from the right, pats his shoulder. The seated man turns slightly, smiles and waves, saying something casually. The colleague nods, turns and walks away waving goodbye. The seated man turns back to the screen and resumes typing. White coffee mug on desk is mostly full. Warm golden color palette. Normal speed movements, natural pacing. No slow motion. Characters do not look at camera. No subtitles, no text overlay.",
+    "images": ["experiments/exp-v7-026/assets/anime/char-chenmo-portrait.webp", "experiments/exp-v7-026/assets/anime/char-wanglei-portrait.webp", "experiments/exp-v7-026/assets/anime/scene-office-daytime.webp"],
+    "duration": 15
+  },
+  {
+    "id": "realistic-seg1", "out": "realistic-seg1.mp4",
+    "prompt": "Photorealistic. A 28-year-old Chinese man with short curly black hair and black-framed glasses sits at a modern office desk typing on a mechanical keyboard. He wears a dark blue hoodie. Dual monitors show scrolling code. Golden afternoon sunlight streams through a large floor-to-ceiling window on the left, casting warm light on his face and keyboard. A colleague with buzz-cut hair in a grey polo shirt walks up from the right, pats his shoulder. The seated man turns slightly, smiles and waves, saying something casually. The colleague nods, turns and walks away waving goodbye. The seated man turns back to the screen and resumes typing. White coffee mug on desk is mostly full. Warm golden color palette. Normal speed movements, natural pacing. No slow motion. Characters do not look at camera. No subtitles, no text overlay.",
+    "images": ["experiments/exp-v7-026/assets/realistic/char-chenmo-portrait.webp", "experiments/exp-v7-026/assets/realistic/char-wanglei-portrait.webp", "experiments/exp-v7-026/assets/realistic/scene-office-daytime.webp"],
+    "duration": 15
+  }
+]

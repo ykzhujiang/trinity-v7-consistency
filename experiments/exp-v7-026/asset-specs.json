@@ -1,0 +1,22 @@
+[
+  {
+    "name": "chenmo-portrait",
+    "desc": "Portrait of Chen Mo, a 28 year old Chinese male, 175cm, short slightly curly black hair, black-framed glasses, thin face with slight dark circles under eyes, calm and introverted temperament, wearing dark blue hoodie. Upper body portrait, clean background, looking slightly to the right. East Asian male.",
+    "type": "character"
+  },
+  {
+    "name": "wanglei-portrait",
+    "desc": "Portrait of Wang Lei, a 27 year old Chinese male, 178cm, buzz cut black hair, square jaw, bright cheerful smile, wearing grey polo shirt. Upper body portrait, clean background, looking slightly to the left. East Asian male.",
+    "type": "character"
+  },
+  {
+    "name": "office-daytime",
+    "desc": "Modern startup open office workspace in afternoon. Dual monitors on desk, mechanical keyboard, white coffee mug, sticky notes scattered. Large floor-to-ceiling window on the left showing city skyline with golden afternoon sunlight streaming in casting window frame shadows on floor. Whiteboard with architecture diagrams on right wall. Empty workstations in background. Warm golden lighting. Contemporary Chinese city office.",
+    "type": "scene"
+  },
+  {
+    "name": "office-nighttime",
+    "desc": "Same modern startup open office workspace at night. Dual monitors on desk glowing blue-white, mechanical keyboard, white coffee mug nearly empty. Large floor-to-ceiling window on the left showing dark city nightscape with scattered distant lights. Only the desk screens illuminate the scene, rest of office is dim with faint green emergency lights in background. Same whiteboard and empty workstations visible in shadows. Cool blue-white screen lighting. Contemporary Chinese city office.",
+    "type": "scene"
+  }
+]

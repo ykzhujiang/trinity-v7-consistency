@@ -1,0 +1,16 @@
+[
+  {
+    "id": "anime-seg2", "out": "anime-seg2.mp4",
+    "prompt": "Anime style. Same office, same desk, now late at night. The room is dark, only dual monitor screens glow blue-white illuminating the Chinese man's face. His black-framed glasses reflect the screen light. The floor-to-ceiling window shows a dark city nightscape with scattered distant lights. The man rubs his right eye tiredly, then looks at the screen which flashes green text 'Build Succeeded'. His expression changes from exhaustion to relief, a tired but satisfied smile. He leans back in the chair, hands behind head, then picks up the white coffee mug, takes a sip, finds it nearly empty, shakes the mug slightly and smiles wryly. Cool blue-white lighting from screens. Normal speed movements, natural pacing. No slow motion. Character does not look at camera. No subtitles, no text overlay.",
+    "video": "experiments/exp-v7-026/output/anime-seg1.mp4",
+    "images": ["experiments/exp-v7-026/assets/anime/scene-office-nighttime.webp"],
+    "duration": 15
+  },
+  {
+    "id": "realistic-seg2", "out": "realistic-seg2.mp4",
+    "prompt": "Photorealistic. Same office, same desk, now late at night. The room is dark, only dual monitor screens glow blue-white illuminating the Chinese man's face. His black-framed glasses reflect the screen light. The floor-to-ceiling window shows a dark city nightscape with scattered distant lights. The man rubs his right eye tiredly, then looks at the screen which flashes green text 'Build Succeeded'. His expression changes from exhaustion to relief, a tired but satisfied smile. He leans back in the chair, hands behind head, then picks up the white coffee mug, takes a sip, finds it nearly empty, shakes the mug slightly and smiles wryly. Cool blue-white lighting from screens. Normal speed movements, natural pacing. No slow motion. Character does not look at camera. No subtitles, no text overlay.",
+    "video": "experiments/exp-v7-026/output/realistic-seg1.mp4",
+    "images": ["experiments/exp-v7-026/assets/realistic/scene-office-nighttime.webp"],
+    "duration": 15
+  }
+]
