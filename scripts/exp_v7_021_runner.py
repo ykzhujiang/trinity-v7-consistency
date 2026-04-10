@@ -275,16 +275,16 @@ def main():
 
     # --- Step 1: Generate assets ---
     asset_paths = {}
+    chars = {
+        "陈飞": CHAR_CHENFEI,
+        "王磊": CHAR_WANGLEI,
+        "赵总": CHAR_ZHAOZONG,
+    }
     if not args.skip_assets:
         print("=" * 60)
         print("Step 1: Generate character + scene assets (anime)")
         print("=" * 60)
 
-        chars = {
-            "陈飞": CHAR_CHENFEI,
-            "王磊": CHAR_WANGLEI,
-            "赵总": CHAR_ZHAOZONG,
-        }
         for name, desc in chars.items():
             path = os.path.join(assets_dir, f"char-{name}.webp")
             prompt = (
@@ -322,12 +322,16 @@ def main():
         if generate_asset(keys["gemini_key"], prompt, office_path, keys.get("gemini_base_url")):
             asset_paths["scene-office"] = office_path
     else:
-        # Load existing
+        # Load existing assets
         if os.path.exists(assets_dir):
             for f in os.listdir(assets_dir):
                 if f.endswith(".webp"):
-                    name = f.replace(".webp", "").replace("char-", "").replace("scene-", "scene-")
-                    asset_paths[name if "scene" in f else f.replace(".webp","").replace("char-","")] = os.path.join(assets_dir, f)
+                    if f.startswith("scene-"):
+                        key = f.replace(".webp", "")
+                    else:
+                        key = f.replace(".webp", "").replace("char-", "")
+                    asset_paths[key] = os.path.join(assets_dir, f)
+        print(f"Loaded existing assets: {list(asset_paths.keys())}")
 
     gen_log["assets"] = {k: str(v) for k, v in asset_paths.items()}
 

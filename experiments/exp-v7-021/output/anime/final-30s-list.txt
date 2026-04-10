@@ -1,0 +1,2 @@
+file '/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-021/output/anime/segment-01.mp4'
+file '/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-021/output/anime/segment-02.mp4'

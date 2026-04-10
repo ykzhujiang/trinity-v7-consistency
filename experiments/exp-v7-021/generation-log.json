@@ -1,0 +1,39 @@
+{
+  "experiment": "EXP-V7-021",
+  "hypothesis": "H-351: 跨Segment情绪梯度对比(轻松→紧张)不会破坏角色/场景一致性",
+  "story": "《融资大冒险》创业融资轻喜剧",
+  "style": "anime",
+  "mode": "video-extension",
+  "concurrent": false,
+  "segments": {
+    "seg1": {
+      "prompt": "@image1 is character 陈飞: 中国男性，25岁，170cm，偏瘦，短寸头黑发，国字脸，戴黑框方形眼镜，穿蓝色格子衬衫外扎进浅色牛仔裤棕色皮带白色运动鞋，表情丰富 @image2 is character 王磊: 中国男性，27岁，178cm，微壮，中长发微卷蓬松黑色，圆脸，穿黑色连帽衫黑色运动裤白色跑鞋，双手常插兜或交叉抱胸，表情淡定 @image3 is the cafe scene background\n\nAnime-style animated scene, warm color palette, cozy cafe.\nPhysical state: 陈飞坐在靠窗位左侧身体前倾双手撑桌面上，笔记本电脑屏幕朝向自己。王磊坐在对面右侧身体后靠椅背双手抱胸表情无聊看着窗外。桌上有两杯拿铁和几张写满字的A4纸。\nCamera: 中景侧面45度两人同框陈飞在左王磊在右\n\n[Part 1] 咖啡馆暖黄灯光下陈飞身体前倾双手拍桌面兴奋地看着王磊。陈飞 says \"咱这个项目绝对能融到钱，AI帮大学生写论文，刚需！\" 王磊慢慢把目光从窗外移回来看着陈飞微微挑眉。\n\n[Part 2] 王磊双手抱胸靠着椅背歪头看陈飞。王磊 says \"上个月你说AI遛狗是刚需，上上个月说AI算命是刚需。\" 陈飞一愣然后用手推了推眼镜嘿嘿笑了两声低头翻A4纸。\n\n[Part 3] 陈飞从A4纸堆里抽出一张举到王磊面前用食指点着上面的数字。陈飞 says \"你看这个市场规模，三千亿！我算过了第一年就能回本。\" 王磊伸手把纸拿过来扫了一眼嘴角抽了一下。王磊 says \"你这个三千亿是把全球大学生都算进去了吧。\"\n\n[Part 4] 陈飞站起来双手握拳放胸前摆出加油的姿势。陈飞 says \"明天见投资人，你就负责技术讲解，我来画饼。\" 王磊没动继续靠椅背。王磊抬手端起拿铁喝了一口放下杯子。\n\nNo subtitles, no slow motion, no characters looking at camera. Normal speed movement and natural dialogue pacing. 9:16 vertical format. Warm interior lighting consistent throughout. All characters are Chinese East Asian.",
+      "images": [
+        "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-021/output/shared-assets/anime/char-陈飞.webp",
+        "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-021/output/shared-assets/anime/char-王磊.webp",
+        "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-021/output/shared-assets/anime/scene-cafe.webp"
+      ]
+    },
+    "seg2": {
+      "prompt": "Extend @video1 by 15 seconds. Scene transitions from a warm cafe to a cold-toned modern meeting room. The same two young Chinese men (陈飞 in blue plaid shirt, 王磊 in black hoodie) now sit nervously at a meeting table facing a stern Chinese businesswoman in her 40s (赵总: short black hair, dark grey suit). Physical state: 陈飞坐在会议桌左侧椅子上身体僵硬挺直双手交叉放桌面上笔记本电脑翻开放面前。王磊坐在陈飞右侧微微驼背双手放膝盖上低头看桌面。赵总坐在对面正中位置双手交叠放桌上表情严肃直视二人。\nCamera: 中景正面偏左，陈飞和王磊坐在近侧并排赵总在对面\n\n[Part 1] 冷白灯光下会议室安静。陈飞吞了一下口水双手在桌面下搓了搓转头看了王磊一眼。王磊微微点头。陈飞转回来清嗓子看向赵总。陈飞 says \"赵总您好，我们的项目叫智学通。\"\n\n[Part 2] 赵总双手交叠不动表情没变眼神锐利盯着陈飞。赵总 says \"你们的技术壁垒在哪里？市面上同类产品至少有二十个。\" 陈飞嘴巴张了张没发出声音额头冒出细汗。\n\n[Part 3] 王磊看到陈飞卡住坐直身体双手撑桌面开口。王磊 says \"我们用了自研的语义分析引擎准确率比市面高15个百分点。\" 赵总目光转向王磊微微眯眼嘴角没有任何变化。\n\n[Part 4] 赵总沉默三秒低头翻了一页文件又抬头看着二人。陈飞和王磊对视一眼都咽了一下口水。赵总右手食指轻轻敲了一下桌面。赵总 says \"说一个理由，让我在一分钟内不把你们赶出去。\" \n\nMaintain exact same character appearances for 陈飞 and 王磊 from the previous segment. New character 赵总 is Chinese female 40s short hair grey suit. Cold blue-white lighting. Tense atmosphere. No subtitles, no slow motion, no characters looking at camera. Normal speed movement. 9:16 vertical format. All characters are Chinese East Asian.",
+      "images": [],
+      "mode": "video-extension-no-imageref"
+    }
+  },
+  "issues": [],
+  "timestamp_start": "2026-04-10T22:35:40+0800",
+  "assets": {
+    "王磊": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-021/output/shared-assets/anime/char-王磊.webp",
+    "陈飞": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-021/output/shared-assets/anime/char-陈飞.webp",
+    "赵总": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-021/output/shared-assets/anime/char-赵总.webp",
+    "scene-cafe": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-021/output/shared-assets/anime/scene-cafe.webp",
+    "scene-office": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-021/output/shared-assets/anime/scene-office.webp"
+  },
+  "result": "SUCCESS",
+  "final_video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-021/output/anime/final-30s.mp4",
+  "final_audio": {
+    "audio_s": 30.161973,
+    "video_s": 30.083333
+  },
+  "timestamp_end": "2026-04-10T22:50:13+0800"
+}
