@@ -1,0 +1,26 @@
+{
+  "experiment": "EXP-V7-014",
+  "hypothesis": "H-133",
+  "strategy": "Version D (FFA + PSE + video ext + Crossfade)",
+  "style": "anime",
+  "story": "深夜加班侠 — 高动作密度追逐喜剧",
+  "genre": "action-comedy",
+  "character_count": 2,
+  "action_density": "HIGH",
+  "status": "COMPLETE",
+  "reason": "OK",
+  "timestamp": "2026-04-10T18:17:54+0800",
+  "seg1_prompt": "@image1 as character 小张, @image2 as character 老周. Physical state: 小张坐在黑暗办公区角落工位，驼背弓腰面对发光显示器，双手放键盘上，黑色有线耳机挂脖子一只耳塞在左耳，灰色卫衣帽子垂在后面。老周站在办公区玻璃门外走廊里，右手举黄色手电筒照前方，左手搭腰间对讲机上，保安制服肩章反光。\nCamera: Medium shot from office side. 小张 (grey hoodie, messy hair, earphones on neck) sitting at desk on left, glass door on right. Slightly above seated eye level.\n\n[Part 1] 小张驼背坐在工位上双手敲键盘，显示器蓝光映在脸上黑眼圈明显。左耳塞着耳机隐约听到走廊脚步声手指停住。小张缓慢摘下左耳耳机侧头听，眼神紧张瞟向玻璃门方向。\n\n[Part 2] 玻璃门被推开黄色手电光扫过办公区。老周站在门口手电照到小张工位。小张转过办公椅面对老周挤出尴尬笑容双手在裤腿上擦汗。小张 says \"我是新来的实习生，加班呢。\"\n\n[Part 3] 老周从制服胸口口袋掏出薄册子翻开手指点名单抬头看小张。手电筒夹在腋下照着册子。老周 says \"实习生六点就走光了，你哪个部门的？\" 小张嘴角抽搐目光快速瞟向门口身体微前倾。\n\n[Part 4] 小张猛地从椅子弹起冲向门口，脚绊到办公椅轮子踉跄一下没摔倒，卫衣帽子被风甩起又落下。老周追上去时手电筒从腋下滑出掉地上咣当弹了两下，手电光在地面疯狂旋转。\n\nNo subtitles, no slow motion, no characters looking at camera. Natural speed movement, natural pacing, FAST action sequences. 9:16 vertical format. Consistent dim lighting with emergency light sources. All characters are Chinese (East Asian). Comedy-action tone — physical comedy, exaggerated reactions, fast movement. TWO characters: hoodie-programmer (小张, young thin pale) and security-guard (老周, older stocky dark-blue uniform).\nAll dialogue must finish by second 13. Leave at least 1 second of silence at end of segment.",
+  "seg2_prompt": "@image1 as the first frame of this scene (continue from here), @image2 as character 小张, @image3 as character 老周. Extend @video1 by 15 seconds. Scene transitions from dark office to stairwell — same building, continuous chase. Same two characters with IDENTICAL appearance and clothing. Continuing from previous segment, scene changes from office to stairwell. [小张] Chinese male 24yo, thin tall, messy medium-length black hair covering ears, narrow long face, pale skin with dark eye circles, sparse eyebrows, GREY HOODIE (hood hanging back) BLACK SWEATPANTS WHITE SNEAKERS, BLACK WIRED EARPHONES around neck with cable swinging. Running down grey concrete stairs, right hand on metal railing, hoodie bouncing, earphone cable swinging on chest. [老周] Chinese male 45yo, stocky chubby, GREY-WHITE BUZZ CUT, square face thick eyebrows big eyes, dark rough skin, grey-white stubble, DARK BLUE SECURITY UNIFORM with shoulder patches and badge, BLACK LEATHER SHOES. No flashlight (dropped in previous scene). At upper stairwell landing, left hand on railing, panting, uniform slightly wrinkled. Setting: office building stairwell, grey concrete stairs, metal handrails, green emergency exit lights, dim enclosed space. Anime style illustration, dynamic action poses.\n\nCamera: Medium shot from stairwell side, both levels visible. Same side as Seg1, no axis crossing.\n\n[Part 1] 小张冲进楼梯间右手抓扶手往下跑，脚步声在空旷楼梯间回响。回头看到老周的身影出现在上方楼梯口。绿色应急灯光映在小张脸上表情惊慌，耳机线胸前甩动。\n\n[Part 2] 小张跑下两层楼梯差点撞上墙角红色消防栓，身体猛地侧闪右肩贴墙滑过去。老周在上方扶着栏杆喘气大喊。老周 says \"别跑了！站住！\" 声音在楼梯间回荡。\n\n[Part 3] 小张冲到一楼大厅双手推玻璃门推不动，低头看到铁链锁整个人僵住。缓缓转身背靠玻璃门，看到老周不紧不慢走下最后一段楼梯。小张双手垂身侧表情绝望。\n\n[Part 4] 老周走到小张面前气喘吁吁但脸上露出无奈的笑。从制服口袋掏出一瓶矿泉水递给小张。老周 says \"每个月都有一个像你这样的，来，喝口水。\" 小张接过水瓶两人对视，小张尴尬地笑了。\n\nNo subtitles, no slow motion, no characters looking at camera. Natural speed movement, natural pacing, FAST action sequences. 9:16 vertical format. Consistent dim lighting with emergency light sources. All characters are Chinese (East Asian). Comedy-action tone — physical comedy, exaggerated reactions, fast movement. TWO characters: hoodie-programmer (小张, young thin pale) and security-guard (老周, older stocky dark-blue uniform).\nAll dialogue must finish by second 13. Leave at least 1 second of silence at end of segment.",
+  "seg1_images": [
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-014/output/anime/assets/char-小张.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-014/output/anime/assets/char-老周.webp"
+  ],
+  "seg2_images": [
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-014/output/anime/seg1-last-frame.jpg",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-014/output/anime/assets/char-小张.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-014/output/anime/assets/char-老周.webp"
+  ],
+  "concat_ok": true,
+  "text_only": false
+}
