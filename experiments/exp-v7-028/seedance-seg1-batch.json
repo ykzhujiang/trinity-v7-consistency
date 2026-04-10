@@ -1,0 +1,18 @@
+[
+  {
+    "name": "seg1-condA-textonly",
+    "prompt": "Photorealistic live-action style, real human actors, natural lighting and skin texture, cinematic photography, NOT anime, NOT 3D animation, NOT cartoon. A cozy cafe with a small round wooden table, two latte cups, afternoon sunlight through sheer curtains. Medium shot from front, slightly angled right 10 degrees, two people seated at table. MAN (Chinese male, 30 years old, short side-parted black hair, slim face, black turtleneck sweater) sits on right side, picks up coffee cup with right hand, tilts it to his lips, gazes over the rim at WOMAN. WOMAN (Chinese female, 28 years old, long brown curly hair, oval face, beige trench coat over white blouse) sits on left side, both hands cupping her coffee cup, looking down at the latte art, lips slightly smiling. Dappled sunlight on the table. Then WOMAN looks up at MAN, puts down cup, right hand brushes curly hair behind ear, eyes brightening. MAN puts down coffee, leans forward to listen intently. Then MAN raises eyebrows, smiles broadly, right hand lightly taps table once. WOMAN crosses hands on table, smiles proudly, chin slightly raised. Finally WOMAN raises cup in a toast gesture, MAN also raises his cup, the two cups gently touch above the table. Both smile at each other warmly. Normal speed, natural pacing. No slow motion, no facing camera, no subtitles, no text overlay.",
+    "images": [],
+    "duration": 15,
+    "ratio": "9:16",
+    "out": "seg1-condA-textonly.mp4"
+  },
+  {
+    "name": "seg1-condB-withref",
+    "prompt": "Photorealistic live-action style, real human actors, natural lighting and skin texture, cinematic photography, NOT anime, NOT 3D animation, NOT cartoon. A cozy cafe with a small round wooden table, two latte cups, afternoon sunlight through sheer curtains. Medium shot from front, slightly angled right 10 degrees, two people seated at table. MAN (Chinese male, 30 years old, short side-parted black hair, slim face, black turtleneck sweater) sits on right side, picks up coffee cup with right hand, tilts it to his lips, gazes over the rim at WOMAN. WOMAN (Chinese female, 28 years old, long brown curly hair, oval face, beige trench coat over white blouse) sits on left side, both hands cupping her coffee cup, looking down at the latte art, lips slightly smiling. Dappled sunlight on the table. Then WOMAN looks up at MAN, puts down cup, right hand brushes curly hair behind ear, eyes brightening. MAN puts down coffee, leans forward to listen intently. Then MAN raises eyebrows, smiles broadly, right hand lightly taps table once. WOMAN crosses hands on table, smiles proudly, chin slightly raised. Finally WOMAN raises cup in a toast gesture, MAN also raises his cup, the two cups gently touch above the table. Both smile at each other warmly. Normal speed, natural pacing. No slow motion, no facing camera, no subtitles, no text overlay.",
+    "images": ["experiments/exp-v7-028/assets/char-man-realistic.webp", "experiments/exp-v7-028/assets/char-woman-realistic.webp", "experiments/exp-v7-028/assets/scene-cafe-realistic.webp"],
+    "duration": 15,
+    "ratio": "9:16",
+    "out": "seg1-condB-withref.mp4"
+  }
+]

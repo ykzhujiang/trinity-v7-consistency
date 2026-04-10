@@ -1,0 +1,16 @@
+[
+  {
+    "ok": false,
+    "path": "experiments/exp-v7-028/output/experiments/exp-v7-028/output/seg1-condB-withref.mp4",
+    "error": "ERROR [400]: {\n  \"error\": {\n    \"code\": \"InputImageSensitiveContentDetected.PrivacyInformation\",\n    \"message\": \"The request failed because the input image may contain real person. Request id: 021775854809290e8eb33bba790666117f5ace3387e1842e607ec\",\n    \"param\": \"\",\n    \"type\": \"BadRequest\"\n  }\n}\n",
+    "elapsed": 6.253350019454956,
+    "id": "seg1-condB-withref"
+  },
+  {
+    "ok": false,
+    "path": "experiments/exp-v7-028/output/experiments/exp-v7-028/output/seg1-condA-textonly.mp4",
+    "error": "\nTask cgt-20260411050009-82pq9 submitted. Polling...\n  [10s] status=running\n  [20s] status=running\n  [30s] status=running\n  [40s] status=running\n  [50s] status=running\n  [60s] status=running\n  [70s] status=running\n  [85s] status=running\n  [100s] status=running\n  [115s] status=running\n  [130s] status=running\n  [145s] status=running\n  [160s] status=running\n  [175s] status=failed\nERROR: Task failed\n",
+    "elapsed": 178.9769787788391,
+    "id": "seg1-condA-textonly"
+  }
+]

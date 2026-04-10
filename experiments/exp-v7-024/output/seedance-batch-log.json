@@ -1,0 +1,14 @@
+[
+  {
+    "ok": true,
+    "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-024/output/realistic-seg1.mp4",
+    "elapsed": 355.4445221424103,
+    "id": "realistic-seg1"
+  },
+  {
+    "ok": true,
+    "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-024/output/anime-seg1.mp4",
+    "elapsed": 469.3680889606476,
+    "id": "anime-seg1"
+  }
+]

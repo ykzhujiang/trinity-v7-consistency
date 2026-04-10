@@ -1,0 +1,5 @@
+[
+  {"name": "man-realistic", "type": "character", "style": "realistic", "desc": "Professional headshot photograph. A 30-year-old East Asian man with short neat black hair parted to the side. He has a slim angular face. He is wearing a solid black turtleneck sweater. Plain light gray background. Studio lighting. This is a LinkedIn profile photo style image. Ultra-realistic RAW photo."},
+  {"name": "woman-realistic", "type": "character", "style": "realistic", "desc": "Professional headshot photograph. A 28-year-old East Asian woman with long wavy brown hair past her shoulders. She has a soft oval face. She is wearing a beige trench coat over a white collared blouse. Plain light gray background. Studio lighting. This is a LinkedIn profile photo style image. Ultra-realistic RAW photo."},
+  {"name": "cafe-realistic", "type": "scene", "style": "realistic", "desc": "Interior photograph of a real coffee shop. A small round wooden table with two white ceramic latte cups. Warm afternoon sunlight coming through a window with sheer curtains. Cozy atmosphere with wooden furniture. Real interior photography."}
+]

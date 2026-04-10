@@ -1,0 +1,18 @@
+[
+  {
+    "name": "seg2-condA-textonly",
+    "prompt": "Photorealistic live-action style, real human actors, natural lighting and skin texture, cinematic photography, NOT anime, NOT 3D animation, NOT cartoon. Same cozy cafe, same angle as previous shot (180 degree rule). Two people just finished clinking cups, now putting them down. WOMAN (Chinese female, 28, long brown curly hair, beige trench coat, white blouse) puts down cup, expression suddenly becomes serious, leans back slightly against chair, gazes out the window. MAN (Chinese male, 30, short side-parted black hair, black turtleneck) notices her change, holds cup near his lips, looks at her with concern. Afternoon sunlight falls on WOMAN side profile. Then MAN slowly puts down cup, crosses hands on table, leans forward, gazes at WOMAN intently. WOMAN turns back to look at MAN, a hint of tiredness but resolve in her eyes. Then WOMAN takes a deep breath, a smile gradually appears, right hand makes a gentle fist on the table. MAN also smiles, left hand lightly pats WOMAN fist on the table. Finally both smile at each other, WOMAN picks up coffee and takes a slow sip, MAN leans back in chair relaxed watching her, the sunlight outside becomes warmer. Peaceful happy atmosphere. Normal speed, natural pacing. No slow motion, no facing camera, no subtitles, no text overlay.",
+    "video": "experiments/exp-v7-028/output/seg1-condA-textonly.mp4",
+    "out": "experiments/exp-v7-028/output/seg2-condA-textonly.mp4"
+  },
+  {
+    "name": "seg2-condB-withref",
+    "prompt": "Photorealistic live-action style, real human actors, natural lighting and skin texture, cinematic photography, NOT anime, NOT 3D animation, NOT cartoon. Same cozy cafe, same angle as previous shot (180 degree rule). Two people just finished clinking cups, now putting them down. WOMAN (Chinese female, 28, long brown curly hair, beige trench coat, white blouse) puts down cup, expression suddenly becomes serious, leans back slightly against chair, gazes out the window. MAN (Chinese male, 30, short side-parted black hair, black turtleneck) notices her change, holds cup near his lips, looks at her with concern. Afternoon sunlight falls on WOMAN side profile. Then MAN slowly puts down cup, crosses hands on table, leans forward, gazes at WOMAN intently. WOMAN turns back to look at MAN, a hint of tiredness but resolve in her eyes. Then WOMAN takes a deep breath, a smile gradually appears, right hand makes a gentle fist on the table. MAN also smiles, left hand lightly pats WOMAN fist on the table. Finally both smile at each other, WOMAN picks up coffee and takes a slow sip, MAN leans back in chair relaxed watching her, the sunlight outside becomes warmer. Peaceful happy atmosphere. Normal speed, natural pacing. No slow motion, no facing camera, no subtitles, no text overlay.",
+    "video": "experiments/exp-v7-028/output/seg1-condB-withref.mp4",
+    "images": [
+      "experiments/exp-v7-028/assets/char-man-realistic.webp",
+      "experiments/exp-v7-028/assets/char-woman-realistic.webp"
+    ],
+    "out": "experiments/exp-v7-028/output/seg2-condB-withref.mp4"
+  }
+]

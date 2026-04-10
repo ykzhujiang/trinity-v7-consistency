@@ -1,0 +1,20 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "Physical state: 主角坐在办公椅上，面对双屏显示器（屏幕代码滚动光映在脸上）。桌上3个空纸杯、零食袋、充电线缠绕。台灯暖黄光。周围工位漆黑，只有远处窗外城市暖色灯光。\n\n[Part 1] Medium shot from behind-left 45 degrees. Anime-style Chinese male 28yo with messy short hair and black-frame glasses wearing wrinkled gray hoodie sits at desk facing dual monitors with red error code. His hands stop on keyboard, right hand lifts to rub temple, left hand presses laptop edge. Deep frown. He sighs and says \"第37次了…同一个bug…同一个位置…\"\n\n[Part 2] Close-up of face right side. Warm desk lamp light on face, code reflected in glasses. He smirks bitterly, mouth corner twitches. Right hand pushes glasses up revealing dark circles under eyes. He says sarcastically \"当初非说'三天上线'…现在第三天了，线还没理清…\"\n\n[Part 3] Medium-close from front slightly right. Background: dark office, distant warm city lights through window. He grabs last paper cup to drink, finds it empty, tosses it in trash. Deep breath, fingers return to keyboard. No dialogue. Keyboard typing sounds start, rhythm speeds up.\n\n[Part 4] Side close-up, character on left of frame. Monitor screen changes from red error to green success. His typing suddenly stops. He stares at screen 3 seconds, expression shifts from blank to slightly widened eyes. Lips move but no words. ~1 second silence. Background: distant AC hum.\n\nNo subtitles, no slow motion, no character looking at camera. Normal speed movement and natural pacing. 9:16 vertical. Warm indoor lighting throughout, warm color temperature, absolutely no cold blue tones. Generic modern Asian city skyline through windows.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-024/output/assets/char-陈磊-anime.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-024/output/assets/scene-office-night-anime.webp"
+    ],
+    "out": "anime-seg1.mp4"
+  },
+  {
+    "id": "realistic-seg1",
+    "prompt": "Physical state: 主角坐在办公椅上，面对双屏显示器（屏幕代码滚动光映在脸上）。桌上3个空纸杯、零食袋、充电线缠绕。台灯暖黄光。周围工位漆黑，只有远处窗外城市暖色灯光。\n\n[Part 1] Medium shot from behind-left 45 degrees. Chinese male 28yo with messy short hair and black-frame glasses wearing wrinkled gray hoodie sits at desk facing dual monitors with red error code. His hands stop on keyboard, right hand lifts to rub temple, left hand presses laptop edge. Deep frown. He sighs and says \"第37次了…同一个bug…同一个位置…\"\n\n[Part 2] Close-up of face right side. Warm desk lamp light on face, code reflected in glasses. He smirks bitterly, mouth corner twitches. Right hand pushes glasses up revealing dark circles under eyes. He says sarcastically \"当初非说'三天上线'…现在第三天了，线还没理清…\"\n\n[Part 3] Medium-close from front slightly right. Background: dark office, distant warm city lights through window. He grabs last paper cup to drink, finds it empty, tosses it in trash. Deep breath, fingers return to keyboard. No dialogue. Keyboard typing sounds start, rhythm speeds up.\n\n[Part 4] Side close-up, character on left of frame. Monitor screen changes from red error to green success. His typing suddenly stops. He stares at screen 3 seconds, expression shifts from blank to slightly widened eyes. Lips move but no words. ~1 second silence. Background: distant AC hum.\n\nNo subtitles, no slow motion, no character looking at camera. Normal speed movement and natural pacing. 9:16 vertical. Warm indoor lighting throughout, warm color temperature, absolutely no cold blue tones. Generic modern Asian city skyline through windows.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-024/output/assets/char-陈磊-realistic.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-024/output/assets/scene-office-night-realistic.webp"
+    ],
+    "out": "realistic-seg1.mp4"
+  }
+]

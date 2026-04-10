@@ -1,0 +1,52 @@
+{
+  "experiment": "EXP-V7-028",
+  "timestamp": "2026-04-11T05:44:16+0800",
+  "conditions": {
+    "condA-seg1": {
+      "prompt": "A cozy cafe, afternoon sunlight through sheer curtains, small wooden table with two lattes. A 30-year-old Chinese East Asian man with short black hair parted to the side, slim angular face, wearing a ...",
+      "images": [],
+      "result": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-028/output/condA-seg1.mp4",
+        "elapsed": 210.0152337551117,
+        "error": ""
+      }
+    },
+    "condB-seg1": {
+      "prompt": "A cozy cafe, afternoon sunlight through sheer curtains, small wooden table with two lattes. A 30-year-old Chinese East Asian man with short black hair parted to the side, slim angular face, wearing a ...",
+      "images": [
+        "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-028/assets/char-man-illustration.webp",
+        "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-028/assets/char-woman-illustration.webp",
+        "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-028/assets/scene-cafe-illustration.webp"
+      ],
+      "result": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-028/output/condB-seg1.mp4",
+        "elapsed": 410.0306751728058,
+        "error": ""
+      }
+    },
+    "condB-seg2": {
+      "prompt": "Continuing in the same cozy cafe. A 30-year-old Chinese East Asian man with short black hair parted to the side, slim angular face, wearing a solid black turtleneck sweater. A 28-year-old Chinese East...",
+      "result": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-028/output/condB-seg2.mp4",
+        "elapsed": 460.57187008857727,
+        "error": ""
+      }
+    },
+    "condA-seg2": {
+      "prompt": "Continuing in the same cozy cafe. A 30-year-old Chinese East Asian man with short black hair parted to the side, slim angular face, wearing a solid black turtleneck sweater. A 28-year-old Chinese East...",
+      "result": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-028/output/condA-seg2.mp4",
+        "elapsed": 517.8878169059753,
+        "error": ""
+      }
+    }
+  },
+  "finals": {
+    "condA": null,
+    "condB": null
+  }
+}

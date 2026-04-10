@@ -1,0 +1,20 @@
+[
+  {
+    "name": "man-illustration",
+    "type": "character",
+    "style": "realistic",
+    "desc": "Digital painting portrait of a 30-year-old Chinese man with short neat black hair parted to the side, slim angular face, wearing a solid black turtleneck sweater. 3D rendered illustration style, soft studio lighting, clean background. NOT a photograph. Anime-inspired semi-realistic digital art."
+  },
+  {
+    "name": "woman-illustration",
+    "type": "character",
+    "style": "realistic",
+    "desc": "Digital painting portrait of a 28-year-old Chinese woman with long wavy brown hair past her shoulders, soft oval face, wearing a beige trench coat over a white collared blouse. 3D rendered illustration style, soft studio lighting, clean background. NOT a photograph. Anime-inspired semi-realistic digital art."
+  },
+  {
+    "name": "cafe-illustration",
+    "type": "scene",
+    "style": "realistic",
+    "desc": "Digital painting of a cozy coffee shop interior. Small round wooden table with two white ceramic latte cups. Warm afternoon sunlight through a window with sheer curtains. Wooden furniture, warm tones. Illustrated environment concept art style."
+  }
+]
