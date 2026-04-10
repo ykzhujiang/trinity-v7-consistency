@@ -1,0 +1,14 @@
+{
+  "experiment": "EXP-V7-013",
+  "hypothesis": "H-132",
+  "strategy": "Version D (text-only + video extension, NO image refs)",
+  "style": "realistic",
+  "approach": "PURE TEXT + VIDEO EXTENSION — zero image references to avoid privacy filter",
+  "story": "合伙人 — 3角色创业喜剧",
+  "character_count": 3,
+  "seg2_prompt_length": 2937,
+  "crossfade_duration": 0.4,
+  "audio_check_passed": true,
+  "status": "COMPLETED",
+  "timestamp": "2026-04-10T17:33:00+0800"
+}
