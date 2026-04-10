@@ -1,0 +1,64 @@
+{
+  "experiment": "EXP-V7-023",
+  "hypothesis": "H-355: Playbook v2全约束 + T0题材重生×创业 → 一致性+评分≥9.0",
+  "story": "《重生2005：域名注册》",
+  "concurrent_dual_track": true,
+  "tracks": {
+    "anime": {
+      "style": "anime",
+      "segments": {
+        "seg1": {
+          "prompt": "@image1 is character 主角: 中国男性，22岁，175cm，偏瘦短发黑色，穿旧灰色卫衣和深蓝运动裤白色运动鞋，面容年轻清瘦 @image2 is the 2005 university dormitory scene\n\nAnime-style animated scene, 2005 Chinese university dormitory, warm winter afternoon light.\nPhysical state: 主角坐在上铺床沿，双脚悬空。室友在对面下铺蜷缩侧睡只露后背和被子。冬日阳光从窗帘缝隙透入。\nCamera: 中景偏俯从宿舍门口方向拍主角在上铺\n\n[Part 1] 宿舍内暖黄光线中主角猛然从上铺坐起左手撑床沿右手下意识摸自己脸颊。眼睛睁大嘴微张表情从困惑到震惊。主角 says \"这…这是宿舍？\"\n\n[Part 2] 特写主角双手手指细长年轻皮肤光滑。主角低头仔细端详双手翻转右手食指按压左手腕感受脉搏。表情从震惊转为困惑。无台词只有走廊远处隐约脚步声。\n\n[Part 3] 中景从窗户方向拍向主角背光剪影效果阳光勾勒轮廓。主角深呼吸胸腔起伏明显然后嘴角缓缓上扬眼神从迷茫变为锐利。主角 says \"2005年…互联网的黄金十年还没开始…\"\n\n[Part 4] 中全景从侧面拍主角翻身准备下床脚先落地。远处室友翻身但没醒只露背影。主角双手轻撑上铺边缘沉稳翻身下床落地动作轻盈。直起身拿起床头桌上旧手机看一眼面带微笑目光坚定。无台词。\n\nNo subtitles, no slow motion, no characters looking at camera. Normal speed movement and natural dialogue pacing. 9:16 vertical format. Warm winter afternoon light. Character is Chinese East Asian male 22 years old. All dialogue must finish before the 14 second mark, leaving ~1s silence buffer at end.",
+          "images": [
+            "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-023/output/shared-assets/anime/char-主角.webp",
+            "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-023/output/shared-assets/anime/scene-dorm.webp"
+          ]
+        },
+        "seg2": {
+          "prompt": "Extend @video1 by 15 seconds. Anime-style animation.\nScene transitions from university dormitory room to dormitory hallway of the same building. Same Chinese male (22, short black hair, old grey hoodie, dark blue sweatpants, white sneakers) now stands in the hallway by a window.\nPhysical state: 主角站在走廊靠窗位置，右肩靠窗框，左手持旧手机。走廊空无一人。冬日阳光从走廊尽头照来。\nCamera: 中景从走廊一端向主角拍主角在画面右1/3处靠窗\n\n[Part 1] 走廊落地窗冬日阳光照入。主角右肩靠着窗框左手举起旧手机看屏幕眉头微挑嘴角带笑。主角 says \"2005年1月…域名注册还来得及。\"\n\n[Part 2] 近景胸部以上微侧面窗外光线打在脸上一半。主角收起手机放进卫衣口袋右手食指在窗框上无意识敲击在思考。眼神望向走廊远处。主角 says \"第一步，先把域名注册了。2005年，点com域名还便宜…\"\n\n[Part 3] 中景从走廊另一端拍窗外能看到校园操场和光秃秃的树。主角推窗冷空气涌入可见微微呼气白雾。闭眼深吸一口气然后睁眼眼神清澈有力。无台词只有远处操场跑步声。\n\n[Part 4] 全景从走廊拐角方向拍主角在画面中间偏左走廊纵深感强。主角转身步伐轻快但坚定向走廊尽头走去卫衣下摆随步伐摆动不回头。无台词脚步声渐远画面定格在空荡走廊和窗外阳光。\n\nMaintain exact same character appearance from previous segment. Same warm winter daylight. Dormitory hallway of the same building. No subtitles, no slow motion, no characters looking at camera. Normal speed movement. 9:16 vertical. Character is Chinese East Asian male. Period-accurate 2005 setting (old flip phone, no smartphones). All dialogue must finish before the 14 second mark, leaving ~1s silence buffer at end.",
+          "mode": "video-extension"
+        }
+      },
+      "issues": [],
+      "timing": {
+        "seg1_seconds": 328.39181685447693,
+        "seg2_seconds": 491.03879594802856,
+        "total_seconds": 821.3694581985474
+      },
+      "result": "SUCCESS",
+      "final_video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-023/output/anime/final-30s.mp4",
+      "final_audio": {
+        "audio_s": 30.161973,
+        "video_s": 30.083333
+      }
+    },
+    "realistic": {
+      "style": "realistic",
+      "segments": {
+        "seg1": {
+          "prompt": "Live-action cinematic scene. 2005 Chinese university dormitory, winter afternoon. Warm natural light filtering through old curtains.\nOne character: Chinese male, 22 years old, thin build, short black hair, wearing an old grey hoodie and dark blue sweatpants and white sneakers. Young clean-shaven face.\nPhysical state: 主角坐在上铺床沿，双脚悬空。室友在对面下铺蜷缩侧睡只露后背和被子。冬日阳光从窗帘缝隙透入。\nCamera: Medium shot slightly overhead, from dormitory doorway direction.\n\n[Part 1] 宿舍内暖黄光线中主角猛然从上铺坐起左手撑床沿右手下意识摸自己脸颊。眼睛睁大嘴微张表情从困惑到震惊。主角 says \"这…这是宿舍？\"\n\n[Part 2] 特写主角双手手指细长年轻皮肤光滑。主角低头仔细端详双手翻转右手食指按压左手腕感受脉搏。表情从震惊转为困惑。无台词只有走廊远处隐约脚步声。\n\n[Part 3] 中景从窗户方向拍向主角背光剪影效果阳光勾勒轮廓。主角深呼吸胸腔起伏明显然后嘴角缓缓上扬眼神从迷茫变为锐利。主角 says \"2005年…互联网的黄金十年还没开始…\"\n\n[Part 4] 中全景从侧面拍主角翻身准备下床脚先落地。远处室友翻身但没醒只露背影。主角双手轻撑上铺边缘沉稳翻身下床落地动作轻盈。直起身拿起床头桌上旧手机看一眼面带微笑目光坚定。无台词。\n\nFilm-quality realistic cinematography. Warm winter daylight. No subtitles, no slow motion, no characters looking at camera. Normal speed movement and natural dialogue pacing. 9:16 vertical. Character is Chinese East Asian male. Period-accurate 2005 setting (old CRT monitors, flip phones). All dialogue must finish before the 14 second mark, leaving ~1s silence buffer at end.",
+          "images": []
+        },
+        "seg2": {
+          "prompt": "Extend @video1 by 15 seconds. Live-action cinematic.\nScene transitions from university dormitory room to dormitory hallway of the same building. Same Chinese male (22, short black hair, old grey hoodie, dark blue sweatpants, white sneakers) now stands in the hallway by a window.\nPhysical state: 主角站在走廊靠窗位置，右肩靠窗框，左手持旧手机。走廊空无一人。冬日阳光从走廊尽头照来。\nCamera: 中景从走廊一端向主角拍主角在画面右1/3处靠窗\n\n[Part 1] 走廊落地窗冬日阳光照入。主角右肩靠着窗框左手举起旧手机看屏幕眉头微挑嘴角带笑。主角 says \"2005年1月…域名注册还来得及。\"\n\n[Part 2] 近景胸部以上微侧面窗外光线打在脸上一半。主角收起手机放进卫衣口袋右手食指在窗框上无意识敲击在思考。眼神望向走廊远处。主角 says \"第一步，先把域名注册了。2005年，点com域名还便宜…\"\n\n[Part 3] 中景从走廊另一端拍窗外能看到校园操场和光秃秃的树。主角推窗冷空气涌入可见微微呼气白雾。闭眼深吸一口气然后睁眼眼神清澈有力。无台词只有远处操场跑步声。\n\n[Part 4] 全景从走廊拐角方向拍主角在画面中间偏左走廊纵深感强。主角转身步伐轻快但坚定向走廊尽头走去卫衣下摆随步伐摆动不回头。无台词脚步声渐远画面定格在空荡走廊和窗外阳光。\n\nMaintain exact same character appearance from previous segment. Same warm winter daylight. Dormitory hallway of the same building. No subtitles, no slow motion, no characters looking at camera. Normal speed movement. 9:16 vertical. Character is Chinese East Asian male. Period-accurate 2005 setting (old flip phone, no smartphones). All dialogue must finish before the 14 second mark, leaving ~1s silence buffer at end.",
+          "mode": "video-extension"
+        }
+      },
+      "issues": [],
+      "timing": {
+        "seg1_seconds": 347.19221115112305,
+        "seg2_seconds": 723.3767011165619,
+        "total_seconds": 1072.4976451396942
+      },
+      "result": "SUCCESS",
+      "final_video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-023/output/realistic/final-30s.mp4",
+      "final_audio": {
+        "audio_s": 30.161973,
+        "video_s": 30.083333
+      }
+    }
+  },
+  "timestamp_start": "2026-04-11T00:33:24+0800",
+  "result": "SUCCESS",
+  "timestamp_end": "2026-04-11T00:53:55+0800"
+}
