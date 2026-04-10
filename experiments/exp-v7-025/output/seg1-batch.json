@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "Physical state: 李昊(A) sits in office chair at LEFT workstation, hands resting near keyboard, leaning back. 苏晴(B) sits at RIGHT workstation facing her own monitor. Two coffee cups on desk (A's is empty). Warm yellow desk lamp light. Dark office around them, warm city lights through distant window.\n\n[Part 1] Medium two-shot from front. Anime-style Chinese male 30yo with short black hair, thin face, slight stubble, wearing gray hoodie and black sweatpants sits on LEFT. Anime-style Chinese female 28yo with black ponytail, clean features, wearing white t-shirt under dark blue denim jacket sits on RIGHT. A stares at monitor showing red error code, lets out long sigh, pushes himself backward with both hands on desk edge. Chair rolls slightly. B glances sideways at him. A says \"完了…这个支付接口又崩了…第四次了…\"\n\n[Part 2] Medium close-up on B from slightly right. B picks up her coffee cup with right hand, takes sip, then reaches left hand to grab a second full coffee cup from desk. She turns chair toward A, extends the cup to him. She says \"别急，先喝口咖啡，我看看。\"\n\n[Part 3] Over-the-shoulder from behind A, facing B. B rolls her chair to A's desk, leans forward to look at A's screen. Her left hand points at a line of code on screen. Eyes narrow studying. A holds coffee with both hands watching her. No dialogue. Keyboard click sounds as B scrolls.\n\n[Part 4] Medium two-shot from front. B taps Enter key once. Screen flashes from red to green success. A's jaw drops, eyes widen. B leans back in chair, crosses arms with satisfied smirk. A stares at screen then at B. A says \"…就…就这样？一行就修好了？\" Then 1 second silence.\n\nNo subtitles, no slow motion, no character looking at camera. Normal speed movement and natural pacing. 9:16 vertical. Warm indoor lighting throughout, absolutely no cold blue tones. A always on LEFT of frame, B always on RIGHT.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-025/output/assets/char-李昊-anime.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-025/output/assets/char-苏晴-anime.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-025/output/assets/scene-office-night-anime.webp"
+    ],
+    "out": "anime-seg1.mp4"
+  },
+  {
+    "id": "realistic-seg1",
+    "prompt": "Physical state: 李昊(A) sits in office chair at LEFT workstation, hands resting near keyboard, leaning back. 苏晴(B) sits at RIGHT workstation facing her own monitor. Two coffee cups on desk (A's is empty). Warm yellow desk lamp light. Dark office around them, warm city lights through distant window.\n\n[Part 1] Medium two-shot from front. Chinese male 30yo with short black hair, thin face, slight stubble, wearing gray hoodie and black sweatpants sits on LEFT. Chinese female 28yo with black ponytail, clean features, wearing white t-shirt under dark blue denim jacket sits on RIGHT. A stares at monitor showing red error code, lets out long sigh, pushes himself backward with both hands on desk edge. Chair rolls slightly. B glances sideways at him. A says \"完了…这个支付接口又崩了…第四次了…\"\n\n[Part 2] Medium close-up on B from slightly right. B picks up her coffee cup with right hand, takes sip, then reaches left hand to grab a second full coffee cup from desk. She turns chair toward A, extends the cup to him. She says \"别急，先喝口咖啡，我看看。\"\n\n[Part 3] Over-the-shoulder from behind A, facing B. B rolls her chair to A's desk, leans forward to look at A's screen. Her left hand points at a line of code on screen. Eyes narrow studying. A holds coffee with both hands watching her. No dialogue. Keyboard click sounds as B scrolls.\n\n[Part 4] Medium two-shot from front. B taps Enter key once. Screen flashes from red to green success. A's jaw drops, eyes widen. B leans back in chair, crosses arms with satisfied smirk. A stares at screen then at B. A says \"…就…就这样？一行就修好了？\" Then 1 second silence.\n\nNo subtitles, no slow motion, no character looking at camera. Normal speed movement and natural pacing. 9:16 vertical. Warm indoor lighting throughout, absolutely no cold blue tones. A always on LEFT of frame, B always on RIGHT.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-025/output/assets/char-李昊-realistic.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-025/output/assets/char-苏晴-realistic.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-025/output/assets/scene-office-night-realistic.webp"
+    ],
+    "out": "realistic-seg1.mp4"
+  }
+]

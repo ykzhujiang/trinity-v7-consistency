@@ -1,0 +1,20 @@
+[
+  {
+    "name": "李昊-realistic",
+    "type": "character",
+    "desc": "中国男性，30岁，175cm，黑色短发，偏瘦面容，小胡茬，穿灰色卫衣和黑色运动裤。神情有点疲惫但眼神坚定。",
+    "style": "realistic"
+  },
+  {
+    "name": "苏晴-realistic",
+    "type": "character",
+    "desc": "中国女性，28岁，165cm，黑色马尾辫，清秀面容，穿白色T恤外面套深蓝色牛仔外套，牛仔裤。表情干练利落，嘴角常带一点笑意。",
+    "style": "realistic"
+  },
+  {
+    "name": "office-night-realistic",
+    "type": "scene",
+    "desc": "现代创业公司办公室深夜。暖黄色台灯光照亮两个紧挨的工位，各有一台双屏显示器。桌上有纸杯咖啡（一个空的一个半满）、外卖盒残余、缠绕的充电线、几张便签纸。周围工位漆黑。远处落地窗外是城市暖色夜景灯光。整体暖黄色调。Warm yellow desk lamp lighting, warm color temperature. No cold blue tones.",
+    "style": "realistic"
+  }
+]

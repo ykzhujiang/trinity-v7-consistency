@@ -1,0 +1,27 @@
+{
+  "experiment": "EXP-V7-025",
+  "hypothesis": "H-357: same-scene dual-character → highest cross-segment consistency",
+  "timestamp": "2026-04-11T02:45:52+0800",
+  "styles": [
+    "anime",
+    "realistic"
+  ],
+  "steps": [
+    {
+      "step": "seg1-dual",
+      "ok": true
+    },
+    {
+      "step": "seg2-dual",
+      "ok": true
+    },
+    {
+      "step": "concat-anime",
+      "ok": true
+    },
+    {
+      "step": "concat-realistic",
+      "ok": true
+    }
+  ]
+}
