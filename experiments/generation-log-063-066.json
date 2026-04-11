@@ -1,0 +1,34 @@
+{
+  "cycle": 917,
+  "experiment_ids": [
+    "V7-063",
+    "V7-064",
+    "V7-065",
+    "V7-066"
+  ],
+  "method": "text-to-video + extend chain (V7-046 pattern)",
+  "fix_applied": "Each segment uses completely different location/scene/dialogue",
+  "seg1_scene": "Indoor rental room at night",
+  "seg2_scene": "Outdoor rooftop at night",
+  "seg3_scene": "Indoor cafe in daytime",
+  "results": {
+    "063": {
+      "status": "complete",
+      "size_mb": 12.1,
+      "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-063/output/final.mp4"
+    },
+    "064": {
+      "status": "complete",
+      "size_mb": 14.5,
+      "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-064/output/final.mp4"
+    },
+    "065": {
+      "status": "incomplete"
+    },
+    "066": {
+      "status": "complete",
+      "size_mb": 13.3,
+      "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-066/output/final.mp4"
+    }
+  }
+}
