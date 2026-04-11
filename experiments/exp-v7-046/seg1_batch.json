@@ -1,0 +1,12 @@
+[
+  {
+    "id": "real-seg1",
+    "prompt": "DSLR cinematic, 35mm lens, cool white LED office lighting. Photorealistic, real humans. Interior of a modern office building lobby. A 30-year-old Chinese male programmer, round face, black-framed glasses, blue-white plaid shirt, average build, slightly chubby is carrying a cardboard box, being escorted out by a security guard. Items spill from the box — a small cactus pot falls and breaks on the marble floor. Camera: medium shot, side angle 20 degrees, fixed. He crouches to pick up items. His phone buzzes, screen glows blue. Camera: close-up of phone screen in his hand, overhead 30 degrees, fixed. His face shows tear tracks, expression shifts from sadness to confusion as he reads the phone. Camera: medium close-up, side face, fixed. He is NOT looking at camera. He gives a bitter laugh, puts the cactus back in the box, touches his hair anxiously. Camera: medium shot, slight low angle, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [李峰]'裁员优化……感谢我为公司做出的贡献？呵。' [李峰]'嗯？什么……商业系统已激活？当前余额237元？' [李峰]'237块钱创业？系统你开什么玩笑。' [李峰]'永久脱发？！不不不，我接，我接还不行吗！' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical. NOT anime, NOT 3D, NOT cartoon, NOT Pixar, NOT CG.",
+    "images": [
+      "asset://asset-20260411201527-95q7n",
+      "asset://asset-20260411201558-pnk8w",
+      "asset://asset-20260411201541-g8lf2"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-046/output/real-seg1.mp4"
+  }
+]

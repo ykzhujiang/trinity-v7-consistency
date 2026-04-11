@@ -1,0 +1,48 @@
+{
+  "experiment": "EXP-V7-046",
+  "hypothesis": "H-127: DSLR realistic + indoor/outdoor scene prompt → consistent ≥ 8.0",
+  "timestamp": "2026-04-11T20:59:00+08:00",
+  "story": "系统逆袭：面馆传奇 — 李峰+周总, 都市×系统文×爽+逆袭",
+  "method": "Volcano asset upload + video extension (3-seg extend chain) + realistic-only + indoor/outdoor scene tags",
+  "segments": 3,
+  "style": "realistic-only",
+  "scene_tags": {
+    "seg1": "[INDOOR] 写字楼大堂 — 高级写字楼大堂，玻璃幕墙，大理石地面",
+    "seg2": "[INDOOR] 旧面馆 — 10平米破旧街边小面馆，塑料桌椅",
+    "seg3": "[INDOOR] 新面馆 — 翻新后的峰味面馆，木质桌椅，排队人群"
+  },
+  "asset_ids": {
+    "李峰": "asset://asset-20260411201527-95q7n",
+    "写字楼大堂": "asset://asset-20260411201541-g8lf2",
+    "周总": "asset://asset-20260411201558-pnk8w",
+    "旧面馆": "asset://asset-20260411201614-jc4h4",
+    "新面馆": "asset://asset-20260411201628-7jhzc"
+  },
+  "seg_results": {
+    "real-seg1": {"status": "OK", "size_mb": 8.0, "time_s": 379, "audio": true},
+    "real-seg2": {"status": "OK", "size_mb": 5.9, "time_s": 601, "audio": true},
+    "real-seg3": {"status": "OK", "size_mb": 6.3, "time_s": 601, "audio": true}
+  },
+  "final": {
+    "realistic": {
+      "path": "output/real-final.mp4",
+      "size_mb": 21,
+      "duration_s": 45.2,
+      "audio_coverage": "100%",
+      "seg_count": 3
+    }
+  },
+  "seedance_prompts": {
+    "seg1": "DSLR cinematic, 35mm lens, cool white LED office lighting. Interior office lobby...",
+    "seg2": "DSLR cinematic, 35mm lens, warm incandescent lighting. Interior run-down noodle shop...",
+    "seg3": "DSLR cinematic, 35mm lens, bright warm lighting. Interior renovated noodle shop..."
+  },
+  "constraints_applied": [
+    "All scenes tagged [INDOOR] with specific lighting/environment details",
+    "DSLR photograph style (NOT 3D/Pixar/anime)",
+    "Chinese Mandarin dialogue, finish before second 12",
+    "Characters never face camera, 180-degree rule",
+    "9:16 vertical, no subtitles, no slow motion",
+    "All assets uploaded to Volcano as asset:// URIs"
+  ]
+}

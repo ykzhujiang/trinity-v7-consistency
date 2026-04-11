@@ -1,0 +1,13 @@
+[
+  {
+    "id": "real-seg3",
+    "prompt": "DSLR cinematic, 35mm lens, bright warm lighting. Photorealistic, real humans. Continuation of previous scene. Interior of a renovated bustling Chinese noodle shop. The 30-year-old Chinese male programmer, round face, black-framed glasses, blue-white plaid shirt, average build, slightly chubby now wears an apron, confidently working behind the counter. The shop has a new sign, wooden furniture, and a long queue of customers. Camera: wide shot showing busy interior, slight high angle, fixed. A familiar figure in the queue — the 45-year-old Chinese male tech executive, bald on top, beer belly, dark designer suit, metal-frame glasses, imposing demeanor, sweating, squeezing among customers. Camera: medium shot picking him out in the crowd, fixed. The bald executive reaches the counter, looks up, sees the programmer. His expression shifts from anticipation to shock. The programmer smiles calmly. Camera: over-shoulder shot from behind programmer, showing executive's shocked face, fixed. The programmer turns back to work. His phone buzzes — new system task appears. He shakes his head with a smile. Camera: close-up of phone screen, then medium close-up of his side face smiling, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [李峰]'72小时——余额127350元。任务完成。' [李峰]'这不是……周总？' [李峰]'周总您好。一碗招牌红烧牛肉面，28元。' [李峰]'开10家分店？行吧，系统先生。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical. NOT anime, NOT 3D, NOT cartoon, NOT Pixar, NOT CG.",
+    "images": [
+      "asset://asset-20260411201527-95q7n",
+      "asset://asset-20260411201558-pnk8w",
+      "asset://asset-20260411201628-7jhzc"
+    ],
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-046/output/real-seg2.mp4",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-046/output/real-seg3.mp4"
+  }
+]

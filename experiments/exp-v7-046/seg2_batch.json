@@ -1,0 +1,13 @@
+[
+  {
+    "id": "real-seg2",
+    "prompt": "DSLR cinematic, 35mm lens, warm incandescent lighting from hanging bulb. Photorealistic, real humans. Continuation of previous scene. Interior of a tiny run-down Chinese noodle shop. The 30-year-old Chinese male programmer, round face, black-framed glasses, blue-white plaid shirt, average build, slightly chubby sits at a plastic table in the corner, a steaming bowl of plain noodles in front of him, phone on table glowing blue. A middle-aged Chinese woman (noodle shop owner, 50s, apron, kind face) brings the bowl over. Camera: medium shot, side view, fixed. He looks at his phone calculating. Phone screen shows system analysis text in blue. His eyes light up. Camera: close-up of phone screen, flat angle, fixed. He looks around the shop — camera pans slowly across empty plastic chairs, faded menu, people walking past the door without entering. Camera: slow horizontal pan, eye level, fixed. The owner wipes a table, sighing. He puts down his chopsticks, corner of mouth curving up slightly. Camera: two-shot medium, side angle showing both, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [李峰]'一碗面8块，还剩229。' [李峰]'日均客流42人……隐藏价值四颗星？这面馆有搞头？' [老板娘]'年轻人，吃完早点走吧，我这店下个月就关了。' [李峰]'老板娘，这店……我要接手。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical. NOT anime, NOT 3D, NOT cartoon, NOT Pixar, NOT CG.",
+    "images": [
+      "asset://asset-20260411201527-95q7n",
+      "asset://asset-20260411201558-pnk8w",
+      "asset://asset-20260411201614-jc4h4"
+    ],
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-046/output/real-seg1.mp4",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-046/output/real-seg2.mp4"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "李峰",
+    "type": "character",
+    "desc": "30岁中国男性程序员，圆脸，戴黑框眼镜，穿蓝白格子衫，普通人长相，略微发福，写实风格",
+    "style": "realistic"
+  },
+  {
+    "name": "周总",
+    "type": "character",
+    "desc": "45岁中国男性互联网高管，秃顶，啤酒肚，穿深色名牌西装，金属框眼镜，气势凌人，写实风格",
+    "style": "realistic"
+  },
+  {
+    "name": "写字楼大堂",
+    "type": "scene",
+    "desc": "[INDOOR] 高级写字楼大堂，玻璃幕墙，大理石地面，金属旋转门，现代简约风格，白色LED灯光，安保人员桌台",
+    "style": "realistic"
+  },
+  {
+    "name": "旧面馆",
+    "type": "scene",
+    "desc": "[INDOOR] 10平米破旧街边小面馆，塑料桌椅，油腻墙壁，褪色手写菜单，暖黄白炽灯，蒸汽从厨房飘出，门口有折叠招牌",
+    "style": "realistic"
+  },
+  {
+    "name": "新面馆",
+    "type": "scene",
+    "desc": "[INDOOR] 翻新后的面馆，新招牌写着'峰味面馆'，明亮暖色灯光，木质桌椅，排队人群从门口延伸到街上，干净整洁",
+    "style": "realistic"
+  }
+]
