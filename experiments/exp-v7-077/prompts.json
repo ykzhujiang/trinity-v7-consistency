@@ -1,0 +1,18 @@
+{
+  "experiment": "V7-077",
+  "variant": "shinkai-cafe-low-complexity",
+  "hypothesis": "H-154: Shinkai style vs Genshin same-scene comparison",
+  "audio_strip": true,
+  "seg1": {
+    "prompt": "Makoto Shinkai anime style, dramatic lighting, lens flare, volumetric light rays, detailed background, vivid colors, cinematic composition. Interior of a Japanese-style cafe, wooden bar counter, afternoon sunlight streaming through glass windows creating god rays, rain-soaked city street visible through the window. A 25-year-old Chinese male programmer with messy short black hair wearing a dark blue hoodie sits at the bar counter typing on a laptop. He lifts his head to look out the window at raindrops sliding down the glass, a gentle smile on his face. \"有些代码，写着写着就变成了诗。\"",
+    "chars": 543
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. He picks up a coffee cup and takes a sip, sets it down, his fingers pause on the keyboard. He looks at the screen thoughtfully. \"如果这个算法能跑通，我就请自己吃顿好的。\"",
+    "chars": 195
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. He suddenly straightens up excitedly, both hands leave the keyboard, staring at the screen with a surprised and delighted expression. He turns to the empty seat beside him and makes a victory gesture. \"跑通了！虽然没人看到，但这一刻值得庆祝。\"",
+    "chars": 224
+  }
+}

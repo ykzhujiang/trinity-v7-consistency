@@ -1,0 +1,10 @@
+{
+  "experiment_id": "V7-076",
+  "desc": "High complexity — dual character + object interaction (tavern gift)",
+  "style": "Genshin Impact anime, cel-shaded 3D",
+  "strip_audio": true,
+  "segments": {},
+  "start_time": "2026-04-12T05:34:38+08:00",
+  "status": "FAILED",
+  "error": "Seg1 timeout"
+}

@@ -2,3 +2,11 @@
 Start: 2026-04-12 05:33:36
 Waiting for seg1.mp4...
   Still waiting... (60s)
+  Still waiting... (120s)
+  Still waiting... (180s)
+  Still waiting... (240s)
+✓ Seg1 ready (5.7MB)
+
+[V7-075] seg2: extend from seg1...
+  ✗ seg2 FAILED: unknown
+  Retrying seg2...
