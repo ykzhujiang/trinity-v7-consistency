@@ -17,7 +17,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-TOOLS = Path(__file__).parent.parent / "tools"
+TOOLS = Path(__file__).parent.parent.parent / "tools"
 EXP_DIR = Path(__file__).parent
 ASSETS = EXP_DIR / "assets"
 OUTPUT = EXP_DIR / "output"

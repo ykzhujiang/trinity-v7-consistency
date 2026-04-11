@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "A 28-year-old Chinese man (round face, black-framed glasses, plaid shirt, slightly overweight) sits alone at a desk in a dark startup office at night, typing on a keyboard. Multiple monitors glow blue-white. Scattered takeout boxes and coffee cups. He suddenly freezes, stares at the screen with a shocked expression, his hand knocking over a coffee cup. Coffee spills across the desk. The monitor shows a popup dialog box with text. His eyes go wide, jaw drops slightly, then he leans forward squinting at the screen in disbelief. Medium shot from the side, warm monitor light in dark room. Anime digital animation style. Normal speed movement, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+    "images": [
+      "/private/tmp/trinity-v7-consistency/experiments/exp-v7-032/assets/anime/anime-liming-front.webp",
+      "/private/tmp/trinity-v7-consistency/experiments/exp-v7-032/assets/anime/anime-liming-side.webp",
+      "/private/tmp/trinity-v7-consistency/experiments/exp-v7-032/assets/anime/anime-office-night.webp"
+    ],
+    "out": "anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "A 28-year-old Chinese man (round face, black-framed glasses, plaid shirt, slightly overweight) sits alone at a desk in a dark startup office at night, typing on a keyboard. Multiple monitors glow blue-white. Scattered takeout boxes and coffee cups. He suddenly freezes, stares at the screen with a shocked expression, his hand knocking over a coffee cup. Coffee spills across the desk. The monitor shows a popup dialog box with text. His eyes go wide, jaw drops slightly, then he leans forward squinting at the screen in disbelief. Medium shot from the side, warm monitor light in dark room. Photorealistic cinematic style. Normal speed movement, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+    "images": [
+      "/private/tmp/trinity-v7-consistency/experiments/exp-v7-032/assets/real/real-liming-front.webp",
+      "/private/tmp/trinity-v7-consistency/experiments/exp-v7-032/assets/real/real-liming-side.webp",
+      "/private/tmp/trinity-v7-consistency/experiments/exp-v7-032/assets/real/real-office-night.webp"
+    ],
+    "out": "real-seg1.mp4"
+  }
+]
