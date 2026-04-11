@@ -1,0 +1,194 @@
+[
+  {
+    "experiment_id": "V7-069",
+    "desc": "Genshin same-scene, audio strip ON (baseline)",
+    "style": "Gacha mobile game style, Genshin Impact aesthetic,",
+    "strip_audio": true,
+    "segments": {
+      "seg1": {
+        "elapsed": 210.3,
+        "status": "OK"
+      },
+      "seg2": {
+        "elapsed": 495.5,
+        "status": "OK"
+      },
+      "seg3": {
+        "elapsed": 648.5,
+        "status": "OK"
+      }
+    },
+    "start_time": "2026-04-12T03:50:29+08:00",
+    "audio_correlation": {
+      "seg1_seg2": 0.0041,
+      "seg1_seg3": 0.0042,
+      "seg2_seg3": -0.006
+    },
+    "max_audio_r": 0.0042,
+    "audio_verdict": "PASS",
+    "status": "COMPLETE",
+    "final_path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-069/output/final.mp4",
+    "final_size_mb": 15.4,
+    "end_time": "2026-04-12T04:13:06+08:00"
+  },
+  {
+    "experiment_id": "V7-070",
+    "desc": "Genshin same-scene, audio strip OFF (control)",
+    "style": "Gacha mobile game style, Genshin Impact aesthetic,",
+    "strip_audio": false,
+    "segments": {
+      "seg1": {
+        "elapsed": 210.0,
+        "status": "OK"
+      },
+      "seg2": {
+        "elapsed": 349.0,
+        "status": "OK"
+      },
+      "seg3": {
+        "elapsed": 434.4,
+        "status": "OK"
+      }
+    },
+    "start_time": "2026-04-12T04:13:06+08:00",
+    "audio_correlation": {
+      "seg1_seg2": 0.0308,
+      "seg1_seg3": 0.0362,
+      "seg2_seg3": 0.0308
+    },
+    "max_audio_r": 0.0362,
+    "audio_verdict": "PASS",
+    "status": "COMPLETE",
+    "final_path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-070/output/final.mp4",
+    "final_size_mb": 17.7,
+    "end_time": "2026-04-12T04:29:43+08:00"
+  },
+  {
+    "experiment_id": "V7-071",
+    "desc": "Genshin same-scene, MINIMAL seg2/3 prompt (~200 chars)",
+    "style": "Gacha mobile game style, Genshin Impact aesthetic,",
+    "strip_audio": true,
+    "segments": {
+      "seg1": {
+        "elapsed": 194.8,
+        "status": "OK"
+      },
+      "seg2": {
+        "elapsed": 333.1,
+        "status": "OK"
+      },
+      "seg3": {
+        "elapsed": 343.5,
+        "status": "OK"
+      }
+    },
+    "start_time": "2026-04-12T04:29:43+08:00",
+    "audio_correlation": {
+      "seg1_seg2": 0.0068,
+      "seg1_seg3": 0.003,
+      "seg2_seg3": 0.0061
+    },
+    "max_audio_r": 0.0068,
+    "audio_verdict": "PASS",
+    "status": "COMPLETE",
+    "final_path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-071/output/final.mp4",
+    "final_size_mb": 18.4,
+    "end_time": "2026-04-12T04:44:17+08:00"
+  },
+  {
+    "experiment_id": "V7-072",
+    "desc": "Genshin same-scene, NO character re-description in seg2/3",
+    "style": "Gacha mobile game style, Genshin Impact aesthetic,",
+    "strip_audio": true,
+    "segments": {
+      "seg1": {
+        "elapsed": 347.1,
+        "status": "OK"
+      },
+      "seg2": {
+        "elapsed": 360.2,
+        "status": "OK"
+      },
+      "seg3": {
+        "elapsed": 948.7,
+        "status": "OK"
+      }
+    },
+    "start_time": "2026-04-12T04:44:17+08:00",
+    "audio_correlation": {
+      "seg1_seg2": 0.0017,
+      "seg1_seg3": 0.0013,
+      "seg2_seg3": 0.0027
+    },
+    "max_audio_r": 0.0027,
+    "audio_verdict": "PASS",
+    "status": "COMPLETE",
+    "final_path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-072/output/final.mp4",
+    "final_size_mb": 16.6,
+    "end_time": "2026-04-12T05:11:56+08:00"
+  },
+  {
+    "experiment_id": "V7-073",
+    "desc": "Genshin diff-scene 3-act, audio strip ON",
+    "style": "Gacha mobile game style, Genshin Impact aesthetic,",
+    "strip_audio": true,
+    "segments": {
+      "seg1": {
+        "elapsed": 179.7,
+        "status": "OK"
+      },
+      "seg2": {
+        "elapsed": 585.8,
+        "status": "OK"
+      },
+      "seg3": {
+        "elapsed": 344.8,
+        "status": "OK"
+      }
+    },
+    "start_time": "2026-04-12T05:11:56+08:00",
+    "audio_correlation": {
+      "seg1_seg2": 0.0124,
+      "seg1_seg3": 0.0078,
+      "seg2_seg3": 0.0055
+    },
+    "max_audio_r": 0.0124,
+    "audio_verdict": "PASS",
+    "status": "COMPLETE",
+    "final_path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-073/output/final.mp4",
+    "final_size_mb": 16.6,
+    "end_time": "2026-04-12T05:30:30+08:00"
+  },
+  {
+    "experiment_id": "V7-074",
+    "desc": "RPG/UE5 same-scene, audio strip ON (style comparison)",
+    "style": "RPG game cinematic cutscene, Unreal Engine 5 rende",
+    "strip_audio": true,
+    "segments": {
+      "seg1": {
+        "elapsed": 194.4,
+        "status": "OK"
+      },
+      "seg2": {
+        "elapsed": 373.9,
+        "status": "OK"
+      },
+      "seg3": {
+        "elapsed": 470.0,
+        "status": "OK"
+      }
+    },
+    "start_time": "2026-04-12T05:30:30+08:00",
+    "audio_correlation": {
+      "seg1_seg2": -0.0141,
+      "seg1_seg3": 0.0246,
+      "seg2_seg3": 0.0136
+    },
+    "max_audio_r": 0.0246,
+    "audio_verdict": "PASS",
+    "status": "COMPLETE",
+    "final_path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-074/output/final.mp4",
+    "final_size_mb": 15.5,
+    "end_time": "2026-04-12T05:47:51+08:00"
+  }
+]

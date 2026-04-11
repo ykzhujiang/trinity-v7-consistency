@@ -1,0 +1,18 @@
+{
+  "experiment": "V7-080",
+  "variant": "flat-vignette-herbalist-control",
+  "hypothesis": "H-155 control: Flat vignette (no narrative arc) as baseline comparison",
+  "audio_strip": true,
+  "seg1": {
+    "prompt": "Genshin Impact anime style, warm golden lighting. A young male herbalist in traditional hanfu robe sits at wooden counter in ancient Chinese apothecary. Wooden cabinets filled with dried herbs line walls. He calmly grinds herbs with mortar and pestle, occasionally checking a medical text open beside him. He picks up different dried herbs, examines them closely, sorts them into small ceramic bowls. Quiet morning routine. \"今天的药材质量不错。\" Camera: medium shot, gentle slow pan across apothecary interior.",
+    "chars": 509
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. A middle-aged man enters the apothecary. The herbalist greets him warmly, listens to his symptoms while nodding. He selects herbs from cabinets methodically, wraps them in paper parcels. They chat casually about weather and health. The herbalist hands over the package with care. \"老规矩，三碗水煎成一碗，饭后服。\" \"好好好，辛苦你了。\" Calm everyday atmosphere. Camera: two-shot over counter, natural eye-level.",
+    "chars": 440
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. The herbalist tidies the counter, putting away tools and closing herb drawers. He wipes the counter with a cloth. Walks to window, pushes it open. Warm sunset light floods in. He gazes at the quiet street outside, takes a deep breath. Peaceful end of day. \"又是平平安安的一天。\" Camera: medium shot from behind, then over-shoulder looking out window at sunset street.",
+    "chars": 398
+  }
+}

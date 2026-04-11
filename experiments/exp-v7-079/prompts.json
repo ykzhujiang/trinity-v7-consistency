@@ -1,0 +1,18 @@
+{
+  "experiment": "V7-079",
+  "variant": "narrative-arc-3act-herbalist",
+  "hypothesis": "H-155: Compressed 3-act narrative arc scores ≥8/10, outperforms flat vignette by ≥1pt",
+  "audio_strip": true,
+  "seg1": {
+    "prompt": "Genshin Impact anime style, warm golden lighting. A young male herbalist in traditional hanfu robe grinds medicine with mortar and pestle at wooden counter in ancient Chinese apothecary. Wooden cabinets filled with dried herbs line walls. Suddenly a woman bursts through door carrying unconscious child, face desperate. Herbalist drops pestle, rushes over, examines child's pale face, eyes widen in alarm recognizing rare poison symptoms. \"救救我的孩子！\" \"让我看看……这是断肠散的毒！\" Camera: medium shot tracking herbalist to door, then close-up of child's face.",
+    "chars": 594
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. The herbalist frantically searches through medicine cabinets, pulling out drawers, shaking his head. He spots an old leather-bound notebook on high shelf, reaches up and grabs it. Flipping through yellowed pages urgently, his finger stops on a formula. Relief mixed with tension on his face. He carefully measures powder on precision scale, hands trembling slightly. Mother watches from behind clutching hands. \"不够……差一味药……等等，师父的笔记！就是这个！\" Camera: rapid cuts between cabinet search and notebook discovery, then steady shot of measuring.",
+    "chars": 596
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. The herbalist gently feeds medicine to the child with small spoon. Tense silence. Mother grips herbalist's arm. Seconds pass. Child's eyelids flutter, then open. Color returns to cheeks. Mother collapses to knees in gratitude, tears streaming. Herbalist exhales deeply, wipes forehead with sleeve, warm smile. He carefully places notebook back on shelf, hand lingering with respect. Soft morning light. \"来，把药喝下去……\" \"谢谢，谢谢你救了我的孩子！\" \"是师父救的。\" Camera: close-up child's eyes opening, pull back to wide grateful scene.",
+    "chars": 586
+  }
+}

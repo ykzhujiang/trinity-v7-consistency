@@ -1,0 +1,32 @@
+{
+  "experiment_id": "V7-074",
+  "desc": "RPG/UE5 same-scene, audio strip ON (style comparison)",
+  "style": "RPG game cinematic cutscene, Unreal Engine 5 rende",
+  "strip_audio": true,
+  "segments": {
+    "seg1": {
+      "elapsed": 194.4,
+      "status": "OK"
+    },
+    "seg2": {
+      "elapsed": 373.9,
+      "status": "OK"
+    },
+    "seg3": {
+      "elapsed": 470.0,
+      "status": "OK"
+    }
+  },
+  "start_time": "2026-04-12T05:30:30+08:00",
+  "audio_correlation": {
+    "seg1_seg2": -0.0141,
+    "seg1_seg3": 0.0246,
+    "seg2_seg3": 0.0136
+  },
+  "max_audio_r": 0.0246,
+  "audio_verdict": "PASS",
+  "status": "COMPLETE",
+  "final_path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-074/output/final.mp4",
+  "final_size_mb": 15.5,
+  "end_time": "2026-04-12T05:47:51+08:00"
+}

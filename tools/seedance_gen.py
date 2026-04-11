@@ -36,17 +36,27 @@ sys.path.insert(0, str(Path(__file__).parent))
 from config_loader import load_keys
 
 
-def upload_to_tmpfiles(local_path: str) -> str:
+def upload_to_tmpfiles(local_path: str, max_retries: int = 5) -> str:
     """Upload a local file to tmpfiles.org and return direct download URL."""
     import requests
     print(f"  Uploading {os.path.basename(local_path)} to tmpfiles.org...", flush=True)
-    with open(local_path, "rb") as f:
-        resp = requests.post("https://tmpfiles.org/api/v1/upload", files={"file": f}, timeout=120)
-    resp.raise_for_status()
-    page_url = resp.json()["data"]["url"]
-    direct_url = page_url.replace("tmpfiles.org/", "tmpfiles.org/dl/")
-    print(f"  → {direct_url}", flush=True)
-    return direct_url
+    for attempt in range(1, max_retries + 1):
+        try:
+            with open(local_path, "rb") as f:
+                resp = requests.post("https://tmpfiles.org/api/v1/upload", files={"file": f}, timeout=180)
+            resp.raise_for_status()
+            page_url = resp.json()["data"]["url"]
+            direct_url = page_url.replace("tmpfiles.org/", "tmpfiles.org/dl/")
+            print(f"  → {direct_url}", flush=True)
+            return direct_url
+        except (requests.exceptions.HTTPError, requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+            print(f"  ⚠ Upload attempt {attempt}/{max_retries} failed: {e}", flush=True)
+            if attempt < max_retries:
+                wait = 15 * attempt
+                print(f"  Retrying in {wait}s...", flush=True)
+                time.sleep(wait)
+            else:
+                raise
 
 
 def run_seedance(seedance_script: str, ark_key: str, prompt: str,
