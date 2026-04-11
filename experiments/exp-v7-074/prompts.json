@@ -1,0 +1,14 @@
+{
+  "seg1": {
+    "prompt": "RPG game cinematic cutscene, Unreal Engine 5 render, dramatic cinematic lighting, game CG quality, detailed environment. Interior of a cramped 8-square-meter dorm room, single bed with messy blankets, small desk cluttered with textbooks and energy drink cans, blue-white LED desk lamp, rain hitting the window A 22-year-old Chinese male college student with messy black hair, wearing a faded blue hoodie and jeans, slim build, tired eyes sits hunched at the desk staring at a rejection email on the laptop screen, slowly clenches his fists, mutters \"又失败了……第八次了。\" He rubs his eyes, pushes back from the desk.",
+    "chars": 607
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. RPG game cinematic cutscene, Unreal Engine 5 render, dramatic cinematic lighting, game CG quality, detailed environment. Interior of a cramped 8-square-meter dorm room, single bed with messy blankets, small desk cluttered with textbooks and energy drink cans, blue-white LED desk lamp, rain hitting the window A 22-year-old Chinese male college student with messy black hair, wearing a faded blue hoodie and jeans, slim build, tired eyes stands up abruptly, knocking the chair back, grabs his phone from the desk, paces the tiny room \"不行，我不能这样下去。\" He stops at the window, looks out at the rain, takes a deep breath.",
+    "chars": 647
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. RPG game cinematic cutscene, Unreal Engine 5 render, dramatic cinematic lighting, game CG quality, detailed environment. Interior of a cramped 8-square-meter dorm room, single bed with messy blankets, small desk cluttered with textbooks and energy drink cans, blue-white LED desk lamp, rain hitting the window A 22-year-old Chinese male college student with messy black hair, wearing a faded blue hoodie and jeans, slim build, tired eyes sits back down with determination, opens a new browser tab, starts typing rapidly with both hands \"从头来。这次一定行。\" A faint smile appears on his face as code fills the screen.",
+    "chars": 640
+  }
+}

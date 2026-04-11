@@ -1,0 +1,18 @@
+{
+  "experiment": "V7-076",
+  "variant": "high-complexity-dual-character-object-interaction",
+  "hypothesis": "H-153: Test Genshin style under high complexity (two characters + object interaction in tavern)",
+  "audio_strip": true,
+  "seg1": {
+    "prompt": "Genshin Impact anime style, cel-shaded 3D animation, warm candlelight, vivid color palette, detailed tavern interior. Interior of a cozy fantasy tavern, warm yellow candlelight flickering, wooden long table with wine cups and plates, stone walls with mounted shields. A young Chinese man with short red hair wearing black leather armor sits on the left side of the table. A young Chinese woman with long silver-white hair wearing a blue mage robe sits on the right side. The man slides a small ornate wooden box across the table toward the woman, she watches the box approach with curious eyes. \"这个……送给你的。\" She reaches for the box.",
+    "chars": 636
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. The woman lifts the lid of the ornate box with both hands. A soft golden glow emanates from inside, illuminating her face. Her eyes widen in amazement. The man watches her from across the table with an expectant smile, leaning forward slightly. \"打开看看，值不值得我跑遍三座城。\" She gasps softly.",
+    "chars": 327
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. The woman looks up from the box toward the man, a bright smile spreading across her face. They lock eyes. Both burst into laughter simultaneously. The man reaches for his wine cup, the woman mirrors him. They raise their cups and clink them together over the table. \"干杯！\" Both take a drink, smiling.",
+    "chars": 340
+  }
+}

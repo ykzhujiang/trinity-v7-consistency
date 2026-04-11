@@ -1,0 +1,18 @@
+{
+  "experiment": "V7-075",
+  "variant": "medium-complexity-object-interaction",
+  "hypothesis": "H-153: Genshin style maintains consistency under medium complexity (single character + object interaction)",
+  "audio_strip": true,
+  "seg1": {
+    "prompt": "Genshin Impact anime style, cel-shaded 3D animation, warm indoor lighting, soft glow, vivid color palette. Interior of a cozy wooden study room, sunlight streaming through a lattice window, bookshelves filled with ancient scrolls, a wooden desk with an oil lamp burning softly. A young Chinese male swordsman with long deep-blue hair in a ponytail, wearing a flowing white changshan robe, a sword sheathed at his waist, stands before a tall bookshelf, reaches up with his right hand to pull out a thick ancient book, holds it carefully with both hands, opens the cover and begins turning pages slowly. \"这本书……从未见过这个符号。\" He furrows his brow, leaning closer to examine the page.",
+    "chars": 680
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. A folded piece of yellowed paper slips out from between the pages and flutters down. The swordsman quickly catches it with his left hand. He sets the book on the desk, carefully unfolds the paper with both hands, revealing dense handwritten text. \"这是……师父的笔迹？\" His eyes widen as he reads.",
+    "chars": 316
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. The swordsman reads the letter intensely, his expression shifting from confusion to shock, pupils dilating. His hands tremble slightly holding the paper. He suddenly looks up toward the window, jaw tight, determined eyes reflecting the golden sunlight. \"原来如此……一切都说得通了。\" He folds the letter and tucks it into his robe.",
+    "chars": 346
+  }
+}
