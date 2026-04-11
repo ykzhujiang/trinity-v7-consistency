@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "Japanese anime style digital animation. A 25-year-old Chinese male delivery rider, lean but muscular build, buzz cut hair, yellow delivery uniform, dark trousers, sharp eyes with a habitual smile stands beside his electric scooter on a busy Chinese urban commercial street at lunch time, bright sunlight, Chinese shop signs, crowded pedestrians. Camera: side medium shot from left 30 degrees. He looks at his phone with a frown, then hangs the delivery bag on the scooter while muttering. Camera slowly pushes to medium close-up, angle shifting to left 20 degrees. Suddenly a van screeches to a halt nearby, almost hitting a {GRANDPA_EN} crossing the road. The delivery rider instantly dashes forward and grabs the old man's arm, pulling him to safety with inhuman reflexes. Camera pulls back to medium shot, left 15 degrees. Bystanders stare in shock. The rider's speed is unnaturally fast for a normal person. Dialogue (Chinese, must end before second 12): [李飞]'又来这种不可能的单...' [李飞]'超时扣钱，不接没钱，这是什么人生。' [李飞]'大爷小心！' [路人]'这外卖小哥反应也太快了吧？' All dialogue must be in Chinese Mandarin. Normal speed movement, natural pacing. Characters never face camera directly. 180-degree rule: 李飞 always on left side of frame. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "http://tmpfiles.org/dl/33030213/char-grandpa-anime.webp",
+      "http://tmpfiles.org/dl/33030215/char-lifei-anime.webp",
+      "http://tmpfiles.org/dl/33030223/scene-street-anime.webp"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-040/output/anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "DSLR photograph, 35mm lens. A 25-year-old Chinese male delivery rider, lean but muscular build, buzz cut hair, yellow delivery uniform, dark trousers, sharp eyes with a habitual smile stands beside his electric scooter on a busy Chinese urban commercial street at lunch time, bright sunlight, Chinese shop signs, crowded pedestrians. Camera: side medium shot from left 30 degrees. He looks at his phone with a frown, then hangs the delivery bag on the scooter while muttering. Camera slowly pushes to medium close-up, angle shifting to left 20 degrees. Suddenly a van screeches to a halt nearby, almost hitting a {GRANDPA_EN} crossing the road. The delivery rider instantly dashes forward and grabs the old man's arm, pulling him to safety with inhuman reflexes. Camera pulls back to medium shot, left 15 degrees. Bystanders stare in shock. The rider's speed is unnaturally fast for a normal person. Dialogue (Chinese, must end before second 12): [李飞]'又来这种不可能的单...' [李飞]'超时扣钱，不接没钱，这是什么人生。' [李飞]'大爷小心！' [路人]'这外卖小哥反应也太快了吧？' All dialogue must be in Chinese Mandarin. Normal speed movement, natural pacing. Characters never face camera directly. 180-degree rule: 李飞 always on left side of frame. No subtitles, no slow motion. 9:16 vertical. Cinematic realistic style.",
+    "images": [
+      "http://tmpfiles.org/dl/33030214/char-grandpa-realistic.webp",
+      "http://tmpfiles.org/dl/33030217/char-lifei-realistic.webp",
+      "http://tmpfiles.org/dl/33030225/scene-street-realistic.webp"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-040/output/real-seg1.mp4"
+  }
+]

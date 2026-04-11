@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Japanese anime style digital animation. On the same busy Chinese urban commercial street at lunch time, bright sunlight, Chinese shop signs, crowded pedestrians. A 25-year-old Chinese male delivery rider, lean but muscular build, buzz cut hair, yellow delivery uniform, dark trousers, sharp eyes with a habitual smile is supporting a 70-year-old Chinese elderly man in grey coat with walking cane, kind face, thinning white hair standing by the roadside. Bystanders watch. Camera: side medium shot from left 15 degrees (MATCHING previous segment ending angle). The old man pats the rider's hand gratefully. The rider smiles and waves it off. Camera shifts to left 20 degrees. The rider's expression flickers with something complex before returning to a smile. Camera pushes to medium close-up at left 25 degrees as he walks back to his scooter, checks his phone — 5 minutes lost. Camera pulls to medium shot at left 30 degrees. He mounts the scooter, takes a deep breath, and his eyes flash with a sharp intensity that doesn't match a delivery rider. Dialogue (Chinese, must end before second 12): [李飞]'没事没事，赶紧走人行道。' [老大爷]'小伙子，你以前练过功夫吧？' [李飞]'哪有，就是送外卖跑多了，腿脚利索。' [李飞]'糟了，还剩25分钟，3.8公里...' [李飞]'那就...认真跑一次。' All dialogue must be in Chinese Mandarin. Normal speed movement, natural pacing. Characters never face camera directly. 180-degree rule: 李飞 always on left side of frame. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "http://tmpfiles.org/dl/33030213/char-grandpa-anime.webp",
+      "http://tmpfiles.org/dl/33030215/char-lifei-anime.webp",
+      "http://tmpfiles.org/dl/33030223/scene-street-anime.webp"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-040/output/anime-seg2.mp4"
+  },
+  {
+    "id": "real-seg2",
+    "prompt": "DSLR photograph, 35mm lens. On the same busy Chinese urban commercial street at lunch time, bright sunlight, Chinese shop signs, crowded pedestrians. A 25-year-old Chinese male delivery rider, lean but muscular build, buzz cut hair, yellow delivery uniform, dark trousers, sharp eyes with a habitual smile is supporting a 70-year-old Chinese elderly man in grey coat with walking cane, kind face, thinning white hair standing by the roadside. Bystanders watch. Camera: side medium shot from left 15 degrees (MATCHING previous segment ending angle). The old man pats the rider's hand gratefully. The rider smiles and waves it off. Camera shifts to left 20 degrees. The rider's expression flickers with something complex before returning to a smile. Camera pushes to medium close-up at left 25 degrees as he walks back to his scooter, checks his phone — 5 minutes lost. Camera pulls to medium shot at left 30 degrees. He mounts the scooter, takes a deep breath, and his eyes flash with a sharp intensity that doesn't match a delivery rider. Dialogue (Chinese, must end before second 12): [李飞]'没事没事，赶紧走人行道。' [老大爷]'小伙子，你以前练过功夫吧？' [李飞]'哪有，就是送外卖跑多了，腿脚利索。' [李飞]'糟了，还剩25分钟，3.8公里...' [李飞]'那就...认真跑一次。' All dialogue must be in Chinese Mandarin. Normal speed movement, natural pacing. Characters never face camera directly. 180-degree rule: 李飞 always on left side of frame. No subtitles, no slow motion. 9:16 vertical. Cinematic realistic style.",
+    "images": [
+      "http://tmpfiles.org/dl/33030214/char-grandpa-realistic.webp",
+      "http://tmpfiles.org/dl/33030217/char-lifei-realistic.webp",
+      "http://tmpfiles.org/dl/33030225/scene-street-realistic.webp"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-040/output/real-seg2.mp4"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "real-seg3",
+    "prompt": "Continuing from previous scene: The same 28-year-old Chinese male programmer Lin Hao, slim and tall, short black hair, black-framed glasses, wearing grey hoodie and jeans pushes open door of a small shabby rental room, nighttime, dim desk lamp, old wooden desk, single bed, peeling walls. He drops backpack on bed, sits at old wooden desk. Opens laptop, screen light on tired face. He starts typing, brow furrowed. Rubs eyes but keeps coding, faint smile forming. Camera: doorway medium shot to over-shoulder on laptop to side close-up face. DSLR photograph, 35mm lens, dim warm desk lamp. No 3D, no CG, no Pixar. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly. 9:16 vertical.",
+    "images": [
+      "assets/char-linhao-real.webp",
+      "assets/scene-rental-real.webp"
+    ],
+    "video": "output/real-seg2.mp4",
+    "out": "real-seg3.mp4"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "experiment": "EXP-V7-040",
+  "hypothesis": "H-388: camera angle ≤15° delta improves anime continuity to ≥8/10",
+  "method": "independent_concat_B1",
+  "camera_constraint": {
+    "seg1_ending": "medium shot, left 15°",
+    "seg2_starting": "medium shot, left 15°",
+    "delta_angle": 0,
+    "delta_shot_size": 0
+  },
+  "asset_upload": "tmpfiles.org (Volcano keys unavailable)",
+  "results": {
+    "anime": {
+      "seg1": {"ok": true, "size_mb": 7.4, "duration_s": 15, "audio_s": 15.1, "gen_time_s": 538},
+      "seg2": {"ok": true, "size_mb": 7.2, "duration_s": 15, "audio_s": 15.1, "gen_time_s": 354},
+      "final": {"ok": true, "size_mb": 14.6, "duration_s": 30.1, "audio_s": 30.2, "audio_check": "PASS"}
+    },
+    "realistic": {
+      "seg1": {"ok": true, "size_mb": 5.9, "duration_s": 15, "audio_s": 15.1, "gen_time_s": 539},
+      "seg2": {"ok": true, "size_mb": 6.8, "duration_s": 15, "audio_s": 15.1, "gen_time_s": 712},
+      "final": {"ok": true, "size_mb": 12.7, "duration_s": 30.1, "audio_s": 30.2, "audio_check": "PASS"}
+    }
+  },
+  "prompts": {
+    "seg1_anime": "Japanese anime style... Camera: side medium shot from left 30° → push to 20° → pull to 15°",
+    "seg2_anime": "Japanese anime style... Camera: left 15° (matching seg1 end) → 20° → 25° → 30°",
+    "seg1_real": "DSLR 35mm... same angle progression as anime",
+    "seg2_real": "DSLR 35mm... same angle progression as anime"
+  },
+  "issues": [
+    "Seg1 prompts had literal {GRANDPA_EN} instead of interpolated value (f-string bug)",
+    "Realistic seg2 timed out at 900s on first attempt, succeeded at 712s on retry"
+  ],
+  "timestamp": "2026-04-11T17:10:00+08:00"
+}

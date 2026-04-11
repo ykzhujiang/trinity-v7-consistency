@@ -1,0 +1,11 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "A 28-year-old Chinese male programmer Lin Hao, slim and tall, short black hair, black-framed glasses, wearing grey hoodie and jeans, sitting at a computer desk in a late-night internet cafe, dim lighting, rows of computer desks, blue screen glow. He stares at the screen typing code. His phone buzzes. He picks it up and answers. His expression shifts from focused to shocked. He slowly puts the phone down, stares blankly. He takes a deep breath, shuts down the computer, stands up and walks toward the exit. Camera: side medium shot to medium close-up on phone call to pull back as he stands. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/assets/char-linhao-anime.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/assets/scene-wangba-anime.webp"
+    ],
+    "out": "anime-seg1.mp4"
+  }
+]

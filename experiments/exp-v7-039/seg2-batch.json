@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Continuing from previous scene: The same 28-year-old Chinese male programmer Lin Hao, slim and tall, short black hair, black-framed glasses, wearing grey hoodie and jeans stands on a city rooftop, daytime, bright sunlight, overlooking urban buildings, iron railing. Wind blows through his hoodie. He grips the iron railing, looking out at the city. He mutters to himself with frustration. He pulls out phone, glances at screen. He shoves it back in pocket, lifts head, slight determined smile forms. Camera: behind medium shot to side close-up to front medium shot. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/assets/char-linhao-anime.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/assets/scene-rooftop-anime.webp"
+    ],
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/output/anime-seg1.mp4",
+    "out": "anime-seg2.mp4"
+  },
+  {
+    "id": "real-seg2",
+    "prompt": "Continuing from previous scene: The same 28-year-old Chinese male programmer Lin Hao, slim and tall, short black hair, black-framed glasses, wearing grey hoodie and jeans stands on a city rooftop, daytime, bright sunlight, overlooking urban buildings, iron railing. Wind blows through his hoodie. He grips the iron railing, looking out at the city. He mutters to himself with frustration. He pulls out phone, glances at screen. He shoves it back in pocket, lifts head, slight determined smile forms. Camera: behind medium shot to side close-up to front medium shot. DSLR photograph, 35mm lens, bright natural daylight. No 3D, no CG, no Pixar. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/assets/char-linhao-real.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/assets/scene-rooftop-real.webp"
+    ],
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/output/real-seg1.mp4",
+    "out": "real-seg2.mp4"
+  }
+]

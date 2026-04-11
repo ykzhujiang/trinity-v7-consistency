@@ -1,0 +1,38 @@
+[
+  {
+    "name": "lifei-anime",
+    "type": "character",
+    "desc": "25岁中国男性外卖小哥，精瘦但有隐藏肌肉线条，短寸头，黄色外卖制服（无品牌logo），深色长裤，锐利但常带笑意的眼神，半身像，左侧面30度角",
+    "style": "anime"
+  },
+  {
+    "name": "lifei-realistic",
+    "type": "character",
+    "desc": "25-year-old Chinese male delivery rider, lean but muscular build, buzz cut hair, yellow delivery uniform (no brand logo), dark trousers, sharp eyes with a habitual smile, half-body portrait, left side 30-degree angle. DSLR photograph, 35mm lens, natural lighting",
+    "style": "realistic"
+  },
+  {
+    "name": "grandpa-anime",
+    "type": "character",
+    "desc": "70岁中国老大爷，灰色外套，拄拐杖，慈祥面容，白发稀疏，微胖，正面半身像",
+    "style": "anime"
+  },
+  {
+    "name": "grandpa-realistic",
+    "type": "character",
+    "desc": "70-year-old Chinese elderly man, grey coat, walking cane, kind face, thinning white hair, slightly plump, front half-body portrait. DSLR photograph, 35mm lens, natural lighting",
+    "style": "realistic"
+  },
+  {
+    "name": "street-anime",
+    "type": "scene",
+    "desc": "繁忙的中国城市商业街，午餐时间，阳光明媚，各种中文店铺招牌，人流如织，路边停着电动车，竖屏构图9:16",
+    "style": "anime"
+  },
+  {
+    "name": "street-realistic",
+    "type": "scene",
+    "desc": "Busy Chinese urban commercial street at lunch time, bright sunlight, various Chinese shop signs, crowded with pedestrians, electric scooters parked by the road, vertical 9:16 composition. DSLR photograph, 35mm lens, natural lighting",
+    "style": "realistic"
+  }
+]
