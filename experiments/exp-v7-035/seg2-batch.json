@@ -1,0 +1,14 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Continuing from previous scene. Same modern Chinese startup office, same whiteboard, same warm lighting.\n\nPhysical State Anchoring:\n- Li Wei (30, tall thin, rectangular black-framed glasses, blue-and-white plaid shirt, short black hair) stands on the LEFT side near the whiteboard, marker in hand.\n- Wang Hao (28, slightly chubby, round face, NO glasses, dark green polo shirt, khaki pants) sits in a rolling chair on the RIGHT side, phone in hand.\n\nLi Wei frantically scribbles on the whiteboard, then turns back to look at Wang Hao: \"首先把这个模块砍掉，省百分之六十开发时间——\"\nWang Hao pulls out his phone and checks the time with a smug grin: \"一分钟了，你才砍了一个模块。\"\nLi Wei tosses the whiteboard marker onto the desk and throws his hands up in realization: \"等等……你的方案不就是把我砍的这些加回去吗？\"\nWang Hao bursts out laughing and stands up to pat Li Wei on the shoulder: \"所以我说跑得通嘛！走，请你喝咖啡。\"\n\nMedium shot. Li Wei always on LEFT, Wang Hao always on RIGHT (180-degree rule). Japanese anime digital animation style. Normal speed movement, natural pacing. All dialogue must finish by second 13, leaving at least 2 seconds of silence at the end. No subtitles, no slow motion, no facing camera directly. Chinese Mandarin dialogue only. 9:16 vertical.",
+    "video_ref": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-035/output/anime-seg1.mp4",
+    "out": "anime-seg2.mp4"
+  },
+  {
+    "id": "cg-seg2",
+    "prompt": "Continuing from previous scene. Same modern Chinese startup office, same whiteboard, same warm lighting.\n\nPhysical State Anchoring:\n- Li Wei (30, tall thin, rectangular black-framed glasses, blue-and-white plaid shirt, short black hair) stands on the LEFT side near the whiteboard, marker in hand.\n- Wang Hao (28, slightly chubby, round face, NO glasses, dark green polo shirt, khaki pants) sits in a rolling chair on the RIGHT side, phone in hand.\n\nLi Wei frantically scribbles on the whiteboard, then turns back to look at Wang Hao: \"首先把这个模块砍掉，省百分之六十开发时间——\"\nWang Hao pulls out his phone and checks the time with a smug grin: \"一分钟了，你才砍了一个模块。\"\nLi Wei tosses the whiteboard marker onto the desk and throws his hands up in realization: \"等等……你的方案不就是把我砍的这些加回去吗？\"\nWang Hao bursts out laughing and stands up to pat Li Wei on the shoulder: \"所以我说跑得通嘛！走，请你喝咖啡。\"\n\nMedium shot. Li Wei always on LEFT, Wang Hao always on RIGHT (180-degree rule). 3D CG Pixar animation style, smooth stylized features, vibrant colors, soft warm lighting. Normal speed movement, natural pacing. All dialogue must finish by second 13, leaving at least 2 seconds of silence at the end. No subtitles, no slow motion, no facing camera directly. Chinese Mandarin dialogue only. 9:16 vertical.",
+    "video_ref": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-035/output/cg-seg1.mp4",
+    "out": "cg-seg2.mp4"
+  }
+]

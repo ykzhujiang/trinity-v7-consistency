@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "Inside a modern Chinese startup office, daytime, bright natural light from windows. A large whiteboard with architecture diagrams is on the left wall.\n\nTwo Chinese men stand near the whiteboard:\n- Li Wei (30, tall thin build, rectangular black-framed glasses, blue-and-white plaid shirt over gray t-shirt, short black hair, clean-shaven) stands on the LEFT side of frame, pointing at the whiteboard with his right hand, eyebrows furrowed.\n- Wang Hao (28, slightly chubby, round face, NO glasses, dark green polo shirt tucked into khaki pants, short black hair parted to the side, dimples) stands on the RIGHT side of frame, arms crossed over his chest, slight smirk.\n\nLi Wei points at the architecture diagram on the whiteboard and says with frustration: \"这个方案根本跑不通，用户不会买单的。\"\nWang Hao uncrosses his arms and shrugs confidently: \"你上次也这么说，结果呢？日活翻了三倍。\"\nLi Wei pushes his glasses up and turns to draw an arrow on the whiteboard: \"那是因为竞品更烂，不是我们更好。\"\nWang Hao slaps the desk and stands up straight: \"行，那你说怎么改？给你三分钟。\"\n\nMedium shot, slightly low angle. Li Wei always on LEFT, Wang Hao always on RIGHT (180-degree rule). Japanese anime digital animation style. Normal speed movement, natural pacing. All dialogue must finish by second 13, leaving at least 2 seconds of silence at the end. No subtitles, no slow motion, no facing camera directly. Chinese Mandarin dialogue only. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-035/assets/anime/char-char-a-programmer.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-035/assets/anime/char-char-b-pm.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-035/assets/anime/scene-scene-office.webp"
+    ],
+    "out": "anime-seg1.mp4"
+  },
+  {
+    "id": "cg-seg1",
+    "prompt": "Inside a modern Chinese startup office, daytime, bright natural light from windows. A large whiteboard with architecture diagrams is on the left wall.\n\nTwo Chinese men stand near the whiteboard:\n- Li Wei (30, tall thin build, rectangular black-framed glasses, blue-and-white plaid shirt over gray t-shirt, short black hair, clean-shaven) stands on the LEFT side of frame, pointing at the whiteboard with his right hand, eyebrows furrowed.\n- Wang Hao (28, slightly chubby, round face, NO glasses, dark green polo shirt tucked into khaki pants, short black hair parted to the side, dimples) stands on the RIGHT side of frame, arms crossed over his chest, slight smirk.\n\nLi Wei points at the architecture diagram on the whiteboard and says with frustration: \"这个方案根本跑不通，用户不会买单的。\"\nWang Hao uncrosses his arms and shrugs confidently: \"你上次也这么说，结果呢？日活翻了三倍。\"\nLi Wei pushes his glasses up and turns to draw an arrow on the whiteboard: \"那是因为竞品更烂，不是我们更好。\"\nWang Hao slaps the desk and stands up straight: \"行，那你说怎么改？给你三分钟。\"\n\nMedium shot, slightly low angle. Li Wei always on LEFT, Wang Hao always on RIGHT (180-degree rule). 3D CG Pixar animation style, smooth stylized features, vibrant colors, soft warm lighting. Normal speed movement, natural pacing. All dialogue must finish by second 13, leaving at least 2 seconds of silence at the end. No subtitles, no slow motion, no facing camera directly. Chinese Mandarin dialogue only. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-035/assets/cg/char-char-a-programmer.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-035/assets/cg/char-char-b-pm.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-035/assets/cg/scene-scene-office.webp"
+    ],
+    "out": "cg-seg1.mp4"
+  }
+]

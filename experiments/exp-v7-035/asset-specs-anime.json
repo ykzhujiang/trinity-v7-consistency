@@ -1,0 +1,20 @@
+[
+  {
+    "name": "char-a-programmer",
+    "type": "character",
+    "style": "anime",
+    "desc": "A 30-year-old Chinese male programmer named Li Wei. Tall and thin build, short black hair, wears rectangular black-framed glasses, wearing a blue-and-white plaid shirt over a gray t-shirt, dark jeans. Slightly hunched posture from long hours coding. Clean-shaven, sharp jawline. Full body portrait, white background. Japanese anime digital art style."
+  },
+  {
+    "name": "char-b-pm",
+    "type": "character",
+    "style": "anime",
+    "desc": "A 28-year-old Chinese male product manager named Wang Hao. Medium height, slightly chubby build, round face, no glasses, short black hair parted to the side, wearing a dark green polo shirt tucked into khaki pants, brown leather belt. Friendly smile, dimples. Full body portrait, white background. Japanese anime digital art style."
+  },
+  {
+    "name": "scene-office",
+    "type": "scene",
+    "style": "anime",
+    "desc": "Modern Chinese startup office interior, daytime. A large whiteboard covered with product architecture diagrams and sticky notes on the left wall. A long shared desk with two computer monitors, coffee mugs, and scattered papers. Bright natural light from floor-to-ceiling windows. Minimalist decoration, some potted plants. A rolling whiteboard chair. Japanese anime digital art style, detailed background."
+  }
+]

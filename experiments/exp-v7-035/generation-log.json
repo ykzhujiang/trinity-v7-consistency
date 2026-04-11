@@ -1,0 +1,27 @@
+{
+  "experiment": "EXP-V7-035",
+  "theme": "多角色办公室搞笑 — 两个创业搭档讨论产品方案",
+  "characters": 2,
+  "tracks": [
+    "anime",
+    "3d-cg-pixar"
+  ],
+  "segments": 2,
+  "duration_per_segment": "15s",
+  "constraints": {
+    "180_degree_rule": true,
+    "char_a_left_char_b_right": true,
+    "dialogue_finish_by": "13s",
+    "silence_buffer": "2s",
+    "language": "Chinese Mandarin",
+    "no_slow_motion": true
+  },
+  "seg1_prompts": {
+    "anime": "Inside a modern Chinese startup office, daytime, bright natural light from windows. A large whiteboa...",
+    "cg": "Inside a modern Chinese startup office, daytime, bright natural light from windows. A large whiteboa..."
+  },
+  "seg2_prompts": {
+    "anime": "Continuing from previous scene. Same modern Chinese startup office, same whiteboard, same warm light...",
+    "cg": "Continuing from previous scene. Same modern Chinese startup office, same whiteboard, same warm light..."
+  }
+}
