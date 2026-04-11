@@ -85,8 +85,8 @@ def build_prompt(spec: dict) -> str:
     typ = spec.get("type", "character")
 
     if style == "realistic":
-        style_desc = "3D animated character portrait, Pixar/Disney quality"
-        style_detail = "High-quality 3D animated character, Pixar or modern CG film. Stylized but detailed, realistic proportions, expressive features. Warm cinematic lighting. NOT a photograph."
+        style_desc = "Professional DSLR photograph, photorealistic portrait"
+        style_detail = "Professional DSLR photograph, 35mm lens, natural lighting, real human face and body. Photorealistic skin texture, real hair, real fabric. NOT anime, NOT 3D, NOT cartoon, NOT Pixar, NOT CG, NOT animated, NOT illustration."
     else:
         style_desc = "Anime-style"
         style_detail = "Semi-realistic anime illustration, soft studio lighting, clean background. High detail, vibrant colors, cinematic anime quality."
@@ -95,7 +95,7 @@ def build_prompt(spec: dict) -> str:
 
     if typ == "scene":
         if style == "realistic":
-            scene_style = "3D animated environment, Pixar/Disney quality CG scene. Warm cinematic lighting, detailed textures, clearly animated."
+            scene_style = "DSLR photograph of real location. Natural lighting, photorealistic textures, real-world environment. NOT 3D, NOT CG, NOT animated, NOT Pixar, NOT cartoon."
         else:
             scene_style = "Anime-style wide establishing shot. Semi-realistic anime illustration, warm lighting, cinematic quality."
         return f"{scene_style} 9:16 vertical format. {desc}. No people in the scene."
