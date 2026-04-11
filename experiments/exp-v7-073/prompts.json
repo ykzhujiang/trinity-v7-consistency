@@ -1,0 +1,14 @@
+{
+  "seg1": {
+    "prompt": "Gacha mobile game style, Genshin Impact aesthetic, anime character design, soft glow, vivid color palette, detailed background art. Interior of a cramped 8-square-meter dorm room, single bed with messy blankets, small desk cluttered with textbooks and energy drink cans, blue-white LED desk lamp, rain hitting the window A 22-year-old Chinese male college student with messy black hair, wearing a faded blue hoodie and jeans, slim build, tired eyes sits at the desk, stares at rejection email, slams laptop shut in frustration \"又失败了……\" He grabs his jacket and storms out of the room.",
+    "chars": 583
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. Gacha mobile game style, Genshin Impact aesthetic, anime character design, soft glow, vivid color palette, detailed background art. Interior of a quiet late-night campus café, warm orange pendant lights, wooden tables, steaming coffee cups, soft jazz playing A 22-year-old Chinese male college student with messy black hair, wearing a faded blue hoodie and jeans, slim build, tired eyes sits alone at a corner table, stirring coffee absently, staring at the rain outside the window \"到底哪里出了问题？\" He pulls out his phone, scrolls through job listings, sighs deeply.",
+    "chars": 593
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. Gacha mobile game style, Genshin Impact aesthetic, anime character design, soft glow, vivid color palette, detailed background art. Exterior rooftop of a university building at dawn, city skyline in distance, wind blowing, golden hour light breaking through clouds A 22-year-old Chinese male college student with messy black hair, wearing a faded blue hoodie and jeans, slim build, tired eyes stands at the rooftop railing, wind blowing his hair, golden dawn light on his face, he spreads his arms \"管他的，再来一次。\" He smiles, turns around and walks toward the stairwell with purpose.",
+    "chars": 610
+  }
+}
