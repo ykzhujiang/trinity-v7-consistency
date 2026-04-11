@@ -1,0 +1,28 @@
+{
+  "experiment": "",
+  "segments": [
+    "experiments/exp-v7-036/output/anime/segment-01.mp4",
+    "experiments/exp-v7-036/output/anime/segment-02.mp4",
+    "experiments/exp-v7-036/output/anime/segment-03.mp4"
+  ],
+  "evaluation": {
+    "character_consistency": {
+      "score": null,
+      "notes": "Pending manual review"
+    },
+    "scene_consistency": {
+      "score": null,
+      "notes": "Pending manual review"
+    },
+    "camera_continuity": {
+      "score": null,
+      "notes": "Pending manual review"
+    },
+    "plot_continuity": {
+      "score": null,
+      "notes": "Pending manual review"
+    }
+  },
+  "overall_score": null,
+  "timestamp": "2026-04-11T13:19:38+0800"
+}

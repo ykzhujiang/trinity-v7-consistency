@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg3",
+    "prompt": "Same 28-year-old Chinese man, thin build, messy black hair, dark circles under eyes, black hoodie. Continuing in the same dark startup office at night, only blue-white monitor glow, cluttered desk with takeout boxes and coffee cups, golden glow fading, dawn through window. He leans back exhaling with relief, screen shows '0 errors'. He stands stretching, looks out window at dawn sky. Phone buzzes — popup: 'Level 2: refactor entire backend'. He grins, sits back down, hands on keyboard with excitement. Camera: overhead wide → window far → phone closeup → medium shot smiling (eyes on screen). Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/output/anime-seg2.mp4",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/anime/char-zhaoyang-front.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/anime/char-zhaoyang-side.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/anime/scene-office-night.webp"
+    ],
+    "out": "anime-seg3.mp4"
+  },
+  {
+    "id": "real-seg3",
+    "prompt": "Same 28-year-old Chinese man, thin build, messy black hair, dark circles under eyes, black hoodie. Continuing in the same dark startup office at night, only blue-white monitor glow, cluttered desk with takeout boxes and coffee cups, golden glow fading, dawn through window. He leans back exhaling with relief, screen shows '0 errors'. He stands stretching, looks out window at dawn sky. Phone buzzes — popup: 'Level 2: refactor entire backend'. He grins, sits back down, hands on keyboard with excitement. Camera: overhead wide → window far → phone closeup → medium shot smiling (eyes on screen). DSLR photograph, 35mm lens, natural lighting. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera, no 3D, no CG, no Pixar. 9:16 vertical.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/output/real-seg2.mp4",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/real/scene-office-night.webp"
+    ],
+    "out": "real-seg3.mp4"
+  }
+]

@@ -9,13 +9,17 @@
 # ]
 # ///
 """
-V7 Dual Segment Pipeline — Consistency Research
+V7 N-Segment Pipeline — Consistency Research
 
-Generates dual-segment videos testing cross-segment consistency.
+Generates N-segment videos testing cross-segment consistency.
+Seg1 is generated independently; Seg2..N extend from the previous segment.
 Three modes:
-  1. video-extension: Segment2 = Extend @video1 by 15s
-  2. first-frame-anchor: Segment2 uses last frame of Seg1 as first frame
+  1. video-extension: SegN = Extend @video(N-1) by 15s
+  2. first-frame-anchor: SegN uses last frame of Seg(N-1) as first frame
   3. hybrid: Combine video extension + character refs + first frame
+
+V7-032 template: Seg2+ prompts include character reference images and copy
+Seg1 character/scene descriptions verbatim for consistency.
 
 Usage:
     uv run scripts/v7_pipeline.py \
@@ -264,30 +268,66 @@ def build_seedance_prompt_seg1(characters, location_desc, segment, asset_paths):
         "Maintain identical generic modern Asian city skyline across all frames, no landmark buildings. "
         "Consistent warm indoor lighting, no change in outdoor sky color."
     )
+
+    # Enforce prompt length constraint
+    if len(prompt) > MAX_PROMPT_LENGTH:
+        prompt = prompt[:MAX_PROMPT_LENGTH - 3] + "..."
+
     return prompt, ref_map
 
 
-def build_seedance_prompt_seg2_extend(segment):
-    """Build Seedance prompt for Segment 2 using Video Extension."""
+MAX_PROMPT_LENGTH = 800
+
+
+def build_seedance_prompt_seg_extend(segment, characters, asset_paths, seg1_desc=None):
+    """Build Seedance prompt for Segment 2+ using Video Extension.
+
+    V7-032 template: includes character reference images and copies Seg1 character
+    description verbatim into continuation prompts.
+
+    Returns (prompt, image_paths) where image_paths are the character ref images to pass via --image.
+    """
+    # Build character image refs
+    img_refs = []
+    img_paths = []
+    ref_idx = 1
+    for name in characters:
+        if name in asset_paths:
+            img_refs.append(f"@image{ref_idx} as character {name}")
+            img_paths.append(asset_paths[name])
+            ref_idx += 1
+
+    ref_text = ", ".join(img_refs) + ". " if img_refs else ""
+
+    # V7-032: copy Seg1 character description verbatim
+    char_desc = ""
+    if seg1_desc and seg1_desc.get("character_desc"):
+        char_desc = f"Same {seg1_desc['character_desc']}. "
+    scene_desc = ""
+    if seg1_desc and seg1_desc.get("scene_desc"):
+        scene_desc = f"Continuing in the same {seg1_desc['scene_desc']}. "
+
     timeline = []
     for num, text in segment["parts"]:
         clean = re.sub(r'\[.+?\]："(.+?)"', r'says "\1"', text)
         timeline.append(f"[Part {num}] {clean}")
 
     prompt = (
-        f"Extend @video1 by 15 seconds. "
-        f"Continue the scene seamlessly. "
-        f"Physical state at start: {segment['physical_state']}\n"
-        f"Camera: {segment['camera']}\n\n"
-        + "\n".join(timeline)
-        + "\n\nMaintain exact same character appearances, clothing, and office setting. "
-        "No subtitles, no slow motion, no characters looking at camera. "
-        "Natural speed movement. 9:16 vertical format. "
-        "Identical background to previous segment, same furniture placement, same wall decorations, same window view. "
-        "Maintain identical generic modern Asian city skyline, no landmark buildings. "
-        "Consistent warm indoor lighting, no change in outdoor sky color."
+        f"Extend @video1 by 15 seconds. {ref_text}"
+        f"{char_desc}{scene_desc}"
+        f"Physical state: {segment['physical_state']} "
+        f"Camera: {segment['camera']} "
+        + " ".join(timeline)
+        + " No subtitles, no slow motion. Natural speed. 9:16 vertical. "
+        "Same characters, clothing, office setting, furniture, window view. "
+        "Identical generic modern Asian city skyline. Consistent warm indoor lighting."
     )
-    return prompt
+
+    # Enforce prompt length constraint
+    if len(prompt) > MAX_PROMPT_LENGTH:
+        prompt = prompt[:MAX_PROMPT_LENGTH - 3] + "..."
+
+    return prompt, img_paths
 
 
 def upload_to_tmpfiles(local_path: str) -> str:
@@ -346,13 +386,56 @@ def call_seedance(seedance_script: str, ark_key: str, prompt: str,
 # Evaluation
 # ---------------------------------------------------------------------------
 
-def evaluate_consistency(seg1_path: str, seg2_path: str, output_dir: str):
-    """Generate a consistency evaluation report."""
+def check_segment_audio(video_path: str, segment_label: str) -> bool:
+    """Check that a segment video has audio using ffprobe. Returns True if audio is present."""
+    result = subprocess.run([
+        "ffprobe", "-v", "error", "-select_streams", "a",
+        "-show_entries", "stream=duration", "-of", "csv=p=0", video_path
+    ], capture_output=True, text=True)
+    audio_dur = float(result.stdout.strip()) if result.stdout.strip() else 0
+    video_result = subprocess.run([
+        "ffprobe", "-v", "error", "-select_streams", "v",
+        "-show_entries", "stream=duration", "-of", "csv=p=0", video_path
+    ], capture_output=True, text=True)
+    video_dur = float(video_result.stdout.strip()) if video_result.stdout.strip() else 0
+    if audio_dur < video_dur * 0.9:
+        print(f"  ⛔ AUDIO CHECK FAILED ({segment_label}): audio={audio_dur:.1f}s video={video_dur:.1f}s")
+        return False
+    else:
+        print(f"  ✓ Audio OK ({segment_label}): audio={audio_dur:.1f}s video={video_dur:.1f}s")
+        return True
+
+
+def concat_segments(segment_videos: list, output_dir: str) -> str:
+    """Concatenate N segment videos into a final video with proper re-encoding."""
+    n = len(segment_videos)
+    total_dur = n * 15
+    concat_path = os.path.join(output_dir, f"final-{total_dur}s.mp4")
+    concat_list = os.path.join(output_dir, "concat.txt")
+    with open(concat_list, "w") as f:
+        for v in segment_videos:
+            f.write(f"file '{os.path.abspath(v)}'\n")
+    subprocess.run([
+        "ffmpeg", "-f", "concat", "-safe", "0",
+        "-i", concat_list,
+        "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+        "-c:a", "aac", "-b:a", "128k",
+        "-movflags", "+faststart",
+        "-y", concat_path
+    ], capture_output=True)
+    print(f"  ✓ Concatenated {n} segments → {concat_path}")
+    return concat_path
+
+
+# ---------------------------------------------------------------------------
+# Evaluation
+# ---------------------------------------------------------------------------
+
+def evaluate_consistency(segment_videos: list, output_dir: str):
+    """Generate a consistency evaluation report for N segments."""
     report = {
-        "experiment": "EXP-V7-001",
-        "mode": "video-extension",
-        "segment1": seg1_path,
-        "segment2": seg2_path,
+        "experiment": os.path.basename(output_dir),
+        "segments": segment_videos,
         "evaluation": {
             "character_consistency": {"score": None, "notes": "Pending manual review"},
             "scene_consistency": {"score": None, "notes": "Pending manual review"},
@@ -362,11 +445,11 @@ def evaluate_consistency(seg1_path: str, seg2_path: str, output_dir: str):
         "overall_score": None,
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
     }
-    
+
     report_path = os.path.join(output_dir, "consistency-report.json")
     with open(report_path, "w") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
-    
+
     print(f"  Evaluation template saved: {report_path}")
     return report_path
 
@@ -376,7 +459,7 @@ def evaluate_consistency(seg1_path: str, seg2_path: str, output_dir: str):
 # ---------------------------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser(description="V7 Dual Segment Pipeline")
+    parser = argparse.ArgumentParser(description="V7 N-Segment Pipeline — Consistency Research")
     parser.add_argument("--storyboard", required=True, help="Path to storyboard.md")
     parser.add_argument("--mode", choices=["video-extension", "first-frame-anchor", "hybrid"],
                         default="video-extension")
@@ -420,12 +503,11 @@ def main():
 
     if args.skip_video:
         print("\n--- Skipping video generation ---")
-        # Save generation log
         log = {
-            "experiment": "EXP-V7-001",
             "mode": args.mode,
             "storyboard": args.storyboard,
             "assets": asset_paths,
+            "segments_count": len(segments),
             "video_skipped": True,
             "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
         }
@@ -439,142 +521,159 @@ def main():
         print("ERROR: seedance.py not found")
         sys.exit(1)
 
-    # Generate Segment 1
-    print("\n--- Step 2: Generate Segment 1 ---")
+    pipeline_start = time.time()
+    segment_videos = []
+    segment_prompts = []
+    segment_timings = []
+
+    # Build Seg1 description for V7-032 template reuse in Seg2+
+    seg1_char_desc = "; ".join(
+        f"{name}: {desc}" for name, desc in characters.items()
+    )
+    seg1_scene_desc = location_desc
+    seg1_desc = {"character_desc": seg1_char_desc, "scene_desc": seg1_scene_desc}
+
+    # --- Generate Segment 1 (independent) ---
+    print(f"\n--- Step 2: Generate Segment 1 / {len(segments)} ---")
     seg1 = segments[0]
+    seg1_start = time.time()
     seg1_prompt, ref_map = build_seedance_prompt_seg1(characters, location_desc, seg1, asset_paths)
     seg1_video = os.path.join(args.output_dir, "segment-01.mp4")
     seg1_images = [asset_paths[name] for name in characters if name in asset_paths]
     if "scene-office" in asset_paths:
         seg1_images.append(asset_paths["scene-office"])
-    
+
     seg1_ok = call_seedance(
         keys["seedance_script"], keys["ark_key"],
         seg1_prompt, seg1_images, seg1_video
     )
+    seg1_elapsed = time.time() - seg1_start
 
     if not seg1_ok:
         print("Segment 1 generation failed. Aborting.")
         sys.exit(1)
 
-    # Generate Segment 2
-    print("\n--- Step 3: Generate Segment 2 ---")
-    seg2 = segments[1]
+    segment_videos.append(seg1_video)
+    segment_prompts.append(seg1_prompt)
+    segment_timings.append(seg1_elapsed)
 
-    if args.mode == "video-extension":
-        seg2_prompt = build_seedance_prompt_seg2_extend(seg2)
-        seg2_video = os.path.join(args.output_dir, "segment-02.mp4")
-        seg2_ok = call_seedance(
-            keys["seedance_script"], keys["ark_key"],
-            seg2_prompt, [], seg2_video,
-            input_video=seg1_video
-        )
-    elif args.mode == "first-frame-anchor":
-        # Extract last frame from seg1
-        last_frame = os.path.join(args.output_dir, "seg1-last-frame.png")
-        subprocess.run([
-            "ffmpeg", "-sseof", "-0.1", "-i", seg1_video,
-            "-frames:v", "1", "-y", last_frame
-        ], capture_output=True)
-        
-        seg2_prompt = (
-            f"@image1 as the first frame of this scene. "
-            f"Continue the scene seamlessly from this exact moment. "
-            + build_seedance_prompt_seg2_extend(seg2).replace("Extend @video1 by 15 seconds. ", "")
-        )
-        seg2_images = [last_frame]
-        # Add character refs
-        for name in characters:
-            if name in asset_paths:
-                seg2_images.append(asset_paths[name])
-        
-        seg2_video = os.path.join(args.output_dir, "segment-02.mp4")
-        seg2_ok = call_seedance(
-            keys["seedance_script"], keys["ark_key"],
-            seg2_prompt, seg2_images, seg2_video
-        )
-    elif args.mode == "hybrid":
-        # Extract last frame + use video extension + character refs
-        last_frame = os.path.join(args.output_dir, "seg1-last-frame.png")
-        subprocess.run([
-            "ffmpeg", "-sseof", "-0.1", "-i", seg1_video,
-            "-frames:v", "1", "-y", last_frame
-        ], capture_output=True)
-        
-        seg2_prompt = (
-            f"Extend @video1 by 15 seconds. "
-            f"Maintain character appearance exactly consistent with reference images. "
-            + build_seedance_prompt_seg2_extend(seg2).replace("Extend @video1 by 15 seconds. ", "")
-        )
-        seg2_images = []
-        for name in characters:
-            if name in asset_paths:
-                seg2_images.append(asset_paths[name])
-        
-        seg2_video = os.path.join(args.output_dir, "segment-02.mp4")
-        seg2_ok = call_seedance(
-            keys["seedance_script"], keys["ark_key"],
-            seg2_prompt, seg2_images, seg2_video,
-            input_video=seg1_video
-        )
+    # --- Generate Segments 2..N (serial, each extends previous) ---
+    for i in range(1, len(segments)):
+        seg = segments[i]
+        seg_num = i + 1
+        print(f"\n--- Step 2: Generate Segment {seg_num} / {len(segments)} ---")
+        seg_start = time.time()
+        prev_video = segment_videos[-1]
+        seg_video = os.path.join(args.output_dir, f"segment-{seg_num:02d}.mp4")
 
-    if not seg2_ok:
-        print("Segment 2 generation failed.")
-    
-    # Concatenate
-    if seg1_ok and seg2_ok:
-        print("\n--- Step 4: Concatenate ---")
-        concat_path = os.path.join(args.output_dir, "final-30s.mp4")
-        concat_list = os.path.join(args.output_dir, "concat.txt")
-        with open(concat_list, "w") as f:
-            f.write(f"file '{os.path.abspath(seg1_video)}'\n")
-            f.write(f"file '{os.path.abspath(seg2_video)}'\n")
-        # Re-encode to fix audio concat (c copy drops seg2 audio)
-        subprocess.run([
-            "ffmpeg", "-f", "concat", "-safe", "0",
-            "-i", concat_list,
-            "-c:v", "libx264", "-preset", "fast", "-crf", "18",
-            "-c:a", "aac", "-b:a", "128k",
-            "-movflags", "+faststart",
-            "-y", concat_path
-        ], capture_output=True)
-        # Verify both segments have audio in final
-        result = subprocess.run([
-            "ffprobe", "-v", "error", "-select_streams", "a",
-            "-show_entries", "stream=duration", "-of", "csv=p=0", concat_path
-        ], capture_output=True, text=True)
-        audio_dur = float(result.stdout.strip()) if result.stdout.strip() else 0
-        video_result = subprocess.run([
-            "ffprobe", "-v", "error", "-select_streams", "v",
-            "-show_entries", "stream=duration", "-of", "csv=p=0", concat_path
-        ], capture_output=True, text=True)
-        video_dur = float(video_result.stdout.strip()) if video_result.stdout.strip() else 0
-        if audio_dur < video_dur * 0.9:
-            print(f"  ⛔ AUDIO CHECK FAILED: audio={audio_dur:.1f}s video={video_dur:.1f}s — Seg2 audio likely missing!")
-        else:
-            print(f"  ✓ Audio check passed: audio={audio_dur:.1f}s video={video_dur:.1f}s")
-        print(f"  ✓ Final video: {concat_path}")
+        if args.mode == "video-extension":
+            seg_prompt, seg_images = build_seedance_prompt_seg_extend(
+                seg, characters, asset_paths, seg1_desc=seg1_desc
+            )
+            seg_ok = call_seedance(
+                keys["seedance_script"], keys["ark_key"],
+                seg_prompt, seg_images, seg_video,
+                input_video=prev_video
+            )
+        elif args.mode == "first-frame-anchor":
+            last_frame = os.path.join(args.output_dir, f"seg{i}-last-frame.png")
+            subprocess.run([
+                "ffmpeg", "-sseof", "-0.1", "-i", prev_video,
+                "-frames:v", "1", "-y", last_frame
+            ], capture_output=True)
 
-    # Evaluate
+            base_prompt, base_images = build_seedance_prompt_seg_extend(
+                seg, characters, asset_paths, seg1_desc=seg1_desc
+            )
+            # Replace video extension ref with first-frame anchor
+            seg_prompt = (
+                f"@image1 as the first frame of this scene. "
+                f"Continue the scene seamlessly from this exact moment. "
+                + base_prompt.replace("Extend @video1 by 15 seconds. ", "")
+            )
+            seg_images = [last_frame] + base_images
+            seg_ok = call_seedance(
+                keys["seedance_script"], keys["ark_key"],
+                seg_prompt, seg_images, seg_video
+            )
+        elif args.mode == "hybrid":
+            last_frame = os.path.join(args.output_dir, f"seg{i}-last-frame.png")
+            subprocess.run([
+                "ffmpeg", "-sseof", "-0.1", "-i", prev_video,
+                "-frames:v", "1", "-y", last_frame
+            ], capture_output=True)
+
+            base_prompt, base_images = build_seedance_prompt_seg_extend(
+                seg, characters, asset_paths, seg1_desc=seg1_desc
+            )
+            seg_prompt = base_prompt.replace(
+                "Extend @video1 by 15 seconds. ",
+                "Extend @video1 by 15 seconds. Maintain character appearance exactly consistent with reference images. "
+            )
+            seg_images = base_images
+            seg_ok = call_seedance(
+                keys["seedance_script"], keys["ark_key"],
+                seg_prompt, seg_images, seg_video,
+                input_video=prev_video
+            )
+
+        seg_elapsed = time.time() - seg_start
+        segment_prompts.append(seg_prompt)
+        segment_timings.append(seg_elapsed)
+
+        if not seg_ok:
+            print(f"Segment {seg_num} generation failed. Stopping at segment {seg_num - 1}.")
+            break
+
+        segment_videos.append(seg_video)
+
+    # --- Audio check per segment ---
+    print(f"\n--- Step 3: Audio Check ({len(segment_videos)} segments) ---")
+    for idx, v in enumerate(segment_videos):
+        check_segment_audio(v, f"Segment {idx + 1}")
+
+    # --- Concatenate all segments ---
+    if len(segment_videos) >= 2:
+        print(f"\n--- Step 4: Concatenate {len(segment_videos)} Segments ---")
+        concat_path = concat_segments(segment_videos, args.output_dir)
+
+        # Final audio check on concatenated video
+        check_segment_audio(concat_path, "Final concatenated")
+    elif len(segment_videos) == 1:
+        print("\n--- Only 1 segment generated, skipping concat ---")
+        concat_path = segment_videos[0]
+
+    # --- Evaluate ---
     print("\n--- Step 5: Evaluation ---")
-    evaluate_consistency(seg1_video, seg2_video, args.output_dir)
+    evaluate_consistency(segment_videos, args.output_dir)
 
-    # Save generation log
+    # --- Save generation log ---
+    pipeline_elapsed = time.time() - pipeline_start
     log = {
-        "experiment": "EXP-V7-001",
         "mode": args.mode,
+        "style": args.style,
         "storyboard": args.storyboard,
+        "segments_count": len(segments),
+        "segments_generated": len(segment_videos),
         "assets": asset_paths,
-        "segment1_prompt": seg1_prompt if seg1_ok else None,
-        "segment2_prompt": seg2_prompt if 'seg2_prompt' in dir() else None,
-        "segment1_video": seg1_video if seg1_ok else None,
-        "segment2_video": seg2_video if seg2_ok else None,
+        "segments": [
+            {
+                "number": idx + 1,
+                "prompt": segment_prompts[idx] if idx < len(segment_prompts) else None,
+                "prompt_length": len(segment_prompts[idx]) if idx < len(segment_prompts) else None,
+                "video": segment_videos[idx] if idx < len(segment_videos) else None,
+                "generation_time_s": round(segment_timings[idx], 1) if idx < len(segment_timings) else None,
+            }
+            for idx in range(len(segment_prompts))
+        ],
+        "total_time_s": round(pipeline_elapsed, 1),
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
     }
     log_path = os.path.join(args.output_dir, "generation-log.json")
     with open(log_path, "w") as f:
         json.dump(log, f, indent=2, ensure_ascii=False)
     print(f"\nGeneration log: {log_path}")
+    print(f"Total time: {pipeline_elapsed:.0f}s")
     print("Done!")
 
 

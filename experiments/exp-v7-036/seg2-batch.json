@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Same 28-year-old Chinese man, thin build, messy black hair, dark circles under eyes, black hoodie. Continuing in the same dark startup office at night, only blue-white monitor glow, cluttered desk with takeout boxes and coffee cups. Golden light bursts from the screen, engulfing him. He recoils in shock. He looks down at his hands — golden data streams dance on his fingers. He turns back to the screen, eyes reflecting golden code structure, the bug highlighted. He grins and starts typing furiously, code scrolling rapidly. Camera: low angle light burst → hand closeup → eye closeup → side medium typing. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/output/anime-seg1.mp4",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/anime/char-zhaoyang-front.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/anime/char-zhaoyang-side.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/anime/scene-office-night.webp"
+    ],
+    "out": "anime-seg2.mp4"
+  },
+  {
+    "id": "real-seg2",
+    "prompt": "Same 28-year-old Chinese man, thin build, messy black hair, dark circles under eyes, black hoodie. Continuing in the same dark startup office at night, only blue-white monitor glow, cluttered desk with takeout boxes and coffee cups. Golden light bursts from the screen, engulfing him. He recoils in shock. He looks down at his hands — golden data streams dance on his fingers. He turns back to the screen, eyes reflecting golden code structure, the bug highlighted. He grins and starts typing furiously, code scrolling rapidly. Camera: low angle light burst → hand closeup → eye closeup → side medium typing. DSLR photograph, 35mm lens, natural lighting. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera, no 3D, no CG, no Pixar. 9:16 vertical.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/output/real-seg1.mp4",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/real/scene-office-night.webp"
+    ],
+    "out": "real-seg2.mp4"
+  }
+]

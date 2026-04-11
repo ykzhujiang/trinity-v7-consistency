@@ -54,9 +54,19 @@ def generate_one(gemini_key: str, base_url: str, prompt: str, output_path: str) 
             config=types.GenerateContentConfig(response_modalities=["IMAGE", "TEXT"]),
         )
         for part in response.candidates[0].content.parts:
-            if part.inline_data and part.inline_data.mime_type.startswith("image/"):
+            img_data = None
+            # Method 1: inline_data (native Gemini)
+            if part.inline_data and part.inline_data.mime_type and part.inline_data.mime_type.startswith("image/"):
+                img_data = part.inline_data.data
+            # Method 2: data URI in text (proxy returns markdown with base64)
+            elif part.text and "data:image/" in part.text:
+                import re, base64
+                m = re.search(r'data:image/[^;]+;base64,([A-Za-z0-9+/=\s]+)', part.text)
+                if m:
+                    img_data = base64.b64decode(m.group(1))
+            if img_data:
                 from PIL import Image
-                img = Image.open(BytesIO(part.inline_data.data))
+                img = Image.open(BytesIO(img_data))
                 if img.width > 600:
                     ratio = 600 / img.width
                     img = img.resize((600, int(img.height * ratio)), Image.LANCZOS)

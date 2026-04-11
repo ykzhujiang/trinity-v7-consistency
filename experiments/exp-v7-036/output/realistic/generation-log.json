@@ -1,0 +1,35 @@
+{
+  "mode": "video-extension",
+  "style": "realistic",
+  "storyboard": "experiments/exp-v7-036/storyboard.md",
+  "segments_count": 3,
+  "segments_generated": 3,
+  "assets": {
+    "scene-office": "experiments/exp-v7-036/output/realistic/assets/scene-office.webp"
+  },
+  "segments": [
+    {
+      "number": 1,
+      "prompt": "@image1 as the office scene background. \nPhysical state: 赵阳坐在电脑前，面朝屏幕，疲惫姿态，双手放在键盘上\nCamera: 中景→特写脸→屏幕特写→手指点击特写\n\n[Part 1] 赵阳揉太阳穴盯着屏幕代码，says \"这个bug改了三天了...\"\n[Part 2] 猛灌一口凉咖啡做嫌弃表情，says \"冷的跟我心一样。\"\n[Part 3] 屏幕弹出异常弹窗，赵阳前倾凑近屏幕，says \"这什么东西？\"\n[Part 4] 弹窗写\"是否激活代码觉醒系统？\"赵阳点击\"是\"，says \"不管了，先点再说。\"\n\n---\n\nNo subtitles, no slow motion, no characters looking at camera. Natural speed movement and dialogue. 9:16 vertical format. Maintain identical generic modern Asian city skyline across all frames, no landmark buildings. Consistent warm indoor lighting, no change in outdoor sky color.",
+      "prompt_length": 570,
+      "video": "experiments/exp-v7-036/output/realistic/segment-01.mp4",
+      "generation_time_s": 533.3
+    },
+    {
+      "number": 2,
+      "prompt": "Extend @video1 by 15 seconds. Same 赵阳: - 28岁中国男性，程序员\n- 黑色卫衣，蓬松黑发，黑眼圈，瘦削身材. Continuing in the same - 昏暗灯光，只有电脑屏幕蓝光\n- 凌乱桌面：外卖盒、咖啡杯、文件\n- 窗外城市夜景. Physical state: 赵阳被金色光芒笼罩，从惊讶到兴奋，仍坐在同一把椅子上 Camera: 仰拍光芒→手部特写→眼睛特写→侧面中景敲键盘 [Part 1] 金色光芒从屏幕涌出笼罩赵阳全身，赵阳惊讶后仰，says \"卧槽！\" [Part 2] 低头看手，手指有金色数据流跳动，says \"我...能看到代码了？\" [Part 3] 重新看屏幕，眼中映出金色代码结构图，bug高亮红色，says \"原来问题在这...\" [Part 4] 嘴角上扬，疯狂敲键盘，代码飞速滚动，says \"三天的bug，三秒搞定！\"\n\n--- No subtitles, no slow motion. Natural speed. 9:16 vertical. Same characters, clothing, office setting, furniture, window view. Identical generic modern Asian city skyline. Consistent warm indoor lighting.",
+      "prompt_length": 611,
+      "video": "experiments/exp-v7-036/output/realistic/segment-02.mp4",
+      "generation_time_s": 469.1
+    },
+    {
+      "number": 3,
+      "prompt": "Extend @video1 by 15 seconds. Same 赵阳: - 28岁中国男性，程序员\n- 黑色卫衣，蓬松黑发，黑眼圈，瘦削身材. Continuing in the same - 昏暗灯光，只有电脑屏幕蓝光\n- 凌乱桌面：外卖盒、咖啡杯、文件\n- 窗外城市夜景. Physical state: 赵阳从释然靠椅背→站起伸懒腰→重新坐下，金色光芒已消退 Camera: 俯拍全景→窗户远景→手机特写→侧面中景微笑（视线看向屏幕） [Part 1] 赵阳靠椅背长出一口气，屏幕显示\"编译通过 0 errors\"，says \"成了...\" [Part 2] 站起伸懒腰，透过窗看天微亮，says \"天都亮了。\" [Part 3] 手机震动，弹窗再现：\"代码觉醒系统 Lv.1，下一关：重构整个后端\"，says \"还有下一关？\" [Part 4] 咧嘴笑，重新坐下手放键盘，says \"来吧，通宵就通宵。\" No subtitles, no slow motion. Natural speed. 9:16 vertical. Same characters, clothing, office setting, furniture, window view. Identical generic modern Asian city skyline. Consistent warm indoor lighting.",
+      "prompt_length": 614,
+      "video": "experiments/exp-v7-036/output/realistic/segment-03.mp4",
+      "generation_time_s": 532.0
+    }
+  ],
+  "total_time_s": 1537.5,
+  "timestamp": "2026-04-11T13:19:16+0800"
+}

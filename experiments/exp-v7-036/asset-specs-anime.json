@@ -1,0 +1,5 @@
+[
+  {"name": "zhaoyang-front", "type": "character", "desc": "Japanese anime style. A 28-year-old Chinese man, thin build, messy black hair, dark circles under eyes, wearing a black hoodie. Front view, upper body portrait. Dark office background with blue monitor glow.", "style": "anime"},
+  {"name": "zhaoyang-side", "type": "character", "desc": "Japanese anime style. A 28-year-old Chinese man, thin build, messy black hair, dark circles under eyes, wearing a black hoodie. Side profile view, upper body portrait. Dark office background with blue monitor glow.", "style": "anime"},
+  {"name": "office-night", "type": "scene", "desc": "Japanese anime style. A dark startup office at night. Only light comes from computer monitors glowing blue-white. Cluttered desk with takeout boxes, coffee cups, scattered papers. City night view through window. No people.", "style": "anime"}
+]

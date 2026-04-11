@@ -1,0 +1,20 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "A 28-year-old Chinese man, thin build, messy black hair, dark circles under eyes, black hoodie, sits at a desk in a dark startup office at night, only blue-white monitor glow, cluttered desk with takeout boxes and coffee cups. He rubs his temples staring at code on screen, mutters tiredly. He gulps cold coffee and grimaces. Screen pops up an unusual dialog box. He leans forward squinting at the screen, surprised. He clicks 'Yes' on the popup. Camera: medium side shot → face closeup → screen closeup → finger clicking closeup. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/anime/char-zhaoyang-front.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/anime/char-zhaoyang-side.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/anime/scene-office-night.webp"
+    ],
+    "out": "anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "A 28-year-old Chinese man, thin build, messy black hair, dark circles under eyes, black hoodie, sits at a desk in a dark startup office at night, only blue-white monitor glow, cluttered desk with takeout boxes and coffee cups. He rubs his temples staring at code on screen, mutters tiredly. He gulps cold coffee and grimaces. Screen pops up an unusual dialog box. He leans forward squinting at the screen, surprised. He clicks 'Yes' on the popup. Camera: medium side shot → face closeup → screen closeup → finger clicking closeup. DSLR photograph, 35mm lens, natural lighting. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera, no 3D, no CG, no Pixar. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-036/assets/real/scene-office-night.webp"
+    ],
+    "out": "real-seg1.mp4"
+  }
+]

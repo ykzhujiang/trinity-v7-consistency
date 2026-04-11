@@ -1,0 +1,20 @@
+[
+  {
+    "step": "step1_Assets",
+    "timestamp": "2026-04-11T12:53:57+0800",
+    "duration_s": 33.1,
+    "success": true
+  },
+  {
+    "step": "step2_Seg1",
+    "timestamp": "2026-04-11T12:58:23+0800",
+    "duration_s": 256.6,
+    "success": true
+  },
+  {
+    "step": "step3_Seg2 extend",
+    "timestamp": "2026-04-11T13:08:38+0800",
+    "duration_s": 609.2,
+    "success": true
+  }
+]
