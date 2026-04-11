@@ -1,0 +1,36 @@
+{
+  "experiment_id": "V7-075",
+  "desc": "Medium complexity — single character + book/letter object interaction",
+  "style": "Genshin Impact anime, cel-shaded 3D",
+  "strip_audio": true,
+  "segments": {
+    "seg1": {
+      "status": "OK"
+    },
+    "seg2": {
+      "elapsed": 335.1,
+      "status": "OK"
+    },
+    "seg3": {
+      "elapsed": 523.2,
+      "status": "OK"
+    }
+  },
+  "start_time": "2026-04-12T05:33:36+08:00",
+  "audio_correlation": {
+    "seg1_seg2": 0.0094,
+    "seg1_seg3": 0.0112,
+    "seg2_seg3": 0.01
+  },
+  "max_audio_r": 0.0112,
+  "audio_verdict": "PASS",
+  "audio_per_segment": {
+    "seg1": true,
+    "seg2": true,
+    "seg3": true
+  },
+  "status": "COMPLETE",
+  "final_path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-075/output/final.mp4",
+  "final_size_mb": 15.0,
+  "end_time": "2026-04-12T05:58:35+08:00"
+}

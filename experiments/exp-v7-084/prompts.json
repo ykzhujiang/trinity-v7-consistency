@@ -1,0 +1,14 @@
+{
+  "seg1": {
+    "prompt": "Genshin Impact game cinematic style, warm indoor lighting, Chinese teahouse, soft glow, vivid color palette, detailed 3D anime rendering. Slow dolly in from rainy bluestone alley, camera glides through bamboo curtain into teahouse private room. Interior of a traditional Chinese teahouse private room, round wooden table with tea set, half-drawn bamboo curtain, rain falling on bluestone alley visible through window, warm yellow lantern glow. Camera pushes in to close-up of A young Chinese man in his mid-20s with black hair tied back in a low ponytail, wearing a cyan traditional Chinese robe (changshan), slender build, calm expression as he lifts a teacup and blows across the tea leaves. Cinematic dolly in. Normal speed, natural pacing.",
+    "chars": 743
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. Genshin Impact game cinematic style, warm indoor lighting, Chinese teahouse, soft glow, vivid color palette, detailed 3D anime rendering. Slow dolly out from close-up to medium shot. A young Chinese man in his mid-20s with black hair tied back in a low ponytail, wearing a cyan traditional Chinese robe (changshan), slender build, calm expression puts down the teacup, reaches into his sleeve for a folded letter, unfolds and reads it. Expression shifts from calm to slight frown. Smooth dolly out.",
+    "chars": 530
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. Genshin Impact game cinematic style, warm indoor lighting, Chinese teahouse, soft glow, vivid color palette, detailed 3D anime rendering. Tracking shot following A young Chinese man in his mid-20s with black hair tied back in a low ponytail, wearing a cyan traditional Chinese robe (changshan), slender build, calm expression as he stands up from the chair, walks to the window, lifts bamboo curtain and looks out at rainy alley. Camera pans smoothly following his movement. Tracking shot.",
+    "chars": 521
+  }
+}

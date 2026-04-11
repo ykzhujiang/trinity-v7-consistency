@@ -1,0 +1,14 @@
+{
+  "seg1": {
+    "prompt": "Genshin Impact game cinematic style, warm indoor lighting, Chinese teahouse, soft glow, vivid color palette, detailed 3D anime rendering. Interior of a traditional Chinese teahouse private room, round wooden table with tea set, half-drawn bamboo curtain, rain falling on bluestone alley visible through window, warm yellow lantern glow. A young Chinese man in his mid-20s with black hair tied back in a low ponytail, wearing a cyan traditional Chinese robe (changshan), slender build, calm expression sits at the tea table, slowly lifts a teacup, blows across the tea leaves gently, takes a small sip. Fixed medium shot, camera completely still, no camera movement. Normal speed, natural pacing.",
+    "chars": 695
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. Genshin Impact game cinematic style, warm indoor lighting, Chinese teahouse, soft glow, vivid color palette, detailed 3D anime rendering. Interior of a traditional Chinese teahouse private room, round wooden table with tea set, half-drawn bamboo curtain, rain falling on bluestone alley visible through window, warm yellow lantern glow. A young Chinese man in his mid-20s with black hair tied back in a low ponytail, wearing a cyan traditional Chinese robe (changshan), slender build, calm expression puts down the teacup on the table, reaches into his sleeve and pulls out a folded letter, unfolds it and reads. His calm expression gradually shifts to a slight frown. Same fixed medium shot, no camera movement.",
+    "chars": 744
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. Genshin Impact game cinematic style, warm indoor lighting, Chinese teahouse, soft glow, vivid color palette, detailed 3D anime rendering. Interior of a traditional Chinese teahouse private room, round wooden table with tea set, half-drawn bamboo curtain, rain falling on bluestone alley visible through window, warm yellow lantern glow. A young Chinese man in his mid-20s with black hair tied back in a low ponytail, wearing a cyan traditional Chinese robe (changshan), slender build, calm expression folds the letter carefully and tucks it back into his sleeve. He stands up from the chair, walks to the window, lifts the bamboo curtain with one hand and gazes out at the rainy alley. Fixed medium shot, no camera movement.",
+    "chars": 756
+  }
+}
