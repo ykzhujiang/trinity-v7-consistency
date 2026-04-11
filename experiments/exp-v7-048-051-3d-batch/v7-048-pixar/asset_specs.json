@@ -1,0 +1,14 @@
+[
+  {
+    "name": "小李-pixar",
+    "type": "character",
+    "desc": "25岁中国男性程序员，圆脸，黑色短发蓬松，大眼睛，穿灰色卫衣+牛仔裤，背微驼，Pixar/Disney风格，Pixar-quality 3D animation, soft ambient lighting, Disney character design, smoo",
+    "style": "anime"
+  },
+  {
+    "name": "办公室-pixar",
+    "type": "scene",
+    "desc": "[INDOOR] 小型开放式办公室，夜晚，只有一个工位台灯亮着，27寸显示器发蓝光，桌上有咖啡杯和零食包装袋，窗外城市夜景模糊可见，Pixar/Disney风格",
+    "style": "anime"
+  }
+]

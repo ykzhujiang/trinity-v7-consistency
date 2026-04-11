@@ -1,0 +1,34 @@
+[
+  {
+    "id": "v7048-pixar-seg2",
+    "prompt": "Pixar-quality 3D animation, soft ambient lighting, Disney character design. Same young Chinese man in gray hoodie continues debugging at his desk. He types more code, then suddenly the monitor screen turns green (compilation successful). He freezes, stares at the screen in disbelief, then a slow smile spreads across his round face. He whispers excitedly '终于过了……' His big eyes light up with joy. Same dimly lit office, desk lamp and monitor glow. Natural speed, no slow motion, no text on screens, no facing camera. Chinese Mandarin dialogue. Dialogue finishes before second 14.",
+    "video": "experiments/3d-output/v7048-pixar-seg1.mp4",
+    "out": "v7048-pixar-seg2.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  },
+  {
+    "id": "v7049-gamecg-seg2",
+    "prompt": "AAA game cinematic, Unreal Engine 5 quality, ray-traced lighting. Same young Chinese woman with long black hair in cream sweater at the same café window booth. She puts down the coffee cup, looks down and turns a page of her book. Occasionally glances up toward the café entrance. Her fingers unconsciously fidget with her silver bracelet. She murmurs '应该快到了吧……' Same rainy window, pendant light, warm atmosphere. Natural speed, no slow motion, no facing camera. Chinese Mandarin dialogue. Dialogue finishes before second 14.",
+    "video": "experiments/3d-output/v7049-gamecg-seg1.mp4",
+    "out": "v7049-gamecg-seg2.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  },
+  {
+    "id": "v7050-celshaded-seg2",
+    "prompt": "Cel-shaded 3D animation, Genshin Impact art style, clean outlines, vibrant colors. Same young Chinese man in orange T-shirt and apron in the same bright kitchen. He cracks an egg into the frying pan but a small piece of eggshell falls in too. He panics, grabs chopsticks and tries to fish out the shell piece, fumbling. He mutters '每次都这样……' Sizzling sound from the pan. Morning sunlight through kitchen window. Same kitchen layout. Natural speed, no slow motion, no facing camera. Chinese Mandarin dialogue. Dialogue finishes before second 14.",
+    "video": "experiments/3d-output/v7050-celshaded-seg1.mp4",
+    "out": "v7050-celshaded-seg2.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  },
+  {
+    "id": "v7051-jpn3d-seg2",
+    "prompt": "Japanese 3D anime, Makoto Shinkai lighting, CG-anime hybrid, golden hour atmosphere. Same Chinese high school boy in white shirt at the same rooftop. He rests both hands on the iron railing, gazing at the distant sunset. Wind gently blows his messy black hair and shirt. He takes a deep breath and closes his eyes peacefully. The orange-red sunset paints the sky behind the city skyline. Same rooftop layout with railing and cement floor. Natural speed, no slow motion, no facing camera. Chinese Mandarin dialogue. Dialogue finishes before second 14.",
+    "video": "experiments/3d-output/v7051-jpn3d-seg1.mp4",
+    "out": "v7051-jpn3d-seg2.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  }
+]

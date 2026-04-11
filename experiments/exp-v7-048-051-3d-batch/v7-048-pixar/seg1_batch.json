@@ -1,0 +1,8 @@
+{
+  "prompt": "Pixar-quality 3D animation, soft ambient lighting, Disney character design, smooth subsurface scattering skin, large expressive eyes, stylized proportions. Small open-plan office at night, only one desk lamp on, 27-inch monitor glowing blue, coffee cup and snack wrappers on desk, blurred city night view through window. A 25-year-old Chinese male programmer, round face, fluffy short black hair, large expressive eyes, wearing grey hoodie and jeans, slightly hunched posture — Xiaoli tiredly types on keyboard, rubs his eyes, takes a sip of coffee, frowns at code error on screen. Camera: medium shot, slight side angle, fixed position. Normal speed movement, natural pacing. No subtitles, no text overlay, no slow motion, character does not face camera directly.",
+  "images": [
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-048-051-3d-batch/v7-048-pixar/assets/char-小李-pixar.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-048-051-3d-batch/v7-048-pixar/assets/scene-办公室-pixar.webp"
+  ],
+  "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-048-051-3d-batch/v7-048-pixar/output/seg1.mp4"
+}

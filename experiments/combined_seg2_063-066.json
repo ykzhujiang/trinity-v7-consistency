@@ -1,0 +1,26 @@
+[
+  {
+    "id": "rpg-seg2",
+    "prompt": "Continuation of previous scene, now transitioning to: RPG game cinematic cutscene, Unreal Engine 5 render, dramatic cinematic lighting, game CG quality, detailed environment. Exterior of an old apartment building rooftop at night, concrete railing, distant city neon lights and skyscraper silhouettes, night wind blowing hair, cool moonlight. The same 25-year-old Chinese male programmer, now wearing a black hoodie over his gray hoodie, leans against the rooftop railing looking at distant city lights, pulls out phone and looks at an old photo on screen, takes a deep breath, puts phone back in pocket, eyes become determined. Camera: wide shot establishing rooftop, then medium close-up of face in profile. Dialogue in Chinese Mandarin, must finish before second 12: '\u5f53\u521d\u8bf4\u597d\u8981\u505a\u51fa\u6765\u7684\u2026\u2026\u8fd8\u6ca1\u5230\u653e\u5f03\u7684\u65f6\u5019\u3002\u56de\u53bb\u3002' 9:16 vertical format, cinematic composition, character not looking at camera. No subtitles, no slow motion.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-063/output/seg1.mp4",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-063/output/seg2.mp4"
+  },
+  {
+    "id": "cyber-seg2",
+    "prompt": "Continuation of previous scene, now transitioning to: Cyberpunk game style, Cyberpunk 2077 aesthetic, neon glow, rain-slicked surfaces, holographic ambient light, night city vibe. Exterior of an old apartment building rooftop at night, concrete railing, distant city neon lights and skyscraper silhouettes, night wind blowing hair, cool moonlight. The same 25-year-old Chinese male programmer, now wearing a black hoodie over his gray hoodie, leans against the rooftop railing looking at distant city lights, pulls out phone and looks at an old photo on screen, takes a deep breath, puts phone back in pocket, eyes become determined. Camera: wide shot establishing rooftop, then medium close-up of face in profile. Dialogue in Chinese Mandarin, must finish before second 12: '\u5f53\u521d\u8bf4\u597d\u8981\u505a\u51fa\u6765\u7684\u2026\u2026\u8fd8\u6ca1\u5230\u653e\u5f03\u7684\u65f6\u5019\u3002\u56de\u53bb\u3002' 9:16 vertical format, cinematic composition, character not looking at camera. No subtitles, no slow motion.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-064/output/seg1.mp4",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-064/output/seg2.mp4"
+  },
+  {
+    "id": "gacha-seg2",
+    "prompt": "Continuation of previous scene, now transitioning to: Gacha mobile game style, Genshin Impact aesthetic, anime character design, soft glow, vivid color palette, detailed background art. Exterior of an old apartment building rooftop at night, concrete railing, distant city neon lights and skyscraper silhouettes, night wind blowing hair, cool moonlight. The same 25-year-old Chinese male programmer, now wearing a black hoodie over his gray hoodie, leans against the rooftop railing looking at distant city lights, pulls out phone and looks at an old photo on screen, takes a deep breath, puts phone back in pocket, eyes become determined. Camera: wide shot establishing rooftop, then medium close-up of face in profile. Dialogue in Chinese Mandarin, must finish before second 12: '\u5f53\u521d\u8bf4\u597d\u8981\u505a\u51fa\u6765\u7684\u2026\u2026\u8fd8\u6ca1\u5230\u653e\u5f03\u7684\u65f6\u5019\u3002\u56de\u53bb\u3002' 9:16 vertical format, cinematic composition, character not looking at camera. No subtitles, no slow motion.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-065/output/seg1.mp4",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-065/output/seg2.mp4"
+  },
+  {
+    "id": "pixar-seg2",
+    "prompt": "Continuation of previous scene, now transitioning to: Pixar Disney 3D animation style, expressive character, warm color palette, cinematic depth of field, studio lighting quality. Exterior of an old apartment building rooftop at night, concrete railing, distant city neon lights and skyscraper silhouettes, night wind blowing hair, cool moonlight. The same 25-year-old Chinese male programmer, now wearing a black hoodie over his gray hoodie, leans against the rooftop railing looking at distant city lights, pulls out phone and looks at an old photo on screen, takes a deep breath, puts phone back in pocket, eyes become determined. Camera: wide shot establishing rooftop, then medium close-up of face in profile. Dialogue in Chinese Mandarin, must finish before second 12: '\u5f53\u521d\u8bf4\u597d\u8981\u505a\u51fa\u6765\u7684\u2026\u2026\u8fd8\u6ca1\u5230\u653e\u5f03\u7684\u65f6\u5019\u3002\u56de\u53bb\u3002' 9:16 vertical format, cinematic composition, character not looking at camera. No subtitles, no slow motion.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-066/output/seg1.mp4",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-066/output/seg2.mp4"
+  }
+]

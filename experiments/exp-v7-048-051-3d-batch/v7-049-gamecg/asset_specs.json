@@ -1,0 +1,14 @@
+[
+  {
+    "name": "小雨-gamecg",
+    "type": "character",
+    "desc": "28岁中国女性，长直黑发过肩，柳叶眉，穿米白色毛衣+浅蓝牛仔裤，戴银色手链，Game CG (Unreal)风格，AAA game cinematic, Unreal Engine 5 quality, ray-traced global illumination, pho",
+    "style": "anime"
+  },
+  {
+    "name": "咖啡店-gamecg",
+    "type": "scene",
+    "desc": "[INDOOR] 精品咖啡店靠窗卡座，暖黄色吊灯，木质桌面上放着拿铁和翻开的书，窗外雨天街景，玻璃上有雨滴，Game CG (Unreal)风格",
+    "style": "anime"
+  }
+]

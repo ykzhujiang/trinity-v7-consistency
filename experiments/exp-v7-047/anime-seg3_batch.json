@@ -1,0 +1,14 @@
+[
+  {
+    "id": "anime-seg3",
+    "prompt": "Japanese anime style, vivid colors, clean linework, cinematic composition. Continuation of previous scene. Interior of a 2005 Chinese internet cafe, dim lighting, blue-green glow from CRT screens, hazy atmosphere, red plastic chairs. Late night. The 21-year-old Chinese male college student, short black hair, thin build, black-framed glasses, anime style, wearing loose 2005-style T-shirt and jeans, nerdy appearance but sharp intelligent eyes types code intensely on a computer. Camera: medium close-up, side profile, screen glow on face, fixed. The 21-year-old Chinese male college student, round chubby face, energetic extroverted, wearing sportswear, anime style, slightly curly hair sits next to him, occasionally peeking at his screen with curiosity. Camera: two-shot medium, side angle, fixed. The protagonist opens a domain registration page, types rapidly — registering many domain names. His finger pauses on the last one, brief hesitation. Camera: close-up of hands on keyboard, then screen showing domain list, fixed. He presses Enter decisively. Turns to his friend with a confident smile. Camera: medium shot, slight low angle, showing both characters, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [张磊]'又在搞那些看不懂的东西？' [林昊]'帮我注册几个域名，借你身份证。' [张磊]'啥是域名？' [林昊]'磊子，记住今天——这是我们人生翻盘的第一步。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "asset://asset-20260411211428-8r9qf",
+      "asset://asset-20260411211457-6vxvx",
+      "asset://asset-20260411211442-pm4ch",
+      "asset://asset-20260411211518-7wxpm"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-047/output/anime-seg3.mp4",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-047/output/anime-seg2.mp4"
+  }
+]

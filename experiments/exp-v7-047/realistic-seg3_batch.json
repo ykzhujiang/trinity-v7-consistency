@@ -1,0 +1,13 @@
+[
+  {
+    "id": "realistic-seg3",
+    "prompt": "DSLR cinematic, 35mm lens, dim blue-green lighting from CRT screens. Photorealistic, real humans. Continuation of previous scene. Interior of a 2005 Chinese internet cafe, hazy smoke, rows of blue-glowing CRT screens, red plastic chairs. Late night. A 21-year-old Chinese male college student, short black hair, thin build, black-framed glasses, wearing loose 2005-style T-shirt and jeans types code intensely. Camera: medium close-up, side profile, fixed. A 21-year-old Chinese male college student, round chubby face, energetic, wearing sportswear sits next to him. Camera: two-shot medium, side angle, fixed. Protagonist opens domain registration page, types rapidly. Presses Enter decisively. Turns to friend with confident smile. Dialogue (Chinese Mandarin): [张磊]又在搞那些看不懂的东西？[林昊]帮我注册几个域名，借你身份证。[张磊]啥是域名？[林昊]磊子，记住今天——这是我们人生翻盘的第一步。9:16 vertical. NOT anime, NOT 3D, NOT cartoon.",
+    "images": [
+      "asset://asset-20260411211545-c286j",
+      "asset://asset-20260411211559-qbv58",
+      "asset://asset-20260411211657-vr85b"
+    ],
+    "video": "output/realistic-seg2.mp4",
+    "out": "output/realistic-seg3.mp4"
+  }
+]

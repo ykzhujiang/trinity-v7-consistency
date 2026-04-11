@@ -1,0 +1,27 @@
+[
+  {
+    "ok": false,
+    "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-065/output/seg3.mp4",
+    "error": "nning\n  [50s] status=running\n  [60s] status=running\n  [70s] status=running\n  [85s] status=running\n  [100s] status=running\n  [115s] status=running\n  [130s] status=running\n  [145s] status=running\n  [160s] status=running\n  [175s] status=running\n  [190s] status=running\n  [205s] status=running\n  [220s] status=running\n  [235s] status=running\n  [250s] status=running\n  [265s] status=running\n  [280s] status=running\n  [295s] status=running\n  [310s] status=running\n  [340s] status=failed\nERROR: Task failed\n",
+    "elapsed": 387.4724380970001,
+    "id": "gacha-seg3"
+  },
+  {
+    "ok": true,
+    "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-066/output/seg3.mp4",
+    "elapsed": 405.53982973098755,
+    "id": "pixar-seg3"
+  },
+  {
+    "ok": true,
+    "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-064/output/seg3.mp4",
+    "elapsed": 408.56155014038086,
+    "id": "cyber-seg3"
+  },
+  {
+    "ok": true,
+    "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-063/output/seg3.mp4",
+    "elapsed": 730.5450658798218,
+    "id": "rpg-seg3"
+  }
+]

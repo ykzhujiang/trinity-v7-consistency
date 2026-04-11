@@ -1,0 +1,34 @@
+[
+  {
+    "id": "v7048-pixar-seg1",
+    "prompt": "Pixar-quality 3D animation, soft ambient lighting, Disney character design. A young Chinese man (round face, messy short black hair, gray hoodie, jeans) sits alone in a dimly lit office at night. Only his desk lamp is on, monitor glowing blue. He types wearily on the keyboard, then rubs his tired eyes with both hands, picks up a coffee cup from the desk and takes a sip, frowns at the screen showing code errors. He mutters to himself '这bug到底在哪……' Warm desk lamp light on his face, city lights visible through window behind. 9:16 vertical, natural speed movement, no slow motion, no text on screens, no facing camera. Chinese Mandarin dialogue.",
+    "images": ["asset://asset-20260411221023-8vdps", "asset://asset-20260411221036-hjkgw"],
+    "out": "v7048-pixar-seg1.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  },
+  {
+    "id": "v7049-gamecg-seg1",
+    "prompt": "AAA game cinematic, Unreal Engine 5 quality, ray-traced lighting, game cutscene style. A young Chinese woman (long straight black hair, cream-white knit sweater, light blue jeans, silver bracelet) sits at a window booth in a cozy café on a rainy day. She cups a warm latte with both hands, gazing wistfully out the rain-streaked window. Raindrops slide down the glass. Warm pendant light overhead. She whispers '也不知道他什么时候到……' Natural speed, no slow motion, no facing camera. 9:16 vertical. Chinese Mandarin dialogue.",
+    "images": ["asset://asset-20260411221103-j2j4l", "asset://asset-20260411221117-grlsw"],
+    "out": "v7049-gamecg-seg1.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  },
+  {
+    "id": "v7050-celshaded-seg1",
+    "prompt": "Cel-shaded 3D animation, Genshin Impact art style, clean outlines, vibrant colors. A young Chinese man (spiky black hair, round face, orange T-shirt, plaid pajama pants, white apron) opens the fridge in a bright sunny kitchen, takes out eggs and a carton of milk, places them on the light wood countertop. He turns on the gas stove, reaches up to a cabinet and takes out a frying pan, sets it on the burner. He says cheerfully '今天做个完美的煎蛋！' Morning sunlight streams through the window. Natural speed, no slow motion, no facing camera. 9:16 vertical. Chinese Mandarin dialogue.",
+    "images": ["asset://asset-20260411221205-dcgm5", "asset://asset-20260411221107-wrffn"],
+    "out": "v7050-celshaded-seg1.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  },
+  {
+    "id": "v7051-jpn3d-seg1",
+    "prompt": "Japanese 3D anime, Makoto Shinkai lighting, CG-anime hybrid, atmospheric golden hour. A Chinese high school boy (messy black hair blown by wind, white school shirt with sleeves rolled up, dark blue pants, canvas messenger bag) pushes open the rooftop door and steps out onto the school building rooftop. Warm sunset light hits his face, he squints slightly. He walks to the iron railing, sets his bag down on the cement floor. Orange-red sunset sky with gradient clouds behind the city skyline. He says '终于下课了……' Natural speed, no slow motion, no facing camera. 9:16 vertical. Chinese Mandarin dialogue.",
+    "images": ["asset://asset-20260411221222-n74bf", "asset://asset-20260411221106-865dw"],
+    "out": "v7051-jpn3d-seg1.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  }
+]

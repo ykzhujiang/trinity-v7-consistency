@@ -1,0 +1,14 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Japanese anime style, vivid colors, clean linework, cinematic composition. Continuation of previous scene. Interior of a 2000s Chinese university computer lab with rows of CRT monitors, cool white fluorescent lighting. A 60-year-old Chinese male professor, sparse grey-white hair, gold-rimmed glasses, white shirt with dark grey trousers, stern expression, anime style lectures at the front near a whiteboard. The 21-year-old Chinese male college student, short black hair, thin build, black-framed glasses, anime style, wearing loose 2005-style T-shirt and jeans, nerdy appearance but sharp intelligent eyes sits in the back row, fingers flying across keyboard rapidly. Camera: medium shot from side, showing his screen with code, fixed. A classmate next to him peeks at his screen, confused expression, wide eyes. Camera: over-shoulder shot showing screen with complex code, fixed. The professor walks over, pushes up gold-rimmed glasses, expression shifts from impatience to serious focus as he reads the code. Camera: medium shot, three-quarter angle showing professor reading screen, fixed. The protagonist's expression tightens slightly — hint of worry. Then calm poker face. The professor stares at him for five seconds, turns and walks back. Camera: two-shot, side angle, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [同学]'你这写的啥？函数名都看不懂……' [林昊]'呃，课外自学的。' [王教授]'这个……反向传播算法？你从哪学的？' [林昊]'在图书馆看到一篇国外论文，觉得有意思就试了试。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "asset://asset-20260411211428-8r9qf",
+      "asset://asset-20260411211457-6vxvx",
+      "asset://asset-20260411211442-pm4ch",
+      "asset://asset-20260411211531-lt54c"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-047/output/anime-seg2.mp4",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-047/output/anime-seg1.mp4"
+  }
+]

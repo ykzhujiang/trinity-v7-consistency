@@ -1,0 +1,13 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "Japanese anime style, vivid colors, clean linework, cinematic composition. Interior of a 2005-era Chinese university dormitory with bunk beds and CRT monitors. A 21-year-old Chinese male college student, short black hair, thin build, black-framed glasses, anime style, wearing loose 2005-style T-shirt and jeans, nerdy appearance but sharp intelligent eyes suddenly sits up on the top bunk bed, cold sweat on forehead. He looks down at his young hands — shock and disbelief on his face. Camera: medium shot, side angle 20 degrees, fixed. He looks around — CRT monitor, flip phone, 2005 calendar on wall, Jay Chou poster. Expression shifts from shock to bitter, ironic smile. Camera: wide shot showing dormitory interior details, fixed. A 21-year-old Chinese male college student, round chubby face, energetic extroverted, wearing sportswear, anime style, slightly curly hair peeks from the bottom bunk: curious expression. The protagonist freezes for a second, then suddenly bursts into laughter — knowing smile. Camera: two-shot medium, side angle, fixed. He jumps down from bed, walks to desk, turns on the old computer. Windows XP boot screen glows. Deep breath, corner of mouth curves up. Camera: medium close-up, side profile, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [林昊]'这是……2005年？我……回来了？' [张磊]'昊子你没事吧？做噩梦了？' [林昊]'没事……哈，哈哈哈。我没事。' [林昊]'这次，我要改写一切。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "asset://asset-20260411211428-8r9qf",
+      "asset://asset-20260411211457-6vxvx",
+      "asset://asset-20260411211442-pm4ch",
+      "asset://asset-20260411211616-kkbdx"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-047/output/anime-seg1.mp4"
+  }
+]

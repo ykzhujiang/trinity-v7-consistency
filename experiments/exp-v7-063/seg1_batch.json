@@ -1,0 +1,7 @@
+[
+  {
+    "id": "rpg-seg1",
+    "prompt": "RPG game cinematic cutscene, Unreal Engine 5 render, dramatic cinematic lighting, game CG quality, detailed environment. Interior of a tiny 10-square-meter rental room at night, single bed with wrinkled sheets, folding desk with old laptop, empty instant noodle cups stacked, warm dim desk lamp, city skyline visible through small window. A 25-year-old Chinese male programmer with short black hair, wearing a gray hoodie, sits at the desk grabbing his hair in frustration, then slams the laptop shut, buries his face in both hands on the desk. Camera: medium shot, 30 degree side angle, slow dolly in. Dialogue in Chinese Mandarin, must finish before second 12: '改了整整一周了……还是不行……是不是我真的不适合干这行……' 9:16 vertical format, cinematic composition, character not looking at camera. No subtitles, no slow motion.",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-063/output/seg1.mp4"
+  }
+]

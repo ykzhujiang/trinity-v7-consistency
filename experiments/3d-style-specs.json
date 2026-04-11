@@ -1,0 +1,50 @@
+[
+  {
+    "name": "v7048-char-xiaoli",
+    "type": "character",
+    "prompt": "Pixar-quality 3D animated character portrait, soft ambient lighting, Disney character design, smooth subsurface scattering skin, large expressive eyes, stylized proportions. 9:16 vertical format. The character is: 小李, 25-year-old Chinese male, round face, messy short black hair, big expressive eyes, wearing gray hoodie and jeans, slightly hunched posture. Character is looking slightly to the left (not at camera). Upper body visible. Clean background.",
+    "out": "v7048-char-xiaoli.webp"
+  },
+  {
+    "name": "v7048-scene-office",
+    "type": "scene",
+    "prompt": "Pixar-quality 3D animated interior scene, soft ambient lighting, Disney aesthetic, stylized environment. 9:16 vertical format. Small open-plan office at night, only one desk lamp on, 27-inch monitor emitting blue glow, desk has coffee cup and snack wrappers, city night skyline faintly visible through window. Warm and cozy atmosphere. No people in the scene.",
+    "out": "v7048-scene-office.webp"
+  },
+  {
+    "name": "v7049-char-xiaoyu",
+    "type": "character",
+    "prompt": "AAA game cinematic character portrait, Unreal Engine 5 quality, ray-traced global illumination, photorealistic materials, cinematic depth of field, game cutscene style. 9:16 vertical format. The character is: 小雨, 28-year-old Chinese female, long straight black hair past shoulders, willow-leaf eyebrows, wearing cream-white knit sweater and light blue jeans, silver bracelet on wrist. Character is looking slightly to the left (not at camera). Upper body visible. Clean background.",
+    "out": "v7049-char-xiaoyu.webp"
+  },
+  {
+    "name": "v7049-scene-cafe",
+    "type": "scene",
+    "prompt": "AAA game cinematic interior scene, Unreal Engine 5 quality, ray-traced global illumination, photorealistic materials, game cutscene style. 9:16 vertical format. Cozy specialty coffee shop window booth, warm yellow pendant light, wooden table with a latte and an open book, rainy street visible through glass window with raindrops on it. Cinematic depth of field. No people in the scene.",
+    "out": "v7049-scene-cafe.webp"
+  },
+  {
+    "name": "v7050-char-aming",
+    "type": "character",
+    "prompt": "Cel-shaded 3D animation character portrait, Genshin Impact art style, clean outlines, flat shading with vibrant colors, anime-influenced 3D, stylized design. 9:16 vertical format. The character is: 阿明, 22-year-old Chinese male, spiky short black hair (slightly cartoonish), round friendly face, big eyes, wearing orange T-shirt and plaid pajama pants, white apron. Character is looking slightly to the left (not at camera). Upper body visible. Clean background.",
+    "out": "v7050-char-aming.webp"
+  },
+  {
+    "name": "v7050-scene-kitchen",
+    "type": "scene",
+    "prompt": "Cel-shaded 3D animation interior scene, Genshin Impact art style, clean outlines, flat shading with vibrant colors, anime-influenced 3D, stylized environment. 9:16 vertical format. Bright small kitchen, morning sunlight through window, white cabinets, light wood countertop with eggs, bread, milk, cute fridge magnets on wall, warm and cheerful color palette. No people in the scene.",
+    "out": "v7050-scene-kitchen.webp"
+  },
+  {
+    "name": "v7051-char-xiaotian",
+    "type": "character",
+    "prompt": "Japanese 3D anime character portrait, Makoto Shinkai lighting quality, CG-anime hybrid, detailed atmospheric effects, soft bokeh background, anime character proportions with 3D rendering. 9:16 vertical format. The character is: 小天, 17-year-old Chinese high school boy, messy black hair blown by wind, slim build, wearing white school uniform shirt with sleeves rolled to elbows and dark blue school pants, canvas messenger bag slung across body. Character is looking slightly to the left (not at camera). Upper body visible. Golden sunset backlight.",
+    "out": "v7051-char-xiaotian.webp"
+  },
+  {
+    "name": "v7051-scene-rooftop",
+    "type": "scene",
+    "prompt": "Japanese 3D anime exterior scene, Makoto Shinkai lighting quality, CG-anime hybrid, detailed atmospheric effects, soft bokeh background, stunning sunset. 9:16 vertical format. School building rooftop, iron railing around edges, gray cement floor, distant city skyline, sky is orange-red sunset with gradient clouds, late afternoon backlit atmosphere, dramatic volumetric light rays. No people in the scene.",
+    "out": "v7051-scene-rooftop.webp"
+  }
+]

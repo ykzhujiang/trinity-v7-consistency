@@ -1,0 +1,20 @@
+[
+  {
+    "ok": true,
+    "path": "experiments/3d-output/v7049-gamecg-seg3.mp4",
+    "elapsed": 528.139041185379,
+    "id": "v7049-gamecg-seg3"
+  },
+  {
+    "ok": true,
+    "path": "experiments/3d-output/v7051-jpn3d-seg3.mp4",
+    "elapsed": 528.6933388710022,
+    "id": "v7051-jpn3d-seg3"
+  },
+  {
+    "ok": true,
+    "path": "experiments/3d-output/v7048-pixar-seg3.mp4",
+    "elapsed": 827.3572971820831,
+    "id": "v7048-pixar-seg3"
+  }
+]

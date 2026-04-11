@@ -1,0 +1,26 @@
+[
+  {
+    "id": "rpg-seg3",
+    "prompt": "Continuation of previous scene, now transitioning to: RPG game cinematic cutscene, Unreal Engine 5 render, dramatic cinematic lighting, game CG quality, detailed environment. Interior of a bright modern coffee shop in daytime, warm sunlight streaming through floor-to-ceiling windows, wooden long table, blurred background of other people working, a latte and laptop on the table. The same 25-year-old Chinese male programmer, now wearing a clean white t-shirt looking refreshed, typing rapidly on laptop, suddenly stops and stares at screen, eyes widening with excitement, mouth curving into a smile, pumps fist and whispers excitedly. Camera: over-shoulder shot of screen, then medium close-up of face showing joy. Dialogue in Chinese Mandarin, must finish before second 12: '\u7b49\u4e00\u4e0b\u2026\u2026\u8fd9\u4e2a\u65b9\u5411\u2026\u2026\u901a\u4e86\uff01\uff01\uff01\u771f\u7684\u901a\u4e86\uff01\uff01\uff01\u54c8\u54c8\u54c8\uff01' 9:16 vertical format, cinematic composition, character not looking at camera. No subtitles, no slow motion.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-063/output/seg2.mp4",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-063/output/seg3.mp4"
+  },
+  {
+    "id": "cyber-seg3",
+    "prompt": "Continuation of previous scene, now transitioning to: Cyberpunk game style, Cyberpunk 2077 aesthetic, neon glow, rain-slicked surfaces, holographic ambient light, night city vibe. Interior of a bright modern coffee shop in daytime, warm sunlight streaming through floor-to-ceiling windows, wooden long table, blurred background of other people working, a latte and laptop on the table. The same 25-year-old Chinese male programmer, now wearing a clean white t-shirt looking refreshed, typing rapidly on laptop, suddenly stops and stares at screen, eyes widening with excitement, mouth curving into a smile, pumps fist and whispers excitedly. Camera: over-shoulder shot of screen, then medium close-up of face showing joy. Dialogue in Chinese Mandarin, must finish before second 12: '\u7b49\u4e00\u4e0b\u2026\u2026\u8fd9\u4e2a\u65b9\u5411\u2026\u2026\u901a\u4e86\uff01\uff01\uff01\u771f\u7684\u901a\u4e86\uff01\uff01\uff01\u54c8\u54c8\u54c8\uff01' 9:16 vertical format, cinematic composition, character not looking at camera. No subtitles, no slow motion.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-064/output/seg2.mp4",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-064/output/seg3.mp4"
+  },
+  {
+    "id": "gacha-seg3",
+    "prompt": "Continuation of previous scene, now transitioning to: Gacha mobile game style, Genshin Impact aesthetic, anime character design, soft glow, vivid color palette, detailed background art. Interior of a bright modern coffee shop in daytime, warm sunlight streaming through floor-to-ceiling windows, wooden long table, blurred background of other people working, a latte and laptop on the table. The same 25-year-old Chinese male programmer, now wearing a clean white t-shirt looking refreshed, typing rapidly on laptop, suddenly stops and stares at screen, eyes widening with excitement, mouth curving into a smile, pumps fist and whispers excitedly. Camera: over-shoulder shot of screen, then medium close-up of face showing joy. Dialogue in Chinese Mandarin, must finish before second 12: '\u7b49\u4e00\u4e0b\u2026\u2026\u8fd9\u4e2a\u65b9\u5411\u2026\u2026\u901a\u4e86\uff01\uff01\uff01\u771f\u7684\u901a\u4e86\uff01\uff01\uff01\u54c8\u54c8\u54c8\uff01' 9:16 vertical format, cinematic composition, character not looking at camera. No subtitles, no slow motion.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-065/output/seg2.mp4",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-065/output/seg3.mp4"
+  },
+  {
+    "id": "pixar-seg3",
+    "prompt": "Continuation of previous scene, now transitioning to: Pixar Disney 3D animation style, expressive character, warm color palette, cinematic depth of field, studio lighting quality. Interior of a bright modern coffee shop in daytime, warm sunlight streaming through floor-to-ceiling windows, wooden long table, blurred background of other people working, a latte and laptop on the table. The same 25-year-old Chinese male programmer, now wearing a clean white t-shirt looking refreshed, typing rapidly on laptop, suddenly stops and stares at screen, eyes widening with excitement, mouth curving into a smile, pumps fist and whispers excitedly. Camera: over-shoulder shot of screen, then medium close-up of face showing joy. Dialogue in Chinese Mandarin, must finish before second 12: '\u7b49\u4e00\u4e0b\u2026\u2026\u8fd9\u4e2a\u65b9\u5411\u2026\u2026\u901a\u4e86\uff01\uff01\uff01\u771f\u7684\u901a\u4e86\uff01\uff01\uff01\u54c8\u54c8\u54c8\uff01' 9:16 vertical format, cinematic composition, character not looking at camera. No subtitles, no slow motion.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-066/output/seg2.mp4",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-066/output/seg3.mp4"
+  }
+]

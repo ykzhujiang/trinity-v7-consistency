@@ -1,0 +1,8 @@
+{
+  "prompt": "AAA game cinematic, Unreal Engine 5 quality, ray-traced global illumination, photorealistic materials, cinematic depth of field, game cutscene style. Boutique coffee shop window booth, warm yellow pendant lamp, wooden table with latte and open book, rainy street view outside, raindrops on glass. A 28-year-old Chinese woman, long straight black hair past shoulders, willow-leaf eyebrows, wearing cream white sweater and light blue jeans, silver bracelet — Xiaoyu sits in booth, holds coffee cup with both hands for warmth, gazes at rain outside window, expression slightly wistful. Camera: medium shot, slight side angle, fixed position. Normal speed movement, natural pacing. No subtitles, no text overlay, no slow motion, character does not face camera directly.",
+  "images": [
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-048-051-3d-batch/v7-049-gamecg/assets/char-小雨-gamecg.webp",
+    "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-048-051-3d-batch/v7-049-gamecg/assets/scene-咖啡店-gamecg.webp"
+  ],
+  "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-048-051-3d-batch/v7-049-gamecg/output/seg1.mp4"
+}

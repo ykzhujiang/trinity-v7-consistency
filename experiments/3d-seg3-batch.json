@@ -1,0 +1,26 @@
+[
+  {
+    "id": "v7048-pixar-seg3",
+    "prompt": "Pixar-quality 3D animation, soft ambient lighting, Disney character design. Same young Chinese man in gray hoodie stands up from his office chair and stretches his arms high with relief. He picks up his phone from the desk and sees a message. His round face lights up with a big grin, he pumps his fist in celebration. He grabs his backpack from under the desk and starts packing up to leave, still smiling. Same dimly lit office at night. Natural speed, no slow motion, no text on screens, no facing camera. Chinese Mandarin dialogue: '老板说明天放假！' Dialogue finishes before second 14.",
+    "video": "experiments/3d-output/v7048-pixar-seg2.mp4",
+    "out": "v7048-pixar-seg3.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  },
+  {
+    "id": "v7049-gamecg-seg3",
+    "prompt": "AAA game cinematic, Unreal Engine 5 quality, ray-traced lighting. Same young Chinese woman with long black hair at the same café booth. Her phone buzzes on the wooden table. She picks it up, reads a message, and the corner of her lips curls up into a gentle smile. She puts the phone down, picks up her book again and continues reading, her expression now peaceful and content. Same rainy window, pendant light, same café. Natural speed, no slow motion, no facing camera. Chinese Mandarin dialogue: '他说马上到。' Dialogue finishes before second 14.",
+    "video": "experiments/3d-output/v7049-gamecg-seg2.mp4",
+    "out": "v7049-gamecg-seg3.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  },
+  {
+    "id": "v7051-jpn3d-seg3",
+    "prompt": "Japanese 3D anime, Makoto Shinkai lighting, CG-anime hybrid, golden hour atmosphere. Same Chinese high school boy on the same rooftop. He opens his eyes, reaches into his pocket and takes out earphones, puts them in his ears. He picks up his canvas bag from the ground, slings it over his shoulder, turns and walks toward the stairwell door. He pauses, looks back over his shoulder at the sunset one more time with a gentle smile, then pushes the door open and exits. Same rooftop railing and sunset sky. Natural speed, no slow motion, no facing camera. Chinese Mandarin dialogue: '明天见。' Dialogue finishes before second 14.",
+    "video": "experiments/3d-output/v7051-jpn3d-seg2.mp4",
+    "out": "v7051-jpn3d-seg3.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  }
+]

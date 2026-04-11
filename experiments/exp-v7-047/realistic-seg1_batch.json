@@ -1,0 +1,13 @@
+[
+  {
+    "id": "realistic-seg1",
+    "prompt": "DSLR cinematic, 35mm lens, warm morning sunlight through sheer curtains. Photorealistic, real humans. Interior of a 2005-era Chinese university dormitory with metal bunk beds, blue bed curtains, CRT monitor on desk, Jay Chou poster on wall, 2005 paper calendar. A 21-year-old Chinese male college student, short black hair, thin build, black-framed glasses, wearing loose 2005-style T-shirt and jeans, nerdy appearance but sharp intelligent eyes suddenly sits up on the top bunk, cold sweat on forehead. He looks down at his young hands — shock and disbelief. Camera: medium shot, side angle 20 degrees, fixed. He looks around — CRT monitor, flip phone, 2005 calendar. Expression: shock to bitter ironic smile. Camera: wide shot showing dormitory details, fixed. A 21-year-old Chinese male college student, round chubby face, energetic extroverted, wearing sportswear, slightly curly hair peeks from bottom bunk: 'Having a nightmare?' The protagonist freezes, then bursts into knowing laughter. Camera: two-shot medium, side angle, fixed. He jumps down, walks to desk, turns on old computer. Windows XP boot screen. Deep breath, mouth curves up. Camera: medium close-up, side profile, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [林昊]'这是……2005年？我……回来了？' [张磊]'昊子你没事吧？做噩梦了？' [林昊]'没事……哈，哈哈哈。我没事。' [林昊]'这次，我要改写一切。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical. NOT anime, NOT 3D, NOT cartoon, NOT Pixar, NOT CG.",
+    "images": [
+      "asset://asset-20260411211545-c286j",
+      "asset://asset-20260411211559-qbv58",
+      "asset://asset-20260411211630-c5dn4",
+      "asset://asset-20260411211644-ppmqs"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-047/output/realistic-seg1.mp4"
+  }
+]
