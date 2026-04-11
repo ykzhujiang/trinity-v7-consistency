@@ -38,12 +38,18 @@ def generate_one(gemini_key: str, base_url: str, prompt: str, output_path: str) 
 
     kwargs = {"api_key": gemini_key}
     if base_url:
-        kwargs["http_options"] = types.HttpOptions(base_url=base_url)
+        # SDK adds /v1beta to path; strip it from base_url to avoid doubling
+        clean_url = base_url.rstrip("/")
+        for suffix in ["/v1beta", "/v1beta1", "/v1"]:
+            if clean_url.endswith(suffix):
+                clean_url = clean_url[:-len(suffix)]
+                break
+        kwargs["http_options"] = types.HttpOptions(base_url=clean_url)
 
     client = genai.Client(**kwargs)
     try:
         response = client.models.generate_content(
-            model="gemini-3-pro-image-preview",
+            model="gemini-2.5-flash-image",
             contents=prompt,
             config=types.GenerateContentConfig(response_modalities=["IMAGE", "TEXT"]),
         )
@@ -119,8 +125,11 @@ def main():
             specs = json.load(f)
         for s in specs:
             prefix = "scene" if s.get("type") == "scene" else "char"
-            out_path = os.path.join(out_dir, f"{prefix}-{s['name']}.webp")
-            tasks.append((build_prompt(s), out_path, s["name"]))
+            name = s.get("name") or s.get("id", "unknown")
+            out_file = s.get("out", f"{prefix}-{name}.webp")
+            out_path = os.path.join(out_dir, out_file)
+            prompt = s.get("prompt") or build_prompt(s)
+            tasks.append((prompt, out_path, name))
     elif args.name and args.desc:
         out_path = args.out or os.path.join(out_dir, f"char-{args.name}.webp")
         spec = {"name": args.name, "desc": args.desc, "type": args.type, "style": args.style}
