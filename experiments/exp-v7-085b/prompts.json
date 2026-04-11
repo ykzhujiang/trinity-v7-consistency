@@ -1,0 +1,18 @@
+{
+  "experiment": "V7-085b",
+  "variant": "long-prompt-750chars",
+  "hypothesis": "H-158: Shorter Seg1 prompts (~400 chars) produce higher consistency than max-length prompts (~800 chars)",
+  "audio_strip": true,
+  "seg1": {
+    "prompt": "Genshin Impact style 3D anime, cel-shaded rendering with soft volumetric lighting. 一间古风客栈大堂，木质横梁和立柱构成主体结构，角落堆放着深褐色酒坛，二楼栏杆有雕花装饰。暖黄烛光从墙壁烛台投射，地面木板有使用痕迹。一个身穿深蓝色长袍、黑色长发束成高马尾的年轻剑客，背着一把带有青色流苏的长剑，推开木门走进客栈。他身高约175cm，体型偏瘦但肩宽，面容清秀带有一丝疲惫。他环顾四周，目光扫过其他桌客，然后迈步走向靠窗的角落桌子，拉开椅子坐下。摄像机从门口中景跟随至桌旁中近景。",
+    "chars": 240
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. 同一古风客栈内景，烛光氛围不变。深蓝色长袍黑发马尾剑客坐在靠窗角落桌旁，长剑靠在桌边。他抬起右手，向柜台方向微微招手示意。一个穿着灰褐色短褂、系白围裙的圆脸店小二，双手端着一只陶制酒壶和一只粗瓷酒碗，小跑着来到桌前。店小二弯腰将酒碗放在桌上，倾斜酒壶缓缓倒酒，琥珀色液体落入碗中。剑客微微点头致谢。中景固定机位。",
+    "chars": 190
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. 古风客栈角落桌旁，深蓝色长袍黑发马尾剑客面前摆着一碗酒。他双手端起粗瓷酒碗，仰头饮了一口，然后缓缓放下酒碗回到桌面。他的嘴角微微上扬，露出一个满足而放松的微笑，眼神柔和。他的目光转向右侧窗户，望向窗外。烛光在他脸庞左侧跳动，明暗交替。近景特写，微微推近到面部。",
+    "chars": 163
+  }
+}
