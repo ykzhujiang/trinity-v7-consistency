@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Continuing from the previous scene: The same 28-year-old Chinese male programmer, slim and tall, short black hair, black-framed glasses, blue-white plaid shirt, dark jeans bursts out of an office door into a office building hallway, daytime, white walls, grey floor, floor-to-ceiling window at the end with sunlight. He runs excitedly, waving his arms. He crashes into a colleague carrying a coffee cup. The coffee spills everywhere. He bows apologetically with palms together, looking embarrassed. The colleague shakes their head and walks away. He stands alone, scratching his head awkwardly with a sheepish grin. Camera: hallway medium shot → medium shot collision → medium close-up apology → medium shot alone. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/char-xiaoli-anime.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/scene-hallway-anime.webp"
+    ],
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/output/anime-seg1.mp4",
+    "out": "anime-seg2.mp4"
+  },
+  {
+    "id": "real-seg2",
+    "prompt": "Continuing from the previous scene: The same 28-year-old Chinese male programmer, slim and tall, short black hair, black-framed glasses, blue-white plaid shirt, dark jeans bursts out of an office door into a office building hallway, daytime, white walls, grey floor, floor-to-ceiling window at the end with sunlight. He runs excitedly, waving his arms. He crashes into a colleague carrying a coffee cup. The coffee spills everywhere. He bows apologetically with palms together, looking embarrassed. The colleague shakes their head and walks away. He stands alone, scratching his head awkwardly with a sheepish grin. Camera: hallway medium shot → medium shot collision → medium close-up apology → medium shot alone. DSLR photograph, 35mm lens, natural hallway lighting. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly, no 3D, no CG, no Pixar. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/char-xiaoli-real.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/scene-hallway-real.webp"
+    ],
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/output/real-seg1.mp4",
+    "out": "real-seg2.mp4"
+  }
+]

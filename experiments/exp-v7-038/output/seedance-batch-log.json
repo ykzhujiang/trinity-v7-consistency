@@ -1,0 +1,15 @@
+[
+  {
+    "ok": true,
+    "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/output/anime-seg2.mp4",
+    "elapsed": 535.2556688785553,
+    "id": "anime-seg2"
+  },
+  {
+    "ok": false,
+    "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/output/real-seg2.mp4",
+    "error": "70s] status=running\n  [400s] status=running\n  [430s] status=running\n  [460s] status=running\n  [490s] status=running\n  [520s] status=running\n  [550s] status=running\n  [580s] status=running\n  [610s] status=running\n  [640s] status=running\n  [670s] status=running\n  [700s] status=running\n  [730s] status=running\n  [760s] status=running\n  [790s] status=running\n  [820s] status=running\n  [850s] status=running\n  [880s] status=running\n  [910s] status=running\nERROR: Timeout after 900s. Last status: running\n",
+    "elapsed": 974.1594412326813,
+    "id": "real-seg2"
+  }
+]

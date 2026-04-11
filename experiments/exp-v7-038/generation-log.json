@@ -1,0 +1,65 @@
+{
+  "experiment": "EXP-V7-038",
+  "description": "Audio buffer + cross-scene switch test",
+  "key_tests": [
+    "3s_audio_buffer",
+    "cross_scene_office_to_hallway",
+    "asset_upload",
+    "video_extension"
+  ],
+  "steps": [
+    {
+      "step": "1_asset_generation",
+      "timestamp": "2026-04-11T14:19:55+0800",
+      "assets": {
+        "char-xiaoli-anime.webp": "ok",
+        "scene-office-anime.webp": "ok",
+        "scene-hallway-anime.webp": "ok",
+        "char-xiaoli-real.webp": "ok",
+        "scene-office-real.webp": "ok",
+        "scene-hallway-real.webp": "ok"
+      }
+    },
+    {
+      "step": "2_asset_upload",
+      "timestamp": "2026-04-11T14:19:56+0800",
+      "asset_uris": {}
+    },
+    {
+      "step": "3_seg1_generation",
+      "timestamp": "2026-04-11T14:26:45+0800",
+      "prompts": {
+        "anime": "A 28-year-old Chinese male programmer, slim and tall, short black hair, black-framed glasses, blue-white plaid shirt, dark jeans, sitting at a white office desk with two monitors in a modern office room, daytime, bright fluorescent lights, white desk with two monitors, office chair, filing cabinet. He stares at the screen with furrowed brows, hands on keyboard. Suddenly his eyes go wide and he leans forward, pointing at the screen. He throws both fists in the air with a huge smile, laughing in euphoria. Then he stands up abruptly, the office chair slides backward and crashes into the filing cabinet with a bang. Camera: side medium shot → push to medium close-up → pull back to medium shot as he stands. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly. 9:16 vertical.",
+        "real": "A 28-year-old Chinese male programmer, slim and tall, short black hair, black-framed glasses, blue-white plaid shirt, dark jeans, sitting at a white office desk with two monitors in a modern office room, daytime, bright fluorescent lights, white desk with two monitors, office chair, filing cabinet. He stares at the screen with furrowed brows, hands on keyboard. Suddenly his eyes go wide and he leans forward, pointing at the screen. He throws both fists in the air with a huge smile, laughing in euphoria. Then he stands up abruptly, the office chair slides backward and crashes into the filing cabinet with a bang. Camera: side medium shot → push to medium close-up → pull back to medium shot as he stands. DSLR photograph, 35mm lens, natural office lighting. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly, no 3D, no CG, no Pixar. 9:16 vertical."
+      },
+      "asset_refs": {
+        "anime": [
+          "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/char-xiaoli-anime.webp",
+          "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/scene-office-anime.webp"
+        ],
+        "real": [
+          "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/char-xiaoli-real.webp",
+          "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/scene-office-real.webp"
+        ]
+      }
+    },
+    {
+      "step": "4_seg2_video_extension",
+      "timestamp": "2026-04-11T14:43:03+0800",
+      "method": "video_extension_from_seg1",
+      "prompts": {
+        "anime": "Continuing from the previous scene: The same 28-year-old Chinese male programmer, slim and tall, short black hair, black-framed glasses, blue-white plaid shirt, dark jeans bursts out of an office door into a office building hallway, daytime, white walls, grey floor, floor-to-ceiling window at the end with sunlight. He runs excitedly, waving his arms. He crashes into a colleague carrying a coffee cup. The coffee spills everywhere. He bows apologetically with palms together, looking embarrassed. The colleague shakes their head and walks away. He stands alone, scratching his head awkwardly with a sheepish grin. Camera: hallway medium shot → medium shot collision → medium close-up apology → medium shot alone. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly. 9:16 vertical.",
+        "real": "Continuing from the previous scene: The same 28-year-old Chinese male programmer, slim and tall, short black hair, black-framed glasses, blue-white plaid shirt, dark jeans bursts out of an office door into a office building hallway, daytime, white walls, grey floor, floor-to-ceiling window at the end with sunlight. He runs excitedly, waving his arms. He crashes into a colleague carrying a coffee cup. The coffee spills everywhere. He bows apologetically with palms together, looking embarrassed. The colleague shakes their head and walks away. He stands alone, scratching his head awkwardly with a sheepish grin. Camera: hallway medium shot → medium shot collision → medium close-up apology → medium shot alone. DSLR photograph, 35mm lens, natural hallway lighting. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly, no 3D, no CG, no Pixar. 9:16 vertical."
+      }
+    },
+    {
+      "step": "5_concat_audio_check",
+      "timestamp": "2026-04-11T14:43:06+0800",
+      "final_videos": {
+        "anime": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/output/anime-final-30s.mp4"
+      }
+    }
+  ],
+  "started": "2026-04-11T14:18:25+0800",
+  "completed": "2026-04-11T14:43:06+0800"
+}
