@@ -16,5 +16,23 @@
     "timestamp": "2026-04-11T13:08:38+0800",
     "duration_s": 609.2,
     "success": true
+  },
+  {
+    "step": "step4_Seg3 extend",
+    "timestamp": "2026-04-11T13:24:47+0800",
+    "duration_s": 961.8,
+    "success": false
+  },
+  {
+    "step": "step5_Concat",
+    "timestamp": "2026-04-11T13:33:10+0800",
+    "duration_s": 5.7,
+    "success": true
+  },
+  {
+    "step": "step6_Audio Check",
+    "timestamp": "2026-04-11T13:33:15+0800",
+    "duration_s": 0.1,
+    "success": true
   }
 ]
