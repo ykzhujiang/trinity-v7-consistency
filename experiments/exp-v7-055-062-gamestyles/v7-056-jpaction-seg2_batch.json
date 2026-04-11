@@ -1,0 +1,8 @@
+[
+  {
+    "id": "v7-056-jpaction-seg2",
+    "prompt": "Japanese action game style, cel-shaded anime, Persona 5 aesthetic, bold outlines, vibrant colors, stylized 3D. a small 10-sqm rented apartment room, single bed, folding desk with an old laptop, city neon lights outside the window at night, warm desk lamp light. a 25-year-old Chinese male programmer, short black hair, wearing a grey hoodie stands up from the desk, walks to the window. He looks out at the city night view, takes a deep breath. He turns around and walks back to the desk, sits down again. Dialogue in Chinese Mandarin (must finish before second 12): \"（看窗外）总会写出来的。\" All speech Chinese Mandarin, normal speed, natural pacing. Character never faces camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-056-jpaction-seg2.mp4",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-056-jpaction-seg1.mp4"
+  }
+]

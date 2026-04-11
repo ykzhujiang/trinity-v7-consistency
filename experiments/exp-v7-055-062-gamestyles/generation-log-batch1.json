@@ -1,0 +1,64 @@
+{
+  "batch": "V7-055~058 (Game Styles Batch 1)",
+  "method": "Pure text-to-video, 3-seg extend chain, no reference images",
+  "timestamp": "2026-04-12T01:13:28+08:00",
+  "elapsed_seconds": 3317,
+  "results": {
+    "v7-056-jpaction": {
+      "id": "EXP-V7-056",
+      "name": "Japanese Action Game",
+      "segs": 3,
+      "seg_paths": {
+        "1": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-056-jpaction-seg1.mp4",
+        "2": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-056-jpaction-seg2.mp4",
+        "3": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-056-jpaction-seg3.mp4"
+      },
+      "final": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-056-jpaction-final.mp4",
+      "size_kb": 13760,
+      "audio_ok": true,
+      "status": "ok"
+    },
+    "v7-055-rpg": {
+      "id": "EXP-V7-055",
+      "name": "RPG Game CG",
+      "segs": 3,
+      "seg_paths": {
+        "1": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-055-rpg-seg1.mp4",
+        "2": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-055-rpg-seg2.mp4",
+        "3": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-055-rpg-seg3.mp4"
+      },
+      "final": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-055-rpg-final.mp4",
+      "size_kb": 13207,
+      "audio_ok": true,
+      "status": "ok"
+    },
+    "v7-058-fighting": {
+      "id": "EXP-V7-058",
+      "name": "Fighting Game",
+      "segs": 3,
+      "seg_paths": {
+        "1": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-058-fighting-seg1.mp4",
+        "2": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-058-fighting-seg2.mp4",
+        "3": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-058-fighting-seg3.mp4"
+      },
+      "final": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-058-fighting-final.mp4",
+      "size_kb": 17278,
+      "audio_ok": true,
+      "status": "ok"
+    },
+    "v7-057-lowpoly": {
+      "id": "EXP-V7-057",
+      "name": "Low-Poly Indie",
+      "segs": 3,
+      "seg_paths": {
+        "1": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-057-lowpoly-seg1.mp4",
+        "2": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-057-lowpoly-seg2.mp4",
+        "3": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-057-lowpoly-seg3.mp4"
+      },
+      "final": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-057-lowpoly-final.mp4",
+      "size_kb": 10731,
+      "audio_ok": true,
+      "status": "ok"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "id": "v7-055-rpg-seg1",
+    "prompt": "RPG game cinematic cutscene, Unreal Engine 5 render, dramatic lighting, game CG quality. a small 10-sqm rented apartment room, single bed, folding desk with an old laptop, city neon lights outside the window at night, warm desk lamp light. a 25-year-old Chinese male programmer, short black hair, wearing a grey hoodie sits at the desk typing on the laptop, then grabs his hair and sighs in frustration. He picks up a cup, tilts it — it's empty. He puts the cup down with a tired expression. Dialogue in Chinese Mandarin (must finish before second 12): \"这个bug改了三天了……水都没了……\" All speech Chinese Mandarin, normal speed, natural pacing. Character never faces camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-055-rpg-seg1.mp4"
+  }
+]

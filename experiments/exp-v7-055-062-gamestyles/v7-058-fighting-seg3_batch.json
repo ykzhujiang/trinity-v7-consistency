@@ -1,0 +1,8 @@
+[
+  {
+    "id": "v7-058-fighting-seg3",
+    "prompt": "Fighting game style, Street Fighter 6 quality, dynamic pose, dramatic backlight. a small 10-sqm rented apartment room, single bed, folding desk with an old laptop, city neon lights outside the window at night, warm desk lamp light. a 25-year-old Chinese male programmer, short black hair, wearing a grey hoodie sits at the desk typing code with focused intensity. His eyes suddenly light up. He slams the desk excitedly and laughs out loud with joy. Dialogue in Chinese Mandarin (must finish before second 12): \"等等……我靠！通了！哈哈哈哈！\" All speech Chinese Mandarin, normal speed, natural pacing. Character never faces camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-058-fighting-seg3.mp4",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-055-062-gamestyles/output/v7-058-fighting-seg2.mp4"
+  }
+]
