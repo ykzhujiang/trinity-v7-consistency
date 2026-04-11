@@ -1,0 +1,18 @@
+{
+  "experiment": "V7-082",
+  "variant": "char-desc-minimal",
+  "hypothesis": "H-156: Control group — minimal character description in extend prompts",
+  "audio_strip": true,
+  "seg1": {
+    "prompt": "Genshin Impact 3D anime style. Indoor ancient Chinese teahouse, wooden tables and chairs, warm candlelight, bamboo forest visible through window. A slender young man with short curly black hair wearing a deep blue traditional robe with jade pendant at waist sits at a table. He lifts a ceramic teacup with both hands, inhales the aroma, then takes a slow sip. Steam rises from the cup. His expression shifts from neutral to a subtle satisfied smile. 「这茶…倒是有几分意思」 Camera: medium shot, slight low angle, slow push in.",
+    "chars": 531
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. He sets down the teacup firmly, pushes back the chair, stands up and turns toward the window. Bamboo sways outside. His expression becomes alert, brows furrowed. 「外面的风…变了」 Camera: medium tracking shot following his movement.",
+    "chars": 262
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. He reaches the window and pushes it open with one hand. Bamboo sways under moonlight outside. Wind blows his hair back. His eyes narrow with sharp vigilance. 「来者不善」 Camera: over-shoulder shot looking out, then reverse close-up of his face.",
+    "chars": 275
+  }
+}

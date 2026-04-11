@@ -1,0 +1,18 @@
+{
+  "experiment": "V7-081",
+  "variant": "char-desc-full-repeat",
+  "hypothesis": "H-156: Full character description repetition in extend prompts improves cross-segment character consistency by ≥15pts vs minimal prompts",
+  "audio_strip": true,
+  "seg1": {
+    "prompt": "Genshin Impact 3D anime style. Indoor ancient Chinese teahouse, wooden tables and chairs, warm candlelight, bamboo forest visible through window. A slender young man with short curly black hair wearing a deep blue traditional robe with jade pendant at waist sits at a table. He lifts a ceramic teacup with both hands, inhales the aroma, then takes a slow sip. Steam rises from the cup. His expression shifts from neutral to a subtle satisfied smile. 「这茶…倒是有几分意思」 Camera: medium shot, slight low angle, slow push in.",
+    "chars": 531
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. Same ancient Chinese teahouse interior, warm candlelight. The slender young man with short curly black hair wearing a deep blue traditional robe with jade pendant at waist sets down the teacup firmly, pushes back the wooden chair, and stands up. He turns toward the window where bamboo sways. His expression becomes alert, brows slightly furrowed. 「外面的风…变了」 Camera: medium shot tracking his movement from table to window.",
+    "chars": 459
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. Same teahouse, candlelight flickers. The slender young man with short curly black hair wearing a deep blue traditional robe with jade pendant at waist reaches the window. He pushes the wooden window open with one hand, revealing swaying bamboo under moonlight. Wind blows his hair back. His eyes narrow with sharp vigilance. 「来者不善」 Camera: over-shoulder shot looking out window, then reverse close-up of his determined face.",
+    "chars": 456
+  }
+}
