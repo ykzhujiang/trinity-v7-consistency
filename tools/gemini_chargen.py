@@ -94,11 +94,30 @@ def build_prompt(spec: dict) -> str:
     desc = spec["desc"]
 
     if typ == "scene":
+        # Detect indoor/outdoor from desc or explicit spec field
+        location_tag = spec.get("location", "").upper()
+        desc_upper = desc.upper()
+        is_indoor = "[INDOOR]" in desc_upper or "INDOOR" in location_tag or any(kw in desc for kw in ["室内", "屋内", "房间", "办公", "餐厅", "厨房", "卧室", "客厅", "面馆", "酒吧", "大厅", "大堂"])
+        is_outdoor = "[OUTDOOR]" in desc_upper or "OUTDOOR" in location_tag or any(kw in desc for kw in ["室外", "户外", "街", "路", "广场", "公园", "天台", "屋顶"])
+        # Strip [INDOOR]/[OUTDOOR] tags from desc for cleaner prompt
+        import re as _re
+        clean_desc = _re.sub(r'\[INDOOR\]|\[OUTDOOR\]', '', desc, flags=_re.IGNORECASE).strip()
+        
         if style == "realistic":
-            scene_style = "DSLR photograph of real location. Natural lighting, photorealistic textures, real-world environment. NOT 3D, NOT CG, NOT animated, NOT Pixar, NOT cartoon."
+            if is_indoor:
+                scene_style = "Interior DSLR photograph of a real indoor location. Natural indoor lighting, photorealistic textures, real-world environment. NOT 3D, NOT CG, NOT animated, NOT Pixar, NOT cartoon."
+            elif is_outdoor:
+                scene_style = "Exterior DSLR photograph of a real outdoor location. Natural outdoor lighting, photorealistic textures, real-world environment. NOT 3D, NOT CG, NOT animated, NOT Pixar, NOT cartoon."
+            else:
+                scene_style = "DSLR photograph of real location. Natural lighting, photorealistic textures, real-world environment. NOT 3D, NOT CG, NOT animated, NOT Pixar, NOT cartoon."
         else:
-            scene_style = "Anime-style wide establishing shot. Semi-realistic anime illustration, warm lighting, cinematic quality."
-        return f"{scene_style} 9:16 vertical format. {desc}. No people in the scene."
+            if is_indoor:
+                scene_style = "Anime-style interior establishing shot. Semi-realistic anime illustration, warm indoor lighting, cinematic quality."
+            elif is_outdoor:
+                scene_style = "Anime-style exterior establishing shot. Semi-realistic anime illustration, natural outdoor lighting, cinematic quality."
+            else:
+                scene_style = "Anime-style wide establishing shot. Semi-realistic anime illustration, warm lighting, cinematic quality."
+        return f"{scene_style} 9:16 vertical format. {clean_desc}. No people in the scene."
     else:
         return (
             f"{style_desc} character portrait for production. "
