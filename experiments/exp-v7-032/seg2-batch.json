@@ -1,0 +1,14 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Continuing from previous scene. Same 28-year-old Chinese man (round face, black-framed glasses, plaid shirt) now leaning towards his monitor with a curious, tentative expression. He speaks to the screen, gesturing with one hand. After a brief pause, the screen suddenly explodes with rapid lines of scrolling code — green and white text flying across the dark monitor. The man's expression shifts from cautious to amazed — eyes widening, mouth opening, slowly breaking into a huge excited grin. He pushes his glasses up and leans back in awe, watching the code pour across the screen. Same dark office, same desk, same monitor setup. Medium-wide shot. Anime digital animation style. Normal speed movement, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+    "video": "/private/tmp/trinity-v7-consistency/experiments/exp-v7-032/output/anime-seg1.mp4",
+    "out": "anime-seg2.mp4"
+  },
+  {
+    "id": "real-seg2",
+    "prompt": "Continuing from previous scene. Same 28-year-old Chinese man (round face, black-framed glasses, plaid shirt) now leaning towards his monitor with a curious, tentative expression. He speaks to the screen, gesturing with one hand. After a brief pause, the screen suddenly explodes with rapid lines of scrolling code — green and white text flying across the dark monitor. The man's expression shifts from cautious to amazed — eyes widening, mouth opening, slowly breaking into a huge excited grin. He pushes his glasses up and leans back in awe, watching the code pour across the screen. Same dark office, same desk, same monitor setup. Medium-wide shot. Photorealistic cinematic style. Normal speed movement, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+    "video": "/private/tmp/trinity-v7-consistency/experiments/exp-v7-032/output/real-seg1.mp4",
+    "out": "real-seg2.mp4"
+  }
+]

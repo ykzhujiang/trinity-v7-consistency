@@ -1,0 +1,34 @@
+{
+  "experiment": "EXP-V7-032",
+  "title": "AI助手觉醒（喜剧创业）",
+  "timestamp": "2026-04-11T09:20:00+08:00",
+  "cycle": "CYCLE-operator-894",
+  "assets": {
+    "anime": ["anime-liming-front.webp", "anime-liming-side.webp", "anime-office-night.webp"],
+    "real": ["real-liming-front.webp", "real-liming-side.webp", "real-office-night.webp"],
+    "method": "gen_image.py (king.tokenssr.com Gemini proxy, gemini-2.5-flash-image)",
+    "compression": "WebP q75, max 600px width, all ≤19KB"
+  },
+  "videos": {
+    "anime-seg1": {"size_mb": 4.2, "duration_s": 15, "elapsed_s": 471, "audio": true},
+    "real-seg1": {"size_mb": 4.1, "duration_s": 15, "elapsed_s": 258, "audio": true},
+    "anime-seg2": {"size_mb": 5.1, "duration_s": 15, "elapsed_s": 633, "audio": true, "method": "video-extension"},
+    "real-seg2": {"size_mb": 4.8, "duration_s": 15, "elapsed_s": 512, "audio": true, "method": "video-extension"},
+    "anime-final": {"size_mb": 9.7, "duration_s": 30.16, "audio": true},
+    "real-final": {"size_mb": 9.3, "duration_s": 30.16, "audio": true}
+  },
+  "seedance_params": {
+    "engine": "SeeDance 2.0",
+    "ratio": "9:16",
+    "duration": 15,
+    "seg2_mode": "video-extension (upload Seg1 to tmpfiles.org)",
+    "constraints": "no subtitles, no slow-motion, no facing camera, normal speed"
+  },
+  "audio_check": {
+    "anime-seg1": "✓ aac",
+    "anime-seg2": "✓ aac",
+    "real-seg1": "✓ aac",
+    "real-seg2": "✓ aac"
+  },
+  "content_moderation": "no blocks"
+}
