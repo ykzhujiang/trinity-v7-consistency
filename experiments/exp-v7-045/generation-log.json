@@ -1,0 +1,30 @@
+{
+  "experiment": "EXP-V7-045",
+  "story": "赌神觉醒",
+  "style": "anime",
+  "direction": "A (extend chain)",
+  "segments": 3,
+  "assets": {
+    "chenfeng": "asset://asset-20260411192533-xzx5w",
+    "malaoban": "asset://asset-20260411192546-grpn7",
+    "casino": "asset://asset-20260411192603-tz89r"
+  },
+  "generation_results": {
+    "seg1": {"file": "seg1-anime.mp4", "size_mb": 4.6, "gen_time_s": 317, "audio": true, "duration_s": 15.07},
+    "seg2": {"file": "seg2-anime.mp4", "size_mb": 5.6, "gen_time_s": 495, "audio": true, "duration_s": 15.07, "extends": "seg1"},
+    "seg3": {"file": "seg3-anime.mp4", "size_mb": 7.0, "gen_time_s": 562, "audio": true, "duration_s": 15.07, "extends": "seg2"}
+  },
+  "final": {
+    "file": "final-anime.mp4",
+    "size_mb": 16,
+    "total_duration_s": 45.2,
+    "audio_coverage": "100%"
+  },
+  "prompts": {
+    "seg1": "Anime style. A dimly lit underground casino... [with asset refs]",
+    "seg2": "Anime style continuation. Same casino... [extend from seg1]",
+    "seg3": "Anime style continuation. Tension escalated... [extend from seg2]"
+  },
+  "content_audit_blocks": "none",
+  "timestamp": "2026-04-11T20:01:00+08:00"
+}
