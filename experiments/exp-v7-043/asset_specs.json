@@ -1,0 +1,38 @@
+[
+  {
+    "name": "mystery-man-coat-anime",
+    "type": "character",
+    "desc": "30岁中国男性，黑色风衣，面容疲惫但眼神锐利，短黑发微乱，日漫风格，站在雨中，湿漉漉",
+    "style": "anime"
+  },
+  {
+    "name": "mystery-man-suit-anime",
+    "type": "character",
+    "desc": "30岁中国男性，穿合身西装，短黑发整齐，精神状态好，日漫风格",
+    "style": "anime"
+  },
+  {
+    "name": "limei-anime",
+    "type": "character",
+    "desc": "45岁中国女性，围裙，短发利落，温暖笑容，深夜食堂老板娘，日漫风格，温暖灯光下",
+    "style": "anime"
+  },
+  {
+    "name": "boss-anime",
+    "type": "character",
+    "desc": "50岁中国男性，灰发，严肃表情，穿深色西装，公司高管气质，日漫风格，办公室场景",
+    "style": "anime"
+  },
+  {
+    "name": "izakaya-anime",
+    "type": "scene",
+    "desc": "深夜小巷居酒屋内部，吧台+几张座位，暖黄灯光，竖屏构图，雨夜，日漫风格",
+    "style": "anime"
+  },
+  {
+    "name": "office-anime",
+    "type": "scene",
+    "desc": "现代办公室，落地窗，城市天际线，白天阳光，大桌子，竖屏构图，日漫风格",
+    "style": "anime"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "experiment": "EXP-V7-043",
+  "hypothesis": "H-392: Cross-scene B2 splice ≥ 6.0 with asset upload",
+  "direction": "B2 — independent generation per segment, then concat",
+  "timestamp": "2026-04-11T18:29:56+08:00",
+  "story": "深夜食堂的神秘客人 — 跨场景(居酒屋→办公室回忆)",
+  "method": "Volcano asset upload + independent gen (NOT extend) + anime only",
+  "asset_ids": {
+    "limei-anime": "asset://asset-20260411181617-4wxl6",
+    "mystery-man-coat-anime": "asset://asset-20260411181630-bqcrx",
+    "mystery-man-suit-anime": "asset://asset-20260411181644-wd986",
+    "boss-anime": "asset://asset-20260411181700-jvwhc",
+    "office-anime": "asset://asset-20260411181714-ps799",
+    "izakaya-anime": "asset://asset-20260411181727-9g6w5"
+  },
+  "seg1_prompt": "Japanese anime style digital animation, high quality, warm cinematic lighting. A rainy night scene in a tiny old Japanese-style izakaya called '深夜食堂'. Inside the izakaya, warm yellow light, a wooden b...",
+  "seg2_prompt": "Japanese anime style digital animation, high quality, bright daylight office lighting. A bright modern office with floor-to-ceiling windows showing city skyline, daytime. A large executive desk domina...",
+  "seg_results": {
+    "anime-seg1": "OK",
+    "anime-seg2": "OK"
+  },
+  "final": {
+    "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-043/output/anime-final.mp4",
+    "size_kb": 10027,
+    "audio_ok": true
+  }
+}

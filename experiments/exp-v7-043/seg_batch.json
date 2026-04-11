@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "Japanese anime style digital animation, high quality, warm cinematic lighting. A rainy night scene in a tiny old Japanese-style izakaya called '深夜食堂'. Inside the izakaya, warm yellow light, a wooden bar counter with a few stools. 45-year-old Chinese East Asian woman wearing an apron, neat short hair, warm smile, late-night eatery owner stands behind the bar counter wiping a glass. The door opens, 30-year-old Chinese East Asian man in black trench coat, fatigued face but sharp piercing eyes, short messy black hair enters from the rain, water dripping from his coat hem. Li Mei looks up at him. Camera: medium shot from bar counter towards door, fixed. The man walks to the bar and sits down, removes his coat hood, revealing his fatigued face. He looks around — he is the only customer. Camera: medium close-up, side view 45 degrees, fixed. Li Mei gives a gentle smile, turns around and starts cooking noodles. Steam rises from the pot. Camera: close-up Li Mei's side profile plus steam from pot, fixed. Dialogue (Chinese Mandarin, all dialogue must finish before second 12): [李梅]'下这么大雨，快进来坐。' [男子]'来碗……最简单的阳春面。' [李梅]'阳春面啊……上一个点这碗面的人，也是你这个表情。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera directly. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "asset://asset-20260411181630-bqcrx",
+      "asset://asset-20260411181617-4wxl6",
+      "asset://asset-20260411181727-9g6w5"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-043/output/anime-seg1.mp4"
+  },
+  {
+    "id": "anime-seg2",
+    "prompt": "Japanese anime style digital animation, high quality, bright daylight office lighting. A bright modern office with floor-to-ceiling windows showing city skyline, daytime. A large executive desk dominates the room. The same 30-year-old Chinese East Asian man in fitted dark suit, neat short black hair, determined expression, standing tensely stands in front of the desk, holding a document file. 50-year-old Chinese East Asian man with grey hair, stern expression, wearing dark formal suit, corporate executive demeanor sits behind the desk, then stands up, both hands on desk, leaning forward intimidatingly. Camera: medium shot from behind boss's shoulder looking at the man, fixed. The man places the document on the desk, fingers pressing the edge. Camera: close-up overhead on hands and document, fixed. The boss leans forward aggressively, imposing presence. Camera: low angle looking up at boss, fixed, intimidating composition. The man steps back, takes a deep breath, looks out the window at the skyline (NOT at camera). Camera: medium shot, side view, slow push-in to man's side profile close-up. Dialogue (Chinese Mandarin, all dialogue must finish before second 12): [老板]'你确定要举报？你知道这意味着什么。' [男子]'这些账目……不能再瞒了。' [老板]'你在这个公司十年了。房子、车子、股权。你要全放弃？' [男子]'有些东西……比这些值钱。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera directly. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "asset://asset-20260411181644-wd986",
+      "asset://asset-20260411181700-jvwhc",
+      "asset://asset-20260411181714-ps799"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-043/output/anime-seg2.mp4"
+  }
+]
