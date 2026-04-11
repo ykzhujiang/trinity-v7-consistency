@@ -1,0 +1,32 @@
+{
+  "experiment_id": "V7-071",
+  "desc": "Genshin same-scene, MINIMAL seg2/3 prompt (~200 chars)",
+  "style": "Gacha mobile game style, Genshin Impact aesthetic,",
+  "strip_audio": true,
+  "segments": {
+    "seg1": {
+      "elapsed": 194.8,
+      "status": "OK"
+    },
+    "seg2": {
+      "elapsed": 333.1,
+      "status": "OK"
+    },
+    "seg3": {
+      "elapsed": 343.5,
+      "status": "OK"
+    }
+  },
+  "start_time": "2026-04-12T04:29:43+08:00",
+  "audio_correlation": {
+    "seg1_seg2": 0.0068,
+    "seg1_seg3": 0.003,
+    "seg2_seg3": 0.0061
+  },
+  "max_audio_r": 0.0068,
+  "audio_verdict": "PASS",
+  "status": "COMPLETE",
+  "final_path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-071/output/final.mp4",
+  "final_size_mb": 18.4,
+  "end_time": "2026-04-12T04:44:17+08:00"
+}

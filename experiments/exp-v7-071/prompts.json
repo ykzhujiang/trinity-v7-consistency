@@ -1,0 +1,14 @@
+{
+  "seg1": {
+    "prompt": "Gacha mobile game style, Genshin Impact aesthetic, anime character design, soft glow, vivid color palette, detailed background art. Interior of a cramped 8-square-meter dorm room, single bed with messy blankets, small desk cluttered with textbooks and energy drink cans, blue-white LED desk lamp, rain hitting the window A 22-year-old Chinese male college student with messy black hair, wearing a faded blue hoodie and jeans, slim build, tired eyes sits hunched at the desk staring at a rejection email on the laptop screen, slowly clenches his fists, mutters \"又失败了……第八次了。\" He rubs his eyes, pushes back from the desk.",
+    "chars": 618
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. the young man in blue hoodie stands up, knocks the chair back, grabs phone, paces the room. \"不行，我不能这样下去。\" Stops at window, looks at rain, deep breath.",
+    "chars": 182
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. the young man in blue hoodie sits back down, opens laptop, types rapidly. \"从头来。这次一定行。\" Faint smile, code fills screen.",
+    "chars": 150
+  }
+}
