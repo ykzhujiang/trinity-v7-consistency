@@ -1,0 +1,31 @@
+{
+  "experiment": "EXP-V7-037",
+  "method": "independent-concat",
+  "steps": [
+    {
+      "step": "assets",
+      "timestamp": "2026-04-11T13:47:41+0800"
+    },
+    {
+      "step": "seg1",
+      "timestamp": "2026-04-11T13:53:04+0800",
+      "prompts": {
+        "anime": "A 25-year-old Chinese man, round face, tanned skin, stocky build, yellow delivery uniform jacket, white helmet, riding an electric scooter, stands beside his electric scooter on a night city street with street lamps, neon signs, delivery electric scooter parked nearby. He looks down at his phone with a surprised face. He mutters and shakes his head. He hangs a delivery bag on the scooter's back seat and taps his phone rapidly to accept orders. He swings his leg over the scooter, twists the throttle, headlight illuminates the road ahead. Neon lights reflect on his face as he grins excitedly. Camera: medium shot → medium to close push → side full shot scooter starting → side medium tracking. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+        "real": "A 25-year-old Chinese man, round face, tanned skin, stocky build, yellow delivery uniform jacket, white helmet, riding an electric scooter, stands beside his electric scooter on a night city street with street lamps, neon signs, delivery electric scooter parked nearby. He looks down at his phone with a surprised face. He mutters and shakes his head. He hangs a delivery bag on the scooter's back seat and taps his phone rapidly to accept orders. He swings his leg over the scooter, twists the throttle, headlight illuminates the road ahead. Neon lights reflect on his face as he grins excitedly. Camera: medium shot → medium to close push → side full shot scooter starting → side medium tracking. DSLR photograph, 35mm lens, natural street lighting at night. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera, no 3D, no CG, no Pixar. 9:16 vertical."
+      }
+    },
+    {
+      "step": "seg2-independent",
+      "timestamp": "2026-04-11T13:58:57+0800",
+      "method": "independent (no video extension)",
+      "prompts": {
+        "anime": "A 25-year-old Chinese man, round face, tanned skin, stocky build, yellow delivery uniform jacket, white helmet, riding an electric scooter, stops his electric scooter at a red traffic light on a night city street with street lamps, neon signs, delivery electric scooter parked nearby. He breathes heavily and wipes sweat from his forehead with his right hand. His phone buzzes, he glances down and smirks — a new order on the way. The traffic light turns green. He twists the throttle hard, body leaning forward, scooter accelerates. Street lamp light flashes across his face rhythmically as he rides fast, determined and excited expression. Camera: close-up face → close-up face+phone → side full shot fast start → side medium tracking accelerating. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+        "real": "A 25-year-old Chinese man, round face, tanned skin, stocky build, yellow delivery uniform jacket, white helmet, riding an electric scooter, stops his electric scooter at a red traffic light on a night city street with street lamps, neon signs, delivery electric scooter parked nearby. He breathes heavily and wipes sweat from his forehead with his right hand. His phone buzzes, he glances down and smirks — a new order on the way. The traffic light turns green. He twists the throttle hard, body leaning forward, scooter accelerates. Street lamp light flashes across his face rhythmically as he rides fast, determined and excited expression. Camera: close-up face → close-up face+phone → side full shot fast start → side medium tracking accelerating. DSLR photograph, 35mm lens, natural street lighting at night. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera, no 3D, no CG, no Pixar. 9:16 vertical."
+      }
+    },
+    {
+      "step": "concat",
+      "timestamp": "2026-04-11T13:59:02+0800"
+    }
+  ]
+}

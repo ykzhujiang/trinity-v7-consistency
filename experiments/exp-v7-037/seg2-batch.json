@@ -1,0 +1,19 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "A 25-year-old Chinese man, round face, tanned skin, stocky build, yellow delivery uniform jacket, white helmet, riding an electric scooter, stops his electric scooter at a red traffic light on a night city street with street lamps, neon signs, delivery electric scooter parked nearby. He breathes heavily and wipes sweat from his forehead with his right hand. His phone buzzes, he glances down and smirks — a new order on the way. The traffic light turns green. He twists the throttle hard, body leaning forward, scooter accelerates. Street lamp light flashes across his face rhythmically as he rides fast, determined and excited expression. Camera: close-up face → close-up face+phone → side full shot fast start → side medium tracking accelerating. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-037/assets/char-lilei-anime.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-037/assets/scene-street-night-anime.webp"
+    ],
+    "out": "anime-seg2.mp4"
+  },
+  {
+    "id": "real-seg2",
+    "prompt": "A 25-year-old Chinese man, round face, tanned skin, stocky build, yellow delivery uniform jacket, white helmet, riding an electric scooter, stops his electric scooter at a red traffic light on a night city street with street lamps, neon signs, delivery electric scooter parked nearby. He breathes heavily and wipes sweat from his forehead with his right hand. His phone buzzes, he glances down and smirks — a new order on the way. The traffic light turns green. He twists the throttle hard, body leaning forward, scooter accelerates. Street lamp light flashes across his face rhythmically as he rides fast, determined and excited expression. Camera: close-up face → close-up face+phone → side full shot fast start → side medium tracking accelerating. DSLR photograph, 35mm lens, natural street lighting at night. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera, no 3D, no CG, no Pixar. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-037/assets/scene-street-night-real.webp"
+    ],
+    "out": "real-seg2.mp4"
+  }
+]

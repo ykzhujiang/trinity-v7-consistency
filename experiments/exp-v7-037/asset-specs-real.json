@@ -1,0 +1,14 @@
+[
+  {
+    "name": "lilei-real",
+    "type": "character",
+    "desc": "25岁中国男性外卖骑手，圆脸，晒黑皮肤，壮实体型，穿黄色外卖工服夹克，戴白色头盔，站在夜晚街边",
+    "style": "realistic"
+  },
+  {
+    "name": "street-night-real",
+    "type": "scene",
+    "desc": "夜晚中国城市街道，路灯照亮人行道，霓虹灯招牌发光，外卖电动车停在路边，氛围温暖",
+    "style": "realistic"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "A 25-year-old Chinese man, round face, tanned skin, stocky build, yellow delivery uniform jacket, white helmet, riding an electric scooter, stands beside his electric scooter on a night city street with street lamps, neon signs, delivery electric scooter parked nearby. He looks down at his phone with a surprised face. He mutters and shakes his head. He hangs a delivery bag on the scooter's back seat and taps his phone rapidly to accept orders. He swings his leg over the scooter, twists the throttle, headlight illuminates the road ahead. Neon lights reflect on his face as he grins excitedly. Camera: medium shot → medium to close push → side full shot scooter starting → side medium tracking. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-037/assets/char-lilei-anime.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-037/assets/scene-street-night-anime.webp"
+    ],
+    "out": "anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "A 25-year-old Chinese man, round face, tanned skin, stocky build, yellow delivery uniform jacket, white helmet, riding an electric scooter, stands beside his electric scooter on a night city street with street lamps, neon signs, delivery electric scooter parked nearby. He looks down at his phone with a surprised face. He mutters and shakes his head. He hangs a delivery bag on the scooter's back seat and taps his phone rapidly to accept orders. He swings his leg over the scooter, twists the throttle, headlight illuminates the road ahead. Neon lights reflect on his face as he grins excitedly. Camera: medium shot → medium to close push → side full shot scooter starting → side medium tracking. DSLR photograph, 35mm lens, natural street lighting at night. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera, no 3D, no CG, no Pixar. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-037/assets/scene-street-night-real.webp"
+    ],
+    "out": "real-seg1.mp4"
+  }
+]
