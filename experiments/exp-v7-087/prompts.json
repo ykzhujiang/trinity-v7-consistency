@@ -1,0 +1,17 @@
+{
+  "hypothesis": "H-160: Pixar/Disney 3D animation style consistency",
+  "seg1": {
+    "prompt": "Pixar-style 3D animation, warm afternoon sunlight, soft volumetric lighting, gentle shadows, expressive cartoon character design. A cozy small kitchen, 15 square meters, light wood cabinets, white tile countertop, warm sunlight streaming through window, flour bag and mixing bowl on counter, colorful sticky notes on fridge. A young Chinese woman in her early 20s with short black bob-cut hair, wearing a pink apron over white t-shirt, petite build, round expressive eyes. She carefully pours flour from the bag into a large mixing bowl, a small white cloud of flour puffs up, she squints her eyes and smiles happily. Medium shot, static camera, no camera movement."
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. Same Pixar 3D animation style, same cozy kitchen, warm sunlight. The same young Chinese woman with short black bob-cut hair and pink apron uses a whisk to stir the batter in the bowl, starting slowly then faster. A small splash of batter lands on her cheek. She wipes her face with the back of her hand, leaving a white flour streak, and laughs out loud. Medium shot, static camera."
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. Same Pixar 3D animation style, same kitchen. The same young Chinese woman with short black bob-cut hair and pink apron places a cake pan into the oven, then crouches down to peek through the oven glass door. Orange warm light from the oven illuminates her face. Her expression shifts from anticipation to a warm satisfied smile. Low angle medium shot, static camera."
+  },
+  "tts": {
+    "seg1": "今天是妈妈生日，我决定亲手做个蛋糕。",
+    "seg2": "虽然厨艺是零分，但诚意是满分嘛。",
+    "seg3": "妈，等着吧，你女儿要给你一个惊喜。"
+  }
+}

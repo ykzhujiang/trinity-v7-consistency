@@ -1,0 +1,10 @@
+{
+  "experiment": "V7-086",
+  "hypothesis": "H-159: UE5 bright warm scene + dynamic actions = high consistency + high engagement",
+  "variant": "ue5-bright-dynamic-cafe",
+  "audio_strip": true,
+  "source_spec": "cycle-1392-H159-ue5-bright-dynamic.md",
+  "seg1": {"prompt": "Unreal Engine 5, photorealistic game cinematic, warm golden hour lighting... (636 chars)", "mode": "text-to-video"},
+  "seg2": {"prompt": "Continuation... stands up, jumps, phone call (262 chars)", "mode": "extend"},
+  "seg3": {"prompt": "Continuation... sits back, drinks coffee, gazes out window (340 chars)", "mode": "extend"}
+}

@@ -1,0 +1,9 @@
+{
+  "experiment": "V7-088",
+  "variant": "bright-multiscene-genshin-gamedev",
+  "hypothesis": "H-161+H-162: bright colors + multi-scene + Genshin → satisfaction ≥ 0.82",
+  "strip_audio": true,
+  "seg1": "Genshin Impact anime style, bright vivid colors, warm golden sunlight streaming through window. A young Chinese man with messy short black hair in gray hoodie sits at desk with dual monitors in cozy small studio, debugging code with focused hopeful expression. Soft morning light fills room, plants on windowsill, sticky notes on wall. Luminous warm atmosphere. He types rapidly, leans back with relieved smile as screen shows green success message. Medium shot, slight push-in.",
+  "seg2": "Continuation of previous scene. Genshin Impact anime style, bright vivid colors, vibrant neon exhibition lights. Busy indie game expo hall, colorful booth displays everywhere. Growing crowd gathers around one booth with excited faces. Warm yellow booth lighting mixed with colorful LED glow. The young developer in gray hoodie stands proudly behind booth as players crowd his demo screen, pointing and cheering. Wide establishing shot.",
+  "seg3": "Continuation of previous scene. Genshin Impact anime style, bright vivid colors, warm golden sunset. City rooftop at golden hour, the young man in gray hoodie holds a crystal trophy, wind gently moves his hair. Orange-gold backlight creates warm rim lighting on his silhouette. He gazes at luminous city skyline with triumphant peaceful expression. Expansive view with warm sunset clouds. Low angle medium shot, slight crane up."
+}

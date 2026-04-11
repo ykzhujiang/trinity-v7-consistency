@@ -1,0 +1,18 @@
+{
+  "experiment": "V7-085a",
+  "variant": "short-prompt-400chars",
+  "hypothesis": "H-158: Shorter Seg1 prompts (~400 chars) produce higher consistency than max-length prompts (~800 chars)",
+  "audio_strip": true,
+  "seg1": {
+    "prompt": "Genshin Impact style 3D anime. 古风客栈大堂，烛光暖黄。一个黑发年轻剑客推门走进来，背着长剑，环顾四周后走向角落的桌子坐下。画面跟随剑客移动。",
+    "chars": 76
+  },
+  "seg2": {
+    "prompt": "Continuation of previous scene. 剑客坐在桌旁，抬手示意。店小二端着酒壶走过来，把酒倒入碗中。剑客点头致谢。",
+    "chars": 53
+  },
+  "seg3": {
+    "prompt": "Continuation of previous scene. 剑客端起酒碗喝了一口，放下碗，露出满足的微笑。目光望向窗外，烛光在脸上跳动。",
+    "chars": 52
+  }
+}
