@@ -1,0 +1,20 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "A 28-year-old Chinese male programmer Lin Hao, slim and tall, short black hair, black-framed glasses, wearing grey hoodie and jeans, sitting at a computer desk in a late-night internet cafe, dim lighting, rows of computer desks, blue screen glow. He stares at the screen typing code. His phone buzzes on the desk. He picks it up and answers. His expression shifts from focused to shocked — mouth slightly open, hand freezes. He slowly puts the phone down, stares blankly ahead. Then he takes a deep breath, shuts down the computer calmly, stands up and walks toward the exit. Camera: side medium shot → medium close-up on phone call → pull back as he stands. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/assets/char-linhao-anime.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/assets/scene-wangba-anime.webp"
+    ],
+    "out": "anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "A 28-year-old Chinese male programmer Lin Hao, slim and tall, short black hair, black-framed glasses, wearing grey hoodie and jeans, sitting at a computer desk in a late-night internet cafe, dim lighting, rows of computer desks, blue screen glow. He stares at the screen typing code. His phone buzzes on the desk. He picks it up and answers. His expression shifts from focused to shocked — mouth slightly open, hand freezes. He slowly puts the phone down, stares blankly ahead. Then he takes a deep breath, shuts down the computer calmly, stands up and walks toward the exit. Camera: side medium shot → medium close-up on phone call → pull back as he stands. DSLR photograph, 35mm lens, natural dim lighting. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly, no 3D, no CG, no Pixar. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/assets/char-linhao-real.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-039/assets/scene-wangba-real.webp"
+    ],
+    "out": "real-seg1.mp4"
+  }
+]

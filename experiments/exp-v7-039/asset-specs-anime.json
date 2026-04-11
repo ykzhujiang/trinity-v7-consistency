@@ -1,0 +1,26 @@
+[
+  {
+    "name": "linhao-anime",
+    "type": "character",
+    "desc": "28岁中国男性程序员林浩，瘦高，短发，戴黑框眼镜，穿灰色连帽卫衣配牛仔裤，站立正面半身照，深色背景",
+    "style": "anime"
+  },
+  {
+    "name": "wangba-anime",
+    "type": "scene",
+    "desc": "深夜网吧，昏暗灯光，成排电脑桌，蓝色屏幕光映照",
+    "style": "anime"
+  },
+  {
+    "name": "rooftop-anime",
+    "type": "scene",
+    "desc": "城市天台，白天，阳光明媚，可以俯瞰城市建筑群，铁栏杆",
+    "style": "anime"
+  },
+  {
+    "name": "rental-anime",
+    "type": "scene",
+    "desc": "简陋出租屋，夜晚，台灯微光，旧木桌，单人床，墙壁斑驳",
+    "style": "anime"
+  }
+]
