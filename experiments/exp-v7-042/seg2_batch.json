@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Japanese anime style digital animation, high quality, continuation of previous scene. The same 28-year-old Chinese male programmer wearing wrinkled black hoodie, severe dark circles under eyes, stubble, tall and thin leans forward, hands on desk, staring at screen. Office now bathed in golden light from screen. Screen shows: '宿主：陈默 | 创业失败次数：3 | 剩余现金：2847元 | 隐藏天赋：未解锁'. His mouth twitches. Camera: medium close-up, right 25 degrees, fixed. Screen pops up: '首日任务：24小时内获得天使投资。奖励：解锁【看穿谎言】技能。失败惩罚：永久脱发。' He instinctively touches his hair. Camera: medium close-up, right 20 degrees, fixed. He stands up, chair falls backward. Golden light on his face. Fist slowly clenches. Camera: medium shot, right 15 degrees, slow pull-back. He smirks, eyes sharp. Slams fist on desk — all the empty Red Bull cans jump. Camera: medium close-up, right 20 degrees, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [陈默]'连我银行卡余额都知道……这什么鬼？' [陈默]'永久脱发？！你认真的？！' [陈默]'投资人跑了三轮都没融到……24小时？' [陈默]'融不到资我也没头发了啊——干就完了！' All speech Chinese Mandarin, normal speed, natural pacing. Character never faces camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-042/output/anime-seg1.mp4",
+    "images": [
+      "asset://asset-20260411174451-pnpst",
+      "asset://asset-20260411174522-znwcr"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-042/output/anime-seg2.mp4"
+  },
+  {
+    "id": "real-seg2",
+    "prompt": "DSLR cinematic, 35mm lens, warm golden lighting from monitor, continuation of previous scene. The same 28-year-old Chinese male programmer wearing wrinkled black hoodie, severe dark circles under eyes, stubble, tall and thin leans forward, hands on desk, staring at screen. Office now bathed in golden light from screen. Screen shows: '宿主：陈默 | 创业失败次数：3 | 剩余现金：2847元 | 隐藏天赋：未解锁'. His mouth twitches. Camera: medium close-up, right 25 degrees, fixed. Screen pops up: '首日任务：24小时内获得天使投资。奖励：解锁【看穿谎言】技能。失败惩罚：永久脱发。' He instinctively touches his hair. Camera: medium close-up, right 20 degrees, fixed. He stands up, chair falls backward. Golden light on his face. Fist slowly clenches. Camera: medium shot, right 15 degrees, slow pull-back. He smirks, eyes sharp. Slams fist on desk — all the empty Red Bull cans jump. Camera: medium close-up, right 20 degrees, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [陈默]'连我银行卡余额都知道……这什么鬼？' [陈默]'永久脱发？！你认真的？！' [陈默]'投资人跑了三轮都没融到……24小时？' [陈默]'融不到资我也没头发了啊——干就完了！' All speech Chinese Mandarin, normal speed, natural pacing. Character never faces camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-042/output/real-seg1.mp4",
+    "images": [
+      "asset://asset-20260411174508-5bf54",
+      "asset://asset-20260411174537-f7zqm"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-042/output/real-seg2.mp4"
+  }
+]

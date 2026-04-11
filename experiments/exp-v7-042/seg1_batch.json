@@ -1,0 +1,20 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "Japanese anime style digital animation, high quality, hot-blooded anime aesthetic. A 28-year-old Chinese male programmer wearing wrinkled black hoodie, severe dark circles under eyes, stubble, tall and thin is slumped in a chair in a cramped startup office at night, one desk one chair one computer, desk covered with takeout boxes and Red Bull cans, city night view through window. He tilts his head back on the chair, an empty Red Bull can slips from his hand and clatters to the floor where seven or eight other empty cans already lie. Camera: close-up overhead 15 degrees, fixed. He suddenly sits upright, grabs his hair with both hands. The screen shows error code. Camera: medium close-up, right 20 degrees, fixed. He gives a bitter smile, types one line on keyboard. Screen shows: '// 如果这是最后一行代码，我想写什么？' Camera: medium shot, right 25 degrees, slow push-in. He presses Enter. Screen suddenly turns blue, then flashes gold text: '【创业者操作系统 v1.0】检测到宿主……适配度99.7%。是否激活？' His eyes go wide, hand frozen above keyboard. Camera: medium close-up, right 25 degrees, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [陈默]'第三轮融资……又黄了。' [陈默]'服务器炸了，投资人跑了，合伙人……也跑了。就剩我一个傻子还在写代码。' [陈默]'写什么呢……写我不认输？哈，太中二了。' All speech Chinese Mandarin, normal speed, natural pacing. Character never faces camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "asset://asset-20260411174451-pnpst",
+      "asset://asset-20260411174522-znwcr"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-042/output/anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "DSLR cinematic, 35mm lens, moody warm lighting from monitor only. A 28-year-old Chinese male programmer wearing wrinkled black hoodie, severe dark circles under eyes, stubble, tall and thin is slumped in a chair in a cramped startup office at night, one desk one chair one computer, desk covered with takeout boxes and Red Bull cans, city night view through window. He tilts his head back on the chair, an empty Red Bull can slips from his hand and clatters to the floor where seven or eight other empty cans already lie. Camera: close-up overhead 15 degrees, fixed. He suddenly sits upright, grabs his hair with both hands. The screen shows error code. Camera: medium close-up, right 20 degrees, fixed. He gives a bitter smile, types one line on keyboard. Screen shows: '// 如果这是最后一行代码，我想写什么？' Camera: medium shot, right 25 degrees, slow push-in. He presses Enter. Screen suddenly turns blue, then flashes gold text: '【创业者操作系统 v1.0】检测到宿主……适配度99.7%。是否激活？' His eyes go wide, hand frozen above keyboard. Camera: medium close-up, right 25 degrees, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [陈默]'第三轮融资……又黄了。' [陈默]'服务器炸了，投资人跑了，合伙人……也跑了。就剩我一个傻子还在写代码。' [陈默]'写什么呢……写我不认输？哈，太中二了。' All speech Chinese Mandarin, normal speed, natural pacing. Character never faces camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "asset://asset-20260411174508-5bf54",
+      "asset://asset-20260411174537-f7zqm"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-042/output/real-seg1.mp4"
+  }
+]

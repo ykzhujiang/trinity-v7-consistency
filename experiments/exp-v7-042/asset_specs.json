@@ -1,0 +1,26 @@
+[
+  {
+    "name": "陈默-anime",
+    "type": "character",
+    "desc": "28岁中国男性程序员，黑色帽衫皱巴巴，黑眼圈严重，胡子拉碴，瘦高，日漫热血风格，眼神疲惫但有光",
+    "style": "anime"
+  },
+  {
+    "name": "陈默-realistic",
+    "type": "character",
+    "desc": "28岁中国男性程序员，黑色帽衫皱巴巴，黑眼圈严重，胡子拉碴，瘦高，拟真电影风格，眼神疲惫但有光",
+    "style": "realistic"
+  },
+  {
+    "name": "office-anime",
+    "type": "scene",
+    "desc": "简陋创业公司办公室，深夜，一张桌一把椅一台电脑，桌上堆满外卖盒和红牛罐，窗外城市夜景，日漫风格，竖屏构图",
+    "style": "anime"
+  },
+  {
+    "name": "office-realistic",
+    "type": "scene",
+    "desc": "简陋创业公司办公室，深夜，一张桌一把椅一台电脑，桌上堆满外卖盒和红牛罐，窗外城市夜景，拟真电影风格，竖屏构图",
+    "style": "realistic"
+  }
+]

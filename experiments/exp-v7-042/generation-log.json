@@ -1,0 +1,41 @@
+{
+  "experiment": "EXP-V7-042",
+  "hypothesis": "H-391: 3 emotional beats → Sensor ≥ 8.0",
+  "timestamp": "2026-04-11T18:05:55+08:00",
+  "story": "最后一行代码 — 陈默 28yo programmer, 创业×系统文",
+  "method": "Volcano asset upload + video extension (extend mode) + concurrent dual-track",
+  "asset_ids": {
+    "陈默-anime": "asset://asset-20260411174451-pnpst",
+    "陈默-realistic": "asset://asset-20260411174508-5bf54",
+    "office-anime": "asset://asset-20260411174522-znwcr",
+    "office-realistic": "asset://asset-20260411174537-f7zqm"
+  },
+  "seg1_prompts": {
+    "anime": "Japanese anime style digital animation, high quality, hot-blooded anime aesthetic. A 28-year-old Chi...",
+    "realistic": "DSLR cinematic, 35mm lens, moody warm lighting from monitor only. A 28-year-old Chinese male program..."
+  },
+  "seg2_prompts": {
+    "anime": "Japanese anime style digital animation, high quality, continuation of previous scene. The same 28-ye...",
+    "realistic": "DSLR cinematic, 35mm lens, warm golden lighting from monitor, continuation of previous scene. The sa..."
+  },
+  "seg1": {
+    "anime-seg1": "OK",
+    "real-seg1": "OK"
+  },
+  "seg2": {
+    "anime-seg2": "OK",
+    "real-seg2": "OK"
+  },
+  "final": {
+    "anime": {
+      "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-042/output/anime-final.mp4",
+      "size_kb": 10984,
+      "audio_ok": true
+    },
+    "real": {
+      "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-042/output/real-final.mp4",
+      "size_kb": 9037,
+      "audio_ok": true
+    }
+  }
+}
