@@ -1,0 +1,20 @@
+[
+  {
+    "name": "anime-limo-front",
+    "type": "character",
+    "style": "anime",
+    "desc": "Anime illustration of a 28-year-old Chinese male programmer named Li Mo. Thin build, short messy black hair, black-framed rectangular glasses, wearing a blue-and-white plaid flannel shirt over a dark t-shirt. Tired dark circles under eyes. Expressive face showing mild surprise. 3/4 front view, upper body. Anime digital art style, clean lines, soft shading, warm indoor lighting, clean neutral background."
+  },
+  {
+    "name": "anime-xiaozhang",
+    "type": "character",
+    "style": "anime",
+    "desc": "Anime illustration of a 25-year-old Chinese female office worker named Xiao Zhang. Black hair in a ponytail, wearing a white t-shirt. Cute round face with a slightly confused expression. 3/4 front view, upper body. Anime digital art style, clean lines, soft shading, neutral background."
+  },
+  {
+    "name": "anime-office-night",
+    "type": "scene",
+    "style": "anime",
+    "desc": "Anime background art of a dark open-plan tech office at night. Only one desk lamp is on, illuminating a single workstation with dual monitors showing blue code. Other desks dark and empty. Takeout boxes and a coffee cup on the lit desk. A faint translucent blue holographic panel floating in front of the desk. Blue monitor glow in darkness. Atmospheric, detailed anime background style."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "A 28-year-old Chinese male programmer (thin build, short messy black hair, black-framed rectangular glasses, blue-and-white plaid flannel shirt, dark circles under eyes) is slumped asleep on his keyboard in a dark office at night. Only his desk lamp is on. Dual monitors glow blue. Takeout boxes and coffee cup on desk. He suddenly jerks awake, lifting his head with keyboard marks on his cheek. He rubs his eyes, then freezes as a translucent blue holographic panel materializes floating in front of him. His eyes widen in disbelief. He hesitantly pokes the floating panel with one finger. A faint blue glow flows through his hand. The coffee cup on the desk slowly levitates about 10cm off the surface. His jaw drops, eyes bulging — he grabs the cup and pushes it back down, looking around frantically. He whispers to himself shakily. Medium shot from his left side, warm desk lamp light contrasting cold monitor glow. Anime digital animation style. Normal speed movement, natural pacing. No subtitles, no slow motion, no facing camera directly. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-033/assets/anime/anime-limo-front.jpg",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-033/assets/anime/anime-office-night.jpg"
+    ],
+    "out": "anime-seg1.mp4",
+    "duration": 15
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "A 28-year-old Chinese male programmer (thin build, short messy black hair, black-framed rectangular glasses, blue-and-white plaid flannel shirt, dark circles under eyes) is slumped asleep on his keyboard in a dark office at night. Only his desk lamp is on. Dual monitors glow blue. Takeout boxes and coffee cup on desk. He suddenly jerks awake, lifting his head with keyboard marks on his cheek. He rubs his eyes, then freezes as a translucent blue holographic panel materializes floating in front of him. His eyes widen in disbelief. He hesitantly pokes the floating panel with one finger. A faint blue glow flows through his hand. The coffee cup on the desk slowly levitates about 10cm off the surface. His jaw drops, eyes bulging — he grabs the cup and pushes it back down, looking around frantically. He whispers to himself shakily. Medium shot from his left side, warm desk lamp light contrasting cold monitor glow. Photorealistic cinematic style, DSLR quality, real person. Normal speed movement, natural pacing. No subtitles, no slow motion, no facing camera directly. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-033/assets/real/real-limo-front.jpg",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-033/assets/real/real-office-night.jpg"
+    ],
+    "out": "real-seg1.mp4",
+    "duration": 15
+  }
+]

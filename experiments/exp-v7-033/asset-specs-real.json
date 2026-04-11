@@ -1,0 +1,20 @@
+[
+  {
+    "name": "real-limo-front",
+    "type": "character",
+    "style": "realistic",
+    "desc": "DSLR photograph of a 28-year-old Chinese male programmer. Thin build, short messy black hair, black-framed rectangular glasses, wearing a blue-and-white plaid flannel shirt over a dark t-shirt. Tired expression with dark circles under eyes. Slight surprised expression. 3/4 front view, upper body. Real person, photorealistic, natural skin texture, soft studio lighting, neutral background. NOT a 3D render, NOT cartoon, NOT illustration, NOT anime."
+  },
+  {
+    "name": "real-xiaozhang",
+    "type": "character",
+    "style": "realistic",
+    "desc": "DSLR photograph of a 25-year-old Chinese female office worker with black hair in a ponytail, wearing a white t-shirt. Natural expression, slightly confused look. Upper body, 3/4 front view. Real person, photorealistic, natural skin texture, soft studio lighting, neutral background. NOT a 3D render, NOT cartoon, NOT illustration."
+  },
+  {
+    "name": "real-office-night",
+    "type": "scene",
+    "style": "realistic",
+    "desc": "DSLR photograph of a dark open-plan tech company office at night. Only one desk lamp on, illuminating a single workstation with dual monitors showing blue-white code. Takeout boxes and coffee cup on desk. Other desks empty and dark. Real interior photograph, photorealistic, natural monitor glow lighting. NOT illustration, NOT 3D render."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Continuing from previous scene. Same 28-year-old Chinese male programmer (thin build, short messy black hair, black-framed rectangular glasses, same blue-and-white plaid flannel shirt) now sitting at the same desk in the same office but daytime — all lights on, other desks occupied. He sneaks his hands under the desk and closes his eyes, concentrating. His hands emit a faint blue glow. Suddenly the monitor of the woman next to him (25-year-old Chinese female, ponytail, white t-shirt) flickers with static. She turns to look at him. He yanks his hands up to the keyboard and pretends to type, forcing an awkward smile. A translucent blue holographic panel pops up in front of him. He reads it, then sees his boss (45-year-old Chinese male, slightly overweight, suit, stern face) walking towards him from across the office. His expression shifts from smug to panicked, swallowing hard. Medium-wide shot from his left side. Anime digital animation style. Normal speed movement, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+    "video_ref": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-033/output/anime-seg1.mp4",
+    "out": "anime-seg2.mp4",
+    "duration": 15
+  },
+  {
+    "id": "real-seg2",
+    "prompt": "Continuing from previous scene. Same 28-year-old Chinese male programmer (thin build, short messy black hair, black-framed rectangular glasses, same blue-and-white plaid flannel shirt) now sitting at the same desk in the same office but daytime — all lights on, other desks occupied. He sneaks his hands under the desk and closes his eyes, concentrating. His hands emit a faint blue glow. Suddenly the monitor of the woman next to him (25-year-old Chinese female, ponytail, white t-shirt) flickers with static. She turns to look at him. He yanks his hands up to the keyboard and pretends to type, forcing an awkward smile. A translucent blue holographic panel pops up in front of him. He reads it, then sees his boss (45-year-old Chinese male, slightly overweight, suit, stern face) walking towards him from across the office. His expression shifts from smug to panicked, swallowing hard. Medium-wide shot from his left side. Cinematic 3D animation style, Pixar quality CG. Normal speed movement, natural pacing. No subtitles, no slow motion, no facing camera. 9:16 vertical.",
+    "video_ref": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-033/output/real-seg1.mp4",
+    "out": "real-seg2.mp4",
+    "duration": 15
+  }
+]

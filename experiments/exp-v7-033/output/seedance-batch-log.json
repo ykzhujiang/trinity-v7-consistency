@@ -1,0 +1,14 @@
+[
+  {
+    "ok": true,
+    "path": "experiments/exp-v7-033/output/anime-seg2.mp4",
+    "elapsed": 194.72968912124634,
+    "id": "anime-seg2"
+  },
+  {
+    "ok": true,
+    "path": "experiments/exp-v7-033/output/real-seg2.mp4",
+    "elapsed": 270.9326288700104,
+    "id": "real-seg2"
+  }
+]
