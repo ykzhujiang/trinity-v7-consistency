@@ -1,0 +1,7 @@
+[
+  {
+    "id": "fixed-seg1",
+    "prompt": "RPG game cinematic cutscene, Unreal Engine 5 render, dramatic cinematic lighting, game CG quality, detailed environment. Interior of a small 10-square-meter rental room at night, single bed with wrinkled sheets, folding desk with old laptop, empty instant noodle cups, warm dim desk lamp, city skyline through small window. A 25-year-old Chinese male programmer with short black hair, wearing a gray hoodie, sits at desk staring at laptop screen with bloodshot eyes, rubbing his temples, then leans back in chair and stares at ceiling. Camera: medium shot, 30 degree angle from right side, static. Dialogue in Chinese Mandarin, must finish before second 12: '第三天了……这个bug到底在哪……我已经看不进去任何代码了……' 9:16 vertical format, cinematic composition, character not looking at camera. No subtitles, no slow motion.",
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-068/output/seg1.mp4"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "experiment": "V7-068",
+  "cycle": 918,
+  "purpose": "Same-scene 3-segment test WITH audio-strip fix in seedance_gen.py",
+  "fix": "Strip audio from input video before uploading for Seedance extend",
+  "result": "SIGNIFICANT IMPROVEMENT",
+  "details": {
+    "seg1_seg2_correlation": 0.4542,
+    "seg1_seg3_correlation": -0.0321,
+    "seg2_seg3_correlation": -0.0257,
+    "max_r": 0.4542,
+    "note": "seg2-seg3 fully fixed (0.88→-0.03). seg1-seg2 improved (0.84→0.45) but still elevated."
+  },
+  "comparison_table": {
+    "V7-058_no_fix": {"max_r": 0.95, "status": "FAIL"},
+    "V7-067_prefix_only": {"max_r": 0.88, "status": "FAIL"},
+    "V7-068_audio_strip": {"max_r": 0.45, "status": "IMPROVED but borderline"},
+    "V7-063_diff_scenes": {"max_r": 0.01, "status": "PASS"}
+  },
+  "root_cause": "Seedance Video Extension API copies/leaks the audio track from the input video. Stripping audio before --video upload eliminates this for seg2→seg3 completely. seg1→seg2 residual correlation (0.45) may be from same-scene acoustic similarity or partial audio reference.",
+  "code_fix": "seedance_gen.py now auto-strips audio from input video before upload (ffmpeg -an -c:v copy)",
+  "recommendation": "Deploy this fix. Combined with scene variation, this should eliminate audio repetition entirely. For same-scene chains, the fix reduces max_r from 0.95 to 0.45 — a 53% reduction."
+}

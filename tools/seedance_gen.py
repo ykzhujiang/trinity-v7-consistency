@@ -65,6 +65,17 @@ def run_seedance(seedance_script: str, ark_key: str, prompt: str,
     if video:
         v = video
         if os.path.isfile(v) and not v.startswith("http"):
+            # Strip audio before upload to prevent Seedance extend from copying input audio
+            stripped = v.rsplit(".", 1)[0] + "-noaudio.mp4"
+            print(f"  Stripping audio from {os.path.basename(v)} to prevent audio leak...", flush=True)
+            subprocess.run(
+                ["ffmpeg", "-i", v, "-an", "-c:v", "copy", "-y", stripped],
+                capture_output=True, timeout=60
+            )
+            if os.path.exists(stripped) and os.path.getsize(stripped) > 0:
+                v = stripped
+            else:
+                print(f"  ⚠️ Audio strip failed, using original", flush=True)
             v = upload_to_tmpfiles(v)
         cmd.extend(["--video", v])
 

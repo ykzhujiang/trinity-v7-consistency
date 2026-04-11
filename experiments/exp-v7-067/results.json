@@ -1,0 +1,23 @@
+{
+  "experiment": "V7-067",
+  "cycle": 918,
+  "purpose": "Same-scene test with V7-063 prompt format (Continuation prefix)",
+  "hypothesis": "If Continuation prefix fixes audio, same-scene should work",
+  "result": "FAILED — audio repeat still occurs",
+  "details": {
+    "seg1_seg2_correlation": 0.0355,
+    "seg1_seg3_correlation": 0.0285,
+    "seg2_seg3_correlation": 0.8815,
+    "max_r": 0.8815,
+    "pattern": "seg1→seg2 OK, seg2→seg3 BAD"
+  },
+  "conclusion": "Seedance extend audio duplication is scene-dependent, NOT prompt-format-dependent. When extending in same scene, later segments (seg2→seg3) replicate audio from input video. The 'Continuation' prefix does not prevent this.",
+  "comparison": {
+    "V7-058_same_scene_no_prefix": {"seg1_2": 0.84, "seg1_3": 0.82, "seg2_3": 0.95},
+    "V7-063_diff_scenes_no_prefix": {"seg1_2": 0.01, "seg1_3": -0.002, "seg2_3": -0.004},
+    "V7-067_same_scene_with_prefix": {"seg1_2": 0.04, "seg1_3": 0.03, "seg2_3": 0.88}
+  },
+  "insight": "Continuation prefix helped seg1→seg2 (0.84→0.04) but NOT seg2→seg3 (0.95→0.88). The bug accumulates along the extend chain.",
+  "recommendation": "This is a Seedance API behavior, not a pipeline bug. Workarounds: (1) Different scenes per segment, (2) Strip audio from input video before extending, (3) Investigate if Seedance has a parameter to force new audio generation",
+  "next_test": "Try stripping audio from seg2.mp4 before feeding to extend for seg3 — if seg3 gets independent audio, the root cause is confirmed: Seedance extend copies input audio track"
+}
