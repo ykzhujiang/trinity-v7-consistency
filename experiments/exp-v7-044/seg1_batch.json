@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "Anime-style digital animation, high quality, warm cinematic aesthetic. A 25-year-old Chinese woman with ponytail, plaid shirt under apron, warm gentle smile, slender build stands behind the wooden bar counter of a late-night Chinese street-corner eatery, warm yellow lighting, wooden bar counter, steam rising, neon 'OPEN' sign at door, Chinese decor. She looks up at a wall clock showing 2:47 AM, sighs, continues wiping the counter. Camera: medium shot, front left 15 degrees, fixed. Her hand suddenly stops — faint blue glowing text appears on the counter surface like a hologram. Camera: close-up of her hand, overhead 30 degrees, fixed. Blue light reflects on her face. She reads the text, eyes widening, mouth slightly open. Camera: medium close-up, side view, fixed. Door bell chimes. Door opens, cold wind rushes in. A {LAOZHANG_EN} walks in, rubbing his hands. Camera: wide shot, door entrance, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [林然]'又是没人来的一晚。再这样下去，这店真撑不住了。' [林然]'嗯？这什么……五……五万？治愈一颗心？这什么鬼游戏？' [老张]'小林啊，还没关门呢？来碗热汤面，今晚跑了十二个小时，腰都断了。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "asset://asset-20260411184414-6nfmk",
+      "asset://asset-20260411184500-27s5m",
+      "asset://asset-20260411184358-pcthl"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "DSLR cinematic, 35mm lens, warm yellow practical lighting from hanging lamps. Photorealistic, real humans. A 25-year-old Chinese woman with ponytail, plaid shirt under apron, warm gentle smile, slender build stands behind the wooden bar counter of a late-night Chinese street-corner eatery, warm yellow lighting, wooden bar counter, steam rising, neon 'OPEN' sign at door, Chinese decor. She looks up at a wall clock showing 2:47 AM, sighs, continues wiping the counter. Camera: medium shot, front left 15 degrees, fixed. Her hand suddenly stops — faint blue glowing text appears on the counter surface like a hologram. Camera: close-up of her hand, overhead 30 degrees, fixed. Blue light reflects on her face. She reads the text, eyes widening, mouth slightly open. Camera: medium close-up, side view, fixed. Door bell chimes. Door opens, cold wind rushes in. A {LAOZHANG_EN} walks in, rubbing his hands. Camera: wide shot, door entrance, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [林然]'又是没人来的一晚。再这样下去，这店真撑不住了。' [林然]'嗯？这什么……五……五万？治愈一颗心？这什么鬼游戏？' [老张]'小林啊，还没关门呢？来碗热汤面，今晚跑了十二个小时，腰都断了。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical. NOT anime, NOT 3D, NOT cartoon, NOT Pixar, NOT CG.",
+    "images": [
+      "asset://asset-20260411184432-hvlgh",
+      "asset://asset-20260411184446-dmm7g",
+      "asset://asset-20260411184517-ksg44"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/real-seg1.mp4"
+  }
+]

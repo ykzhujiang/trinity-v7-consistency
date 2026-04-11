@@ -1,0 +1,24 @@
+[
+  {
+    "id": "anime-seg3",
+    "prompt": "Anime-style digital animation, continuation of previous scene. Same late-night Chinese street-corner eatery, warm yellow lighting, wooden bar counter, steam rising, neon 'OPEN' sign at door, Chinese decor, now empty — the old man has left. The 25-year-old Chinese woman with ponytail, plaid shirt under apron, warm gentle smile, slender build sits alone at the bar, hands wrapped around a cup of hot tea, apron untied draped on shoulder. Blue text on counter shows: 'Task complete. Reward: 50000 yuan.' She stares, stunned. Camera: medium shot, front right 10 degrees, fixed. She checks her phone. Blue text appears: 'You are not chosen. You are needed.' Camera: close-up phone screen, overhead 45 degrees, fixed. She puts down phone, looks at the seat where the old man sat. A napkin with scrawled writing: '面好吃，谢了小林'. She smirks. Camera: medium close-up, her side face, fixed. Wide exterior shot: warm yellow light from the eatery windows, quiet street, dawn light on horizon. Blue glow flickers inside. Camera: wide exterior, slight upward 15 degrees, slow pull-back. Dialogue (Chinese Mandarin, must finish before second 12): [林然]'真……真的到账了？五万块？' [林然]'被需要的……什么意思？' [林然]'嘁，这老头……字跟狗爬似的。' [林然(画外音)]'好吧，系统先生。下一个任务是什么？' All speech Chinese Mandarin, normal speed, natural pacing. Character never faces camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "asset://asset-20260411184414-6nfmk",
+      "asset://asset-20260411184500-27s5m",
+      "asset://asset-20260411184358-pcthl"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/anime-seg3.mp4",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/anime-seg2.mp4"
+  },
+  {
+    "id": "real-seg3",
+    "prompt": "DSLR cinematic, 35mm lens, warm yellow practical lighting. Photorealistic, real human. Continuation of previous scene. Same late-night Chinese street-corner eatery, warm yellow lighting, wooden bar counter, steam rising, neon 'OPEN' sign at door, Chinese decor, now empty — the old man has left. The 25-year-old Chinese woman with ponytail, plaid shirt under apron, warm gentle smile, slender build sits alone at the bar, hands wrapped around a cup of hot tea, apron untied draped on shoulder. Blue text on counter shows: 'Task complete. Reward: 50000 yuan.' She stares, stunned. Camera: medium shot, front right 10 degrees, fixed. She checks her phone. Blue text appears: 'You are not chosen. You are needed.' Camera: close-up phone screen, overhead 45 degrees, fixed. She puts down phone, looks at the seat where the old man sat. A napkin with scrawled writing: '面好吃，谢了小林'. She smirks. Camera: medium close-up, her side face, fixed. Wide exterior shot: warm yellow light from the eatery windows, quiet street, dawn light on horizon. Blue glow flickers inside. Camera: wide exterior, slight upward 15 degrees, slow pull-back. Dialogue (Chinese Mandarin, must finish before second 12): [林然]'真……真的到账了？五万块？' [林然]'被需要的……什么意思？' [林然]'嘁，这老头……字跟狗爬似的。' [林然(画外音)]'好吧，系统先生。下一个任务是什么？' All speech Chinese Mandarin, normal speed, natural pacing. Character never faces camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical. NOT anime, NOT 3D, NOT cartoon, NOT Pixar, NOT CG.",
+    "images": [
+      "asset://asset-20260411184432-hvlgh",
+      "asset://asset-20260411184446-dmm7g",
+      "asset://asset-20260411184517-ksg44"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/real-seg3.mp4",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/real-seg2.mp4"
+  }
+]

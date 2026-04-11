@@ -1,0 +1,24 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Anime-style digital animation, continuation of previous scene. Same late-night Chinese street-corner eatery, warm yellow lighting, wooden bar counter, steam rising, neon 'OPEN' sign at door, Chinese decor. The 25-year-old Chinese woman with ponytail, plaid shirt under apron, warm gentle smile, slender build places a steaming bowl of noodles in front of the 55-year-old Chinese male taxi driver, thick stubble beard, deep wrinkles, dark grey jacket with scarf, fatigued look who sits at the bar counter. He picks up chopsticks but stares at the noodles, lost in thought. Camera: medium shot, side view showing both across counter, fixed. His rough hands tremble slightly holding chopsticks. She silently adds a fried egg to his bowl. Camera: close-up of his hands, flat angle, fixed. He slurps a big mouthful of noodles, tears suddenly falling — but mouth still chewing, voice muffled. Camera: medium close-up, his side face, fixed. She stands by the stove, back to him. Blue text silently glows on counter: task progress 72 percent. She clenches her fist, takes a deep breath, turns around. Camera: medium shot, her by stove, slightly side view, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [老张]'小林，你说人活着图什么？跑了三十年出租，攒的钱全给儿子买房了，现在儿子嫌我老……' [林然]'张叔，加蛋不加钱。你是我第一个客人，当然有优待。' [老张]'嗯……好吃。真好吃。好久没人给我做饭了。' [林然]'张叔……你辛苦了。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [
+      "asset://asset-20260411184414-6nfmk",
+      "asset://asset-20260411184500-27s5m",
+      "asset://asset-20260411184358-pcthl"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/anime-seg2.mp4",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg2",
+    "prompt": "DSLR cinematic, 35mm lens, warm yellow practical lighting. Photorealistic, real humans. Continuation of previous scene. Same late-night Chinese street-corner eatery, warm yellow lighting, wooden bar counter, steam rising, neon 'OPEN' sign at door, Chinese decor. The 25-year-old Chinese woman with ponytail, plaid shirt under apron, warm gentle smile, slender build places a steaming bowl of noodles in front of the 55-year-old Chinese male taxi driver, thick stubble beard, deep wrinkles, dark grey jacket with scarf, fatigued look who sits at the bar counter. He picks up chopsticks but stares at the noodles, lost in thought. Camera: medium shot, side view showing both across counter, fixed. His rough hands tremble slightly holding chopsticks. She silently adds a fried egg to his bowl. Camera: close-up of his hands, flat angle, fixed. He slurps a big mouthful of noodles, tears suddenly falling — but mouth still chewing, voice muffled. Camera: medium close-up, his side face, fixed. She stands by the stove, back to him. Blue text silently glows on counter: task progress 72 percent. She clenches her fist, takes a deep breath, turns around. Camera: medium shot, her by stove, slightly side view, fixed. Dialogue (Chinese Mandarin, must finish before second 12): [老张]'小林，你说人活着图什么？跑了三十年出租，攒的钱全给儿子买房了，现在儿子嫌我老……' [林然]'张叔，加蛋不加钱。你是我第一个客人，当然有优待。' [老张]'嗯……好吃。真好吃。好久没人给我做饭了。' [林然]'张叔……你辛苦了。' All speech Chinese Mandarin, normal speed, natural pacing. Characters never face camera. 180-degree rule. No subtitles, no slow motion. 9:16 vertical. NOT anime, NOT 3D, NOT cartoon, NOT Pixar, NOT CG.",
+    "images": [
+      "asset://asset-20260411184432-hvlgh",
+      "asset://asset-20260411184446-dmm7g",
+      "asset://asset-20260411184517-ksg44"
+    ],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/real-seg2.mp4",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/real-seg1.mp4"
+  }
+]

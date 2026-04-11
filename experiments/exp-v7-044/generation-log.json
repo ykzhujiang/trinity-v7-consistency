@@ -1,0 +1,38 @@
+{
+  "experiment": "EXP-V7-044",
+  "hypothesis": "H-392: asset + extend combo → anime ≥ 8.5, realistic ≥ 7.0",
+  "timestamp": "2026-04-11T19:11:23+08:00",
+  "story": "深夜食堂的系统 — 林然+老张, 都市×系统文×温暖喜剧",
+  "method": "Volcano asset upload + video extension (3-seg extend chain) + concurrent dual-track",
+  "segments": 3,
+  "asset_ids": {
+    "食堂-anime": "asset://asset-20260411184358-pcthl",
+    "林然-anime": "asset://asset-20260411184414-6nfmk",
+    "林然-realistic": "asset://asset-20260411184432-hvlgh",
+    "老张-realistic": "asset://asset-20260411184446-dmm7g",
+    "老张-anime": "asset://asset-20260411184500-27s5m",
+    "食堂-realistic": "asset://asset-20260411184517-ksg44"
+  },
+  "seg_results": {
+    "anime-seg1": "OK",
+    "real-seg1": "OK",
+    "anime-seg2": "OK",
+    "real-seg2": "OK",
+    "anime-seg3": "OK",
+    "real-seg3": "OK"
+  },
+  "final": {
+    "anime": {
+      "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/anime-final.mp4",
+      "size_kb": 18621,
+      "audio_ok": true,
+      "seg_count": 3
+    },
+    "real": {
+      "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-044/output/real-final.mp4",
+      "size_kb": 15652,
+      "audio_ok": true,
+      "seg_count": 3
+    }
+  }
+}

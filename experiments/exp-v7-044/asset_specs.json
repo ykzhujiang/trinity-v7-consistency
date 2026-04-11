@@ -1,0 +1,38 @@
+[
+  {
+    "name": "林然-anime",
+    "type": "character",
+    "desc": "25岁中国女性，马尾辫，格子衬衫外系围裙，温柔笑容，纤细身材，动漫风格，眼神温柔带点倔强",
+    "style": "anime"
+  },
+  {
+    "name": "老张-anime",
+    "type": "character",
+    "desc": "55岁中国男性出租车司机，络腮胡，满脸皱纹，深灰色夹克配围巾，疲态，动漫风格，眼神疲惫但善良",
+    "style": "anime"
+  },
+  {
+    "name": "食堂-anime",
+    "type": "scene",
+    "desc": "深夜街角中式小食堂，暖黄灯光，木质吧台，蒸汽缭绕，门口挂着'营业中'的霓虹灯牌，中国风格装饰，动漫风格，竖屏构图",
+    "style": "anime"
+  },
+  {
+    "name": "林然-realistic",
+    "type": "character",
+    "desc": "25岁中国女性，马尾辫，格子衬衫外系围裙，温柔笑容，纤细身材，写实风格",
+    "style": "realistic"
+  },
+  {
+    "name": "老张-realistic",
+    "type": "character",
+    "desc": "55岁中国男性出租车司机，络腮胡，满脸皱纹，深灰色夹克配围巾，疲态，写实风格",
+    "style": "realistic"
+  },
+  {
+    "name": "食堂-realistic",
+    "type": "scene",
+    "desc": "深夜街角中式小食堂，暖黄灯光，木质吧台，蒸汽缭绕，门口挂着'营业中'的霓虹灯牌，中国风格装饰，写实风格",
+    "style": "realistic"
+  }
+]
