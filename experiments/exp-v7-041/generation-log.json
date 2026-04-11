@@ -1,0 +1,19 @@
+{
+  "experiment": "EXP-V7-041",
+  "timestamp": "2026-04-11T17:28:12+08:00",
+  "story": "\u521b\u4e1a\u8005\u6210\u957f\u7cfb\u7edf \u2014 \u9648\u78ca, 25yo programmer",
+  "method": "asset upload + video extension (extend mode)",
+  "asset_ids": {},
+  "seg1": {
+    "anime-seg1": "OK",
+    "real-seg1": "OK"
+  },
+  "seg2": {
+    "anime-seg2": "OK",
+    "real-seg2": "OK"
+  },
+  "final": {
+    "anime": "OK",
+    "real": "OK"
+  }
+}

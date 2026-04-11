@@ -1,0 +1,14 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "Japanese anime style digital animation, high quality. A 25-year-old Chinese male programmer wearing black hoodie, black-rimmed glasses, tired expression, messy short hair is slumped over his keyboard in a late-night startup office, dim lighting, only computer screens glowing, takeout boxes and coffee cups scattered on desk. A spilled coffee cup lies next to him. Camera: medium shot from right 30 degrees, slowly pushing in. He lifts his head and rubs his eyes. A translucent blue holographic panel materializes in front of him. Camera shifts to medium close-up, right 20 degrees. Text scrolls across the panel surface. His expression changes from confusion to wide-eyed surprise. He reaches out tentatively to touch the panel, which bursts with bright light. Camera at right 15 degrees. Dialogue (Chinese Mandarin, must finish before second 12): [\u9648\u78ca]'\u53c8\u52a0\u73ed\u5230\u51cc\u6668\u4e09\u70b9\u2026\u2026' [\u9648\u78ca]'\u7b49\u7b49\uff0c\u8fd9\u4ec0\u4e48\u4e1c\u897f\uff1f' [\u9648\u78ca]'\u521b\u4e1a\u8005\u6210\u957f\u7cfb\u7edf\uff1f\u70b9\u51fb\u6fc0\u6d3b\uff1f' All speech in Chinese Mandarin. Normal speed, natural pacing. Character never faces camera directly. 180-degree rule respected. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-041/output/anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "DSLR photograph style, 35mm lens, cinematic lighting. A 25-year-old Chinese male programmer wearing black hoodie, black-rimmed glasses, tired expression, messy short hair is slumped over his keyboard in a late-night startup office, dim lighting, only computer screens glowing, takeout boxes and coffee cups scattered on desk. A spilled coffee cup lies next to him. Camera: medium shot from right 30 degrees, slowly pushing in. He lifts his head and rubs his eyes. A translucent blue holographic panel materializes in front of him. Camera shifts to medium close-up, right 20 degrees. Text scrolls across the panel surface. His expression changes from confusion to wide-eyed surprise. He reaches out tentatively to touch the panel, which bursts with bright light. Camera at right 15 degrees. Dialogue (Chinese Mandarin, must finish before second 12): [\u9648\u78ca]'\u53c8\u52a0\u73ed\u5230\u51cc\u6668\u4e09\u70b9\u2026\u2026' [\u9648\u78ca]'\u7b49\u7b49\uff0c\u8fd9\u4ec0\u4e48\u4e1c\u897f\uff1f' [\u9648\u78ca]'\u521b\u4e1a\u8005\u6210\u957f\u7cfb\u7edf\uff1f\u70b9\u51fb\u6fc0\u6d3b\uff1f' All speech in Chinese Mandarin. Normal speed, natural pacing. Character never faces camera directly. 180-degree rule respected. No subtitles, no slow motion. 9:16 vertical.",
+    "images": [],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-041/output/real-seg1.mp4"
+  }
+]

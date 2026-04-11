@@ -1,0 +1,16 @@
+[
+  {
+    "id": "anime-seg2",
+    "prompt": "Japanese anime style digital animation, high quality. Continuation of previous scene. The same 25-year-old Chinese male programmer wearing black hoodie, black-rimmed glasses, tired expression, messy short hair stands up from his chair. The office is now same startup office now illuminated by blue holographic system panel light, revealing more of the cluttered workspace. The blue holographic panel follows his movement, now displaying a task list. Camera: medium shot from right 15 degrees. He reads the panel showing 'First Task: Convince an investor in 3 minutes' and grimaces with a bitter smile. Camera shifts to right 20 degrees. He scratches his head and glances at a business plan document on the desk. He takes a deep breath and clenches his fist, expression turning determined. Camera at right 25 degrees. Dialogue (Chinese Mandarin, must finish before second 12): [\u9648\u78ca]'\u9996\u4e2a\u4efb\u52a1\u2026\u2026\u8bf4\u670d\u6295\u8d44\u4eba\uff1f' [\u9648\u78ca]'\u6211\u8fdePPT\u90fd\u6ca1\u505a\u5b8c\u554a\uff01' [\u9648\u78ca]'\u4e0d\u8fc7\u2026\u2026\u4e07\u4e00\u662f\u771f\u7684\u5462\uff1f\u5e72\u4e86\uff01' All speech in Chinese Mandarin. Normal speed, natural pacing. Character never faces camera directly. 180-degree rule respected. No subtitles, no slow motion. 9:16 vertical.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-041/output/anime-seg1.mp4",
+    "images": [],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-041/output/anime-seg2.mp4"
+  },
+  {
+    "id": "real-seg2",
+    "prompt": "DSLR photograph style, 35mm lens, cinematic lighting. Continuation of previous scene. The same 25-year-old Chinese male programmer wearing black hoodie, black-rimmed glasses, tired expression, messy short hair stands up from his chair. The office is now same startup office now illuminated by blue holographic system panel light, revealing more of the cluttered workspace. The blue holographic panel follows his movement, now displaying a task list. Camera: medium shot from right 15 degrees. He reads the panel showing 'First Task: Convince an investor in 3 minutes' and grimaces with a bitter smile. Camera shifts to right 20 degrees. He scratches his head and glances at a business plan document on the desk. He takes a deep breath and clenches his fist, expression turning determined. Camera at right 25 degrees. Dialogue (Chinese Mandarin, must finish before second 12): [\u9648\u78ca]'\u9996\u4e2a\u4efb\u52a1\u2026\u2026\u8bf4\u670d\u6295\u8d44\u4eba\uff1f' [\u9648\u78ca]'\u6211\u8fdePPT\u90fd\u6ca1\u505a\u5b8c\u554a\uff01' [\u9648\u78ca]'\u4e0d\u8fc7\u2026\u2026\u4e07\u4e00\u662f\u771f\u7684\u5462\uff1f\u5e72\u4e86\uff01' All speech in Chinese Mandarin. Normal speed, natural pacing. Character never faces camera directly. 180-degree rule respected. No subtitles, no slow motion. 9:16 vertical.",
+    "video": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-041/output/real-seg1.mp4",
+    "images": [],
+    "out": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-041/output/real-seg2.mp4"
+  }
+]

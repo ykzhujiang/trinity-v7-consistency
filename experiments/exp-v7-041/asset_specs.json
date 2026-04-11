@@ -1,0 +1,22 @@
+[
+  {
+    "id": "chenlei-anime",
+    "style": "anime",
+    "prompt": "Character reference sheet, full body, anime style. 25-year-old Chinese male programmer wearing black hoodie, black-rimmed glasses, tired expression, messy short hair. Clean white background. Front view and 3/4 view."
+  },
+  {
+    "id": "chenlei-real",
+    "style": "realistic",
+    "prompt": "Character reference photo, full body, realistic. 25-year-old Chinese male programmer wearing black hoodie, black-rimmed glasses, tired expression, messy short hair. Clean white background. Front view and 3/4 view."
+  },
+  {
+    "id": "scene-anime",
+    "style": "anime",
+    "prompt": "Background art, anime style. late-night startup office, dim lighting, only computer screens glowing, takeout boxes and coffee cups scattered on desk. No characters. Wide establishing shot. 9:16 vertical composition."
+  },
+  {
+    "id": "scene-real",
+    "style": "realistic",
+    "prompt": "Background photograph, realistic. late-night startup office, dim lighting, only computer screens glowing, takeout boxes and coffee cups scattered on desk. No characters. Wide establishing shot. 9:16 vertical composition."
+  }
+]
