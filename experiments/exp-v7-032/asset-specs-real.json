@@ -1,0 +1,20 @@
+[
+  {
+    "name": "real-liming-front",
+    "type": "character",
+    "style": "realistic",
+    "desc": "Digital painting portrait of a 28-year-old Chinese man named Li Ming, round chubby face, thick black-framed rectangular glasses, short neat black hair, wearing a red-and-blue plaid button-up shirt over a plain white t-shirt. Slightly overweight soft build. Friendly surprised expression. 3/4 front view. Photorealistic digital painting style, warm indoor lighting, clean neutral background. NOT a photograph, digital art only."
+  },
+  {
+    "name": "real-liming-side",
+    "type": "character",
+    "style": "realistic",
+    "desc": "Digital painting portrait of the same 28-year-old Chinese man Li Ming from side profile. Round chubby face, thick black-framed rectangular glasses, short neat black hair, red-and-blue plaid shirt over white t-shirt. Slightly overweight. Looking at a computer screen with amazed expression. Side view facing right. Photorealistic digital painting style, warm indoor lighting, clean neutral background. NOT a photograph, digital art only."
+  },
+  {
+    "name": "real-office-night",
+    "type": "scene",
+    "style": "realistic",
+    "desc": "Digital painting of a late-night startup office interior. A single desk with dual monitors glowing blue-white, scattered takeout boxes and empty coffee cups, keyboard and mouse. Rest of the office is dark with only monitor glow illuminating the space. Through a window, city lights at night. Messy but cozy programmer workspace. Photorealistic digital painting style, warm monitor light contrasting dark surroundings."
+  }
+]
