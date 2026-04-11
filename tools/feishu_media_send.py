@@ -15,6 +15,7 @@ Target: 朱江 (ou_f95c1768f6c33127ef2f248e45ccb658)
 """
 
 import argparse
+import fcntl
 import json
 import sys
 from pathlib import Path
@@ -35,6 +36,30 @@ SEND_TIMEOUT = 30
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 VIDEO_EXTENSIONS = {".mp4"}
+
+DEFAULT_DEDUP_FILE = Path("/Users/ahzhu_agent/.openclaw-trinity-v3/workspace/sent-videos.txt")
+
+
+def is_already_sent(dedup_path, abs_path):
+    """Check if abs_path is already in dedup file (with shared lock)."""
+    if not dedup_path.exists():
+        return False
+    with open(dedup_path, "r") as f:
+        fcntl.flock(f, fcntl.LOCK_SH)
+        try:
+            return abs_path in {line.strip() for line in f}
+        finally:
+            fcntl.flock(f, fcntl.LOCK_UN)
+
+
+def record_sent(dedup_path, abs_path):
+    """Append abs_path to dedup file (with exclusive lock)."""
+    with open(dedup_path, "a") as f:
+        fcntl.flock(f, fcntl.LOCK_EX)
+        try:
+            f.write(abs_path + "\n")
+        finally:
+            fcntl.flock(f, fcntl.LOCK_UN)
 
 
 def detect_file_type(file_path):
@@ -143,7 +168,14 @@ def main():
     parser.add_argument("files", nargs="+", help="Media file path(s): .mp4 (video), .png/.jpg/.jpeg/.webp/.gif (image)")
     parser.add_argument("--caption", default=None, help="Caption text sent before media files")
     parser.add_argument("--chat-id", default=ZHU_JIANG_OPEN_ID, help="Override target chat ID")
+    parser.add_argument("--dedup-file", default=str(DEFAULT_DEDUP_FILE),
+                        help=f"Path to dedup tracking file (default: {DEFAULT_DEDUP_FILE})")
+    parser.add_argument("--force", action="store_true", help="Bypass dedup check and send anyway")
+    parser.add_argument("--no-dedup", action="store_true", help="Disable dedup entirely (don't check or record)")
     args = parser.parse_args()
+
+    use_dedup = not args.no_dedup and not args.force
+    dedup_path = Path(args.dedup_file) if use_dedup else None
 
     # Validate paths and file types
     for f in args.files:
@@ -163,7 +195,13 @@ def main():
         send_text(token, args.caption, args.chat_id)
 
     for f in args.files:
+        abs_path = str(Path(f).resolve())
+        if dedup_path and is_already_sent(dedup_path, abs_path):
+            print(f"⏭️ 已发送过，跳过: {Path(f).name}")
+            continue
         send_file(token, f, args.chat_id)
+        if dedup_path:
+            record_sent(dedup_path, abs_path)
 
     n_vid = sum(1 for f in args.files if detect_file_type(f) == "video")
     n_img = sum(1 for f in args.files if detect_file_type(f) == "image")
