@@ -1,0 +1,20 @@
+[
+  {
+    "name": "xiaoli-anime",
+    "type": "character",
+    "desc": "28岁中国男性程序员，瘦高，短发，戴黑框眼镜，穿蓝白格子衬衫，深色牛仔裤，站在办公室里，正面半身照",
+    "style": "anime"
+  },
+  {
+    "name": "office-anime",
+    "type": "scene",
+    "desc": "现代办公室，白天，明亮日光灯，白色办公桌，两台显示器，办公椅，文件柜",
+    "style": "anime"
+  },
+  {
+    "name": "hallway-anime",
+    "type": "scene",
+    "desc": "办公楼走廊，白天，白色墙壁，灰色地面，尽头落地窗透进日光",
+    "style": "anime"
+  }
+]

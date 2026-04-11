@@ -1,0 +1,20 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "A 28-year-old Chinese male programmer, slim and tall, short black hair, black-framed glasses, blue-white plaid shirt, dark jeans, sitting at a white office desk with two monitors in a modern office room, daytime, bright fluorescent lights, white desk with two monitors, office chair, filing cabinet. He stares at the screen with furrowed brows, hands on keyboard. Suddenly his eyes go wide and he leans forward, pointing at the screen. He throws both fists in the air with a huge smile, laughing in euphoria. Then he stands up abruptly, the office chair slides backward and crashes into the filing cabinet with a bang. Camera: side medium shot → push to medium close-up → pull back to medium shot as he stands. Japanese anime digital animation style. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/char-xiaoli-anime.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/scene-office-anime.webp"
+    ],
+    "out": "anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "A 28-year-old Chinese male programmer, slim and tall, short black hair, black-framed glasses, blue-white plaid shirt, dark jeans, sitting at a white office desk with two monitors in a modern office room, daytime, bright fluorescent lights, white desk with two monitors, office chair, filing cabinet. He stares at the screen with furrowed brows, hands on keyboard. Suddenly his eyes go wide and he leans forward, pointing at the screen. He throws both fists in the air with a huge smile, laughing in euphoria. Then he stands up abruptly, the office chair slides backward and crashes into the filing cabinet with a bang. Camera: side medium shot → push to medium close-up → pull back to medium shot as he stands. DSLR photograph, 35mm lens, natural office lighting. Normal speed, natural pacing. No subtitles, no slow motion, no facing camera directly, no 3D, no CG, no Pixar. 9:16 vertical.",
+    "images": [
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/char-xiaoli-real.webp",
+      "/Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-038/assets/scene-office-real.webp"
+    ],
+    "out": "real-seg1.mp4"
+  }
+]
