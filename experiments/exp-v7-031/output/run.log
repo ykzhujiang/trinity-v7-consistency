@@ -1,0 +1,102 @@
+
+=== Step 1: Generate reference images (anime + realistic) ===
+=== Generating anime reference images (attempt 1) ===
+=== Generating real reference images (attempt 1) ===
+Generating 4 image(s) with concurrency=3...
+  ✗ real-wangzong: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108002138632550171417039)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-liyuan: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108002442436058004115639)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-investorb: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108004879485697993251645)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-office: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108012047821835113699088)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+
+Done: 0/4 succeeded
+Manifest: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-031/assets/manifest.json
+
+  Only 0 images, waiting 30s before retry...
+Generating 4 image(s) with concurrency=3...
+  ✗ anime-investorb: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108002688013019000244419)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-wangzong: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108003363161924750048829)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-liyuan: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108003715219973485017386)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-office: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108012323237345007238150)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+
+Done: 0/4 succeeded
+Manifest: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-031/assets/manifest.json
+
+  Only 0 images, waiting 30s before retry...
+=== Generating real reference images (attempt 2) ===
+=== Generating anime reference images (attempt 2) ===
+Generating 4 image(s) with concurrency=3...
+  ✗ real-wangzong: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108022697255461162948782)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-investorb: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108024035683122039110567)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-liyuan: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108025090677860603508915)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-office: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108025242617414951311444)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+
+Done: 0/4 succeeded
+Manifest: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-031/assets/manifest.json
+
+  Only 0 images, waiting 30s before retry...
+Generating 4 image(s) with concurrency=3...
+  ✗ anime-investorb: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108023363233526017664772)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-wangzong: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108024334614825220682974)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-office: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108031051255994248947529)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-liyuan: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108032042753356466149212)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+
+Done: 0/4 succeeded
+Manifest: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-031/assets/manifest.json
+
+  Only 0 images, waiting 30s before retry...
+=== Generating real reference images (attempt 3) ===
+=== Generating anime reference images (attempt 3) ===
+Generating 4 image(s) with concurrency=3...
+  ✗ real-liyuan: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108041090586976546686467)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-wangzong: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108041937966473661244335)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-investorb: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108042158827215307635459)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-office: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108051411999210218342983)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+
+Done: 0/4 succeeded
+Manifest: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-031/assets/manifest.json
+
+  Only 0 images, waiting 30s before retry...
+Generating 4 image(s) with concurrency=3...
+  ✗ anime-liyuan: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108042726956613714482863)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-wangzong: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108043889977309061680953)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-investorb: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108050549946389418999902)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-office: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108053313707697390374476)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+
+Done: 0/4 succeeded
+Manifest: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-031/assets/manifest.json
+
+  Only 0 images, waiting 30s before retry...
+=== Generating real reference images (attempt 4) ===
+=== Generating anime reference images (attempt 4) ===
+Generating 4 image(s) with concurrency=3...
+  ✗ anime-wangzong: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108064570270634947342658)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-investorb: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108065420258853339728585)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-liyuan: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108070028294340392253640)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-office: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108073090096310044975157)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+
+Done: 0/4 succeeded
+Manifest: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-031/assets/manifest.json
+
+  Only 0 images, waiting 30s before retry...
+=== Generating anime reference images (attempt 5) ===
+Generating 4 image(s) with concurrency=3...
+  ✗ real-wangzong: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108065868339525934842122)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-investorb: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108070538306579522771084)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-liyuan: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108073876105198603419781)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ real-office: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108084355470182389181998)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+
+Done: 0/4 succeeded
+Manifest: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-031/assets/manifest.json
+
+  Only 0 images, waiting 30s before retry...
+=== Generating real reference images (attempt 5) ===
+Generating 4 image(s) with concurrency=3...
+  ✗ anime-investorb: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108083034026260873905072)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-liyuan: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108085355440416808847531)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-wangzong: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108085532045857880994004)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+  ✗ anime-office: 429 None. {'error': {'message': '当前分组上游负载已饱和，请稍后再试 (request id: 2026041108091186449394009123598)', 'type': 'upstream_error', 'param': '', 'code': 429}}
+
+Done: 0/4 succeeded
+Manifest: /Users/ahzhu_agent/trinity-v7-consistency/experiments/exp-v7-031/assets/manifest.json
+
+  Only 0 images, waiting 30s before retry...

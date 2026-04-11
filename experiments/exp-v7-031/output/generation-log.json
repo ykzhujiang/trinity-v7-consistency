@@ -1,0 +1,13 @@
+{
+  "experiment": "EXP-V7-031",
+  "hypothesis": [
+    "H-120: Illustration-style refs + Physical State Anchoring → cross-segment consistency"
+  ],
+  "timestamp": "2026-04-11T07:55:14+0800",
+  "tracks": {},
+  "assets": {
+    "anime": [],
+    "realistic": []
+  },
+  "error": "Missing reference images"
+}

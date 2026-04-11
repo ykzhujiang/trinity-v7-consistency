@@ -1,0 +1,26 @@
+[
+  {
+    "name": "anime-liyuan",
+    "type": "character",
+    "style": "anime",
+    "desc": "Digital painting portrait of a 25-year-old Chinese man, short slightly curly black hair that looks a bit messy but not unkempt, thick eyebrows, determined sharp eyes, faint confident smirk. Lean tall build, wearing a dark grey minimalist hoodie over black casual pants, white sneakers. 3/4 view facing left. Anime-inspired semi-realistic digital art style, soft studio lighting, clean neutral background. NOT a photograph."
+  },
+  {
+    "name": "anime-wangzong",
+    "type": "character",
+    "style": "anime",
+    "desc": "Digital painting portrait of a 50-year-old Chinese man, salt-and-pepper grey-white hair neatly combed back, round chubby face, gold-rimmed glasses, wearing a dark navy blue formal suit with white shirt and dark tie. Slightly overweight, high-status leaning-back posture. 3/4 view. Anime-inspired semi-realistic digital art style, soft studio lighting, clean neutral background. NOT a photograph."
+  },
+  {
+    "name": "anime-investorb",
+    "type": "character",
+    "style": "anime",
+    "desc": "Digital painting portrait of a 40-year-old Chinese woman, shoulder-length straight black hair, thin stern face, wearing a grey professional blazer over white blouse. Slender build, serious analytical expression. 3/4 view. Anime-inspired semi-realistic digital art style, soft studio lighting, clean neutral background. NOT a photograph."
+  },
+  {
+    "name": "anime-office",
+    "type": "scene",
+    "style": "anime",
+    "desc": "Digital painting of a high-end investor meeting room in a skyscraper. Large floor-to-ceiling windows showing modern Chinese city skyline. Long conference table with leather chairs, projector screen on wall showing a blue-screen crash (BSOD). Warm modern lighting, glass and steel decor. Illustrated environment concept art style."
+  }
+]

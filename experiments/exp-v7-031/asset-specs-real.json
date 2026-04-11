@@ -1,0 +1,26 @@
+[
+  {
+    "name": "real-liyuan",
+    "type": "character",
+    "style": "realistic",
+    "desc": "Professional DSLR photograph of a 25-year-old Chinese East Asian man, short slightly curly black hair, thick eyebrows, determined eyes, faint confident smirk. Lean tall build, wearing a dark grey minimalist hoodie over black casual pants. Natural indoor lighting, shallow depth of field, shot on Canon EOS R5, 85mm lens. Real person, NOT illustration, NOT 3D render, NOT anime. Photojournalistic portrait style."
+  },
+  {
+    "name": "real-wangzong",
+    "type": "character",
+    "style": "realistic",
+    "desc": "Professional DSLR photograph of a 50-year-old Chinese East Asian man, salt-and-pepper grey-white hair neatly combed back, round chubby face, gold-rimmed glasses, wearing a dark navy blue formal suit with white shirt. Slightly overweight. Natural indoor lighting, shallow depth of field, shot on Canon EOS R5, 85mm lens. Real person, NOT illustration, NOT 3D render, NOT anime. Photojournalistic portrait style."
+  },
+  {
+    "name": "real-investorb",
+    "type": "character",
+    "style": "realistic",
+    "desc": "Professional DSLR photograph of a 40-year-old Chinese East Asian woman, shoulder-length straight black hair, thin stern face, wearing a grey professional blazer over white blouse. Slender build, serious expression. Natural indoor lighting, shallow depth of field, shot on Canon EOS R5, 85mm lens. Real person, NOT illustration, NOT 3D render, NOT anime. Photojournalistic portrait style."
+  },
+  {
+    "name": "real-office",
+    "type": "scene",
+    "style": "realistic",
+    "desc": "Professional photograph of a high-end investor meeting room in a modern skyscraper. Large floor-to-ceiling windows showing Chinese city skyline. Long conference table with leather chairs, projector screen on wall. Warm modern lighting, glass and steel decor. Shot on wide-angle lens. Real photograph, NOT illustration, NOT 3D."
+  }
+]
