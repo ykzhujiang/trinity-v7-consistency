@@ -1,0 +1,14 @@
+[
+  {
+    "name": "xiaolin-char",
+    "desc": "Full body portrait of a young Chinese male programmer named Xiaolin, age 25, short messy black hair, wearing a black hoodie, round glasses, slight dark circles under eyes but bright expressive eyes, standing pose, facing slightly left. Genshin Impact character art style, bright warm colors, cel-shaded anime rendering, vibrant saturated colors, clean linework, white background",
+    "type": "character",
+    "style": "anime"
+  },
+  {
+    "name": "office-scene",
+    "desc": "Interior of a small 10 square meter office cubicle at night, computer monitor emitting warm white glow, takeout boxes and energy drink cans scattered on desk, whiteboard covered in colorful sticky notes on the back wall, city nightscape visible through window with warm orange streetlight glow coming in, cozy messy programmer workspace. Genshin Impact environment art style, bright warm lighting, vibrant saturated colors, golden hour indoor ambient, cel-shaded anime, high detail background",
+    "type": "scene",
+    "style": "anime"
+  }
+]
