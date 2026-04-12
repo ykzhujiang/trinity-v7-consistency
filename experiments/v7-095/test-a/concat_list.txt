@@ -1,0 +1,3 @@
+file '/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-095/../v7-092/seg1-shared.mp4'
+file '/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-095/test-a/seg2.mp4'
+file '/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-095/test-a/seg3.mp4'

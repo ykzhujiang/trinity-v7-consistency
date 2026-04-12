@@ -1,0 +1,62 @@
+{
+  "experiment": "V7-095",
+  "hypothesis": "H-171 retest",
+  "tests": {
+    "A": {
+      "strategy": "full_strip",
+      "results": {
+        "seg2": {
+          "ok": true,
+          "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-095/test-a/seg2.mp4",
+          "elapsed": 486.48425483703613
+        },
+        "seg3": {
+          "ok": true,
+          "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-095/test-a/seg3.mp4",
+          "elapsed": 457.0665068626404
+        }
+      },
+      "final": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-095/test-a/final.mp4",
+      "seg2_audio": {
+        "has_audio": true,
+        "audio_streams": 1
+      },
+      "seg3_audio": {
+        "has_audio": true,
+        "audio_streams": 1
+      },
+      "final_audio": {
+        "has_audio": true,
+        "audio_streams": 1
+      }
+    },
+    "B": {
+      "strategy": "audio_tail_2s",
+      "results": {
+        "seg2": {
+          "ok": true,
+          "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-095/test-b/seg2.mp4",
+          "elapsed": 798.7233641147614
+        },
+        "seg3": {
+          "ok": true,
+          "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-095/test-b/seg3.mp4",
+          "elapsed": 818.7926001548767
+        }
+      },
+      "final": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-095/test-b/final.mp4",
+      "seg2_audio": {
+        "has_audio": true,
+        "audio_streams": 1
+      },
+      "seg3_audio": {
+        "has_audio": true,
+        "audio_streams": 1
+      },
+      "final_audio": {
+        "has_audio": true,
+        "audio_streams": 1
+      }
+    }
+  }
+}
