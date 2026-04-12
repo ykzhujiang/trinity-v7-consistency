@@ -1,0 +1,14 @@
+[
+  {
+    "name": "seg2-anime",
+    "prompt": "[CLOTHING ANCHOR] 主角林远穿深蓝色圆领卫衣（无logo无图案）、黑色休闲裤、白色运动鞋。此服装在整个视频中不变。[LIGHTING ANCHOR] 白天上午10点，室内充满自然日光。落地窗透进暖白色阳光，整体色调明亮通透。无人工补光、无霓虹。Genshin Impact 3D anime style. Same bright co-working space. The golden holographic panel expands into a skill tree interface showing「首个任务：在30分钟内完成一份完美商业计划书。奖励：融资话术Lv2」in Chinese. Lin Yuan, dark blue sweatshirt, black pants, white sneakers, grins excitedly. His fingers fly across the MacBook keyboard. Screen shows alternating code and PPT slides. A golden progress bar rises steadily. He says in Chinese: \"三十分钟？给我十分钟就够了。\" Sunlight on his hands and keyboard. Normal speed, natural pacing. Chinese Mandarin.",
+    "video": "experiments/v7-107-clothing-anchor/segments/seg1-anime-noaudio.mp4",
+    "images": [
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-107-clothing-anchor/assets/char-char-linyuan.webp",
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-107-clothing-anchor/assets/scene-scene-coworking-day.webp"
+    ],
+    "out": "experiments/v7-107-clothing-anchor/segments/seg2-anime.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  }
+]

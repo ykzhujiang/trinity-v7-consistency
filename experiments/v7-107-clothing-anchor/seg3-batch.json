@@ -1,0 +1,14 @@
+[
+  {
+    "name": "seg3-anime",
+    "prompt": "[CLOTHING ANCHOR] 主角林远穿深蓝色圆领卫衣（无logo无图案）、黑色休闲裤、白色运动鞋。此服装在整个视频中不变。[LIGHTING ANCHOR] 白天上午10点，室内充满自然日光。落地窗透进暖白色阳光，整体色调明亮通透。无人工补光、无霓虹。Genshin Impact 3D anime style. Same bright co-working space. Lin Yuan, dark blue sweatshirt, black pants, white sneakers, leans back in his chair satisfied. The golden system panel shows「任务完成！评级：S。解锁隐藏技能：看穿投资人心理」in Chinese. He picks up his coffee cup and takes a sip, sunlight falling across his face. A confident smile spreads. The panel bottom scrolls text「下一个任务即将解锁...」He sets down the cup and says in Chinese: \"看穿投资人心理...这个技能有意思。\" His eyes sparkle with anticipation. Normal speed, natural pacing. Chinese Mandarin.",
+    "video": "experiments/v7-107-clothing-anchor/segments/seg2-anime-noaudio.mp4",
+    "images": [
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-107-clothing-anchor/assets/char-char-linyuan.webp",
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-107-clothing-anchor/assets/scene-scene-coworking-day.webp"
+    ],
+    "out": "experiments/v7-107-clothing-anchor/segments/seg3-anime.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  }
+]
