@@ -62,7 +62,7 @@ def upload_to_tmpfiles(local_path: str, max_retries: int = 5) -> str:
 def run_seedance(seedance_script: str, ark_key: str, prompt: str,
                  images: list = None, video: str = None,
                  output: str = "output.mp4", duration: int = 15,
-                 ratio: str = "9:16") -> dict:
+                 ratio: str = "9:16", keep_audio: bool = False) -> dict:
     """Run seedance.py. Returns {"ok": bool, "path": str, "error": str}."""
     cmd = [
         "python3", "-u", seedance_script, "run",
@@ -75,17 +75,20 @@ def run_seedance(seedance_script: str, ark_key: str, prompt: str,
     if video:
         v = video
         if os.path.isfile(v) and not v.startswith("http"):
-            # Strip audio before upload to prevent Seedance extend from copying input audio
-            stripped = v.rsplit(".", 1)[0] + "-noaudio.mp4"
-            print(f"  Stripping audio from {os.path.basename(v)} to prevent audio leak...", flush=True)
-            subprocess.run(
-                ["ffmpeg", "-i", v, "-an", "-c:v", "copy", "-y", stripped],
-                capture_output=True, timeout=60
-            )
-            if os.path.exists(stripped) and os.path.getsize(stripped) > 0:
-                v = stripped
+            if keep_audio:
+                print(f"  --keep-audio: preserving audio track in {os.path.basename(v)}", flush=True)
             else:
-                print(f"  ⚠️ Audio strip failed, using original", flush=True)
+                # Strip audio before upload to prevent Seedance extend from copying input audio
+                stripped = v.rsplit(".", 1)[0] + "-noaudio.mp4"
+                print(f"  Stripping audio from {os.path.basename(v)} to prevent audio leak...", flush=True)
+                subprocess.run(
+                    ["ffmpeg", "-i", v, "-an", "-c:v", "copy", "-y", stripped],
+                    capture_output=True, timeout=60
+                )
+                if os.path.exists(stripped) and os.path.getsize(stripped) > 0:
+                    v = stripped
+                else:
+                    print(f"  ⚠️ Audio strip failed, using original", flush=True)
             v = upload_to_tmpfiles(v)
         cmd.extend(["--video", v])
 
@@ -126,6 +129,7 @@ def main():
     parser.add_argument("--batch", help="Batch JSON file for concurrent generation")
     parser.add_argument("--out-dir", help="Output directory for batch mode")
     parser.add_argument("--concurrency", type=int, default=2, help="Max concurrent Seedance calls")
+    parser.add_argument("--keep-audio", action="store_true", help="Keep input video audio (skip strip)")
     args = parser.parse_args()
 
     keys = load_keys()
@@ -151,7 +155,8 @@ def main():
                 fut = pool.submit(
                     run_seedance, keys["seedance_script"], keys["ark_key"],
                     t["prompt"], t.get("images", []), t.get("video"),
-                    out_path, t.get("duration", 15), t.get("ratio", "9:16")
+                    out_path, t.get("duration", 15), t.get("ratio", "9:16"),
+                    t.get("keep_audio", False)
                 )
                 futures[fut] = t.get("id", t.get("name", t["out"]))
             for fut in as_completed(futures):
@@ -172,7 +177,7 @@ def main():
         r = run_seedance(
             keys["seedance_script"], keys["ark_key"],
             args.prompt, args.images, args.video,
-            args.out, args.duration, args.ratio
+            args.out, args.duration, args.ratio, args.keep_audio
         )
         sys.exit(0 if r["ok"] else 1)
     else:
