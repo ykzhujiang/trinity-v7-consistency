@@ -1,0 +1,20 @@
+[
+  {
+    "id": "seg2A",
+    "prompt": "Continuation of previous scene. A young man with short curly black hair, deep dark eyes, wearing a dark blue mandarin-collar Chinese jacket sits at the tea table. He opens the ancient book carefully, flipping through yellowed pages. His finger traces along the text. His calm expression gradually shifts to surprise — eyes widening, lips parting slightly. He leans closer to the book, reading intently. Warm golden afternoon light, bamboo visible outside window. Genshin Impact 3D anime style, cinematic, detailed interior. No subtitles, no text overlay, no slow motion.",
+    "video": "seg1-noaudio.mp4",
+    "out": "A/seg2.mp4"
+  },
+  {
+    "id": "seg2B",
+    "prompt": "Continuation of previous scene. Same young man with curly black hair and dark blue Chinese jacket opens the ancient book carefully, flipping through yellowed pages. His finger traces along the text. His calm expression gradually shifts to surprise — eyes widening, lips parting slightly. He leans closer to the book, reading intently. Warm golden afternoon light in the teahouse. Genshin Impact 3D anime style, cinematic. No subtitles, no text overlay, no slow motion.",
+    "video": "seg1-noaudio.mp4",
+    "out": "B/seg2.mp4"
+  },
+  {
+    "id": "seg2C",
+    "prompt": "Continuation of previous scene. He opens the ancient book carefully, flipping through yellowed pages. His finger traces along the text. His calm expression gradually shifts to surprise — eyes widening, lips parting slightly. He leans closer to the book, reading intently. Warm golden afternoon light filters through sheer curtains in the teahouse. Genshin Impact 3D anime style, cinematic. No subtitles, no text overlay, no slow motion.",
+    "video": "seg1-noaudio.mp4",
+    "out": "C/seg2.mp4"
+  }
+]

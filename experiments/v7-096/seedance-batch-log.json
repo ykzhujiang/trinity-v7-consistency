@@ -1,0 +1,20 @@
+[
+  {
+    "ok": true,
+    "path": "./B/seg3.mp4",
+    "elapsed": 430.98488903045654,
+    "id": "seg3B"
+  },
+  {
+    "ok": true,
+    "path": "./A/seg3.mp4",
+    "elapsed": 543.81463098526,
+    "id": "seg3A"
+  },
+  {
+    "ok": true,
+    "path": "./C/seg3.mp4",
+    "elapsed": 672.6255621910095,
+    "id": "seg3C"
+  }
+]

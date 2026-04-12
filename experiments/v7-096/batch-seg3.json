@@ -1,0 +1,20 @@
+[
+  {
+    "id": "seg3A",
+    "prompt": "Continuation of previous scene. A young man with short curly black hair, deep dark eyes, wearing a dark blue mandarin-collar Chinese jacket stands up abruptly from the tea table, clutching the ancient book. He strides toward the window with determination, pushes aside the sheer curtain with one hand, and gazes out at the bamboo forest. Afternoon sunlight illuminates his face. His expression is resolute and excited. Genshin Impact 3D anime style, warm golden lighting, cinematic composition. No subtitles, no text overlay, no slow motion.",
+    "video": "A/seg2-noaudio.mp4",
+    "out": "A/seg3.mp4"
+  },
+  {
+    "id": "seg3B",
+    "prompt": "Continuation of previous scene. Same young man with curly black hair and dark blue Chinese jacket stands up abruptly from the tea table, clutching the ancient book. He strides toward the window with determination, pushes aside the sheer curtain, and gazes out at the bamboo forest. Afternoon sunlight illuminates his face. His expression is resolute and excited. Genshin Impact 3D anime style, cinematic. No subtitles, no text overlay, no slow motion.",
+    "video": "B/seg2-noaudio.mp4",
+    "out": "B/seg3.mp4"
+  },
+  {
+    "id": "seg3C",
+    "prompt": "Continuation of previous scene. He stands up abruptly from the tea table, clutching the ancient book. He strides toward the window with determination, pushes aside the sheer curtain with one hand, and gazes out at the bamboo forest. Afternoon sunlight illuminates his face. His expression is resolute and excited. Genshin Impact 3D anime style, warm golden lighting, cinematic composition. No subtitles, no text overlay, no slow motion.",
+    "video": "C/seg2-noaudio.mp4",
+    "out": "C/seg3.mp4"
+  }
+]
