@@ -1,0 +1,14 @@
+[
+  {
+    "name": "seg3-anime",
+    "prompt": "[LIGHTING ANCHOR] 深夜凌晨2点。室内极暗，电脑屏幕蓝白光是主光源，映在角色脸上。窗外远处有微弱城市霓虹（暖色）。无日光、无室内灯。整体色调：深蓝+黑+微暖霓虹点缀。Genshin Impact 3D anime style. The young Chinese man with black glasses and gray hoodie opens a new file on his laptop. His fingers fly across the keyboard at incredible speed, code cascading down the screen like a waterfall. A system notification appears: 「首个任务：修复全球最大开源项目的致命bug。奖励：10万经验值」He reads it, then the corner of his mouth curves upward into a confident half-smile. Screen glow intensifies on his face. He says: \"十万经验值...行，让我看看这个bug长什么样。\" He cracks his knuckles and starts typing again, eyes focused and sharp. Normal speed, natural pacing. Chinese Mandarin.",
+    "video": "experiments/v7-106-lighting-anchor/segments/seg2-anime.mp4",
+    "images": [
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-106-lighting-anchor/assets/char-char-programmer.webp",
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-106-lighting-anchor/assets/scene-scene-rental-room-night.webp"
+    ],
+    "out": "experiments/v7-106-lighting-anchor/segments/seg3-anime.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  }
+]

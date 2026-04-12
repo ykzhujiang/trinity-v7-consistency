@@ -1,0 +1,14 @@
+[
+  {
+    "name": "seg2-anime",
+    "prompt": "[LIGHTING ANCHOR] 深夜凌晨2点。室内极暗，电脑屏幕蓝白光是主光源，映在角色脸上。窗外远处有微弱城市霓虹（暖色）。无日光、无室内灯。整体色调：深蓝+黑+微暖霓虹点缀。Genshin Impact 3D anime style. The young Chinese man with black glasses and gray hoodie tentatively taps the holographic panel「确认」button. The panel expands into a glowing blue skill tree with branching nodes. His fingers hover in the air, swiping and tapping virtual elements. Blue light reflects in his glasses and eyes. He murmurs in Chinese: \"这些技能...系统架构、漏洞感知、代码重构...\" His expression shifts from disbelief to excitement. Window neon flickers warmly in the background. He says: \"等等，这个'时间回溯'是什么？能撤销线上事故？\" Normal speed, natural pacing. Chinese Mandarin.",
+    "video": "experiments/v7-106-lighting-anchor/segments/seg1-anime.mp4",
+    "images": [
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-106-lighting-anchor/assets/char-char-programmer.webp",
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-106-lighting-anchor/assets/scene-scene-rental-room-night.webp"
+    ],
+    "out": "experiments/v7-106-lighting-anchor/segments/seg2-anime.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  }
+]

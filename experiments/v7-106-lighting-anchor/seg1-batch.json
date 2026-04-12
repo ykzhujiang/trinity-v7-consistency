@@ -1,0 +1,13 @@
+[
+  {
+    "name": "seg1-anime",
+    "prompt": "[LIGHTING ANCHOR] 深夜凌晨2点。室内极暗，电脑屏幕蓝白光是主光源，映在角色脸上。窗外远处有微弱城市霓虹（暖色）。无日光、无室内灯。整体色调：深蓝+黑+微暖霓虹点缀。Genshin Impact 3D anime style. Tiny dark rental room, 10sqm. Chinese male, 25, short black hair, black-framed glasses, gray hoodie, sits at folding table typing on old laptop. Screen casts blue-white glow on his tired face. He rubs his eyes, stretches neck, then suddenly screen flashes — a translucent holographic panel appears mid-air showing「检测到宿主代码能力：S级。是否激活代码之神系统？」He freezes, eyes wide. Says in Chinese: \"我一定是加班加傻了，出现幻觉了。\" He reaches toward the panel hesitantly. Window shows distant city neon. Normal speed, natural pacing. Chinese Mandarin dialogue.",
+    "images": [
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-106-lighting-anchor/assets/char-char-programmer.webp",
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-106-lighting-anchor/assets/scene-scene-rental-room-night.webp"
+    ],
+    "out": "experiments/v7-106-lighting-anchor/segments/seg1-anime.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  }
+]
