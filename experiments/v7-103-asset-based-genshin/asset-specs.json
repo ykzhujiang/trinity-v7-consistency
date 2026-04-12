@@ -1,0 +1,14 @@
+[
+  {
+    "name": "programmer-chen",
+    "desc": "Genshin Impact 3D anime style character portrait. Chinese young man, 25 years old, short black hair slightly messy, wearing gray hoodie with sleeves rolled up to elbows, black-framed glasses. Thin build. Warm indoor lighting, orange tones. Upper body portrait, 3/4 angle facing right. Cel-shaded 3D rendering, vibrant colors.",
+    "type": "character",
+    "style": "anime"
+  },
+  {
+    "name": "startup-office-night",
+    "desc": "Genshin Impact 3D anime style indoor scene. Small 20sqm startup office at night. L-shaped desk with 2 monitors showing code, warm orange desk lamp, 5 empty coffee cups arranged on desk, folding sofa bed against wall, window showing city skyline with faint neon lights. Three light sources: orange desk lamp, blue monitor glow, faint neon through window. Cozy atmosphere, cel-shaded 3D rendering, warm tones, detailed environment.",
+    "type": "scene",
+    "style": "anime"
+  }
+]
