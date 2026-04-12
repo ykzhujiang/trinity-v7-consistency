@@ -1,0 +1,14 @@
+[
+  {
+    "id": "anime-seg1",
+    "prompt": "Genshin Impact anime game art style, detailed cel-shading, vibrant colors. A 26-year-old Chinese male programmer Chen Hao with black messy hair, black-framed glasses, dark navy hoodie, sitting at a workstation with three glowing monitors in a dark empty office at 3 AM. Only his desk lamp and screens illuminate him. He types furiously on a mechanical keyboard, then stops and rubs his tired eyes. His phone buzzes on the desk. He glances at it briefly but doesn't pick it up. The screen flashes a red error popup. He slams the table in frustration, knocking over an energy drink can that rolls off. He takes a deep breath, sits back down, pulls instant noodles from the desk corner and starts preparing them while staring at code. The noodles are ready. As he lifts noodles with chopsticks, the screen turns green showing Build Successful. He raises chopsticks toward the screen with a small smile. 他嘀咕：第487个bug了。他叹气后说：干杯。Vertical 9:16 composition, cinematic lighting, no subtitles, normal speed movement.",
+    "images": ["experiments/v7-104-debug-life/assets/char-chenhao-anime.webp", "experiments/v7-104-debug-life/assets/scene-office-night-anime.webp"],
+    "out": "experiments/v7-104-debug-life/output/anime-seg1.mp4"
+  },
+  {
+    "id": "real-seg1",
+    "prompt": "Photorealistic cinematic style, shallow depth of field, moody lighting. A 26-year-old Chinese male programmer Chen Hao with black messy hair, black-framed glasses, dark navy hoodie, sitting at a workstation with three glowing monitors in a dark empty office at 3 AM. Only his desk lamp and screens illuminate him. He types furiously on a mechanical keyboard, then stops and rubs his tired eyes. His phone buzzes on the desk. He glances at it briefly but doesn't pick it up. The screen flashes a red error popup. He slams the table in frustration, knocking over an energy drink can that rolls off. He takes a deep breath, sits back down, pulls instant noodles from the desk corner and starts preparing them while staring at code. The noodles are ready. As he lifts noodles with chopsticks, the screen turns green showing Build Successful. He raises chopsticks toward the screen with a small smile. 他嘀咕：第487个bug了。他叹气后说：干杯。Vertical 9:16 composition, cinematic lighting, no subtitles, normal speed movement.",
+    "images": ["experiments/v7-104-debug-life/assets/char-chenhao-realistic.webp", "experiments/v7-104-debug-life/assets/scene-office-night-realistic.webp"],
+    "out": "experiments/v7-104-debug-life/output/real-seg1.mp4"
+  }
+]
