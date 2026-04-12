@@ -1,0 +1,14 @@
+[
+  {
+    "name": "char-programmer",
+    "type": "character",
+    "desc": "Chinese male, 25 years old, short black hair, black-framed glasses, wearing a gray hoodie. Thin build, slightly tired expression. Face lit by cool blue computer screen glow. Genshin Impact 3D anime art style, game character portrait, soft cel-shading, detailed facial features.",
+    "style": "anime"
+  },
+  {
+    "name": "scene-rental-room-night",
+    "type": "scene",
+    "desc": "Tiny 10-square-meter rental room at 2AM. Single bed against wall, folding table with old laptop glowing blue-white. Window shows distant city neon lights (warm orange/pink). Room is very dark, no overhead light, only laptop screen illumination casting blue shadows. Deep blue and black color palette with tiny warm neon accents outside. Genshin Impact 3D anime environment art style, atmospheric lighting.",
+    "style": "anime"
+  }
+]
