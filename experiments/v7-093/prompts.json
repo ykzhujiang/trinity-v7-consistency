@@ -1,0 +1,14 @@
+{
+  "experiment": "V7-093",
+  "hypothesis": "H-173: Story-driven bright Genshin 3-Segment video",
+  "prompts": {
+    "seg1": "Genshin Impact 3D anime style, bright warm sunlight, cinematic camera. A young Chinese man (20s, black short hair, white T-shirt, light blue jeans, slim build) sits on a rooftop terrace overlooking a modern city skyline. Blue sky with white clouds. Old table, chairs, and a laptop. Wide shot of the terrace, then medium shot showing him from the side. He looks at his laptop screen, then picks up his ringing phone and holds it to his ear. He listens silently, expression becoming disappointed. He slowly puts the phone down and closes the laptop lid. Character never looks at camera, eyes directed at laptop, phone, and city skyline. Normal speed movement, natural pacing. No slow motion. No subtitles.",
+    "seg2": "Continuation of previous scene. The rooftop terrace, now bathed in warm golden sunset light. The young man stands up and walks to the railing, holding his phone. He looks down at the phone screen, his eyes widen with surprise. He turns around with an excited smile and walks quickly back toward the laptop. Medium shot from the side at the railing, then close-up of his hand and phone, then medium shot as he turns. Character never looks at camera. Normal speed, natural pacing. No slow motion. No subtitles.",
+    "seg3": "Continuation of previous scene. Deep golden sunset, city lights beginning to glow in the distance. The young man sits at the laptop, fingers typing rapidly on the keyboard, a determined and excited smile on his face. Close-up of fingers typing, then medium side shot of his full body at the desk, then the camera slowly pulls back to a wide shot showing his silhouette against the city lights. Character never looks at camera, eyes on laptop then gazing at distant city lights. Normal speed. No slow motion. No subtitles."
+  },
+  "tts_lines": {
+    "seg1": "第三个投资人了，全都说不行。小陈啊，我们内部讨论了，这个方向不太成熟。好的，谢谢王总。",
+    "seg2": "嗯？哥们你快看后台数据！第一批测试用户的七日留存到了百分之六十八！等等，你说多少？！六十八！我反复确认了三遍！",
+    "seg3": "行，我今晚就把数据整理好，明天就去找下一个投资人。这次不一样了兄弟，数据说话！这座城市里有一百万人需要这个产品。"
+  }
+}
