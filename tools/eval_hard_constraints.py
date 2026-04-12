@@ -2,15 +2,16 @@
 """
 V7 Video Hard Constraint Evaluator
 ===================================
-Evaluates videos on 3 hard constraints using Gemini 3.1 via TokenSSR:
+Evaluates videos on 4 hard constraints using Gemini 3.1 via TokenSSR:
   1. Consistency — character/costume/scene element stability across segments
   2. Continuity  — action/plot/timeline coherence across segments
   3. Physics     — physical plausibility (gravity, collision, occlusion, no clipping)
+  4. Subtitle Detection — binary PASS/FAIL veto for any text/subtitles in video
 
 Usage:
   python eval_hard_constraints.py <video_path> [--storyboard <md_path>] [--style <label>] [--segments <N>]
 
-Output: JSON to stdout with per-dimension scores (0-10), issues, and weighted total.
+Output: JSON to stdout with per-dimension scores (0-10), subtitle detection (PASS/FAIL), and weighted total.
 """
 
 import sys
@@ -68,6 +69,20 @@ def build_prompt(style: str, segments: int, storyboard_text: str | None) -> str:
 - 光影：光源方向和阴影是否一致
 - 物体行为：液体、布料、头发等是否有合理的物理表现
 
+### 4. 字幕检测 (Subtitle Detection) — ⛔ 一票否决
+这是一个二元检测维度（PASS/FAIL），不打分。检测视频画面中是否存在：
+- 字幕（底部/顶部的文字条）
+- 文字叠加（任何叠加在画面上的文字信息）
+- 水印文字（角落或画面中的文字水印）
+- 烧录字幕（硬编码在画面中的文字）
+- 任何形式的文字覆盖
+
+⛔ **如果检测到任何字幕/文字叠加，整个视频直接判定为不及格（FAIL），无论其他维度评分多高。**
+
+注意区分：
+- ❌ 字幕/文字叠加/水印 = FAIL
+- ✅ 场景中自然存在的文字（如招牌、书本、屏幕上的文字）= 不算字幕，PASS
+
 ## 输出要求
 
 请严格按照以下JSON格式输出（不要加markdown代码块标记），不要添加任何额外文字：
@@ -88,9 +103,15 @@ def build_prompt(style: str, segments: int, storyboard_text: str | None) -> str:
     "issues": ["具体问题1", "具体问题2"],
     "details": "详细分析文字"
   }},
-  "total_score": <加权平均，保留1位小数>,
+  "subtitle_detection": {{
+    "pass": <true如果没有字幕/文字叠加，false如果检测到字幕>,
+    "issues": ["检测到的字幕/文字问题1", "问题2"],
+    "details": "字幕检测详细说明"
+  }},
+  "total_score": <加权平均（仅基于consistency/continuity/physics），保留1位小数>,
   "summary": "一句话总结",
-  "pass": <true如果total_score>=7.0，否则false>
+  "pass": <true如果total_score>=7.0且subtitle_detection.pass==true，否则false>,
+  "veto_reason": <如果subtitle_detection.pass==false，填写"字幕检测不通过：视频中存在字幕/文字叠加"，否则null>
 }}
 
 评分标准：
@@ -162,7 +183,21 @@ def evaluate(video_path: str, style: str = "unknown", segments: int = 3,
         t = result["continuity"]["score"]
         p = result["physics"]["score"]
         result["total_score"] = round(c * 0.4 + t * 0.35 + p * 0.25, 1)
-        result["pass"] = result["total_score"] >= 7.0
+
+        # Subtitle detection veto logic
+        subtitle_pass = True
+        if "subtitle_detection" in result:
+            subtitle_pass = result["subtitle_detection"].get("pass", True)
+        else:
+            # If Gemini didn't return subtitle_detection, assume pass
+            result["subtitle_detection"] = {"pass": True, "issues": [], "details": "Not evaluated"}
+
+        if not subtitle_pass:
+            result["pass"] = False
+            result["veto_reason"] = "字幕检测不通过：视频中存在字幕/文字叠加"
+        else:
+            result["pass"] = result["total_score"] >= 7.0
+            result["veto_reason"] = None
 
     result["meta"] = {
         "video": video_path,
