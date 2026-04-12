@@ -1,0 +1,26 @@
+[
+  {
+    "name": "chen-mo-anime",
+    "type": "character",
+    "style": "anime",
+    "desc": "Cyberpunk Edgerunners anime style. Chinese male programmer, 28 years old, named Chen Mo. Wearing a plaid shirt over a hoodie. Black-framed glasses, short messy hair (overworked look). Thin face, thick eyebrows, slightly stubborn expression. Sitting at a desk with monitor glow on his face. Neon blue and purple lighting. Full upper body portrait, 9:16 vertical composition."
+  },
+  {
+    "name": "chen-mo-realistic",
+    "type": "character",
+    "style": "realistic",
+    "desc": "Cyberpunk 2077 game cinematic CG style. Chinese male programmer, 28 years old, named Chen Mo. Wearing a plaid shirt over a hoodie. Black-framed glasses, short messy hair (overworked look). Thin face, thick eyebrows, slightly stubborn expression. Sitting at a desk with 3 monitors glowing on his face. Neon blue and purple lighting, volumetric fog. Unreal Engine 5 quality. Full upper body portrait, 9:16 vertical composition."
+  },
+  {
+    "name": "office-anime",
+    "type": "scene",
+    "style": "anime",
+    "desc": "Cyberpunk Edgerunners anime style. Late night open-plan office at 3AM. Only one desk lamp and 3 monitors lit. Floor-to-ceiling windows showing cyberpunk cityscape with neon signs and LED billboards. Takeout boxes and Red Bull cans on desk. Cold blue and neon purple color palette. ~200sqm office mostly in darkness. 9:16 vertical composition, wide angle."
+  },
+  {
+    "name": "office-realistic",
+    "type": "scene",
+    "style": "realistic",
+    "desc": "Cyberpunk 2077 game cinematic CG style. Late night open-plan tech company office at 3AM. Only one workstation lit with 3 monitors showing code. Floor-to-ceiling windows revealing cyberpunk megacity with neon lights, holographic ads, flying vehicles. Takeout containers and energy drinks on desk. Cold blue + neon purple + monitor white color scheme. Volumetric fog, high contrast. Unreal Engine 5 quality. 9:16 vertical composition."
+  }
+]

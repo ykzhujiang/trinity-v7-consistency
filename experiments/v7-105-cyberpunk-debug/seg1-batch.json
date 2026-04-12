@@ -1,0 +1,24 @@
+[
+  {
+    "name": "seg1-anime",
+    "prompt": "Cyberpunk Edgerunners anime style, cinematic 3D animation. Late night tech office at 3AM, neon city outside windows. Chinese male programmer Chen Mo, 28, black glasses, plaid shirt over hoodie, messy hair, sits at desk with 3 glowing monitors. He rubs his eyes, picks up a Red Bull can, takes a sip, puts it down with a bitter smile. He says in Chinese: \"第47个bug，再这样下去，我自己都要变成bug了。\" Code on screens suddenly scrolls by itself. Chen Mo freezes, hand hovering over keyboard. He says: \"等等，我没按回车啊？\" A translucent blue holographic UI appears in mid-air showing \"现实操作系统v1.0—欢迎新管理员\". Chen Mo jerks back in shock, chair sliding. He says: \"什么鬼，加班加出幻觉了？\" Neon blue and purple lighting, monitor glow on face. Normal speed movements, natural pacing. Chinese Mandarin dialogue.",
+    "images": [
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-105-cyberpunk-debug/assets/char-chen-mo-anime.webp",
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-105-cyberpunk-debug/assets/scene-office-anime.webp"
+    ],
+    "out": "experiments/v7-105-cyberpunk-debug/segments/seg1-anime.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  },
+  {
+    "name": "seg1-realistic",
+    "prompt": "Cyberpunk 2077 game cinematic CG, Unreal Engine 5, volumetric fog, high contrast. Late night tech office 3AM, cyberpunk megacity neon lights outside floor-to-ceiling windows. Chinese male programmer Chen Mo, 28, black-framed glasses, plaid shirt over hoodie, short messy hair, thin face, thick eyebrows. Sits at desk with 3 monitors showing code. He rubs his eyes, picks up energy drink, takes a sip, puts it down with bitter smile. Says in Chinese: \"第47个bug，再这样下去，我自己都要变成bug了。\" Code on monitors scrolls by itself. He freezes, hand above keyboard: \"等等，我没按回车啊？\" Translucent blue holographic system UI materializes: \"现实操作系统v1.0—欢迎新管理员\". He jerks back in chair: \"什么鬼，加班加出幻觉了？\" Dark blue and neon purple lighting. Normal speed, Chinese Mandarin.",
+    "images": [
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-105-cyberpunk-debug/assets/char-chen-mo-realistic.webp",
+      "https://raw.githubusercontent.com/ykzhujiang/trinity-v7-consistency/main/experiments/v7-105-cyberpunk-debug/assets/scene-office-realistic.webp"
+    ],
+    "out": "experiments/v7-105-cyberpunk-debug/segments/seg1-realistic.mp4",
+    "duration": 15,
+    "ratio": "9:16"
+  }
+]
