@@ -1,0 +1,26 @@
+[
+  {
+    "name": "char-chenhao-anime",
+    "type": "character",
+    "desc": "Full body portrait of a 26-year-old Chinese male programmer named Chen Hao. Black short messy hair (looks like he stayed up all night), wearing black-framed glasses, dark navy hoodie over a plain t-shirt, blue jeans. Slim build, 175cm. Clean face with visible dark circles under eyes. Genshin Impact / anime mobile game art style, detailed cel-shading, soft lighting. Standing pose, front-facing, neutral expression. White background.",
+    "style": "anime"
+  },
+  {
+    "name": "char-chenhao-realistic",
+    "type": "character",
+    "desc": "Full body portrait of a 26-year-old Chinese male programmer named Chen Hao. Black short messy hair (looks like he stayed up all night), wearing black-framed glasses, dark navy hoodie over a plain t-shirt, blue jeans. Slim build, 175cm. Clean face with visible dark circles under eyes. Photorealistic style, studio lighting. Standing pose, front-facing, neutral expression. White background.",
+    "style": "realistic"
+  },
+  {
+    "name": "scene-office-night-anime",
+    "type": "scene",
+    "desc": "A tech company open-plan office at night. Gray-white desks with low partition dividers. One workstation has three monitors, mechanical keyboard, anime figurines and empty coffee cups lit by a desk lamp and monitor glow. All other workstations are dark and empty. Far end has floor-to-ceiling windows showing a Chinese city nightscape with glowing buildings. Warm desk lamp + cool monitor light contrast. Genshin Impact / anime mobile game art style, detailed lighting and atmosphere. Vertical 9:16 composition.",
+    "style": "anime"
+  },
+  {
+    "name": "scene-office-night-realistic",
+    "type": "scene",
+    "desc": "A tech company open-plan office at night. Gray-white desks with low partition dividers. One workstation has three monitors, mechanical keyboard, figurines and empty coffee cups lit by a desk lamp and monitor glow. All other workstations are dark and empty. Far end has floor-to-ceiling windows showing a Chinese city nightscape with glowing buildings. Warm desk lamp + cool monitor light contrast. Photorealistic style, cinematic lighting. Vertical 9:16 composition.",
+    "style": "realistic"
+  }
+]
