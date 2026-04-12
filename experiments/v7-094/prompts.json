@@ -1,0 +1,19 @@
+{
+  "experiment": "V7-094",
+  "hypothesis": "H-174: Detailed vs minimal Seg2/3 prompts for character/scene consistency",
+  "scene": "Genshin 3D anime — cozy indie cafe",
+  "seg1_prompt": "Genshin Impact style 3D animation, warm afternoon sunlight streaming through glass windows, cinematic camera. A cozy 20-square-meter indie cafe with wooden counter, handwritten menu board on the wall, warm-toned pendant lights. A young Chinese man (early 20s, curly black hair, white shirt, black apron, slim build) stands behind the wooden counter. Wide shot of the cafe interior, then medium shot of him from the side. He carefully pours steamed milk into a ceramic cup, creating latte art. Steam rises from the cup. He lifts the cup and examines it with a satisfied smile. Character never looks at camera. Normal speed movement, natural pacing. No slow motion. No subtitles.",
+  "seg2_prompts": {
+    "A_detailed": "Continuation of previous scene. Genshin Impact style 3D animation, warm afternoon sunlight through glass windows. The cozy indie cafe with wooden counter and warm pendant lights. The young Chinese man (early 20s, curly black hair, white shirt, black apron, slim build) picks up the ceramic latte cup from the counter and walks around the counter toward a window seat. Medium tracking shot following him from the side. He reaches a young woman sitting by the window, places the cup gently on the table, and gives a friendly nod with a warm smile. The woman looks up from her book and smiles back. Warm golden light highlights both figures. Character never looks at camera. Normal speed, natural pacing. No slow motion. No subtitles.",
+    "B_minimal": "Continuation of previous scene. The man picks up the latte cup, walks to the window seat, and places it on the table for the seated customer. She looks up and smiles. He nods warmly. No slow motion. No subtitles."
+  },
+  "seg3_prompts": {
+    "A_detailed": "Continuation of previous scene. Genshin Impact style 3D animation, warm golden sunset light now filtering through the cafe windows. The cozy indie cafe, wooden counter, pendant lights casting amber glow. The young Chinese man (early 20s, curly black hair, white shirt, black apron, slim build) walks back behind the counter. He picks up a cloth and gently wipes the espresso machine surface. Medium shot from the side showing him wiping, then he pauses and looks through the window at the street outside. Camera slowly pulls back to a wider shot showing him silhouetted against the warm sunset light. Peaceful, contemplative mood. Character never looks at camera. Normal speed, natural pacing. No slow motion. No subtitles.",
+    "B_minimal": "Continuation of previous scene. The man returns behind the counter, picks up a cloth, and wipes the espresso machine. He pauses and gazes out the window at the street. Camera slowly pulls back to a wide shot. No slow motion. No subtitles."
+  },
+  "tts_lines": {
+    "seg1": "今天的豆子烘得刚好，应该能做出不错的拿铁。",
+    "seg2": "您的拿铁好了，慢用。谢谢，闻起来真香。",
+    "seg3": "嗯...再忙一个下午就能收工了。明天试试新的拼配方案吧。"
+  }
+}
