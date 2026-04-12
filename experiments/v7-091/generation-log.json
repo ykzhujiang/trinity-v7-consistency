@@ -1,0 +1,11 @@
+{
+  "experiment": "V7-091",
+  "hypothesis": "H-171",
+  "status": "ABANDONED_MODERATION",
+  "timestamp": "2026-04-12T08:30:00+08:00",
+  "reason": "Seg1 text-to-video blocked by Seedance content moderation (OutputVideoSensitiveContentDetected). Standing order: abandon immediately, do not retry.",
+  "task_id": "cgt-20260412082422-7qmkd",
+  "prompt": "Genshin Impact 3D anime style, bright daylight. Ancient fantasy town marketplace...",
+  "scene": "古风小镇集市，包子摊，拔剑",
+  "likely_trigger": "sword/weapon content in marketplace scene"
+}

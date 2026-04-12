@@ -1,0 +1,93 @@
+{
+  "experiment": "V7-092",
+  "hypotheses": [
+    "H-171",
+    "H-172"
+  ],
+  "start": "2026-04-12T08:29:04+0800",
+  "seg1": {
+    "ok": true,
+    "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-092/seg1-shared.mp4",
+    "elapsed": 242.0642249584198
+  },
+  "test_a": {
+    "test": "A-tail-fixed",
+    "audio_strategy": "audio_tail",
+    "prompts": {
+      "seg1": "Genshin Impact anime style, bright warm sunlight streaming through lattice windows. A young man with black hair wearing white hanfu robe with blue sash sits at a wooden tea table, pouring tea from a ceramic pot. Indoor ancient Chinese teahouse, wooden beams, hanging lanterns, steam rising from teacup. Medium shot, side angle, character looking at teacup. Warm golden lighting, vibrant colors. 原神风格动画，明亮温暖的阳光穿过木格窗。黑发年轻男子穿白色汉服蓝腰带，坐在木茶桌旁倒茶。",
+      "seg2": "Continuation of previous scene. The young man lifts the teacup and takes a sip, closes eyes savoring the taste. A bird lands on the windowsill outside. Same medium shot side angle, same warm golden lighting. 延续上一场景，年轻男子端起茶杯品茶，闭眼回味。窗外一只鸟停在窗台上。",
+      "seg3": "Continuation of previous scene. The young man opens eyes and smiles gently, sets down the teacup. He picks up a calligraphy brush from the table and begins writing on paper. Same medium shot side angle, same warm lighting. 延续上一场景，年轻男子睁眼微笑，放下茶杯，拿起毛笔在纸上书写。"
+    },
+    "results": {
+      "seg2": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-092/output-a/seg2.mp4",
+        "elapsed": 511.9294819831848
+      },
+      "seg3": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-092/output-a/seg3.mp4",
+        "elapsed": 356.06035113334656
+      },
+      "final": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-092/output-a/final.mp4",
+        "size_mb": 4.3
+      }
+    }
+  },
+  "test_b": {
+    "test": "B-strip-fixed",
+    "audio_strategy": "full_strip",
+    "prompts": {
+      "seg1": "Genshin Impact anime style, bright warm sunlight streaming through lattice windows. A young man with black hair wearing white hanfu robe with blue sash sits at a wooden tea table, pouring tea from a ceramic pot. Indoor ancient Chinese teahouse, wooden beams, hanging lanterns, steam rising from teacup. Medium shot, side angle, character looking at teacup. Warm golden lighting, vibrant colors. 原神风格动画，明亮温暖的阳光穿过木格窗。黑发年轻男子穿白色汉服蓝腰带，坐在木茶桌旁倒茶。",
+      "seg2": "Continuation of previous scene. The young man lifts the teacup and takes a sip, closes eyes savoring the taste. A bird lands on the windowsill outside. Same medium shot side angle, same warm golden lighting. 延续上一场景，年轻男子端起茶杯品茶，闭眼回味。窗外一只鸟停在窗台上。",
+      "seg3": "Continuation of previous scene. The young man opens eyes and smiles gently, sets down the teacup. He picks up a calligraphy brush from the table and begins writing on paper. Same medium shot side angle, same warm lighting. 延续上一场景，年轻男子睁眼微笑，放下茶杯，拿起毛笔在纸上书写。"
+    },
+    "results": {
+      "seg2": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-092/output-b/seg2.mp4",
+        "elapsed": 392.88409090042114
+      },
+      "seg3": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-092/output-b/seg3.mp4",
+        "elapsed": 358.42215490341187
+      },
+      "final": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-092/output-b/final.mp4",
+        "size_mb": 3.9
+      }
+    }
+  },
+  "test_c": {
+    "test": "C-tail-camera",
+    "audio_strategy": "audio_tail",
+    "prompts": {
+      "seg1": "Genshin Impact anime style, bright warm sunlight streaming through lattice windows. A young man with black hair wearing white hanfu robe with blue sash sits at a wooden tea table, pouring tea from a ceramic pot. Indoor ancient Chinese teahouse, wooden beams, hanging lanterns, steam rising from teacup. Medium shot, side angle, character looking at teacup. Warm golden lighting, vibrant colors. 原神风格动画，明亮温暖的阳光穿过木格窗。黑发年轻男子穿白色汉服蓝腰带，坐在木茶桌旁倒茶。",
+      "seg2": "Continuation of previous scene. The young man lifts the teacup and takes a sip, closes eyes savoring the taste. A bird lands on the windowsill outside. Close-up shot, front three-quarter angle, character looking down at teacup not at camera. Same warm golden lighting. 延续上一场景，年轻男子端起茶杯品茶，闭眼回味。窗外一只鸟停在窗台上。特写镜头，3/4正面角度。",
+      "seg3": "Continuation of previous scene. The young man opens eyes and smiles gently, sets down the teacup. He picks up a calligraphy brush from the table and begins writing on paper. Wide shot, slightly elevated angle showing the full teahouse interior. Same warm lighting. 延续上一场景，年轻男子睁眼微笑，放下茶杯，拿起毛笔在纸上书写。远景，微俯拍角度，展示整个茶馆。"
+    },
+    "results": {
+      "seg2": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-092/output-c/seg2.mp4",
+        "elapsed": 391.59576296806335
+      },
+      "seg3": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-092/output-c/seg3.mp4",
+        "elapsed": 325.61134219169617
+      },
+      "final": {
+        "ok": true,
+        "path": "/Users/ahzhu_agent/trinity-v7-consistency/experiments/v7-092/output-c/final.mp4",
+        "size_mb": 4.4
+      }
+    }
+  },
+  "end": "2026-04-12T08:47:46+0800",
+  "status": "COMPLETE"
+}
