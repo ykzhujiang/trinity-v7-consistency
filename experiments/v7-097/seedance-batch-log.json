@@ -1,0 +1,20 @@
+[
+  {
+    "ok": true,
+    "path": "./seg1.mp4",
+    "elapsed": 290.65072989463806,
+    "id": "seg1-guild"
+  },
+  {
+    "ok": true,
+    "path": "./seg2.mp4",
+    "elapsed": 316.79468989372253,
+    "id": "seg2-cliff"
+  },
+  {
+    "ok": true,
+    "path": "./seg3.mp4",
+    "elapsed": 240.6847369670868,
+    "id": "seg3-ruins"
+  }
+]
